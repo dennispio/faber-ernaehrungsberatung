@@ -75,10 +75,16 @@ collections:
           name: "ttestimonial_comp"
           widget: "object"
           fields:
-            - label: "Fakten Slide"
+            - label: "Referenzen"
               name: "testimonial"
               widget: "list"
               fields:
                 - {label: Titel, name: testimonial_title, widget: string}
                 - {label: Text, name: testimonial_text, widget: text}
+                - label: "Hintergrund Bild"
+                  name: "testimonial_img"
+                  widget: "image"
+                  media_library:
+                    config:
+                      multiple: false
 
