@@ -77,10 +77,4 @@ collections:
           fields:
             - {label: "Titel", name: "title", widget: "string"}
             - {label: "Beschreibung", name: "text", widget: "text"}
-            - label: "Bild"
-              name: "image"
-              widget: "image"
-              media_library:
-                config:
-                  multiple: false
-
+            - {label: "Featured Image", name: "featuredImage", widget: "image"}
