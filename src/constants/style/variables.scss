@@ -1,3 +1,10 @@
+/* custom bootstrap*/
+.container {
+  @media (min-width: 1500px) {
+    width: 1440px !important;
+  }
+}
+
 /* colors */
 $brand_grey: #2D3232;
 $color-p: #140A37;

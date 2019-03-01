@@ -1,0 +1,17 @@
+@import '../../constants/style/variables.scss';
+
+.testimonials-container {
+  background: #D3D3D8;
+  background-image: url(../../img/backgroundimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .testimonial-content {
+    max-width: 480px;
+    padding-top: $margin_xxl;
+    padding-bottom: $margin_xxl;
+  }
+
+  @include media-query-tablet {}
+}
