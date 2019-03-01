@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import '../../constants/style/application.scss';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -38,4 +39,5 @@ const TemplateWrapper = ({ children }) => (
 TemplateWrapper.propTypes = {
   children: PropTypes.node.isRequired,
 };
+
 export default TemplateWrapper;

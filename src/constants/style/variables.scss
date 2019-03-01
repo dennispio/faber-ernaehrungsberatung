@@ -1,0 +1,32 @@
+/* colors */
+$brand_grey: #2D3232;
+$color-p: #140A37;
+/* margins and paddings */
+$margin_xs: 8px;
+$margin_s: 16px;
+$margin_m: 32px;
+$margin_xl: 48px;
+$margin_xxl: 54px;
+
+/* typo */
+$font_size_p: 16px;
+$font_size_h: 38px;
+
+/* media querys */
+@mixin media-query-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin media-query-tablet {
+  @media (min-width: 576px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin media-query-phone {
+  @media (max-width: 575px) {
+    @content;
+  }
+}

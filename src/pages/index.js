@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
-import Layout from '../components/Layout';
+import Layout from '../components/layouts/Layout';
 
 const IndexPage = props => {
   const { data: home } = props;
