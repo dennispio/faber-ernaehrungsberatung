@@ -27,11 +27,11 @@ collections:
         name: "home"
         file: "src/pages/home/index.md"
         fields:
+        - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
         - label: "SEO"
           name: "seo_comp"
           widget: "object"
           fields:
-            - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
             - {label: "SEO Title", name: "seo_title", widget: "string"}
             - {label: "SEO Description", name: "seo_desc", widget: "string"}
         - label: "Video"

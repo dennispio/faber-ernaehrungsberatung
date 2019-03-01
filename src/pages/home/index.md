@@ -1,4 +1,5 @@
 ---
+pageKey: page_home
 seo_comp:
   seo_desc: SEO Description Homepage
   seo_title: SEO Title Homepage
