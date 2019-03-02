@@ -18,6 +18,7 @@ const Testimonial = (titel, text, img) => (
           </p>
         </div>
       </div>
+      <div className="col-xs-12 col-sm-6 col-lg-7 mobile-testo" />
     </div>
   </div>
 );

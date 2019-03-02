@@ -13,6 +13,9 @@ module.exports = {
       "classes": true
     }
   },
+  "settings": {
+    "import/core-modules": ["gatsby-link"]
+  },
   "env": {
     "browser": true,
     "node": true,

@@ -11,7 +11,28 @@
     max-width: 480px;
     padding-top: $margin_xxl;
     padding-bottom: $margin_xxl;
+
+    @include media-query-phone {
+      width: 90%;
+      float: none;
+      margin: 0 auto;
+    }
   }
 
-  @include media-query-tablet {}
+  .mobile-testo {
+    display: none;
+
+    @include media-query-phone {
+      display: block;
+      background-image: url(../../img/backgroundimage.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: -230px;
+      height: 400px;
+    }
+  }
+
+  @include media-query-phone {
+    background-image: none;
+  }
 }

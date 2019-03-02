@@ -1,0 +1,51 @@
+@import '../../constants/style/variables.scss';
+
+footer {
+  background: $brand_grey;
+  bottom: 0;
+  overflow: hidden;
+
+  .social-media-container {
+    margin: $margin_s;
+    margin-top: $margin_s;
+    margin-bottom: $margin_s;
+
+    img {
+      width: 32px;
+      height: 32px;
+      margin: $margin_xs;
+    }
+  }
+
+  .footer-navigation {
+    padding-bottom: $margin_xxl;
+
+    h4 {
+      font-size: 22px;
+      color: white;
+      margin-bottom: $margin_s * -1;
+    }
+
+    p {
+      color: white;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 0px;
+      padding-left: 0px;
+
+      li {
+        color: white;
+        font-size: $font_size_p;
+        margin-bottom: $margin_s;
+      }
+    }
+
+    .partner-container {
+      img {
+        margin-top: $margin_m;
+      }
+    }
+  }
+}

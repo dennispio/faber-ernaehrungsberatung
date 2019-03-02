@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import '../../constants/style/application.scss';
+import Footer from '../footer/Footer';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -31,6 +32,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <div>{children}</div>
+        <Footer />
       </div>
     )}
   />
