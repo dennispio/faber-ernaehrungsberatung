@@ -48,7 +48,6 @@ export const pageQuery = graphql`
               seo_title
             }
             referenzen {
-              featuredImage
               text
               title
             }
