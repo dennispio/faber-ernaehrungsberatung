@@ -1,0 +1,36 @@
+@import '../../constants/style/variables.scss';
+
+.homepageText-container {
+  min-height: 80vh;
+  background-image: url(../../img/bubbles/bubble_01.png);
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+
+  @include media-query-phone {
+    min-height: 120vh;
+  }
+
+  .homepageText-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: $margin_xl;
+
+    .hompageText-title {
+      max-width: 670px;
+      line-height: 40px;
+      font-size: 38px;
+      color: #FFFFFF;
+    }
+
+    .hompageText-text {
+      max-width: 385px;
+
+      p {
+        line-height: 22px;
+        font-size: 16px;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+}

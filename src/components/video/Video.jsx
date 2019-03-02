@@ -1,7 +1,7 @@
 import React from 'react';
 import './videoPlayer.scss';
 import video from '../../img/video.mp4';
-/* ToDo: Mit CMS Verknüpfen */
+/* ToDo: Mit CMS Verknüpfen and Play button on mobile */
 const VideoPlayer = () => (
   <div className="container-full">
     <video id="background-video" muted autoPlay>

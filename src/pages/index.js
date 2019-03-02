@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
+import HomepageText from '../components/text/HomepageText';
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -16,6 +17,7 @@ const IndexPage = props => {
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
       <VideoPlayer />
+      <HomepageText />
       <Testimonial
         title={data.frontmatter.referenzen.title}
         text={data.frontmatter.referenzen.text}
