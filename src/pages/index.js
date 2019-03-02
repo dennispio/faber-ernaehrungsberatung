@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
@@ -8,7 +8,6 @@ import Testimonial from '../components/testimonials/Testimonial';
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
-  const { edges: posts } = home.blogPosts;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
