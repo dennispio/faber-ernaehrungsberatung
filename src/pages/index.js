@@ -15,7 +15,10 @@ const IndexPage = props => {
         <title> {data.frontmatter.seo_comp.seo_title} </title>
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
-      <Testimonial />
+      <Testimonial
+        title={data.frontmatter.referenzen.title}
+        text={data.frontmatter.referenzen.text}
+      />
     </Layout>
   );
 };
@@ -45,11 +48,10 @@ export const pageQuery = graphql`
               seo_desc
               seo_title
             }
-            ttestimonial_comp {
-              testimonial {
-                testimonial_text
-                testimonial_title
-              }
+            referenzen {
+              featuredImage
+              text
+              title
             }
           }
         }
