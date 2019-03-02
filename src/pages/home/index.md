@@ -84,23 +84,13 @@ facts_compt:
 
         Deine Ziele könnten sein
       title: Viel Eiweis wenig Kohlenhydrate ?
-ttestimonial_comp:
-  testimonial:
-    - testimonial_text: >-
-        Erklärungstext wieso man bei euch dann essen kann, wann immer man will. 
-
-        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. 
-
-        Das heißt konkret: Wir passen uns auf  Dich an und nicht Du auf uns. 
-
-        Du sagst uns was Du willst und wir sagen Dir nicht was Du musst. 
-
-        In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das
-        Dir auf dem Weg 
-
-        zu deinem Ziel helfen wird. 
-
-        Deine Ziele könnten sein
-      testimonial_title: 'Wir haben es mit Faber geschafft: Unsere Referenzen:'
+referenzen:
+  featuredImage: /img/backgroundimage.png
+  text: |-
+    Erklärungstext wieso man bei euch dann essen kann, wenn immer man
+    will. Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung.
+    Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns.
+    Du sagst uns was Du willst und wir sagen Dir nicht was Du musst.
+  title: 'Wir haben es mit Faber geschafft: Unsere Referenzen.'
 ---
 
