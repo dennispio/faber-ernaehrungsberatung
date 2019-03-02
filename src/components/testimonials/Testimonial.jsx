@@ -2,7 +2,7 @@ import React from 'react';
 import './testimonial.scss';
 
 const Testimonial = (titel, text, img) => (
-  <div className="container testimonials-container">
+  <div className="container-full testimonials-container">
     <div className="row">
       <div className="col-xs-12 col-sm-6 col-lg-7" />
       <div className="col-xs-12 col-sm-6 col-lg-5 testimonial-content">
