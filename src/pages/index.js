@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
+import VideoPlayer from '../components/video/Video';
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -14,6 +15,7 @@ const IndexPage = props => {
         <title> {data.frontmatter.seo_comp.seo_title} </title>
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
+      <VideoPlayer />
       <Testimonial
         title={data.frontmatter.referenzen.title}
         text={data.frontmatter.referenzen.text}

@@ -1,0 +1,11 @@
+@import '../../constants/style/variables.scss';
+
+#background-video {
+  height: 80vh;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  object-fit: cover;
+  /* optional depending on what you want to do in your app */
+}
