@@ -26,63 +26,32 @@ countdown_comp:
   season: Frühling
 facts_compt:
   facts:
-    - text: >-
-        Erklärungstext wieso man bei euch dann essen kann, wann immer man will. 
-
-        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. 
-
-        Das heißt konkret: Wir passen uns auf  Dich an und nicht Du auf uns. 
-
-        Du sagst uns was Du willst und wir sagen Dir nicht was Du musst. 
-
-        In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das
-        Dir auf dem Weg 
-
-        zu deinem Ziel helfen wird. 
-
-        Erklärungstext wieso man bei euch dann essen kann, wann immer man will. 
-
-        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. 
-
-        Das heißt konkret: Wir passen uns auf  Dich an und nicht Du auf uns. 
-
-        Du sagst uns was Du willst und wir sagen Dir nicht was Du musst. 
-
-        In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das
-        Dir auf dem Weg 
-
-        zu deinem Ziel helfen wird. 
-
-        Deine Ziele könnten sein
+    - text_left: >-
+        Erklärungstext wieso man bei euch dann essen kann, wann immer man will.
+        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt
+        konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns
+        was Du willst und wir sagen Dir nicht was Du musst. In Zusammenarbeit
+        erstellen wir ein auf Dich abgestimmtes Konzept, das Dir auf dem Weg zu
+        deinem Ziel helfen wird. Deine Ziele könnten sein:
+      text_right: >-
+        Erklärungstext wieso man bei euch dann essen kann, wann immer man will.
+        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt
+        konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns
+        was Du willst und wir sagen Dir nicht was Du musst. In Zusammenarbeit
+        erstellen wir ein auf Dich abgestimmtes Konzept.
       title: Nach 18 Uhr keine Kolenhydrate mehr ?
-    - text: >-
-        Erklärungstext wieso man bei euch dann essen kann, wann immer man will. 
-
-        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. 
-
-        Das heißt konkret: Wir passen uns auf  Dich an und nicht Du auf uns. 
-
-        Du sagst uns was Du willst und wir sagen Dir nicht was Du musst. 
-
-        In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das
-        Dir auf dem Weg 
-
-        zu deinem Ziel helfen wird. 
-
-        Erklärungstext wieso man bei euch dann essen kann, wann immer man will. 
-
-        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. 
-
-        Das heißt konkret: Wir passen uns auf  Dich an und nicht Du auf uns. 
-
-        Du sagst uns was Du willst und wir sagen Dir nicht was Du musst. 
-
-        In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das
-        Dir auf dem Weg 
-
-        zu deinem Ziel helfen wird. 
-
-        Deine Ziele könnten sein
+    - text_left: >-
+        Erklärungstext wieso man bei euch dann essen kann, wann immer man will.
+        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt
+        konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns
+        was Du willst und wir sagen Dir nicht was Du musst. In Zusammenarbeit
+        erstellen wir ein auf Dich abgestimmtes Konzept.
+      text_right: >-
+        Erklärungstext wieso man bei euch dann essen kann, wann immer man will.
+        Die Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt
+        konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns
+        was Du willst und wir sagen Dir nicht was Du musst. In Zusammenarbeit
+        erstellen wir ein auf Dich abgestimmtes Konzept.
       title: Viel Eiweis wenig Kohlenhydrate ?
 referenzen:
   featuredImage: /img/backgroundimage.png
