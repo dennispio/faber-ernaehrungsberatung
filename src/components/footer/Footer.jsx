@@ -84,6 +84,7 @@ const Footer = () => (
         >
           <img src={p1} alt="Logo des Tüv süd als Auszeichnung" />
         </a>
+        <br />
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -92,12 +93,14 @@ const Footer = () => (
         >
           <img src={p2} alt="Logo des Tüv süd als Auszeichnung" />
         </a>
+        <br />
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.tuev-sued.de/home_de"
           title="Zum Partner Agentur Strasser"
         >
+          <br />
           <img src={p3} alt="Logo des Tüv süd als Auszeichnung" />
         </a>
       </div>
