@@ -16,6 +16,7 @@ collections:
       - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_blogpost"}
       - {label: "SEO Title", name: "seo_title", widget: "string"}
       - {label: "SEO Description", name: "seo_desc", widget: "string"}
+      - {label: "Kategorie", name: "category", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -79,3 +80,15 @@ collections:
             - {label: "Titel", name: "title", widget: "string"}
             - {label: "Beschreibung", name: "text", widget: "text"}
             - {label: "Featured Image", name: "featuredImage", widget: "image"}
+############################################
+################ Leistung ##################
+ - name: "Leistungen"
+    label: "Leistung"
+    folder: "src/pages/leistungen"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
+      - {label: 'Category', name: category', widget: select, options: [beratung, coaching, nährwertanalyse, seminare, gesundheitlicheförderung]}
+      - {label: "Preis", name: "price", widget: "number"}
