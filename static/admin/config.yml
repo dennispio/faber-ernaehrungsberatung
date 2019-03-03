@@ -21,6 +21,23 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+########################### REFERENZEN ##################################
+  - name: "referenz"
+    label: "Referenz"
+    folder: "src/pages/referenzen"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "referenz"}
+      - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_referenz"}
+      - {label: "SEO Title", name: "seo_title", widget: "string"}
+      - {label: "SEO Description", name: "seo_desc", widget: "string"}
+      - {label: "Featured Image", name: "featuredImage", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+########################### PAGES ##################################
   - label: "Pages"
     name: "pages"
     files:
@@ -80,8 +97,7 @@ collections:
             - {label: "Titel", name: "title", widget: "string"}
             - {label: "Beschreibung", name: "text", widget: "text"}
             - {label: "Featured Image", name: "featuredImage", widget: "image"}
-############################################
-################ Leistung ##################
+########################### Leistungen ##################################
   - name: "Leistungen"
     label: "Leistung"
     folder: "src/pages/leistungen"
