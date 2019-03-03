@@ -4,10 +4,16 @@
   min-height: 80vh;
   background-image: url(../../img/bubbles/bubble_01.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position-y: 70%;
 
   @include media-query-phone {
     min-height: 120vh;
+    background-size: unset;
+  }
+
+  @include media-query-tablet {
+    background-size: unset;
   }
 
   .homepageText-content {

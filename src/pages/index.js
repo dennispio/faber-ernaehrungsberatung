@@ -51,6 +51,10 @@ export const pageQuery = graphql`
               seo_desc
               seo_title
             }
+            countdown_comp {
+              countdown
+              season
+            }
             referenzen {
               text
               title
