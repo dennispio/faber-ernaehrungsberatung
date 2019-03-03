@@ -82,7 +82,7 @@ collections:
             - {label: "Featured Image", name: "featuredImage", widget: "image"}
 ############################################
 ################ Leistung ##################
- - name: "Leistungen"
+  - name: "Leistungen"
     label: "Leistung"
     folder: "src/pages/leistungen"
     create: true
