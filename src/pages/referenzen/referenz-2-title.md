@@ -4,7 +4,7 @@ pageKey: page_referenz
 seo_title: Referenz 2 Seo Titel
 seo_desc: Referenz 2 Seo titel
 show_homepage: true
-text_left: true
+text_left: false
 featuredImage: /img/backgroundimage.png
 alt_text: Referenz von Frau X
 title: Referenz 2 Title
