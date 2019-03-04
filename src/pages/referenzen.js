@@ -14,8 +14,10 @@ const Referenzen = props => {
           <Testimonial
             title={referenz.frontmatter.title}
             text={referenz.frontmatter.description}
+            left={referenz.frontmatter.text_left}
             link={referenz.fields.slug}
             fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
+            alt={referenz.frontmatter.alt_text}
           />
         </div>
       ))}
@@ -48,6 +50,7 @@ export const pageQuery = graphql`
             seo_desc
             title
             show_homepage
+            text_left
             description
             pageKey
             featuredImage {
@@ -57,6 +60,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            alt_text
           }
         }
       }

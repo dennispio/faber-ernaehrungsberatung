@@ -5,14 +5,14 @@ import Img from 'gatsby-image';
 import './testimonial.scss';
 import { Link } from 'gatsby';
 
-const TestimonialLeft = ({ title, text, fluid, link }) => (
+const TestimonialLeft = ({ title, text, fluid, link, alt }) => (
   <Link className="testo-link" to={link} title="Zu der Referenz Seite">
     <div
       style={{ position: `relative` }}
       className="container-full testimonials-container"
     >
       <Img
-        alt="Person der Referenz"
+        alt={alt}
         className="desktop-img testimonial-img-left"
         fluid={fluid}
         style={{
@@ -38,7 +38,7 @@ const TestimonialLeft = ({ title, text, fluid, link }) => (
           className="col-xs-12 col-sm-6 col-lg-7 mobile-testo"
         >
           <Img
-            alt="Person der Referenz"
+            alt={alt}
             fluid={fluid}
             style={{
               position: 'absolute',
@@ -58,6 +58,7 @@ TestimonialLeft.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   fluid: PropTypes.any,
 };
 
