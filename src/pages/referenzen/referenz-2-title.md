@@ -7,9 +7,13 @@ show_homepage: false
 text_left: true
 featuredImage: /img/backgroundimage.png
 alt_text: Referenz von Frau X
-title: Referenz 2 Title
+title: Wir haben es mit Faber geschafft . Einer unsere Referenze ist Frau XYZ BABA
 date: 2019-03-04T16:00:43.010Z
-description: Beschreibungs Text der Referenz
+description: >-
+  Erklärungstext wieso man bei euch dann essen kann, wenn immer man will. Die
+  Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt konkret:
+  Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns was Du willst
+  und wir sagen Dir nicht was Du musst.
 ---
 # Refetenz 2 
 
