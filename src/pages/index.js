@@ -6,10 +6,12 @@ import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
+import TestimonialLeft from '../components/testimonials/TestimonialLeft';
 
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
+  const { edges: referenzen } = home.referenzen;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
@@ -18,10 +20,18 @@ const IndexPage = props => {
       </Helmet>
       <VideoPlayer />
       <HomepageText />
-      <Testimonial
-        title={data.frontmatter.referenzen.title}
-        text={data.frontmatter.referenzen.text}
-      />
+      {/* eslint-disable-next-line */}
+      {referenzen.map(({ node: referenz }) => {
+        return referenz.frontmatter.show_homepage ? (
+          <Testimonial
+            title={referenz.frontmatter.title}
+            text={referenz.frontmatter.description}
+            link="/referenzen"
+            left={false}
+            fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
+          />
+        ) : null;
+      })}
     </Layout>
   );
 };
@@ -55,10 +65,6 @@ export const pageQuery = graphql`
               countdown
               season
             }
-            referenzen {
-              text
-              title
-            }
           }
         }
       }
@@ -75,6 +81,33 @@ export const pageQuery = graphql`
             title
             description
             date
+          }
+        }
+      }
+    }
+    referenzen: allMarkdownRemark(
+      filter: { frontmatter: { pageKey: { eq: "page_referenz" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          rawMarkdownBody
+          frontmatter {
+            seo_title
+            seo_desc
+            title
+            show_homepage
+            description
+            pageKey
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 1400, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

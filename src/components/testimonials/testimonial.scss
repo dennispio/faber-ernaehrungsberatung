@@ -1,11 +1,24 @@
 @import '../../constants/style/variables.scss';
 
+.testo-con {
+  margin-top: $margin_m;
+}
+
 .testimonials-container {
   background: #D3D3D8;
-  background-image: url(../../img/backgroundimage.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+
+  // background-image: url(../../img/backgroundimage.png);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  .desktop-img {
+    object-fit: cover;
+
+    @include media-query-phone {
+      display: none;
+    }
+
+  }
 
   .testimonial-content {
     max-width: 480px;
@@ -19,16 +32,34 @@
     }
   }
 
+  .testimonial-left {
+    margin-left: $margin_xxl;
+
+    @include media-query-phone {
+      width: 90%;
+      float: none;
+      margin: 0 auto;
+    }
+  }
+
+  .testimonial-img-left {
+    margin-left: 40%;
+  }
+
   .mobile-testo {
     display: none;
 
     @include media-query-phone {
       display: block;
-      background-image: url(../../img/backgroundimage.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position-x: -230px;
-      height: 400px;
+      // background-image: url(../../img/backgroundimage.png);
+      // background-size: cover;
+      // background-repeat: no-repeat;
+      // background-position-x: -230px;
+      height: 55vh;
+
+      img {
+        object-fit: cover;
+      }
     }
   }
 

@@ -5,10 +5,11 @@
   background-image: url(../../img/bubbles/bubble_01.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 70%;
+  background-position-y: 80%;
 
   @include media-query-phone {
     min-height: 120vh;
+    background-position-y: 70%;
     background-size: unset;
   }
 

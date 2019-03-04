@@ -9,6 +9,46 @@ https://github.com/voellig-ohne
 NICE AMK:
 https://timobecker.com/
 
+
+Bsp. Query für Bilder:
+ referenzen: allMarkdownRemark(
+      filter: { frontmatter: { pageKey: { eq: "page_referenzen" } } }
+    ) {
+      edges {
+      node {
+        fields {
+          slug
+        }
+        rawMarkdownBody
+        frontmatter {
+          seo_title
+          seo_desc
+          title
+          show_homepage
+          description
+          pageKey
+					featuredImage {
+            childImageSharp {
+              fluid {
+					      base64
+                tracedSVG
+                aspectRatio
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+                sizes
+                originalImg
+                originalName
+            	}
+            }
+          }
+        }
+      }
+    }
+	}
+
+
 Setting für ESLINT:
 
 // These are all my auto-save configs

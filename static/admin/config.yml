@@ -33,7 +33,9 @@ collections:
       - {label: "SEO Title", name: "seo_title", widget: "string"}
       - {label: "SEO Description", name: "seo_desc", widget: "string"}
       - {label: "Auf der Startseite anzeigen", name: "show_homepage", widget: "boolean", default: false}
+      - {label: "Text Links Anzeigen", name: "text_left", widget: "boolean", default: false}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
+      - {label: "Bild Alt Text", name: "alt_text", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
