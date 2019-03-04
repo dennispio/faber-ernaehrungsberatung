@@ -23,7 +23,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 ########################### REFERENZEN ##################################
   - name: "referenz"
-    label: "Referenz"
+    label: "Referenzen"
     folder: "src/pages/referenzen"
     create: true
     slug: "{{slug}}"
@@ -32,6 +32,7 @@ collections:
       - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_referenz"}
       - {label: "SEO Title", name: "seo_title", widget: "string"}
       - {label: "SEO Description", name: "seo_desc", widget: "string"}
+      - {label: "Auf der Startseite anzeigen", name: "show_homepage", widget: "boolean", default: false}
       - {label: "Featured Image", name: "featuredImage", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

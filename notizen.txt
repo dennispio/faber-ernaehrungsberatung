@@ -23,3 +23,44 @@ Setting für ESLINT:
 "prettier.disableLanguages": [
   "js"
 ],
+
+zu machenden Komponente:
+Homepage:
+ - Navigation
+ - Countdown
+ - Fakten-Carousel
+ - Diagramm (machen wir zum Schluss)
+ - Übersicht Angebote (Mobile als Slider)
+ - Übersicht Blogpost (Mobile als Slider)
+
+Unsere Leistungen:
+ - Text Componente
+ - Übersichts Komponente für die jeweiligen Leistungen (Mobile als Slider)
+
+Referenzeseite (Mache ich weil die Komponente schon so gut wie fertig ist):
+  - Referenzen
+
+Über uns Seite:
+  - Header
+  - Text
+
+Kontakt:
+  - Kontakt Daten (können von der Coming Soon Seite übernommen werden)
+  - Kontaktformular (ohne Anbindung an API ich werde noch eine gute raussuchen)
+
+Anfrage:
+  - Kontaktformular (ohne Anbindung an API ich werde noch eine gute raussuchen)
+
+
+Blog Übersicht:
+  - BlogPost-Vorschau
+  - Grid für BlogPost Vorschau
+
+Referzen Template(wie einzelne Blogpost)
+ - Template 
+
+ BlogPost Template
+ - Template
+
+ Sonstiges:
+ - Mailchimp
