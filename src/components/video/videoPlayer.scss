@@ -1,6 +1,7 @@
-@import '../../constants/style/variables.scss';
+@import "../../constants/style/variables.scss";
 
 #background-video {
+  margin-top: $margin_video;
   height: 80vh;
   width: 100%;
   float: left;

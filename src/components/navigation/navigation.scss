@@ -1,0 +1,27 @@
+@import '../../constants/style/variables.scss';
+
+.navigation-container{
+    position: fixed;
+    z-index:200;
+    width: 100vw;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.5);
+    @include media-query-phone {
+        height: 75px;
+    }
+}
+
+.image-container {
+    img {
+        height: 54px;
+        width: auto;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        @include media-query-phone {
+            left: 10px;
+            top: 10px;
+        }
+    }
+}
