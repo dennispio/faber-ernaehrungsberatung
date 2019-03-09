@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/layouts/Layout';
+import BlogContent from '../components/blogContent/BlogContent';
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -12,10 +13,12 @@ const BlogPost = ({ data }) => {
         <title>{`${post.frontmatter.title}`}</title>
         <meta name="description" content={`${post.frontmatter.description}`} />
       </Helmet>
-      <h1>title: {post.frontmatter.title}</h1>
-      <p>description: {post.frontmatter.description}</p>
-      <p>date: {post.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <BlogContent
+        cat="ToDo Category"
+        title="Blog"
+        date={post.frontmatter.date}
+        post={post}
+      />
     </Layout>
   );
 };
@@ -34,7 +37,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD.mm.YYYY")
         title
         description
       }

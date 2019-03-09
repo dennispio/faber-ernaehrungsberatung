@@ -6,8 +6,6 @@ import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
-import TestimonialLeft from '../components/testimonials/TestimonialLeft';
-import Navigation  from '../components/navigation/Navigation'
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -19,7 +17,6 @@ const IndexPage = props => {
         <title> {data.frontmatter.seo_comp.seo_title} </title>
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
-      <Navigation />
       <VideoPlayer />
       <HomepageText />
       {/* eslint-disable-next-line */}

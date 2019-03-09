@@ -3,12 +3,20 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
+import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 
 const Referenzen = props => {
   const { data } = props;
   const { edges: referenzen } = data.referenzen;
   return (
     <Layout title="TEST TITLE" description=" TEST DESCIPTION">
+      <SubpageHeader
+        title="Referenz"
+        text="          Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu
+          dürfen. Hier berichten einige von ihren Erfahrungen und
+          Erfolgserlebnissen. Möchtest du auch auf unserer Referenzseite
+          berichten? Dann schreib uns eine Mail an ...."
+      />{' '}
       {referenzen.map(({ node: referenz }) => (
         <div className="testo-con">
           <Testimonial
