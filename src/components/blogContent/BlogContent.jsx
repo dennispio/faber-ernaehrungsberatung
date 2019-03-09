@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 import './blogContent.scss';
+import ShareButton from '../shareButton/ShareButton';
+import Newsletter from '../newsletter/Newsletter';
 
 const BlogContent = ({ title, date, fluid, post, alt, cat }) => (
   <div className="container-full">
@@ -33,6 +35,10 @@ const BlogContent = ({ title, date, fluid, post, alt, cat }) => (
           className="blog-container"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+        <div className="row">
+          <ShareButton />
+          <Newsletter />
+        </div>
       </div>
     </div>
   </div>
