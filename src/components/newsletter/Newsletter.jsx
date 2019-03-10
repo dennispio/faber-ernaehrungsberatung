@@ -6,23 +6,20 @@ class Newsletter extends Component {
     this.state = {
       showMenu: false,
     };
-
-    this.showMenu = this.showMenu.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
   }
 
-  showMenu(event) {
+  showMenu = event => {
     event.preventDefault();
     this.setState({ showMenu: true }, () => {
       document.addEventListener('click', this.closeMenu);
     });
-  }
+  };
 
-  closeMenu() {
+  closeMenu = () => {
     this.setState({ showMenu: true }, () => {
       document.removeEventListener('click', this.closeMenu);
     });
-  }
+  };
 
   render() {
     const { showMenu } = this.state;

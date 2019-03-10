@@ -14,7 +14,7 @@ const BlogPost = ({ data }) => {
         <meta name="description" content={`${post.frontmatter.description}`} />
       </Helmet>
       <BlogContent
-        cat="ToDo Category"
+        cat={post.frontmatter.category}
         title="Blog"
         date={post.frontmatter.date}
         post={post}
@@ -39,6 +39,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "DD.mm.YYYY")
         title
+        category
         description
       }
     }
