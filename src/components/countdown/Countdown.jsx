@@ -25,7 +25,10 @@ export default class Countdown extends Component {
 
   componentDidMount() {
     const { date } = this.props;
+    console.log(date);
+
     const parsedDate = Date.parse(date);
+    console.log(parsedDate);
     this.milliSecondsToTargetDate = parsedDate - this.milliSecondsToTargetDate;
     this.calculateNumbersForState(this.milliSecondsToTargetDate);
     setInterval(() => this.decreaseTime(), 1000);
