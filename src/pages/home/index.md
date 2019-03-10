@@ -22,7 +22,7 @@ text_comp:
     Deine Ziele könnten sein:
   title: 'Hier kommt vielleicht der Text zu   dem Bild oben: Eure Philosophie?'
 countdown_comp:
-  countdown: Mar 20th 19
+  countdown: '2019-03-20T00:00:00'
   season: Frühling
 facts_compt:
   facts:

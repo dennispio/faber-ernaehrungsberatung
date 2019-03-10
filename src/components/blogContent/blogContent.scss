@@ -1,0 +1,11 @@
+@import '../../constants/style/variables.scss';
+
+.subpage-content-container {
+  max-width: 812px;
+  margin: 0 auto;
+
+  .blog-info {
+    margin-top: $margin_m;
+    margin-bottom: $margin_m;
+  }
+}

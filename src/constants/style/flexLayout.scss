@@ -1,12 +1,33 @@
+@import './variables.scss';
+
 .offer-preview-container {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: scroll;
+  overflow: auto;
+
+  @include media-query-phone {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.blog-p {
+  margin-top: 120px;
+  margin-bottom: 120px;
+
+  h3 {
+    color: white;
+  }
 }
 
 .bubble-bg {
   background-image: url(../../img/bubbles/Asset_Bubble2.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30vh;
+  background-size: auto 200vh;
+
+  @include media-query-phone {
+    background-position: 50% 50vh;
+  }
 }

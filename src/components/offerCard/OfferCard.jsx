@@ -4,10 +4,12 @@ import './offerCard.scss';
 const OfferCard = () => (
   <div className="offerCard">
     <div className="offer-price-container">
-      <p>60 €</p>
+      <p>
+        60 <span className="euro">€</span>
+      </p>
     </div>
     <div className="offer-title-container">
-      <p>Erstberatung</p>
+      <h5>Erstberatung</h5>
     </div>
     <div className="offer-content-container">
       <ul>

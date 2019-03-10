@@ -6,28 +6,29 @@ import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
-import TestimonialLeft from '../components/testimonials/TestimonialLeft';
-import Navigation from '../components/navigation/Navigation';
 import OfferCard from '../components/offerCard/OfferCard';
+import Countdown from '../components/countdown/Countdown';
 
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
   const { edges: angebote } = home.angebote;
+  const { countdown } = data.frontmatter.countdown_comp;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
         <title> {data.frontmatter.seo_comp.seo_title} </title>
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
-      <Navigation />
       <VideoPlayer />
       <HomepageText />
+      <Countdown date={countdown} />
       {/* eslint-disable-next-line */}
-      {referenzen.map(({ node: referenz }) => {
+      {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
           <Testimonial
+            key={index}
             title={referenz.frontmatter.title}
             text={referenz.frontmatter.description}
             link="/referenzen"
@@ -42,6 +43,21 @@ const IndexPage = props => {
             Das bekommst du:
             <br />
             Unsere Top-Angebote
+          </h3>
+          <div className="offer-preview-container">
+            {/* eslint-disable-next-line */}
+        {angebote.map(({ node: angebot }) => {
+              return angebot.frontmatter.angebot ? <OfferCard /> : null;
+            })}
+          </div>
+        </div>
+        <div className="preview-section blog-p container">
+          <h3>
+            Bleib auf dem laufenden und
+            <br />
+            abboniere den Newletter zu
+            <br />
+            unserem Blog.
           </h3>
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
@@ -81,7 +97,7 @@ export const pageQuery = graphql`
               seo_title
             }
             countdown_comp {
-              countdown
+              countdown(formatString: "YYYY-MM-DDTHH:mm:ss")
               season
             }
           }

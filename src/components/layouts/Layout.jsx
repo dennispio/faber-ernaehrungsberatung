@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import '../../constants/style/application.scss';
 import Footer from '../footer/Footer';
+import Navigation from '../navigation/Navigation';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -31,6 +32,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
+        <Navigation />
         <div>{children}</div>
         <Footer />
       </div>

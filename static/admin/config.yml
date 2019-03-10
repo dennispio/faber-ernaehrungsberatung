@@ -12,35 +12,65 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_blogpost"}
-      - {label: "SEO Title", name: "seo_title", widget: "string"}
-      - {label: "SEO Description", name: "seo_desc", widget: "string"}
-      - {label: "Kategorie", name: "category", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-########################### REFERENZEN ##################################
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - {
+          label: "Page Key",
+          name: "pageKey",
+          widget: "hidden",
+          default: "page_blogpost",
+        }
+      - { label: "SEO Title", name: "seo_title", widget: "string" }
+      - { label: "SEO Description", name: "seo_desc", widget: "string" }
+      - { label: "Kategorie", name: "category", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  ########################### REFERENZEN ##################################
   - name: "referenz"
     label: "Referenzen"
     folder: "src/pages/referenzen"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "referenz"}
-      - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_referenz"}
-      - {label: "SEO Title", name: "seo_title", widget: "string"}
-      - {label: "SEO Description", name: "seo_desc", widget: "string"}
-      - {label: "Auf der Startseite anzeigen", name: "show_homepage", widget: "boolean", default: false}
-      - {label: "Text Links Anzeigen", name: "text_left", widget: "boolean", default: false}
-      - {label: "Featured Image", name: "featuredImage", widget: "image"}
-      - {label: "Bild Alt Text", name: "alt_text", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-########################### PAGES ##################################
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "referenz",
+        }
+      - {
+          label: "Page Key",
+          name: "pageKey",
+          widget: "hidden",
+          default: "page_referenz",
+        }
+      - { label: "SEO Title", name: "seo_title", widget: "string" }
+      - { label: "SEO Description", name: "seo_desc", widget: "string" }
+      - {
+          label: "Auf der Startseite anzeigen",
+          name: "show_homepage",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Text Links Anzeigen",
+          name: "text_left",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Bild Alt Text", name: "alt_text", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  ########################### PAGES ##################################
   - label: "Pages"
     name: "pages"
     files:
@@ -48,67 +78,95 @@ collections:
         name: "home"
         file: "src/pages/home/index.md"
         fields:
-        - {label: "Page Key", name: "pageKey", widget: "hidden", default: "page_home"}
-        - label: "SEO"
-          name: "seo_comp"
-          widget: "object"
-          fields:
-            - {label: "SEO Title", name: "seo_title", widget: "string"}
-            - {label: "SEO Description", name: "seo_desc", widget: "string"}
-        - label: "Video"
-          name: "video_comp"
-          widget: "object"
-          fields:
-            - label: "Video"
-              name: "video"
-              widget: "file"
-              media_library:
-                config:
-                  multiple: false
-            - {label: "Video Title", name: "video_text", widget: "string"}
-        - label: "1. Text Compnente"
-          name: "text_comp"
-          widget: "object"
-          fields:
-            - {label: "Titel", name: "title", widget: "string"}
-            - {label: "Beschreibung", name: "description", widget: "text"}
-        - label: "Countdown"
-          name: "countdown_comp"
-          widget: "object"
-          fields:
-            - {label: "Jahreszeit", name: "season", widget: "string"}
-            - label: "Countdown Datum"
-              name: "countdown"
-              widget: "date"
-              default: ""
-              format: "MMM Do YY"
-        - label: "Fakten Slider"
-          name: "facts_compt"
-          widget: "object"
-          fields:
-            - label: "Fakten Slide"
-              name: "facts"
-              widget: "list"
-              fields:
-                - {label: Titel, name: title, widget: string}
-                - {label: Text Links, name: text_left, widget: text}
-                - {label: Text Rechts, name: text_right, widget: text}
-        - label: "Referenzen"
-          name: "referenzen"
-          widget: "object"
-          fields:
-            - {label: "Titel", name: "title", widget: "string"}
-            - {label: "Beschreibung", name: "text", widget: "text"}
-            - {label: "Featured Image", name: "featuredImage", widget: "image"}
-########################### Leistungen ##################################
+          - {
+              label: "Page Key",
+              name: "pageKey",
+              widget: "hidden",
+              default: "page_home",
+            }
+          - label: "SEO"
+            name: "seo_comp"
+            widget: "object"
+            fields:
+              - { label: "SEO Title", name: "seo_title", widget: "string" }
+              - { label: "SEO Description", name: "seo_desc", widget: "string" }
+          - label: "Video"
+            name: "video_comp"
+            widget: "object"
+            fields:
+              - label: "Video"
+                name: "video"
+                widget: "file"
+                media_library:
+                  config:
+                    multiple: false
+              - { label: "Video Title", name: "video_text", widget: "string" }
+          - label: "1. Text Compnente"
+            name: "text_comp"
+            widget: "object"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Countdown"
+            name: "countdown_comp"
+            widget: "object"
+            fields:
+              - { label: "Jahreszeit", name: "season", widget: "string" }
+              - label: "Countdown Datum"
+                name: "countdown"
+                widget: "date"
+                default: ""
+                format: "YYYY-MM-DDTHH:mm:ss"
+          - label: "Fakten Slider"
+            name: "facts_compt"
+            widget: "object"
+            fields:
+              - label: "Fakten Slide"
+                name: "facts"
+                widget: "list"
+                fields:
+                  - { label: Titel, name: title, widget: string }
+                  - { label: Text Links, name: text_left, widget: text }
+                  - { label: Text Rechts, name: text_right, widget: text }
+          - label: "Referenzen"
+            name: "referenzen"
+            widget: "object"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "text", widget: "text" }
+              - {
+                  label: "Featured Image",
+                  name: "featuredImage",
+                  widget: "image",
+                }
+  ########################### Leistungen ##################################
   - name: "Leistungen"
     label: "Leistung"
     folder: "src/pages/leistungen"
     create: true
     slug: "{{slug}}"
     fields:
+<<<<<<< HEAD
       - {label: "service", name: "service", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
       - {label: "Kategorie", name: "category", widget: select, options: [beratung, coaching, nährwertanalyse, seminare, gesundheitlicheförderung]}
       - {label: "Preis", name: "price", widget: "number"}
+=======
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Angebot", name: "angebot", widget: "boolean", default: false }
+      - {
+          label: "Category",
+          name: category',
+          widget: select,
+          options:
+            [
+              beratung,
+              coaching,
+              nährwertanalyse,
+              seminare,
+              gesundheitlicheförderung,
+            ],
+        }
+      - { label: "Preis", name: "price", widget: "number" }
+>>>>>>> 8d4369b4f6be0564de360d079f6c62e1a86cd844
