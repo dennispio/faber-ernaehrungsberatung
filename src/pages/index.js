@@ -7,7 +7,8 @@ import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
 import TestimonialLeft from '../components/testimonials/TestimonialLeft';
-import Navigation  from '../components/navigation/Navigation'
+import Navigation from '../components/navigation/Navigation';
+import Countdown from '../components/countdown/Countdown';
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -22,10 +23,12 @@ const IndexPage = props => {
       <Navigation />
       <VideoPlayer />
       <HomepageText />
+      <Countdown date="2019-08-17T03:24:10" />
       {/* eslint-disable-next-line */}
-      {referenzen.map(({ node: referenz }) => {
+      {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
           <Testimonial
+            key={index}
             title={referenz.frontmatter.title}
             text={referenz.frontmatter.description}
             link="/referenzen"
