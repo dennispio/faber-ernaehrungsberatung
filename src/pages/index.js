@@ -7,12 +7,14 @@ import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
 import TestimonialLeft from '../components/testimonials/TestimonialLeft';
-import Navigation  from '../components/navigation/Navigation'
+import Navigation from '../components/navigation/Navigation';
+import OfferCard from '../components/offerCard/OfferCard';
 
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
+  const { edges: angebote } = home.angebote;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
@@ -34,6 +36,21 @@ const IndexPage = props => {
           />
         ) : null;
       })}
+      <div className="container-full bubble-bg">
+        <div className="preview-section container">
+          <h3>
+            Das bekommst du:
+            <br />
+            Unsere Top-Angebote
+          </h3>
+          <div className="offer-preview-container">
+            {/* eslint-disable-next-line */}
+        {angebote.map(({ node: angebot }) => {
+              return angebot.frontmatter.angebot ? <OfferCard /> : null;
+            })}
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -83,6 +100,23 @@ export const pageQuery = graphql`
             title
             description
             date
+          }
+        }
+      }
+    }
+    angebote: allMarkdownRemark(
+      filter: { frontmatter: { service: { eq: "service" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            price
+            angebot
+            category
           }
         }
       }

@@ -1,7 +1,8 @@
 ---
+service: service
 title: Angebot 3
 angebot: false
-category': coaching
+category: coaching
 price: 70
 ---
 
