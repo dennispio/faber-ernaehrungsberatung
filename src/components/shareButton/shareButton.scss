@@ -1,0 +1,35 @@
+@import '../../constants/style/variables.scss';
+
+.share-button-container {
+  padding-top: $margin_xl;
+  padding-bottom: $margin_xl;
+
+  @include media-query-phone {
+    padding-top: $margin_s;
+    padding-bottom: $margin_s;
+  }
+
+  .social-media-share {
+    padding: 15px;
+    width: 248px;
+    text-align: center;
+    box-shadow: 10px 3px 8px rgba(0, 0, 0, 0.2);
+
+    .arrow {
+      margin-top: -15px;
+      margin-left: 50px;
+    }
+  }
+
+  .social-media-share-menu {
+    background: white;
+    padding-left: $margin_m;
+    width: 248px;
+    box-shadow: 10px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: $margin_s;
+
+    a {
+      margin-top: $margin_s;
+    }
+  }
+}

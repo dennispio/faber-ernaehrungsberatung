@@ -21,7 +21,6 @@ const IndexPage = props => {
         <title> {data.frontmatter.seo_comp.seo_title} </title>
         <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
       </Helmet>
-      <Navigation />
       <VideoPlayer />
       <HomepageText />
       <Countdown date={countdown} />
