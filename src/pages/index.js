@@ -6,11 +6,15 @@ import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
+import TestimonialLeft from '../components/testimonials/TestimonialLeft';
+import Navigation from '../components/navigation/Navigation';
+import Countdown from '../components/countdown/Countdown';
 
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
+  const { countdown } = data.frontmatter.countdown_comp;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
@@ -19,10 +23,12 @@ const IndexPage = props => {
       </Helmet>
       <VideoPlayer />
       <HomepageText />
+      <Countdown date={countdown} />
       {/* eslint-disable-next-line */}
-      {referenzen.map(({ node: referenz }) => {
+      {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
           <Testimonial
+            key={index}
             title={referenz.frontmatter.title}
             text={referenz.frontmatter.description}
             link="/referenzen"
@@ -61,7 +67,7 @@ export const pageQuery = graphql`
               seo_title
             }
             countdown_comp {
-              countdown
+              countdown(formatString: "YYYY-MM-DDTHH:mm:ss")
               season
             }
           }
