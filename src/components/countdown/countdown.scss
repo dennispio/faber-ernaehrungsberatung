@@ -1,0 +1,35 @@
+@import "../../constants/style/variables.scss";
+
+@font-face {
+  font-family: "Digital Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../constants/style/fonts/digital-7\ \(mono\).ttf")
+    format("truetype");
+}
+
+.font-mono {
+  font-family: "Digital Mono";
+}
+
+.fs-super {
+  font-size: 15rem;
+  @include media-query-phone {
+    font-size: 8rem;
+  }
+}
+
+.fs-xxl {
+  font-size: 3rem;
+  @include media-query-phone {
+    font-size: 2rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}

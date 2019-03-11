@@ -48,13 +48,13 @@ const Navigation = () => (
           <img alt="LOGO" src={logoBurger} />
         </div>
         <a href="#ernaherung" className="menu-item">Unsere <br className="burgerMenu-br" /> Leistungen</a>
-        <a href="/referenzen" className="menu-item">Referenzen</a>
+        <a href="/referenzen" className="menu-item"> Referenzen</a>
         <a href="/ueberuns" className="menu-item">Über uns</a>
         <a href="/blog" className="menu-item">Blog</a>
         <a href="/kontakt" className="menu-item">Kontakt</a>
       </Menu>
     </div>
-  </div >
+  </div>
 );
 
 export default Navigation;
