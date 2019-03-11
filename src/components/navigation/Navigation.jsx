@@ -28,10 +28,18 @@ const Navigation = () => (
             </div>
           </div>
         </div>
-        <li> <a href="/referenzen">Referenzen</a></li>
-        <li> <a href="/ueberuns">Über uns</a></li>
-        <li> <a href="/blog">Blog</a></li>
-        <li> <a href="/kontakt">Kontakt</a></li>
+        <li>
+          <a href="/referenzen">Referenzen</a>
+        </li>
+        <li>
+          <a href="/ueberuns">Über uns</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/kontakt">Kontakt</a>
+        </li>
       </ul>
     </div>
     <div className="burgerMenu-container">
