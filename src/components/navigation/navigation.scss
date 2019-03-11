@@ -25,3 +25,145 @@
         }
     }
 }
+
+.navigation-menu{
+    @include media-query-tablet {
+        display: none;
+    }
+    @include media-query-phone {
+        display: none;
+    }
+    margin-right:1%;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    li{
+        text-align: center;
+        padding: 20px 12px;
+        text-decoration: none;
+    }
+
+}
+
+.burgerMenu-container{
+
+    @include media-query-tablet {
+        display: block;
+    }
+    @include media-query-desktop {
+        display: none;
+    }
+    .burgerMenu-logo{
+        img{
+        margin-left:20px;
+        height: 54px;
+        width: auto;
+        position: absolute;
+        left: 15px;
+        top: 15px;}
+    }
+    .bm-burger-button {
+        position: fixed;
+        top: 4%;
+        width: 25px;
+        height: 20px;
+        right: 8%;
+    }
+    .bm-burger-bars {
+        background: black;
+    }
+    .bm-cross-button {
+        margin-top:4%;
+        margin-right:10%;
+        background:green;
+    }
+    .bm-cross {
+        background: #bdc3c7;
+      }
+    .bm-menu {
+        background: linear-gradient(to top, #01072E , #E5331C);
+    }
+    .bm-morph-shape {
+        fill: #373a47;
+    }
+    .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+    }
+    .bm-item-list {
+        margin-top: 30%;
+        color: white;
+    }
+    .bm-item {
+        display: inline-block;
+        margin-left:10%;
+        padding-top:25px;
+        font-size: 40px;
+    }
+    .bm-overlay {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .burgerMenu-br{
+        @include media-query-tablet {
+            display: none;
+        }
+        @include media-query-phone {
+            display: block;
+        }
+    }
+}
+    
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content-container {
+    display: none;
+    position: fixed;
+    margin-top:12px;
+    left: 0;
+    background: linear-gradient(to right, #01072E , #E5331C);
+    width: 100%;
+    z-index: 300;
+  }
+
+  .triangle{
+    display:none;
+    position: fixed;
+    margin-left:45px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+  }
+
+
+
+  /* Style the subnav links */
+  .subnav-content {
+    margin-left:18%;
+    a{
+    padding:20px 20px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    }
+  }
+  
+//   /* Add a grey background color on hover */
+//   .subnav-content a:hover {
+//     background-color: #eee;
+//     color: black;
+//   }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content-container {
+    display: block;
+  }
+
+  .subnav:hover .triangle{ 
+    display: block;
+  }
