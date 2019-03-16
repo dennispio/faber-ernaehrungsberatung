@@ -1,15 +1,17 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
 import './offerCard.scss';
 
-const OfferCard = () => (
+const OfferCard = ({ category, price }) => (
   <div className="offerCard">
     <div className="offer-price-container">
       <p>
-        60 <span className="euro">€</span>
+        {price} <span className="euro">€</span>
       </p>
     </div>
     <div className="offer-title-container">
-      <h5>Erstberatung</h5>
+      <h5>{category}</h5>
     </div>
     <div className="offer-content-container">
       <ul>
@@ -19,9 +21,14 @@ const OfferCard = () => (
       </ul>
     </div>
     <div className="offer-link-container">
-      <a href="#">unverbindlich anfragen</a>
+      <Link to="anfrage">unverbindlich anfragen </Link>
     </div>
   </div>
 );
 
 export default OfferCard;
+
+OfferCard.propTypes = {
+  price: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+};
