@@ -6,7 +6,7 @@ import '../../constants/style/application.scss';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, pageWahl }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
-        <Navigation />
+        <Navigation pageChoice={pageWahl} />
         <div>{children}</div>
         <Footer />
       </div>

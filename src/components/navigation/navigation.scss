@@ -19,11 +19,11 @@
 }
 
 .image-container {
-    margin-top:15px;
-    margin-left:20px;
+    margin-top:$margin_s;
+    margin-left:$margin_s;
     position: relative;
     img {
-        height: 54px;
+        height: $margin_xxl;
         width: auto;
 
         @include media-query-phone {
@@ -46,13 +46,13 @@
     @include media-query-phone {
         display: none;
     }
-    margin-right:1%;
+    margin-right: $margin_xs;
     ul{
         display: flex;
     }
     li{
         text-align: center;
-        padding: 20px 12px;
+        padding: $margin_s $margin_s;
         text-decoration: none;
     }   
 }
@@ -66,28 +66,29 @@
         display: none;
     }
     .burgerMenu-logo{
-        margin-left: 10px;
-        margin-top: 15px;
+        margin-left: $margin_s;
+        margin-top: $margin_s;
         img{
-        margin-left:20px;
-        height: 54px;
-        width: auto;
-        left: 15px;
-        top: 15px;}
+            margin-left:$margin_s;
+            height: $margin_xxl;
+            width: auto;
+            left: $margin_s;
+            top: $margin_s;
+        }
     }
     .bm-burger-button {
         position: fixed;
-        top: 30px;
+        top: $margin_m;
         width: 25px;
         height: 20px;
-        right: 8%;
+        right: $margin_m;
     }
     .bm-burger-bars {
         background: black;
     }
     .bm-cross-button {
-        margin-top: 20px;
-        margin-right:10%;
+        margin-top: $margin_m;
+        margin-right:$margin_m;
     }
 
     .bm-menu {
@@ -103,14 +104,15 @@
     // .bm-item-list {
     //  }
     .burgerMenu-content {
-        margin-top:50px;
+        margin-top:$margin_xl;
         color: white;
-        font-size: 40px;
+        font-size: $font_size_h;
+        ;
 
         a{
             display: flex;
-            margin-top:20px;
-            margin-left:40px;
+            margin-top: $margin_s;
+            margin-left: $margin_m;
         }
     }
     // .bm-item {
@@ -133,37 +135,51 @@
 //   .navbar a:hover, .subnav:hover .subnavbtn {
 //   }
   /* Style the subnav content - positioned absolute */
-  .subnav-content-container {
+  .subnav-content-container-other{
     display: none;
     position: fixed;
     z-index:200;
-    margin-top:16px;
+    margin-top:$margin_s;
+    left: 0;
+    background: linear-gradient(to right, #01072E , #E5331C);
+    width: 100%;
+  }
+
+  .subnav-content-container{
+    display: block;
+    position: fixed;
+    z-index:200;
+    margin-top:$margin_s;
     left: 0;
     background: linear-gradient(to right, #01072E , #E5331C);
     width: 100%;
   }
 
   .triangle{
-    display:none;
+    display:block;
     position: fixed;
-    z-index:300;
-    margin-top: 2px;
-    margin-left:45px;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+    margin-left:$margin_xl;
+    border-left: $margin_s solid transparent;
+    border-right: $margin_s solid transparent;
+    border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
   }
 
-
+  .triangle-other{
+    display:none;
+    position: fixed;
+    margin-left:$margin_xl;
+    border-left: $margin_s solid transparent;
+    border-right: $margin_s solid transparent;
+    border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+  }
 
   /* Style the subnav links */
   .subnav-content {
+    height:$margin_xxl;
     margin-left:18%;
 
     a{
-        padding:20px 20px;
+        padding:$margin_s $margin_s;
         float: left;
         color: white;
         text-decoration: none;
@@ -171,10 +187,10 @@
   }
   
   /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content-container {
+  .subnav:hover .subnav-content-container-other {
     display: block;
   }
 
-  .subnav:hover .triangle{ 
+  .subnav:hover .triangle-other{ 
     display: block;
   }
