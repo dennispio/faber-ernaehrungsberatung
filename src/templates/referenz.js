@@ -7,7 +7,7 @@ import BlogContent from '../components/blogContent/BlogContent';
 const Referenz = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Layout pageWahl="Referenz">
+    <Layout pageName="Referenz">
       <BlogContent
         title="Referenz"
         date={post.frontmatter.date}

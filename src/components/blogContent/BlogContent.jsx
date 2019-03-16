@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-
 import './blogContent.scss';
 import ShareButton from '../shareButton/ShareButton';
 import Newsletter from '../newsletter/Newsletter';

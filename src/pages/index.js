@@ -6,7 +6,6 @@ import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
-import TestimonialLeft from '../components/testimonials/TestimonialLeft';
 import Countdown from '../components/countdown/Countdown';
 
 const IndexPage = props => {
