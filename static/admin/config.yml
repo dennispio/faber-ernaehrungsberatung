@@ -146,27 +146,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-<<<<<<< HEAD
       - {label: "service", name: "service", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
-      - {label: "Kategorie", name: "category", widget: select, options: [beratung, coaching, nährwertanalyse, seminare, gesundheitlicheförderung]}
+      - {label: "Kategorie", name: "category", widget: select, options: [Beratung, Coaching, Nährwertanalyse, Seminare, Gesundheitlicheförderung]}
       - {label: "Preis", name: "price", widget: "number"}
-=======
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Angebot", name: "angebot", widget: "boolean", default: false }
-      - {
-          label: "Category",
-          name: category',
-          widget: select,
-          options:
-            [
-              beratung,
-              coaching,
-              nährwertanalyse,
-              seminare,
-              gesundheitlicheförderung,
-            ],
-        }
-      - { label: "Preis", name: "price", widget: "number" }
->>>>>>> 8d4369b4f6be0564de360d079f6c62e1a86cd844
