@@ -9,12 +9,7 @@ import closeBurgerButton from '../../img/CloseBurgerButton.svg';
 
 const Navigation = ({ pageName }) => (
   <div className="burgerMenu-container">
-    <Menu
-      className="bm-menu"
-      customCrossIcon={<img src={closeBurgerButton} alt="close button" />}
-      right
-      width="100%"
-    >
+    <Menu>
       <div className="burgerMenu-logo">
         <img alt="LOGO" src={logoBurger} />
       </div>
