@@ -58,7 +58,6 @@
 }
 
 .burgerMenu-container{
-
     @include media-query-tablet {
         display: block;
     }
@@ -78,11 +77,12 @@
     }
     .bm-burger-button {
         position: fixed;
-        top: $margin_m;
-        width: 25px;
-        height: 20px;
-        right: $margin_m;
-    }
+        margin-left: 200px;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+      }
     .bm-burger-bars {
         background: black;
     }
@@ -107,16 +107,13 @@
         margin-top:$margin_xl;
         color: white;
         font-size: $font_size_h;
-        ;
-
+        
         a{
             display: flex;
             margin-top: $margin_s;
             margin-left: $margin_m;
         }
     }
-    // .bm-item {
-    // }
     .bm-overlay {
         background: rgba(0, 0, 0, 0.3);
     }

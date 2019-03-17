@@ -8,16 +8,6 @@ import logoBurger from '../../img/FBR-logo-sw1.svg';
 import closeBurgerButton from '../../img/CloseBurgerButton.svg';
 
 const Navigation = ({ pageName }) => (
-  // let choice;
-  // if (pageChoice === 'referenzen') {
-  //   choice = 'subnav-content-container';
-  //   return choice;
-  // }
-  // if (pageChoice !== 'referenzen') {
-  //   choice = 'subnav-content-container-other';
-  //   return choice;
-  // }
-
   <div className="navigation-container">
     <div className="navigation-flex">
       <div className="image-container">
