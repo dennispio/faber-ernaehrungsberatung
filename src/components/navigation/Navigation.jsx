@@ -9,54 +9,6 @@ import closeBurgerButton from '../../img/CloseBurgerButton.svg';
 
 const Navigation = ({ pageName }) => (
   <div className="navigation-container">
-    <div className="navigation-flex">
-      <div className="image-container">
-        <img alt="LOGO" src={logo} />
-      </div>
-      <div id="menu" className="navigation-menu">
-        <ul>
-          <li>
-            <Link to="/"> Start</Link>
-          </li>
-          <div className="subnav">
-            <li>
-              <Link to="/leistungen"> Unsere Leistungen</Link>
-            </li>
-            <div
-              className={
-                pageName === 'leistungen' ? 'triangle' : 'triangle-other'
-              }
-            />
-            <div
-              className={
-                pageName === 'leistungen'
-                  ? 'subnav-content-container'
-                  : 'subnav-content-container-other'
-              }
-            >
-              <div className="subnav-content">
-                <Link to="/leistungen#ernaehrung">Ernährungsbearatung</Link>
-                <Link to="/leistungen#coaching">Coaching</Link>
-                <Link to="/leistungen#naehrwertanalyse">Nährwertanalyse</Link>
-                <Link to="/leistungen#seminare">Seminare und Vorträge</Link>
-              </div>
-            </div>
-          </div>
-          <li>
-            <Link to="/referenzen">Referenzen</Link>
-          </li>
-          <li>
-            <Link to="/ueberuns">Über uns</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/kontakt">Kontakt</Link>
-          </li>
-        </ul>
-      </div>
-    </div>
     <div className="burgerMenu-container">
       <Menu
         className="bm-menu"
