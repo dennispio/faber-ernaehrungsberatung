@@ -64,67 +64,68 @@
     @include media-query-desktop {
         display: none;
     }
-    .burgerMenu-logo{
-        margin-left: $margin_s;
+}
+
+.burgerMenu-logo{
+    margin-left: $margin_s;
+    margin-top: $margin_s;
+    img{
+        margin-left:$margin_s;
+        height: $margin_xxl;
+        width: auto;
+        left: $margin_s;
+        top: $margin_s;
+    }
+}
+.bm-burger-button {
+    position: fixed;
+    margin-left: 200px;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+.bm-burger-bars {
+    background: black;
+}
+.bm-cross-button {
+    margin-top: $margin_m;
+    margin-right:$margin_m;
+}
+
+.bm-menu {
+    background: linear-gradient(to top, #01072E , #E5331C);
+}
+.bm-morph-shape {
+    fill: #373a47;
+}
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+// .bm-item-list {
+//  }
+.burgerMenu-content {
+    margin-top:$margin_xl;
+    color: white;
+    font-size: $font_size_h;
+    
+    a{
+        display: flex;
         margin-top: $margin_s;
-        img{
-            margin-left:$margin_s;
-            height: $margin_xxl;
-            width: auto;
-            left: $margin_s;
-            top: $margin_s;
-        }
+        margin-left: $margin_m;
     }
-    .bm-burger-button {
-        position: fixed;
-        margin-left: 200px;
-        width: 36px;
-        height: 30px;
-        left: 36px;
-        top: 36px;
-      }
-    .bm-burger-bars {
-        background: black;
-    }
-    .bm-cross-button {
-        margin-top: $margin_m;
-        margin-right:$margin_m;
-    }
+}
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+.burgerMenu-br{
 
-    .bm-menu {
-        background: linear-gradient(to top, #01072E , #E5331C);
+    @include media-query-tablet {
+        display: none;
     }
-    .bm-morph-shape {
-        fill: #373a47;
-    }
-    .bm-menu-wrap {
-        position: fixed;
-        height: 100%;
-    }
-    // .bm-item-list {
-    //  }
-    .burgerMenu-content {
-        margin-top:$margin_xl;
-        color: white;
-        font-size: $font_size_h;
-        
-        a{
-            display: flex;
-            margin-top: $margin_s;
-            margin-left: $margin_m;
-        }
-    }
-    .bm-overlay {
-        background: rgba(0, 0, 0, 0.3);
-    }
-    .burgerMenu-br{
-
-        @include media-query-tablet {
-            display: none;
-        }
-        @include media-query-phone {
-            display: block;
-        }
+    @include media-query-phone {
+        display: block;
     }
 }
     
