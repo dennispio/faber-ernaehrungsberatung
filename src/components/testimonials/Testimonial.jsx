@@ -14,14 +14,14 @@ const Testimonial = ({ title, text, fluid, link, left, alt }) =>
       alt={alt}
     />
   ) : (
-      <TestimonialRight
-        title={title}
-        text={text}
-        link={link}
-        fluid={fluid}
-        alt={alt}
-      />
-    );
+    <TestimonialRight
+      title={title}
+      text={text}
+      link={link}
+      fluid={fluid}
+      alt={alt}
+    />
+  );
 
 Testimonial.propTypes = {
   title: PropTypes.string.isRequired,

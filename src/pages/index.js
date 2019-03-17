@@ -1,17 +1,21 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
 import VideoPlayer from '../components/video/Video';
 import HomepageText from '../components/text/HomepageText';
+import OfferCard from '../components/offerCard/OfferCard';
 import Countdown from '../components/countdown/Countdown';
+import BlogPostCard from '../components/blogPostCard/BlogPostCard';
 
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
+  const { edges: angebote } = home.angebote;
+  const { edges: posts } = home.blogPosts;
   const { countdown } = data.frontmatter.countdown_comp;
   return (
     <Layout>
@@ -35,6 +39,51 @@ const IndexPage = props => {
           />
         ) : null;
       })}
+      <div className="container-full bubble-bg">
+        <div className="preview-section container">
+          <h3>
+            Das bekommst du:
+            <br />
+            Unsere Top-Angebote
+          </h3>
+          <div className="offer-preview-container">
+            {/* eslint-disable-next-line */}
+        {angebote.map(({ node: angebot }) => {
+              return angebot.frontmatter.angebot ? (
+                <OfferCard
+                  category={angebot.frontmatter.category}
+                  price={angebot.frontmatter.price}
+                />
+              ) : null;
+            })}
+          </div>
+          <Link to="leistungen">zu den Leistungen</Link>
+        </div>
+        <div className="preview-section blog-p container">
+          <h3>
+            Bleib auf dem laufenden und
+            <br />
+            abboniere den Newletter zu
+            <br />
+            unserem Blog.
+          </h3>
+          <div className="offer-preview-container">
+            {/* eslint-disable-next-line */}
+        {posts.map(({ node: post }, key) => {
+              return key < 3 ? (
+                <BlogPostCard
+                  link={post.fields.slug}
+                  date={post.frontmatter.date}
+                  category={post.frontmatter.category}
+                  title={post.frontmatter.title}
+                  text={post.frontmatter.description}
+                />
+              ) : null;
+            })}
+          </div>
+          <Link to="leistungen">Newsletter abonnieren</Link>
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -83,7 +132,25 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
-            date
+            date(formatString: "DD.MM.YYYY")
+            category
+          }
+        }
+      }
+    }
+    angebote: allMarkdownRemark(
+      filter: { frontmatter: { service: { eq: "service" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            price
+            angebot
+            category
           }
         }
       }

@@ -2,7 +2,7 @@ import React from 'react';
 import './homepageText.scss';
 
 const HomepageText = () => (
-  <div className="container-fill homepageText-container">
+  <div className="container-full homepageText-container">
     <div className="container">
       <div className="homepageText-content">
         <div className="hompageText-title">

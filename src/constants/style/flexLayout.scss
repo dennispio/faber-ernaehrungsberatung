@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.offer-preview-container {
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  overflow: auto;
+
+  @include media-query-phone {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.blog-p {
+  margin-top: 120px;
+  margin-bottom: 120px;
+
+  h3 {
+    color: white;
+  }
+}
+
+.bubble-bg {
+  background-image: url(../../img/bubbles/Asset_Bubble2.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 30vh;
+  background-size: auto 210vh;
+
+  @include media-query-phone {
+    background-position: 50% 50vh;
+  }
+}

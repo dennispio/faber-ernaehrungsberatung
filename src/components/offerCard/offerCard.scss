@@ -1,0 +1,57 @@
+@import '../../constants/style/variables.scss';
+
+.offerCard {
+  min-width: 256px;
+  min-height: 352px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  margin: $margin_s $margin_s $margin_s 0;
+  padding: $margin_m;
+  background: white;
+  color: $color-p;
+
+  .offer-price-container {
+    p {
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 75px;
+      margin-top: 0;
+      margin-bottom: $margin_s;
+    }
+
+    .euro {
+      margin-left: -15px;
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+  }
+
+  .offer-title-container {
+    h5 {
+      font-size: 25px;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .offer-content-container {
+    p {
+      font-size: 25px;
+    }
+
+    ul {
+      list-style-position: inside;
+      padding: 0;
+
+      li {
+        line-height: 22px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .offer-link-container {
+    margin-top: $margin_m;
+    text-align: right;
+  }
+}

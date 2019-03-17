@@ -1,0 +1,56 @@
+@import '../../constants/style/variables.scss';
+
+.blogPostCard {
+  min-width: 288px;
+  min-height: 352px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  margin: $margin_s $margin_s $margin_s 0;
+  padding: $margin_m;
+  background: white;
+  color: $color-p;
+
+  .blogPost-head-container {
+    span {
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: $font_site_xs;
+    }
+
+    .cat {
+      float: left;
+    }
+
+    .date {
+      float: right;
+    }
+
+  }
+
+  .blogPost-title-container {
+    h5 {
+      overflow: hidden;
+      font-size: $font_size_h - 8;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .blogPost-content-container {
+    margin: 0 auto;
+
+    p {
+      font-size: $font_size_p;
+    }
+
+    a {
+      font-weight: 700;
+    }
+
+  }
+
+  .blogPost-link-container {
+    margin-top: $margin_m;
+    text-align: right;
+  }
+}
