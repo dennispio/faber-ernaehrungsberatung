@@ -9,6 +9,7 @@ import HomepageText from '../components/text/HomepageText';
 import OfferCard from '../components/offerCard/OfferCard';
 import Countdown from '../components/countdown/Countdown';
 import BlogPostCard from '../components/blogPostCard/BlogPostCard';
+import Carousel from '../components/carousel/Carousel';
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -26,6 +27,7 @@ const IndexPage = props => {
       <VideoPlayer />
       <HomepageText />
       <Countdown date={countdown} />
+      <Carousel/>
       {/* eslint-disable-next-line */}
       {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
