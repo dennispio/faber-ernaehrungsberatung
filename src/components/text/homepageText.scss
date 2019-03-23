@@ -2,20 +2,21 @@
 
 .homepageText-container {
   min-height: 80vh;
-  background-image: url(../../img/bubbles/bubble_01.png);
+  background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 80%;
+  background-size: auto 3200px;
+  background-position: -600px -2000px;
 
   @include media-query-phone {
-    min-height: 120vh;
-    background-position-y: 70%;
-    background-size: unset;
+    min-height: 100vh;
+    background-position: -900px -1900px;
   }
 
   @include media-query-tablet {
-    background-size: unset;
+    min-height: 71vh;
+    background-position: -900px -2000px;
   }
+
 
   .homepageText-content {
     width: 80%;

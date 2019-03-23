@@ -7,7 +7,7 @@
   overflow: auto;
 
   @include media-query-phone {
-    width: 100%;
+    width: 105%;
     justify-content: flex-start;
   }
 }
@@ -21,13 +21,23 @@
   }
 }
 
-.bubble-bg {
-  background-image: url(../../img/bubbles/Asset_Bubble2.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 30vh;
-  background-size: auto 210vh;
+.margin-left {
+  margin-left: 24%;
+
+  @include media-query-tablet {
+    margin-left: 0;
+  }
 
   @include media-query-phone {
-    background-position: 50% 50vh;
+    margin-left: 0;
   }
+}
+
+.bubble-bg {
+  background-image: url(../../img/bubbles/bubble_2.svg);
+  background-repeat: no-repeat;
+  background-position: -1100px -1100px;
+  background-size: auto 4000px;
+
+  @include media-query-phone {}
 }

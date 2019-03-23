@@ -2,7 +2,7 @@
 service: service
 title: Angebot 4
 angebot: true
-category: coaching
+category: Coaching
 price: 40
 ---
 
