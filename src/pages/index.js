@@ -26,8 +26,10 @@ const IndexPage = props => {
       </Helmet>
       <VideoPlayer />
       <HomepageText />
+      
       <Countdown date={countdown} />
       <Carousel/>
+      
       {/* eslint-disable-next-line */}
       {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (

@@ -1,0 +1,71 @@
+@import "../../constants/style/variables.scss";
+
+.slick-slider{
+    overflow-y: auto;
+    height: 400px;
+
+}
+
+
+.left-slick.slick-prev:before {
+    content: "<";
+   
+    font-size: 200px;
+    color: blue;
+    align-content: center;
+    z-index: 1;
+
+}
+
+
+.right-slick.slick-next:before {
+    content: ">";
+   
+    font-size: 100px;
+    color: black;
+    align-content: center;
+    z-index: 1;
+}
+
+
+
+  
+
+
+
+
+
+.homepageText-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: $margin_xl;
+
+    .hompageText-title {
+      max-width: 670px;
+      line-height: 40px;
+      font-size: 38px;
+      
+    }
+
+    .hompageText-text {
+      max-width: 385px;
+
+      p {
+        line-height: 22px;
+        font-size: 16px;
+        
+      }
+    }
+}
+
+.slick-dots{
+    bottom: 100px;
+
+    position: static;
+}
+
+.costumArrow{
+
+    
+
+}
