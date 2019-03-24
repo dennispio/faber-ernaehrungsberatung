@@ -105,6 +105,7 @@
     }
 
     .bm-menu {
+      z-index: 1000;
       background: linear-gradient(to top, #01072E, #E5331C);
     }
 
@@ -134,6 +135,7 @@
     // .bm-item {
     // }
     .bm-overlay {
+      z-index: 1000;
       background: rgba(0, 0, 0, 0.3);
     }
 
