@@ -12,8 +12,8 @@ const styles = {
     position: 'fixed',
     width: '36px',
     height: '30px',
-    left: '36px',
-    top: '36px',
+    right: '32px',
+    top: '32px',
   },
   bmBurgerBars: {
     background: '#373a47',
