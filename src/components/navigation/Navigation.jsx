@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './navigation.scss';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'gatsby';
 import logo from '../../img/FBR-logo-sw.svg';
 import logoBurger from '../../img/FBR-logo-sw1.svg';
-import closeBurgerButton from '../../img/CloseBurgerButton.svg';
+import closeBurgerButton from '../../img/close-menu.svg';
+import './navigation.scss';
 
 const Navigation = ({ pageName }) => (
   // let choice;
