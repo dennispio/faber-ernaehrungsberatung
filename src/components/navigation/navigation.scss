@@ -78,15 +78,13 @@
     }
     .bm-burger-button {
         position: fixed;
-        top: $margin_m !important;
-        width: 25px !important;
-        height: 20px !important;
-        right: $margin_m !important;
-    }
-    .bm-burger-bars {
-        background: black !important;
+        top: $margin_m;
         width: 25px;
         height: 20px;
+        right: $margin_m;
+    }
+    .bm-burger-bars {
+        background: black;
     }
     .bm-cross-button {
         margin-top: $margin_m;

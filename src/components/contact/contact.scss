@@ -83,3 +83,32 @@
         width: auto;
         }
     }
+
+.form-felder{
+
+    
+    input{
+        background: #D8D8D8;
+        border-radius: 3px;
+        width: 50%;
+    }
+
+    textarea{
+        width: 50%;
+        background: #D8D8D8;
+        border-radius: 3px;
+    }
+
+    .input-button{
+        width: 320px;
+        height: 48px;
+        background: #140A37;
+        color:white;
+    }
+    .form-checkbox{
+        input{    
+        border-radius: 3px;
+        background: #D8D8D8;
+        }
+    }
+}

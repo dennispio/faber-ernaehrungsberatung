@@ -30,8 +30,38 @@ const Contact = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-container">
                 <h3>unverbindlich Anfragen</h3>
             </div>
-            <div className="form-felder"></div>
-        </div>
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-felder">
+                <form>
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-felder-ein">
+                        <input type="text" /><br />
+                        <label>Vollständiger Name</label><br />
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-felder-ein">
+                        <input type="text" /><br />
+                        <label>Vollständiger Name</label><br />
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-felder-ein">
+                        <input type="text" /><br />
+                        <label>Vollständiger Name</label><br />
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-felder-ein">
+                        <input type="text" /><br />
+                        <label>Vollständiger Name</label><br />
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-felder-ein">
+                        <textarea></textarea><br />
+                        <label>Möchtest Du uns noch etwas mitteilen?</label>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input className="input-button" type="submit" value="Submit" />
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <label><input type="checkbox" /> Ich möchte eine Antwort per Mail.</label>
+                        <label><input type="checkbox" />Ich möchte zurückgerufen werden.</label>
+                    </div>
+                </form>
+            </div>
+        </div >
     )
 }
 
