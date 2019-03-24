@@ -1,214 +1,214 @@
 @import '../../constants/style/variables.scss';
 
 .navigation-container {
+  .bm-burger-button {
     position: fixed;
-    z-index: 200;
-    width: 100vw;
-    height: 90px;
-    background: #FFFFFF;
-    box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.5);
+    top: $margin_m;
+    width: 25px;
+    height: 20px;
+    right: $margin_m;
+  }
+
+  position: fixed;
+  z-index: 200;
+  width: 100vw;
+  height: 90px;
+  background: #FFFFFF;
+  box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.5);
+
+  @include media-query-phone {
+    height: 75px;
+  }
+
+  .navigation-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-container {
+    margin-top: $margin_s;
+    margin-left: $margin_s;
+    position: relative;
+
+    img {
+      height: $margin_xxl;
+      width: auto;
+
+      @include media-query-phone {
+        left: 10px;
+        top: 10px;
+      }
+    }
 
     @include media-query-phone {
-        height: 75px;
+      position: fixed
     }
 
+    @include media-query-tablet {
+      position: fixed
+    }
+  }
 
-    .navigation-flex {
-        display: flex;
-        justify-content: space-between;
+  .navigation-menu {
+    margin-right: $margin_xs;
+
+    @include media-query-tablet {
+      display: none;
     }
 
-    .image-container {
-        margin-top: $margin_s;
+    @include media-query-phone {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      text-align: center;
+      padding: $margin_s $margin_s;
+      text-decoration: none;
+    }
+  }
+
+  .burgerMenu-container {
+
+    @include media-query-tablet {
+      display: block;
+    }
+
+    @include media-query-desktop {
+      display: none;
+    }
+
+    .burgerMenu-logo {
+      margin-left: $margin_s;
+      margin-top: $margin_s;
+
+      img {
         margin-left: $margin_s;
-        position: relative;
-
-        img {
-            height: $margin_xxl;
-            width: auto;
-
-            @include media-query-phone {
-                left: 10px;
-                top: 10px;
-            }
-        }
-
-        @include media-query-phone {
-            position: fixed
-        }
-
-        @include media-query-tablet {
-            position: fixed
-        }
-    }
-
-    .navigation-menu {
-        margin-right: $margin_xs;
-
-        @include media-query-tablet {
-            display: none;
-        }
-
-        @include media-query-phone {
-            display: none;
-        }
-
-        ul {
-            display: flex;
-        }
-
-        li {
-            text-align: center;
-            padding: $margin_s $margin_s;
-            text-decoration: none;
-        }
-    }
-
-    .burgerMenu-container {
-
-        @include media-query-tablet {
-            display: block;
-        }
-
-        @include media-query-desktop {
-            display: none;
-        }
-
-        .burgerMenu-logo {
-            margin-left: $margin_s;
-            margin-top: $margin_s;
-
-            img {
-                margin-left: $margin_s;
-                height: $margin_xxl;
-                width: auto;
-                left: $margin_s;
-                top: $margin_s;
-            }
-        }
-
-        .bm-burger-button {
-            position: fixed;
-            top: $margin_m;
-            width: 25px;
-            height: 20px;
-            right: $margin_m;
-        }
-
-        .bm-burger-bars {
-            background: black;
-        }
-
-        .bm-cross-button {
-            margin-top: $margin_m;
-            margin-right: $margin_m;
-        }
-
-        .bm-menu {
-            background: linear-gradient(to top, #01072E, #E5331C);
-        }
-
-        .bm-morph-shape {
-            fill: #373a47;
-        }
-
-        .bm-menu-wrap {
-            position: fixed;
-            height: 100%;
-        }
-
-        // .bm-item-list {
-        //  }
-        .burgerMenu-content {
-            margin-top: $margin_xl;
-            color: white;
-            font-size: $font_size_h;
-
-            a {
-                display: flex;
-                margin-top: $margin_s;
-                margin-left: $margin_m;
-            }
-        }
-
-        // .bm-item {
-        // }
-        .bm-overlay {
-            background: rgba(0, 0, 0, 0.3);
-        }
-
-        .burgerMenu-br {
-            @include media-query-tablet {
-                display: none;
-            }
-
-            @include media-query-phone {
-                display: block;
-            }
-        }
-    }
-
-    //   /* Add a red background color to navigation links on hover */
-    //   .navbar a:hover, .subnav:hover .subnavbtn {
-    //   }
-    /* Style the subnav content - positioned absolute */
-    .subnav-content-container-other {
-        display: none;
-        position: fixed;
-        z-index: 200;
-        margin-top: $margin_s;
-        left: 0;
-        background: linear-gradient(to right, #01072E, #E5331C);
-        width: 100%;
-    }
-
-    .subnav-content-container {
-        display: block;
-        position: fixed;
-        z-index: 200;
-        margin-top: $margin_s;
-        left: 0;
-        background: linear-gradient(to right, #01072E, #E5331C);
-        width: 100%;
-    }
-
-    .triangle {
-        display: block;
-        position: fixed;
-        margin-left: $margin_xl;
-        border-left: $margin_s solid transparent;
-        border-right: $margin_s solid transparent;
-        border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
-    }
-
-    .triangle-other {
-        display: none;
-        position: fixed;
-        margin-left: $margin_xl;
-        border-left: $margin_s solid transparent;
-        border-right: $margin_s solid transparent;
-        border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
-    }
-
-    /* Style the subnav links */
-    .subnav-content {
         height: $margin_xxl;
-        margin-left: 18%;
-
-        a {
-            padding: $margin_s $margin_s;
-            float: left;
-            color: white;
-            text-decoration: none;
-        }
+        width: auto;
+        left: $margin_s;
+        top: $margin_s;
+      }
     }
 
-    /* When you move the mouse over the subnav container, open the subnav content */
-    .subnav:hover .subnav-content-container-other {
+
+    .bm-burger-bars {
+      background: black;
+    }
+
+    .bm-cross-button {
+      margin-top: $margin_m;
+      margin-right: $margin_m;
+    }
+
+    .bm-menu {
+      background: linear-gradient(to top, #01072E, #E5331C);
+    }
+
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    .bm-menu-wrap {
+      position: fixed;
+      height: 100%;
+    }
+
+    // .bm-item-list {
+    //  }
+    .burgerMenu-content {
+      margin-top: $margin_xl;
+      color: white;
+      font-size: $font_size_h;
+
+      a {
+        display: flex;
+        margin-top: $margin_s;
+        margin-left: $margin_m;
+      }
+    }
+
+    // .bm-item {
+    // }
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .burgerMenu-br {
+      @include media-query-tablet {
+        display: none;
+      }
+
+      @include media-query-phone {
         display: block;
+      }
     }
+  }
 
-    .subnav:hover .triangle-other {
-        display: block;
+  //   /* Add a red background color to navigation links on hover */
+  //   .navbar a:hover, .subnav:hover .subnavbtn {
+  //   }
+  /* Style the subnav content - positioned absolute */
+  .subnav-content-container-other {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    margin-top: $margin_s;
+    left: 0;
+    background: linear-gradient(to right, #01072E, #E5331C);
+    width: 100%;
+  }
+
+  .subnav-content-container {
+    display: block;
+    position: fixed;
+    z-index: 200;
+    margin-top: $margin_s;
+    left: 0;
+    background: linear-gradient(to right, #01072E, #E5331C);
+    width: 100%;
+  }
+
+  .triangle {
+    display: block;
+    position: fixed;
+    margin-left: $margin_xl;
+    border-left: $margin_s solid transparent;
+    border-right: $margin_s solid transparent;
+    border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+  }
+
+  .triangle-other {
+    display: none;
+    position: fixed;
+    margin-left: $margin_xl;
+    border-left: $margin_s solid transparent;
+    border-right: $margin_s solid transparent;
+    border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+  }
+
+  /* Style the subnav links */
+  .subnav-content {
+    height: $margin_xxl;
+    margin-left: 18%;
+
+    a {
+      padding: $margin_s $margin_s;
+      float: left;
+      color: white;
+      text-decoration: none;
     }
+  }
+
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content-container-other {
+    display: block;
+  }
+
+  .subnav:hover .triangle-other {
+    display: block;
+  }
 }
