@@ -1,9 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import leftBub from '../../img/bubbles/bubble_4.svg';
+import rightBub from '../../img/bubbles/bubble_3.svg';
 import './subpageHeader.scss';
 
 const SubpageHeader = ({ title, text }) => (
-  <div className="container-full">
+  <div className="container-full subPage-header-container">
+    <img
+      className="right-bubbble"
+      src={rightBub}
+      alt="hintergrund bubble links"
+    />
+    <img
+      className="left-bubbble"
+      src={leftBub}
+      alt="hintergrund bubble links"
+    />
     <div className="container">
       <div className="subpage-title-container">
         <h2>{title}</h2>
