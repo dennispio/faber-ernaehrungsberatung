@@ -1,6 +1,7 @@
 @import '../../constants/style/variables.scss';
 
 .navigation-container {
+
   .bm-burger-button {
     position: fixed;
     top: $margin_m;
@@ -62,6 +63,7 @@
 
     ul {
       display: flex;
+      list-style-type: none;
     }
 
     li {

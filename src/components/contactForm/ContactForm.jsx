@@ -4,7 +4,7 @@ import './contactForm.scss';
 const ContactForm = () => (
     <div className="form-felder row">
         <div className="form-contacthead col-md-8 col-md-offset-2  col-xs-6 col-xs-offset-1">
-            <h3>Unverbindlich Anfragen</h3>
+            <p> <b>Unverbindlich Anfragen</b></p>
         </div>
         <form>
             <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
@@ -26,14 +26,14 @@ const ContactForm = () => (
                 </div>
             </div>
             <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-                <textarea></textarea><br />
+                <textarea /><br />
                 <label>Möchtest Du uns noch etwas mitteilen?</label>
             </div>
             <div className="checkbox-flow col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
                 <input type="checkbox" id="mail" name="mail" value="mail" />
-                <label for="mail">Ich möchte eine Antwort per Mail</label>
+                <label for="mail">Ich möchte eine Antwort per Mail.</label>
                 <input type="checkbox" id="rueckruf" name="rueckruf" value="rueckruf" />
-                <label for="rueckruf">Ich möchte zurückgerufen werden</label>
+                <label for="rueckruf">Ich möchte zurückgerufen werden.</label>
             </div>
             <div className="checkbox-column col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
                 <input type="checkbox" id="datenschutz" name="datenschutz" value="datenschutz" />

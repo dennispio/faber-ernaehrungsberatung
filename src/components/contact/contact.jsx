@@ -9,13 +9,14 @@ import './contact.scss';
 const Contact = () => (
     <Layout
         pageName="kontakt" title="kontakt title" description="kontakt desc">
-        <SubpageHeader title="Kontakt" 
-                text="Ernährungsberatung faber GbR
-                Walsroder Straße 123 B
-                30853 Langenhagen 
-                Telefon: +49 157 85624045
-                Mail: kontakt@ernaehrungsberatung-faber.de
-                Auf Wunsch auch über Skype erreichbar"/>
+        <SubpageHeader title="Kontakt"
+            text={["Ernährungsberatung faber GbR", <br />,
+                " Walsroder Straße 123 B", <br />,
+                "30853 Langenhagen ", <br />, <br />,
+                "Telefon: +49 157 85624045", <br />,
+                "Mail: kontakt@ernaehrungsberatung-faber.de", <br />,
+                "Auf Wunsch auch über Skype erreichbar"]}
+        />
         <div className="button-container">
             <div className="button">
                 <a href="mailto:Kontakt@ernaehrungsberatung-faber.de?subject=Ernährungsberatung"><button>E-Mail</button></a>
@@ -24,7 +25,7 @@ const Contact = () => (
                 <a href="tel:+4915785624045"><button>Telefon</button></a>
             </div>
         </div>
-    <ContactForm />
+        <ContactForm />
     </Layout >
 )
 
