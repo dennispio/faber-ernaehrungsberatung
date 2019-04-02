@@ -18,6 +18,7 @@ const IndexPage = props => {
   const { edges: angebote } = home.angebote;
   const { edges: posts } = home.blogPosts;
   const { countdown } = data.frontmatter.countdown_comp;
+  const { facts } = data.frontmatter.facts_compt;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
@@ -27,7 +28,7 @@ const IndexPage = props => {
       <VideoPlayer />
       <HomepageText />
       <Countdown date={countdown} />
-      <Carousel />
+      <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
       {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
@@ -118,6 +119,13 @@ export const pageQuery = graphql`
             countdown_comp {
               countdown(formatString: "YYYY-MM-DDTHH:mm:ss")
               season
+            }
+            facts_compt {
+              facts {
+                text_left
+                text_right
+                title
+              }
             }
           }
         }

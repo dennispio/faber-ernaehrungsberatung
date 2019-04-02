@@ -36,7 +36,16 @@ function PrevArrow(props) {
 }
 
 export default class Carousel extends Component {
+  constructor(props) {
+    super(props);
+    this.facts = null;
+  }
+
   render() {
+    const { facts } = this.props;
+    console.log("#################'");
+    console.log(facts)
+    console.log("#################'");
     const settings = {
       dots: true,
       infinite: true,
@@ -54,44 +63,21 @@ export default class Carousel extends Component {
     return (
       <div className="container fact-carousel-container">
         <Slider {...settings}>
-          <div className="slide container">
-            <div className="titelCarousel">
-              <h1>1. Nach 18 keine Kohlenhydrate mehr</h1>
-            </div>
-            <div className="row">
-              <div className="col-xs-12 col-sm-6 col-lg-6">
-                <p>
-                  linker text das ist der test für die linke seite responsiv
-                  muss es auch sein mak schauen was noch so kommt
-                </p>
+          {facts.map(fact => (
+            <div className="slide container">
+              <div className="titelCarousel">
+                <h3>{fact.title}</h3>
               </div>
-              <div className="col-xs-12 col-sm-6 col-lg-6">
-                <p>
-                  rechter text das ist der test für die linke seite responsiv
-                  muss es auch sein mak schauen was noch so kommt
-                </p>
+              <div className="row">
+                <div className="col-xs-12 col-sm-6 col-lg-6">
+                  <p>{fact.text_left}</p>
+                </div>
+                <div className="col-xs-12 col-sm-6 col-lg-6">
+                  <p>{fact.text_right}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="slide container">
-            <div className="titelCarousel">
-              <h1>2. Nach 18 keine Kohlenhydrate mehr</h1>
-            </div>
-            <div className="row">
-              <div className="col-xs-12 col-sm-6 col-lg-6">
-                <p>
-                  linker text das ist der test für die linke seite responsiv
-                  muss es auch sein mak schauen was noch so kommt
-                </p>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-lg-6">
-                <p>
-                  rechter text das ist der test für die linke seite responsiv
-                  muss es auch sein mak schauen was noch so kommt
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </Slider>
       </div>
     );

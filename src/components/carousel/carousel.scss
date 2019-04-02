@@ -10,11 +10,9 @@
   padding-left: 50px;
   padding-right: 50px;
 
-  .slick-next {
-    ::before {
-
-      color: black !important;
+  .titelCarousel {
+    h3 {
+      margin: 0;
     }
   }
-
 }
