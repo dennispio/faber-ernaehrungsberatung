@@ -45,12 +45,6 @@ const ContactForm = () => (
                 <input className="input-button" type="submit" value="Anfrage abschicken" />
             </div>
         </form>
-
-        <form method="POST" action="https://formspree.io/hello@immajung.de">
-            <input type="email" name="email" placeholder="Your email" />
-            <textarea name="message" placeholder="Test Message"></textarea>
-            <button type="submit">Send Test</button>
-        </form>
     </div >
 )
 
