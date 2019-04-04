@@ -1,11 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './navigation.scss';
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'gatsby';
 import logo from '../../img/FBR-logo-sw.svg';
 import logoBurger from '../../img/FBR-logo-sw1.svg';
-import closeBurgerButton from '../../img/CloseBurgerButton.svg';
+import closeBurgerButton from '../../img/close-menu.svg';
+import './navigation.scss';
+
+const styles = {
+  bmBurgerButton: {
+    position: 'fixed',
+    width: '36px',
+    height: '30px',
+    right: '32px',
+    top: '32px',
+  },
+  bmBurgerBars: {
+    background: '#373a47',
+  },
+};
 
 const Navigation = ({ pageName }) => (
   // let choice;
@@ -69,6 +82,7 @@ const Navigation = ({ pageName }) => (
     </div>
     <div className="burgerMenu-container">
       <Menu
+        styles={styles}
         className="bm-menu"
         customCrossIcon={<img src={closeBurgerButton} alt="close button" />}
         right
