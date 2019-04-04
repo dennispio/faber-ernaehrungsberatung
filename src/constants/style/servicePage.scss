@@ -1,0 +1,91 @@
+@import '../style/variables.scss';
+
+#ernaehrung {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -10;
+    width: 2000px;
+    height: 2000px;
+    left: 00px;
+    top: -300px;
+
+    @include media-query-phone {
+      // left: -1600px;
+      // top: -500px;
+    }
+  }
+}
+
+#coaching {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -10;
+    width: 1500px;
+    height: 1500px;
+    left: -1000px;
+    top: 0px;
+
+    @include media-query-phone {
+      // left: -1600px;
+      // top: -500px;
+    }
+  }
+}
+
+#naehrwertanalyse {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -10;
+    width: 1500px;
+    height: 1500px;
+    left: 600px;
+    top: -200px;
+
+    @include media-query-phone {
+      // left: -1600px;
+      // top: -500px;
+    }
+  }
+}
+
+#seminare {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -10;
+    width: 1500px;
+    height: 1500px;
+    right: 600px;
+    top: 0px;
+
+    @include media-query-phone {
+      // left: -1600px;
+      // top: -500px;
+    }
+  }
+}
+
+#betrieblich {
+  position: relative;
+
+  img {
+    position: absolute;
+    z-index: -10;
+    width: 1500px;
+    height: 1500px;
+    left: 0px;
+    top: 100px;
+
+    @include media-query-phone {
+      // left: -1600px;
+      // top: -500px;
+    }
+  }
+}
