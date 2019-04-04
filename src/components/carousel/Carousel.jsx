@@ -43,9 +43,6 @@ export default class Carousel extends Component {
 
   render() {
     const { facts } = this.props;
-    console.log("#################'");
-    console.log(facts)
-    console.log("#################'");
     const settings = {
       dots: true,
       infinite: true,
@@ -69,10 +66,10 @@ export default class Carousel extends Component {
                 <h3>{fact.title}</h3>
               </div>
               <div className="row">
-                <div className="col-xs-12 col-sm-6 col-lg-6">
+                <div className="col-xs-12 col-sm-6 col-lg-6 carousel-text-left-container">
                   <p>{fact.text_left}</p>
                 </div>
-                <div className="col-xs-12 col-sm-6 col-lg-6">
+                <div className="col-xs-12 col-sm-6 col-lg-6 carousel-text-right-container">
                   <p>{fact.text_right}</p>
                 </div>
               </div>
@@ -83,6 +80,10 @@ export default class Carousel extends Component {
     );
   }
 }
+
+Carousel.propTypes = {
+  facts: PropTypes.any,
+};
 
 NextArrow.propTypes = {
   className: PropTypes.any,

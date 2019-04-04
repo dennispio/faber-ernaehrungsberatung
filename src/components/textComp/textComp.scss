@@ -1,3 +1,5 @@
+@import '../../constants/style/variables.scss';
+
 .center-div {
   margin: 0 auto;
 }
@@ -12,4 +14,8 @@
 
 .text-comp-container {
   width: 370px;
+
+  @include media-query-phone {
+    width: 100%;
+  }
 }

@@ -12,8 +12,14 @@
     top: -300px;
 
     @include media-query-phone {
-      // left: -1600px;
-      // top: -500px;
+      width: 1200px;
+      height: 1200px;
+      top: 00px;
+      left: -500px;
+    }
+
+    @include media-query-tablet {
+      top: -400px;
     }
   }
 }
@@ -30,8 +36,12 @@
     top: 0px;
 
     @include media-query-phone {
-      // left: -1600px;
-      // top: -500px;
+      top: 30px;
+      left: -800px;
+    }
+
+    @include media-query-tablet {
+      left: -600px;
     }
   }
 }
@@ -48,8 +58,14 @@
     top: -200px;
 
     @include media-query-phone {
-      // left: -1600px;
-      // top: -500px;
+      width: 1200px;
+      height: 1200px;
+      top: 100px;
+      left: -600px;
+    }
+
+    @include media-query-tablet {
+      left: 50px;
     }
   }
 }
@@ -66,8 +82,13 @@
     top: 0px;
 
     @include media-query-phone {
-      // left: -1600px;
-      // top: -500px;
+      top: -100px;
+      right: -300px;
+    }
+
+    @include media-query-tablet {
+      right: -50px;
+      top: -100px;
     }
   }
 }
@@ -84,8 +105,8 @@
     top: 100px;
 
     @include media-query-phone {
-      // left: -1600px;
-      // top: -500px;
+      left: -500px;
+      top: 100px;
     }
   }
 }
