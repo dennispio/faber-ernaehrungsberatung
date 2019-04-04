@@ -10,7 +10,7 @@
   margin-bottom: $margin_xl;
 
   @include media-query-phone {
-    min-height: 90vh;
+    min-height: 100vh;
     background-position: -900px -1900px;
   }
 
