@@ -9,6 +9,7 @@ import HomepageText from '../components/text/HomepageText';
 import OfferCard from '../components/offerCard/OfferCard';
 import Countdown from '../components/countdown/Countdown';
 import BlogPostCard from '../components/blogPostCard/BlogPostCard';
+import Carousel from '../components/carousel/Carousel';
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -17,6 +18,7 @@ const IndexPage = props => {
   const { edges: angebote } = home.angebote;
   const { edges: posts } = home.blogPosts;
   const { countdown } = data.frontmatter.countdown_comp;
+  const { facts } = data.frontmatter.facts_compt;
   return (
     <Layout>
       <Helmet titleTemplate="%s | Blog">
@@ -26,6 +28,7 @@ const IndexPage = props => {
       <VideoPlayer />
       <HomepageText />
       <Countdown date={countdown} />
+      <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
       {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
@@ -116,6 +119,13 @@ export const pageQuery = graphql`
             countdown_comp {
               countdown(formatString: "YYYY-MM-DDTHH:mm:ss")
               season
+            }
+            facts_compt {
+              facts {
+                text_left
+                text_right
+                title
+              }
             }
           }
         }

@@ -1,0 +1,18 @@
+@import "../../constants/style/variables.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.fact-carousel-container {
+  overflow: hidden;
+  min-height: 220px;
+  margin-top: $margin_xxl;
+  margin-bottom: $margin_xxl;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  .titelCarousel {
+    h3 {
+      margin: 0;
+    }
+  }
+}
