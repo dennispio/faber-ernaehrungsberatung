@@ -10,9 +10,25 @@
   padding-left: 50px;
   padding-right: 50px;
 
-  .titelCarousel {
-    h3 {
-      margin: 0;
+  .slick-slider {
+    margin-bottom: 20px !important;
+  }
+
+  .slide {
+    min-height: 400px;
+
+    .titelCarousel {
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .carousel-text-right-container {
+      @include media-query-phone {
+        p {
+          margin: 0;
+        }
+      }
     }
   }
 }

@@ -1,16 +1,57 @@
-.subpage-title-container {
-  margin-top: 18.96%;
+@import '../../constants/style/variables.scss';
 
-  h2 {
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 200px;
-    letter-spacing: -2.99435px;
+.subPage-header-container {
+  .left-bubbble {
+    position: absolute;
+    z-index: -10;
+    width: 2000px;
+    height: 2000px;
+    left: -1500px;
+    top: -250px;
+
+    @include media-query-phone {
+      display: none;
+      left: -1600px;
+      top: -500px;
+    }
+
+    @include media-query-tablet {
+      left: -1650px;
+      top: -500px;
+    }
   }
-}
 
-.subpage-text-container {
-  max-width: 390px;
-  margin: 0 auto;
+  .right-bubbble {
+    position: absolute;
+    z-index: -10;
+    width: 2000px;
+    height: 2000px;
+    top: -850px;
+    right: -850px;
+
+    @include media-query-phone {
+      top: -1200px;
+    }
+  }
+
+  .subpage-title-container {
+    margin-top: 18.96%;
+
+    h2 {
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 200px;
+      letter-spacing: -2.99435px;
+
+      @include media-query-phone {
+        font-size: 70px;
+      }
+    }
+  }
+
+  .subpage-text-container {
+    max-width: 390px;
+    margin: 0 auto;
+  }
 }

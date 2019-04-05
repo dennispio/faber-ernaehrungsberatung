@@ -10,6 +10,14 @@
   width: 100%;
 }
 
+.sperator {
+  margin-bottom: 160px;
+
+  @media (max-width: 575px) {
+    margin-bottom: 152px;
+  }
+}
+
 /* colors */
 $brand_grey: #2D3232;
 $color-p: #140A37;
