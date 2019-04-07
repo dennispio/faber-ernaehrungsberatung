@@ -7,8 +7,14 @@
       margin-bottom: -$margin_xs;
       color: #140A37;
       font-size: $font_size_p;
+
+
+      @include media-query-phone {
+        font-size: 25px;
+        line-height: 28px;
+        }
+      }
     }
-  }
 
     input{
         margin-top:$margin_m;
@@ -27,22 +33,17 @@
         width: 100%;
         line-height: $margin_xl;
         resize: none;
+        border-radius: 4px;
         background: #D8D8D8;
         border-color: #D8D8D8;
-        border-radius: 3px;
-    }
+
+      }
 
     .input-button{
         width: 100%;
         height: $margin_xl;
         background: #140A37;
         color:white;
-    }
-    .form-checkbox{
-        input{    
-          border-radius: 4px;
-          background: #D8D8D8;
-        }
     }
 
     .checkbox-column{
@@ -74,9 +75,8 @@
         display: inline-block;
         width: 1em;
         height: 1em;
-        padding-left: 0.1em;
         margin-right: 0.8em;
-        margin-bottom: 0.3em;
+        margin-bottom: 0.2em;
         vertical-align: bottom;
         color: transparent;
         background-color: #D8D8D8;
@@ -89,7 +89,7 @@
       
       input[type=checkbox]:checked + label:before {
         background-color: #D8D8D8;
-        color: #323737;
+        color: #140A37;
       }
       
       input[type=checkbox]:disabled + label:before {
