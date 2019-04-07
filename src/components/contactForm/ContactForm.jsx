@@ -1,9 +1,8 @@
 import React from 'react';
 import './contactForm.scss';
 
-
 const ContactForm = () => (
-  < div className="form-felder row" >
+  <div className="form-felder row">
     <div className="form-contacthead col-md-8 col-md-offset-2  col-xs-6 col-xs-offset-1">
       <p>
         <b>Unverbindlich anfragen </b>
@@ -45,7 +44,11 @@ const ContactForm = () => (
         <label for="newsletter">Ich möchte den Newsletter erhalten. <br /> Jederzeit abstellbar.</label>
       </div>
       <div className="col-md-3 col-md-offset-2  col-xs-10 col-xs-offset-1">
-        <input className="input-button" type="submit" value="Anfrage abschicken" />
+        <input
+          className="input-button"
+          type="submit"
+          value="Anfrage abschicken"
+        />
       </div>
     </form>
   </div>
