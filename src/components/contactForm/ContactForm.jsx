@@ -12,25 +12,25 @@ const ContactForm = () => (
     <form method="GET" action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/webtask_forms">
       <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <input type="text" name="Name" required /> <br />
-        <label>Vollständiger Name</label> <br />
+        <label for="Name">Vollständiger Name</label> <br />
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <input type="text" name="Straße" s /> <br />
-        <label>Straße und Hausnummer (optional)</label> <br />
+        <label for="Straße">Straße und Hausnummer (optional)</label> <br />
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <div className="e-mail-container col-md-6 col-xs-12">
           <input type="email" name="Email" required /> <br />
-          <label>E-Mail</label> <br />
+          <label for="message">E-Mail</label> <br />
         </div>
         <div className="telefon-container col-md-6 col-xs-12">
           <input type="text" name="Telefon" /> <br />
-          <label>Telefon (optional)</label> <br />
+          <label for="message">Telefon (optional)</label> <br />
         </div>
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <textarea name="message" required /> <br />
-        <label>Möchtest Du uns noch etwas mitteilen?</label>
+        <label for="message">Möchtest Du uns noch etwas mitteilen?</label>
       </div>
       <div className="checkbox-flow col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <input type="checkbox" id="mail" name="Mail" value="ja" />
