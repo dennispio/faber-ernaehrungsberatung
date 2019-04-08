@@ -1,10 +1,17 @@
 import React from 'react';
+import Truncate from 'react-truncate';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import './blogPostCard.scss';
 
-const BlogPostCard = ({ category, date, title, text, link }) => (
-  <div className="blogPostCard homeCard">
+// const initGridItem = index => {
+//   if (index < 3) {
+//     return 'grid-item--' + index + '--p'
+//   }
+// };
+
+const BlogPostPageCard = ({ category, date, title, text, link, index }) => (
+  <div className={'grid-item blogPostCard overviewCard grid-item--' + index}>
     <div className="blogPost-head-container">
       <span className="cat">{category}</span>
       <span className="date">{date}</span>
@@ -13,20 +20,27 @@ const BlogPostCard = ({ category, date, title, text, link }) => (
       <h5>{title}</h5>
     </div>
     <div className="blogPost-content-container">
-      <p>
+      <Truncate
+        lines={5}
+        ellipsis={
+          <span>
+            ... <br /> <Link to={link}> mehr lesen</Link>
+          </span>
+        }
+      >
         {text}
-        <Link to={link}> ...mehr lesen</Link>
-      </p>
+      </Truncate>
     </div>
   </div>
 );
 
-export default BlogPostCard;
+export default BlogPostPageCard;
 
-BlogPostCard.propTypes = {
+BlogPostPageCard.propTypes = {
   link: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
 };

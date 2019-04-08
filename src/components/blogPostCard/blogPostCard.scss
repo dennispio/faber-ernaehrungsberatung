@@ -1,11 +1,88 @@
 @import '../../constants/style/variables.scss';
 
-.blogPostCard {
+.homeCard {
   min-width: 288px;
   min-height: 352px;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
   margin: $margin_s $margin_s $margin_s 0;
   padding: $margin_m;
+}
+
+.overviewCard {
+  margin: 10px;
+  padding: 10px;
+  width: 31.3333%;
+}
+
+.blog-overview-container {
+  background-image: url(../../img/bubbles/bubble_2.svg);
+  background-repeat: no-repeat;
+  background-position: -1100px -500px;
+  background-size: auto 4000px;
+}
+
+/*****************************/
+/* GRID FOR BLOGPOST OVERVIEW*/
+.grid-item:nth-child(3n+1) {
+  margin-top: -100px;
+}
+
+.grid-item:nth-child(3n) {
+  margin-top: -200px;
+}
+
+.blog-overview-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .grid-item {
+    width: 288px;
+    height: 350px;
+
+    @include media-query-tablet {
+      width: 47%;
+      margin-top: 0;
+    }
+
+    @include media-query-phone {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .grid-item--0 {
+    margin-top: 100px;
+
+    @include media-query-tablet {
+      margin-top: 0;
+    }
+  }
+
+  .grid-item--1 {
+    margin-top: 200px;
+
+    @include media-query-tablet {
+      margin-top: 0;
+    }
+
+    @include media-query-phone {
+      margin-top: 0;
+    }
+  }
+
+  .grid-item--2 {
+    margin-top: 0;
+  }
+}
+
+/*****************************/
+/*****************************/
+
+.blogPostCard {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+
   background: white;
   color: $color-p;
 
@@ -24,11 +101,10 @@
     .date {
       float: right;
     }
-
   }
 
   .blogPost-title-container {
-    min-height: 80px;
+    min-height: 100px;
 
     h5 {
       overflow: hidden;
@@ -47,7 +123,6 @@
     a {
       font-weight: 700;
     }
-
   }
 
   .blogPost-link-container {
