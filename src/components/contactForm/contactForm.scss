@@ -1,0 +1,119 @@
+@import '../../constants/style/variables.scss';
+
+.form-felder{
+  margin-top: $margin_video;
+  .form-contacthead{
+    p{
+      margin-bottom: -$margin_xs;
+      color: #140A37;
+      font-size: $font_size_p;
+
+
+      @include media-query-phone {
+        font-size: 25px;
+        line-height: 28px;
+        }
+      }
+    }
+
+    input{
+        margin-top:$margin_m;
+        margin-bottom:$margin_xs;
+        line-height: $margin_m;
+        width: 100%;
+        background: #D8D8D8;
+        border-radius: 3px;
+        border: 1px solid #D8D8D8;
+        font-size: $font_size_p;
+    }
+
+    textarea{
+        margin-top:$margin_m;
+        margin-bottom:$margin_xs;
+        width: 100%;
+        line-height: $margin_xl;
+        resize: none;
+        border-radius: 4px;
+        background: #D8D8D8;
+        border-color: #D8D8D8;
+
+      }
+
+    .input-button{
+        width: 100%;
+        height: $margin_xl;
+        background: #140A37;
+        color:white;
+    }
+
+    .checkbox-column{
+      margin-top: $margin_m;
+    }
+
+    input[type=checkbox] + label {
+        display: block;
+        margin-right:$margin_m;
+        margin-bottom:$margin_s;
+        cursor: pointer;
+        padding: 0.2em;
+      }
+      
+      input[type=checkbox] {
+        display: none;
+      }
+
+      .checkbox-flow{
+        margin-top:$margin_m;
+        @include media-query-desktop {
+          display:flex;
+        }
+      }
+      
+      input[type=checkbox] + label:before {
+        content: "\2714";
+        border-radius: 0.2em;
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        margin-right: 0.8em;
+        margin-bottom: 0.2em;
+        vertical-align: bottom;
+        color: transparent;
+        background-color: #D8D8D8;
+        transition: .2s;
+      }
+      
+      input[type=checkbox] + label:active:before {
+        transform: scale(0);
+      }
+      
+      input[type=checkbox]:checked + label:before {
+        background-color: #D8D8D8;
+        color: #140A37;
+      }
+      
+      input[type=checkbox]:disabled + label:before {
+        transform: scale(1);
+        border-color:#D8D8D8;;
+      } 
+
+        .telefon-container{
+          padding: 0px 0px 0px $margin_s;
+          @include media-query-tablet {
+            padding: 0px 0px 0px 0px;
+          }
+          @include media-query-phone {
+            padding: 0px 0px 0px 0px;
+          }
+        }
+        .e-mail-container{
+          padding: 0px $margin_s 0px 0px;
+          
+          @include media-query-tablet {
+            padding: 0px 0px 0px 0px;
+          }
+          @include media-query-phone {
+            padding: 0px 0px 0px 0px;
+          }
+        }  
+}
