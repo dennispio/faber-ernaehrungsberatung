@@ -10,7 +10,13 @@
     top: -250px;
 
     @include media-query-phone {
+      display: none;
       left: -1600px;
+      top: -500px;
+    }
+
+    @include media-query-tablet {
+      left: -1650px;
       top: -500px;
     }
   }

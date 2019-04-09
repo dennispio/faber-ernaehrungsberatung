@@ -4,32 +4,35 @@
   font-family: "Digital Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("../../constants/style/fonts/digital-7\ \(mono\).ttf")
-    format("truetype");
+  src: url("../../constants/style/fonts/digital-7\ \(mono\).ttf") format("truetype");
 }
 
-.font-mono {
-  font-family: "Digital Mono";
-}
-
-.fs-super {
-  font-size: 15rem;
-  @include media-query-phone {
-    font-size: 8rem;
+.countdown-container {
+  .font-mono {
+    font-family: "Digital Mono";
   }
-}
 
-.fs-xxl {
-  font-size: 3rem;
-  @include media-query-phone {
-    font-size: 2rem;
+  .fs-super {
+    font-size: 15rem;
+
+    @include media-query-phone {
+      font-size: 8rem;
+    }
   }
-}
 
-.text-center {
-  text-align: center;
-}
+  .fs-xxl {
+    font-size: 3rem;
 
-.text-start {
-  text-align: start;
+    @include media-query-phone {
+      font-size: 2rem;
+    }
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-start {
+    text-align: start;
+  }
 }

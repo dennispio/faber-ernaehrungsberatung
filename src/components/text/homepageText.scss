@@ -1,11 +1,13 @@
 @import '../../constants/style/variables.scss';
 
 .homepageText-container {
-  min-height: 80vh;
+  overflow: auto;
+  min-height: 70vh;
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
   background-size: auto 3200px;
-  background-position: -600px -2000px;
+  background-position: -600px -2050px;
+  margin-bottom: $margin_xl;
 
   @include media-query-phone {
     min-height: 100vh;
@@ -13,10 +15,9 @@
   }
 
   @include media-query-tablet {
-    min-height: 71vh;
-    background-position: -900px -2000px;
+    min-height: 50vh;
+    background-position: -900px -2050px;
   }
-
 
   .homepageText-content {
     width: 80%;
@@ -24,6 +25,7 @@
     margin-top: $margin_xl;
 
     .hompageText-title {
+      margin-top: $margin_s;
       max-width: 670px;
       line-height: 40px;
       font-size: 38px;

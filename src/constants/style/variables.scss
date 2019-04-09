@@ -11,7 +11,11 @@
 }
 
 .sperator {
-  margin-bottom: 96px;
+  margin-bottom: 160px;
+
+  @media (max-width: 575px) {
+    margin-bottom: 152px;
+  }
 }
 
 /* colors */

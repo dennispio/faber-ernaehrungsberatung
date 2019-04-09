@@ -5,12 +5,16 @@ import Layout from '../components/layouts/Layout';
 import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 import TextComp from '../components/textComp/TextComp';
 import OfferCard from '../components/offerCard/OfferCard';
+import bubbleOne from '../img/bubbles/bubble_1.svg';
+import bubbleTwo from '../img/bubbles/bubble_2.svg';
+import bubbleThree from '../img/bubbles/bubble_3.svg';
+import bubbleFour from '../img/bubbles/bubble_4.svg';
+import bubbleFive from '../img/bubbles/bubble_5.svg';
+import '../constants/style/servicePage.scss';
 
 const Leistungen = props => {
   const { data: leistungen } = props;
   const { edges: angebote } = leistungen.angebote;
-  console.log('#######');
-  console.log(angebote);
   return (
     <Layout
       pageName="leistungen"
@@ -19,6 +23,7 @@ const Leistungen = props => {
     >
       <SubpageHeader title="Unsere Leistungen" />
       <div id="ernaehrung" className="container margin-left">
+        <img src={bubbleTwo} alt="hintergrund bubble mit verlauf" />
         <TextComp position="left" />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
@@ -34,6 +39,7 @@ const Leistungen = props => {
       </div>
       <div className="sperator" />
       <div id="coaching" className="container">
+        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
         <TextComp position="left" />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
@@ -49,6 +55,7 @@ const Leistungen = props => {
       </div>
       <div className="sperator" />
       <div id="naehrwertanalyse" className="container margin-left">
+        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
         <TextComp position="left" />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
@@ -64,6 +71,7 @@ const Leistungen = props => {
       </div>
       <div className="sperator" />
       <div id="seminare" className="container">
+        <img src={bubbleFour} alt="hintergrund bubble mit verlauf" />
         <TextComp position="left" />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
@@ -77,6 +85,23 @@ const Leistungen = props => {
           })}
         </div>
       </div>
+      <div className="sperator" />
+      <div id="betrieblich" className="container margin-left">
+        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
+        <TextComp position="left" />
+        <div className="offer-preview-container">
+          {/* eslint-disable-next-line */}
+        {angebote.map(({ node: angebot }) => {
+            return angebot.frontmatter.category === 'Beratung' ? (
+              <OfferCard
+                category={angebot.frontmatter.category}
+                price={angebot.frontmatter.price}
+              />
+            ) : null;
+          })}
+        </div>
+      </div>
+      <div className="sperator" />
     </Layout>
   );
 };

@@ -1,11 +1,13 @@
 @import '../../constants/style/variables.scss';
 
 .testo-con {
+  overflow: hidden;
   margin-top: $margin_m;
 }
 
 .testimonials-container {
   background: #D3D3D8;
+  overflow: hidden;
 
   // background-image: url(../../img/backgroundimage.png);
   // background-size: cover;

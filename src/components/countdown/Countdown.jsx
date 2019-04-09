@@ -107,7 +107,7 @@ export default class Countdown extends Component {
     const { seconds, minutes, hours, days } = this.state;
 
     return (
-      <div className="container">
+      <div className="container countdown-container">
         <div className="row text-start">
           <div className="col-md-3 col-xs-6">
             {this.renderTime(days, 'Tage')}
