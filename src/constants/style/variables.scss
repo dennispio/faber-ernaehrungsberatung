@@ -42,6 +42,12 @@ p,h1,h2,h3,li{
   font-family:"itc-avant-garde-gothic-pro";
 }
 
+h1,h2,h3{
+  background-image: linear-gradient(to right, #01072E, #E5331C);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
 
 $font_site_xs: 12px;
 $font_size_p: 16px;

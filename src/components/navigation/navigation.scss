@@ -18,7 +18,7 @@
   box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.5);
 
   @include media-query-phone {
-    height: 75px;
+    height: 80px;
   }
 
   .navigation-flex {
@@ -198,7 +198,6 @@
   .subnav-content {
     height: $margin_xxl;
     margin-left: 18%;
-
     a {
       padding: $margin_s $margin_s;
       float: left;

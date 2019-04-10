@@ -32,15 +32,15 @@ const Footer = () => (
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Auszeichnungen</h4>
         <p>Staatlich geprüft</p>
-        <p>TÜV-Süd</p>
+        {/* <p>TÜV-Süd</p>
         <a
-          target="_blank"
+          target="_blank" 
           rel="noopener noreferrer"
           href="https://www.tuev-sued.de/home_de"
           title="zu tuv süd"
         >
           <img src={tuv} alt="Logo des Tüv süd als Auszeichnung" />
-        </a>
+        </a> */}
       </div>
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Unternehmen</h4>

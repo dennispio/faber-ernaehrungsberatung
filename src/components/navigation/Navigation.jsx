@@ -34,7 +34,9 @@ const Navigation = ({ pageName }) => (
   <div className="navigation-container">
     <div className="navigation-flex">
       <div className="image-container">
-        <img alt="LOGO" src={logo} />
+        <Link to="/">
+          <img alt="LOGO" src={logo} />
+        </Link>
       </div>
       <div id="menu" className="navigation-menu">
         <ul>
