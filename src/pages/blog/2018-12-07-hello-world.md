@@ -17,6 +17,8 @@ description: >-
   zu erlangen. Optimalerweise sollte eine Diät keineLebensverschwendung sein,
   sondern
 ---
+# Grundbausteine einer Diät
+
 Es gibt etliche Diäten - und jede ist anders. 
 Jedoch sollte jede Ernährungsform sich in einigen Aspekten überschneiden. Die Diät soll
 keine Phase sein, die ich schnell überwinden will, um wieder qualitative
