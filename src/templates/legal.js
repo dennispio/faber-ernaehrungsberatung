@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/layouts/Layout';
-import BlogContent from '../components/blogContent/BlogContent';
+import LegalContent from '../components/legalContent/LegalContent';
 
 const Legal = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -13,10 +13,8 @@ const Legal = ({ data }) => {
         <title>{`${post.frontmatter.title}`}</title>
         <meta name="description" content={`${post.frontmatter.description}`} />
       </Helmet>
-      <BlogContent
-        cat={post.frontmatter.category}
-        title="Blog"
-        date={post.frontmatter.date}
+      <LegalContent
+        title={post.frontmatter.title}
         post={post}
       />
     </Layout>
