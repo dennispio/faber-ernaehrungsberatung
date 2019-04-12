@@ -11,7 +11,7 @@ import './blogPostCard.scss';
 // };
 
 const BlogPostPageCard = ({ category, date, title, text, link, index }) => (
-  <div className={'grid-item blogPostCard overviewCard grid-item--' + index}>
+  <div className={`grid-item blogPostCard overviewCard grid-item--${index}`}>
     <div className="blogPost-head-container">
       <span className="cat">{category}</span>
       <span className="date">{date}</span>

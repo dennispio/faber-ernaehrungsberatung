@@ -18,6 +18,7 @@ const IndexPage = props => {
   const { edges: angebote } = home.angebote;
   const { edges: posts } = home.blogPosts;
   const { countdown } = data.frontmatter.countdown_comp;
+  const { season } = data.frontmatter.countdown_comp;
   const { facts } = data.frontmatter.facts_compt;
   return (
     <Layout>
@@ -27,10 +28,10 @@ const IndexPage = props => {
       </Helmet>
       <VideoPlayer />
       <HomepageText />
-      <Countdown date={countdown} />
+      <Countdown date={countdown} season={season} />
       <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
-      {referenzen.map(({ node: referenz }, index) => {
+        {referenzen.map(({ node: referenz }, index) => {
         return referenz.frontmatter.show_homepage ? (
           <Testimonial
             key={index}
@@ -42,16 +43,17 @@ const IndexPage = props => {
           />
         ) : null;
       })}
+      <div className="sperator" />
       <div className="container-full bubble-bg">
         <div className="preview-section container">
-          <h3>
+          <h3 className="black">
             Das bekommst du:
             <br />
             Unsere Top-Angebote
           </h3>
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
-        {angebote.map(({ node: angebot }) => {
+            {angebote.map(({ node: angebot }) => {
               return angebot.frontmatter.angebot ? (
                 <OfferCard
                   category={angebot.frontmatter.category}
@@ -60,19 +62,21 @@ const IndexPage = props => {
               ) : null;
             })}
           </div>
-          <Link to="leistungen">zu den Leistungen</Link>
+          <span className="white newsletter-cta">
+            <Link to="leistungen">zu den Leistungen</Link>
+          </span>
         </div>
         <div className="preview-section blog-p container">
-          <h3>
+          <h3 className="white">
             Bleib auf dem laufenden und
             <br />
             abboniere den Newletter zu
             <br />
             unserem Blog.
           </h3>
-          <div className="offer-preview-container">
+          <div className="offer-preview-container post-preview-container">
             {/* eslint-disable-next-line */}
-        {posts.map(({ node: post }, key) => {
+            {posts.map(({ node: post }, key) => {
               return key < 3 ? (
                 <BlogPostCard
                   link={post.fields.slug}
@@ -84,7 +88,9 @@ const IndexPage = props => {
               ) : null;
             })}
           </div>
-          <Link to="leistungen">Newsletter abonnieren</Link>
+          <span className="white newsletter-cta">
+            <Link to="kontakt">Newsletter abonnieren</Link>
+          </span>
         </div>
       </div>
     </Layout>

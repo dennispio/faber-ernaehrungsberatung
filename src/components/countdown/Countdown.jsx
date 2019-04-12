@@ -105,9 +105,13 @@ export default class Countdown extends Component {
 
   render() {
     const { seconds, minutes, hours, days } = this.state;
+    const { season } = this.props;
+    console.log(this.props);
 
     return (
       <div className="container countdown-container">
+        <h3>Du kannst es auch schaffen!</h3>
+        <h3>Der {season} kommt in ...</h3>
         <div className="row text-start">
           <div className="col-md-3 col-xs-6">
             {this.renderTime(days, 'Tage')}
@@ -129,4 +133,5 @@ export default class Countdown extends Component {
 
 Countdown.propTypes = {
   date: PropTypes.string.isRequired,
+  season: PropTypes.string.isRequired,
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Truncate from 'react-truncate';
 import { Link } from 'gatsby';
 import './blogPostCard.scss';
 
@@ -13,10 +14,16 @@ const BlogPostCard = ({ category, date, title, text, link }) => (
       <h5>{title}</h5>
     </div>
     <div className="blogPost-content-container">
-      <p>
+      <Truncate
+        lines={7}
+        ellipsis={
+          <span>
+            ... <br /> <Link to={link}> mehr lesen</Link>
+          </span>
+        }
+      >
         {text}
-        <Link to={link}> ...mehr lesen</Link>
-      </p>
+      </Truncate>
     </div>
   </div>
 );
