@@ -1,10 +1,18 @@
 @import '../../constants/style/variables.scss';
 
 .homeCard {
-  min-width: 288px;
+  width: 300px;
   min-height: 352px;
   margin: $margin_s $margin_s $margin_s 0;
   padding: $margin_m;
+
+  @include media-query-tablet {
+    min-width: 300px;
+  }
+
+  @include media-query-phone {
+    min-width: 300px;
+  }
 }
 
 .overviewCard {
@@ -82,7 +90,6 @@
 
 .blogPostCard {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
-
   background: white;
   color: $color-p;
 
