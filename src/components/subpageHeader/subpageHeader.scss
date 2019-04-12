@@ -1,6 +1,19 @@
 @import '../../constants/style/variables.scss';
 
 .subPage-header-container {
+  position: relative;
+  overflow: hidden;
+  height: 108vh;
+
+
+  @include media-query-phone {
+    height: auto;
+  }
+
+  @include media-query-tablet {
+    height: auto;
+  }
+
   .left-bubbble {
     position: absolute;
     z-index: -10;
@@ -16,8 +29,7 @@
     }
 
     @include media-query-tablet {
-      left: -1650px;
-      top: -500px;
+      display: none;
     }
   }
 

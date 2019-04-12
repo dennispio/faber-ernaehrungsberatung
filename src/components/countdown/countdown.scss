@@ -8,6 +8,13 @@
 }
 
 .countdown-container {
+  margin-top: $margin_xxl;
+  margin-bottom: $margin_xxl;
+
+  h3 {
+    margin: 0;
+  }
+
   .font-mono {
     font-family: "Digital Mono";
   }
@@ -34,5 +41,9 @@
 
   .text-start {
     text-align: start;
+
+    @include media-query-phone {
+      margin-left: 20px;
+    }
   }
 }

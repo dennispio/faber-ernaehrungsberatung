@@ -8,4 +8,12 @@
     margin-top: $margin_m;
     margin-bottom: $margin_m;
   }
+
+  .gatsby-image-wrapper {
+    width: 170%;
+
+    @include media-query-phone {
+      width: 100% !important;
+    }
+  }
 }

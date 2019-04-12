@@ -5,8 +5,8 @@
 .fact-carousel-container {
   overflow: hidden;
   min-height: 220px;
-  margin-top: $margin_xxl;
-  margin-bottom: $margin_xxl;
+  margin-top: $margin_xxl * 4;
+  margin-bottom: $margin_xxl * 2;
   padding-left: 50px;
   padding-right: 50px;
 
@@ -15,7 +15,7 @@
   }
 
   .slide {
-    min-height: 400px;
+    min-height: 250px;
 
     .titelCarousel {
       h3 {

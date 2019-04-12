@@ -5,12 +5,12 @@
   min-height: 70vh;
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
-  background-size: auto 3200px;
-  background-position: -600px -2050px;
-  margin-bottom: $margin_xl;
+  background-size: auto 3500px;
+  background-position: 35% -2300px;
+  margin-bottom: $margin_xl * 2;
 
   @include media-query-phone {
-    min-height: 100vh;
+    min-height: 135vh;
     background-position: -900px -1900px;
   }
 
@@ -20,7 +20,7 @@
   }
 
   .homepageText-content {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: $margin_xl;
 
