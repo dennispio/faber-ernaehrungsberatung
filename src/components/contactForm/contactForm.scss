@@ -116,4 +116,15 @@
             padding: 0px 0px 0px 0px;
           }
         }  
+
+        .hr-container{
+          display: none;
+          @include media-query-phone {
+            display:block;
+            hr{
+              border: 1px solid #2D3232;
+
+            }
+          }
+        }
 }

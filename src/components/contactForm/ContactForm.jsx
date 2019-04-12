@@ -40,6 +40,9 @@ const ContactForm = () => (
         <input type="checkbox" id="rueckruf" name="Rueckruf" value="ja" />
         <label htmlFor="rueckruf">Ich möchte zurückgerufen werden.</label>
       </div>
+      <div className="hr-container col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
+        <hr />
+      </div>
       <div className="checkbox-column col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" />
         <label htmlFor="datenschutz">
