@@ -153,3 +153,21 @@ collections:
       - {label: "Preis", name: "price", widget: "number"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Angebot", name: "angebot", widget: "boolean", default: false }
+  ########################### LEGALPAGES ##################################
+- name: "Legal"
+    label: "Legal"
+    folder: "src/pages/legal"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "legal",
+        }
+      - { label: "SEO Title", name: "seo_title", widget: "string" }
+      - { label: "SEO Description", name: "seo_desc", widget: "string" }
+      - { label: "Kategorie", name: "category", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
