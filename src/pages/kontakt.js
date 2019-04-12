@@ -12,7 +12,7 @@ const Leistungen = props => {
       title="kontakt title"
       description="kontakt desc"
     >
-      <Kontakt></Kontakt>
+      <Kontakt />
     </Layout>
   );
 };
