@@ -8,13 +8,6 @@ import Layout from '../components/layouts/Layout';
 const Leistungen = props => {
   const { data } = props;
   return (
-<<<<<<< HEAD
-    <Layout
-      pageName="kontakt"
-      title="kontakt title"
-      description="kontakt desc"
-    >
-=======
     <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
       <SubpageHeader
         title="Kontakt"
@@ -45,7 +38,6 @@ const Leistungen = props => {
           </a>
         </div>
       </div>
->>>>>>> c0d79c24e1f0e3bbdaf7d360705bb8474fb446e9
       <Kontakt />
     </Layout>
   );
