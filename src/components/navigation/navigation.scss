@@ -195,6 +195,11 @@
   .subnav-content {
     height: $margin_xxl;
     margin-left: 18%;
+    @media (min-width: 1920px) {
+      margin-left: 32%;
+      
+    }
+
     a {
       padding: $margin_s $margin_s;
       float: left;
