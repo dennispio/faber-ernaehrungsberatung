@@ -7,7 +7,12 @@ import BlogContent from '../components/blogContent/BlogContent';
 const Referenz = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Layout pageName="Referenz">
+    <Layout
+      pageName="Referenz"
+      title={post.frontmatter.seo_title}
+      description={post.frontmatter.seo_desc}
+      type="article"
+    >
       <BlogContent
         title="Referenz"
         date={post.frontmatter.date}
@@ -34,6 +39,8 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        seo_title
+        seo_desc
         date(formatString: "DD.MM.YYYY")
         title
         description

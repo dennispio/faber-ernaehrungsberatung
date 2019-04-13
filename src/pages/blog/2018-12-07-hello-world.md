@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Grundbausteine einer Diät
-seo_desc: Grundbausteine einer Diät
+seo_title: SEO TITLE Grundbausteine einer Diät
+seo_desc: SEO DESC Grundbausteine einer Diät
 category: diät
 title: Grundbausteine einer Diät
 date: 2018-12-07T15:04:10.000Z

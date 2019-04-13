@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import Testimonial from '../components/testimonials/Testimonial';
@@ -21,11 +20,10 @@ const IndexPage = props => {
   const { season } = data.frontmatter.countdown_comp;
   const { facts } = data.frontmatter.facts_compt;
   return (
-    <Layout>
-      <Helmet titleTemplate="%s | Blog">
-        <title> {data.frontmatter.seo_comp.seo_title} </title>
-        <meta name="description" content={data.frontmatter.seo_comp.seo_desc} />
-      </Helmet>
+    <Layout
+      title={data.frontmatter.seo_comp.seo_title}
+      description={data.frontmatter.seo_comp.seo_desc}
+    >
       <VideoPlayer />
       <HomepageText />
       <Countdown date={countdown} season={season} />

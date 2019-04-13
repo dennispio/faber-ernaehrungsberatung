@@ -1,48 +1,42 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
 import '../../constants/style/application.scss';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
+import logo from '../../img/FBR-logo-sw.svg';
 
-const TemplateWrapper = ({ children, pageName }) => (
-  <StaticQuery
-    query={graphql`
-      query HeadingQuery {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `}
-    render={data => (
-      <div>
-        <Helmet>
-          <html lang="de" />
-          <title>{data.site.siteMetadata.title}</title>
-          <meta
-            name="description"
-            content={data.site.siteMetadata.description}
-          />
-          <meta property="og:type" content="business.business" />
-          <meta property="og:title" content={data.site.siteMetadata.title} />
-          <meta property="og:url" content="/" />
-          <meta property="og:image" content="/img/og-image.jpg" />
-        </Helmet>
-        <Navigation pageName={pageName} />
-        <div>{children}</div>
-        <Footer />
-      </div>
-    )}
-  />
+const TemplateWrapper = ({
+  children,
+  pageName,
+  title,
+  description,
+  type,
+  image,
+}) => (
+  <div>
+    <Helmet>
+      <html lang="de" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta property="og:type" content={type || 'website'} />
+      <meta property="og:title" content={title} />
+      <meta property="og:url" content={window.location.href} />
+      <meta property="og:image" content={image || logo} />
+    </Helmet>
+    <Navigation pageName={pageName} />
+    <div>{children}</div>
+    <Footer />
+  </div>
 );
 
 TemplateWrapper.propTypes = {
   children: PropTypes.node.isRequired,
   pageName: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  type: PropTypes.string,
+  image: PropTypes.string,
 };
 
 export default TemplateWrapper;
