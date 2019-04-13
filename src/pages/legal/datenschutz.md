@@ -1,23 +1,12 @@
 ---
-templateKey: blog-post
-pageKey: page_blogpost
-seo_title: SEO TITLE Grundbausteine einer Diät
-seo_desc: SEO DESC Grundbausteine einer Diät
-category: diät
-title: Grundbausteine einer Diät
+templateKey: legal
+seo_title: Grundbausteine Legalpage
+seo_desc: Grundbausteine einer Legalpage
+category: datenschutz
+title: Grundbausteine einer LEGALPAGE
 date: 2018-12-07T15:04:10.000Z
-description: >-
-  Es gibt etliche Diäten - und jede ist anders. Jedoch sollte jede
-  Ernährungsform sich in einigen Aspekten überschneiden. Die Diät sollkeine
-  Phase sein, die ich schnell überwinden will, um wieder qualitativeLebenszeit
-  zu erlangen. Optimalerweise sollte eine Diät keineLebensverschwendung sein,
-  sondern. Es gibt etliche Diäten - und jede ist anders. Jedoch sollte jede
-  Ernährungsform sich in einigen Aspekten überschneiden. Die Diät sollkeine
-  Phase sein, die ich schnell überwinden will, um wieder qualitativeLebenszeit
-  zu erlangen. Optimalerweise sollte eine Diät keineLebensverschwendung sein,
-  sondern
 ---
-# Grundbausteine einer Diät
+# Datenschutz
 
 Es gibt etliche Diäten - und jede ist anders. 
 Jedoch sollte jede Ernährungsform sich in einigen Aspekten überschneiden. Die Diät soll

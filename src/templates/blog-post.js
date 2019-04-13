@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/layouts/Layout';
 import BlogContent from '../components/blogContent/BlogContent';
@@ -8,11 +7,11 @@ import BlogContent from '../components/blogContent/BlogContent';
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Layout>
-      <Helmet titleTemplate="%s | Blog">
-        <title>{`${post.frontmatter.title}`}</title>
-        <meta name="description" content={`${post.frontmatter.description}`} />
-      </Helmet>
+    <Layout
+      title={post.frontmatter.seo_title}
+      description={post.frontmatter.seo_desc}
+      type="article"
+    >
       <BlogContent
         cat={post.frontmatter.category}
         title="Blog"
@@ -37,6 +36,8 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        seo_title
+        seo_desc
         date(formatString: "DD.mm.YYYY")
         title
         category

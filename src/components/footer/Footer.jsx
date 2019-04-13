@@ -51,7 +51,7 @@ const Footer = () => (
           <Link to="#" title="zu der kontakt seite">
             <li>Kontakt</li>
           </Link>
-          <Link to="#" title="zum impressum">
+          <Link to="legal/impressum" title="zum impressum">
             <li>Impressum</li>
           </Link>
           <Link to="#" title="zum Pressebereich">
@@ -65,7 +65,7 @@ const Footer = () => (
           <Link to="#" title="zu den cookie informationen">
             <li>Cookies</li>
           </Link>
-          <Link to="#" title="zu der Datenschutzseite">
+          <Link to="legal/datenschutz" title="zu der Datenschutzseite">
             <li>Datenschutz</li>
           </Link>
           <Link to="#" title="zu den AGBS">
