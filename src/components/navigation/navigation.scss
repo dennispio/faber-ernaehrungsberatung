@@ -152,13 +152,13 @@
   //   }
   /* Style the subnav content - positioned absolute */
   .subnav-content-container-other {
-    display: none;
+    visibility: hidden;
     position: fixed;
+    transition: 1.5s; /* delay of 1 seconds on hover off */
     z-index: 200;
     margin-top: $margin_s;
     left: 0;
     background: linear-gradient(to right, #140A37, #E61E0A);
-
     width: 100%;
   }
 
@@ -182,8 +182,9 @@
   }
 
   .triangle-other {
-    display: none;
+    visibility: hidden;
     position: fixed;
+    transition: 1.5s; /* delay of 1 seconds on hover off */
     margin-left: $margin_xl;
     border-left: $margin_s solid transparent;
     border-right: $margin_s solid transparent;
@@ -204,10 +205,11 @@
 
   /* When you move the mouse over the subnav container, open the subnav content */
   .subnav:hover .subnav-content-container-other {
-    display: block;
+    visibility: visible;
+
   }
 
   .subnav:hover .triangle-other {
-    display: block;
-  }
+    visibility: visible;
+    }
 }
