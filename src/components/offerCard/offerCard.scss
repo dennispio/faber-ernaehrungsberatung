@@ -10,6 +10,8 @@
   color: $color-p;
 
   .offer-price-container {
+    position: relative;
+
     p {
       font-style: normal;
       font-weight: normal;
@@ -20,8 +22,7 @@
     }
 
     .euro {
-      margin-left: -15px;
-      margin-bottom: 20px;
+      position: absolute;
       font-size: 25px;
     }
   }
