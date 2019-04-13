@@ -18,6 +18,9 @@ const styles = {
   bmBurgerBars: {
     background: '#373a47',
   },
+  bmCrossButton: {
+    margin: '24px 40px',
+  },
 };
 
 const Navigation = ({ pageName }) => (
