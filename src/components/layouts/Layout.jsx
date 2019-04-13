@@ -21,7 +21,7 @@ const TemplateWrapper = ({
       <meta name="description" content={description} />
       <meta property="og:type" content={type || 'website'} />
       <meta property="og:title" content={title} />
-      <meta property="og:url" content={window.location.href} />
+      <meta property="og:url" content="/" />
       <meta property="og:image" content={image || logo} />
     </Helmet>
     <Navigation pageName={pageName} />
