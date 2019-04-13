@@ -3,6 +3,17 @@
 #ernaehrung {
   position: relative;
 
+  @include media-query-phone {
+    overflow: hidden;
+    height: 145vh;
+  }
+
+  @include media-query-tablet {
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+  }
+
   img {
     position: absolute;
     z-index: -10;
@@ -27,6 +38,19 @@
 #coaching {
   position: relative;
 
+  @include media-query-phone {
+    overflow: hidden;
+    height: 177vh;
+    margin-top: -100px;
+  }
+
+  @include media-query-tablet {
+    overflow: hidden;
+    height: 122vh;
+    margin-top: -100px;
+    width: 100%;
+  }
+
   img {
     position: absolute;
     z-index: -10;
@@ -38,6 +62,8 @@
     @include media-query-phone {
       top: 30px;
       left: -800px;
+      overflow-x: hidden;
+
     }
 
     @include media-query-tablet {
@@ -48,6 +74,19 @@
 
 #naehrwertanalyse {
   position: relative;
+
+  @include media-query-phone {
+    overflow: hidden;
+    height: 160vh;
+    margin-top: -100px;
+  }
+
+  @include media-query-tablet {
+    overflow: hidden;
+    height: 102vh;
+    margin-top: -100px;
+    width: 100%;
+  }
 
   img {
     position: absolute;
@@ -62,6 +101,7 @@
       height: 1200px;
       top: 100px;
       left: -600px;
+
     }
 
     @include media-query-tablet {
@@ -72,6 +112,19 @@
 
 #seminare {
   position: relative;
+
+  @include media-query-phone {
+    overflow: hidden;
+    height: 150vh;
+    margin-top: -100px;
+  }
+
+  @include media-query-tablet {
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    width: 100%;
+  }
 
   img {
     position: absolute;
@@ -95,6 +148,19 @@
 
 #betrieblich {
   position: relative;
+
+  @include media-query-phone {
+    overflow: hidden;
+    margin-bottom: -160px;
+    margin-top: -100px;
+  }
+
+  @include media-query-tablet {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: -160px;
+    margin-top: -100px;
+  }
 
   img {
     position: absolute;

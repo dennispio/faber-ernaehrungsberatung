@@ -20,7 +20,7 @@ const BlogContent = ({ title, date, fluid, post, alt, cat }) => (
               style={{
                 left: 0,
                 top: 0,
-                width: '170%',
+                width: '145%',
                 height: '100%',
               }}
             />

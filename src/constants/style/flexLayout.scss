@@ -45,8 +45,11 @@
 .bubble-bg {
   background-image: url(../../img/bubbles/bubble_2.svg);
   background-repeat: no-repeat;
-  background-position: -1100px -1100px;
+  background-position: -1100px 50%;
   background-size: auto 4000px;
 
-  @include media-query-phone {}
+  @include media-query-phone {
+    background-position: -1100px 40%;
+
+  }
 }

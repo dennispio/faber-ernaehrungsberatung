@@ -10,13 +10,16 @@ import './navigation.scss';
 const styles = {
   bmBurgerButton: {
     position: 'fixed',
-    width: '36px',
+    width: '40px',
     height: '30px',
     right: '32px',
     top: '32px',
   },
   bmBurgerBars: {
     background: '#373a47',
+  },
+  bmCrossButton: {
+    margin: '24px 40px',
   },
 };
 
@@ -34,7 +37,9 @@ const Navigation = ({ pageName }) => (
   <div className="navigation-container">
     <div className="navigation-flex">
       <div className="image-container">
-        <img alt="LOGO" src={logo} />
+        <Link to="/">
+          <img alt="LOGO" src={logo} />
+        </Link>
       </div>
       <div id="menu" className="navigation-menu">
         <ul>

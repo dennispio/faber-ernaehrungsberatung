@@ -4,18 +4,26 @@
 
 .fact-carousel-container {
   overflow: hidden;
-  min-height: 220px;
-  margin-top: $margin_xxl;
-  margin-bottom: $margin_xxl;
+  min-height: 320px;
+  margin-top: $margin_xxl * 4;
+  margin-bottom: $margin_xxl * 2;
   padding-left: 50px;
   padding-right: 50px;
+
+  .titelCarousel {
+    width: 80%;
+  }
 
   .slick-slider {
     margin-bottom: 20px !important;
   }
 
   .slide {
-    min-height: 400px;
+    min-height: 310px;
+
+    @include media-query-phone {
+      min-height: 900px;
+    }
 
     .titelCarousel {
       h3 {
@@ -25,8 +33,20 @@
 
     .carousel-text-right-container {
       @include media-query-phone {
+        margin: 0 !important;
+
         p {
-          margin: 0;
+          margin: 0 !important;
+        }
+      }
+    }
+
+    .carousel-text-left-container {
+      @include media-query-phone {
+        margin: 0 !important;
+
+        p {
+          margin: 0 !important;
         }
       }
     }
