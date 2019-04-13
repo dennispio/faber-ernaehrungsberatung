@@ -103,7 +103,7 @@
 
     .bm-menu {
       z-index: 1000;
-      background: linear-gradient(to top, #01072E, #E5331C);
+      background: linear-gradient(to top,  #140A37, #E61E0A);
     }
 
     .bm-morph-shape {
@@ -157,7 +157,8 @@
     z-index: 200;
     margin-top: $margin_s;
     left: 0;
-    background: linear-gradient(to right, #01072E, #E5331C);
+    background: linear-gradient(to right, #140A37, #E61E0A);
+
     width: 100%;
   }
 
@@ -167,7 +168,7 @@
     z-index: 200;
     margin-top: $margin_s;
     left: 0;
-    background: linear-gradient(to right, #01072E, #E5331C);
+    background: linear-gradient(to right, #140A37, #E61E0A);
     width: 100%;
   }
 
