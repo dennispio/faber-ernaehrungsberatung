@@ -10,7 +10,7 @@ import './navigation.scss';
 const styles = {
   bmBurgerButton: {
     position: 'fixed',
-    width: '36px',
+    width: '40px',
     height: '30px',
     right: '32px',
     top: '32px',
