@@ -8,15 +8,8 @@ import LegalContent from '../components/legalContent/LegalContent';
 const Legal = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Layout>
-      <Helmet titleTemplate="%s | Legal">
-        <title>{`${post.frontmatter.title}`}</title>
-        <meta name="description" content={`${post.frontmatter.description}`} />
-      </Helmet>
-      <LegalContent
-        title={post.frontmatter.title}
-        post={post}
-      />
+    <Layout title="SEO TITLE" description="SEO DESC">
+      <LegalContent title={post.frontmatter.title} post={post} />
     </Layout>
   );
 };

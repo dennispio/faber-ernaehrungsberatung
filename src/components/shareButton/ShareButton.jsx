@@ -7,7 +7,12 @@ class ShareButton extends Component {
     super();
     this.state = {
       showMenu: false,
+      url: '',
     };
+  }
+
+  componentDidMount() {
+    this.setState({ url: window.location.href });
   }
 
   showMenu = event => {
@@ -26,6 +31,7 @@ class ShareButton extends Component {
 
   render() {
     const { showMenu } = this.state;
+    const { url } = this.state;
     return (
       <div className="share-button-container col-xs-12 col-sm-6 col-lg-6">
         <div
@@ -42,13 +48,19 @@ class ShareButton extends Component {
         </div>
         {showMenu ? (
           <div className="social-media-share-menu">
-            <a href="#">Facebook</a>
+            <a href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}>
+              Facebook
+            </a>
             <br />
             <br />
-            <a href="#">WhatsApp</a>
+            <a href="https://wa.me/whatsappphonenumber/">WhatsApp</a>
             <br />
             <br />
-            <a href="#">Email</a>
+            <a
+              href={`mailto:?&subject=Faber Ernährungsberatung&body=Schauen%20Sie%20sich%20den%20Beitrag%20von%20der%20Faber%20Ern%C3%A4hrunfsberatrung%20an%3A%0A%0A${url}`}
+            >
+              Email
+            </a>
           </div>
         ) : null}
       </div>
