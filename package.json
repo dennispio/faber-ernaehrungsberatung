@@ -28,6 +28,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-burger-menu": "^2.6.5",
+    "react-cookie-consent": "^2.3.0",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-slick": "^0.23.2",
