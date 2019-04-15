@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import './legalContent.scss';
-import ShareButton from '../shareButton/ShareButton';
-import Newsletter from '../newsletter/Newsletter';
+
 
 const LegalContent = ({ post, title }) => (
     <div className="container-full">
