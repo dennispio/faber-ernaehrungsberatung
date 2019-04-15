@@ -151,8 +151,14 @@ collections:
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
       - {label: "Kategorie", name: "category", widget: select, options: [Beratung, Coaching, Nährwertanalyse, Seminare, Gesundheitlicheförderung]}
       - {label: "Preis", name: "price", widget: "number"}
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Angebot", name: "angebot", widget: "boolean", default: false }
+      - {label: "Zeitraum", name: "time", widget: "string" }
+      - {label: "Title", name: "title", widget: "string" }
+      - label: "Bullet Points"
+        name: "bullets"
+        widget: "list"
+        fields:
+          - { label: Titel, name: title, widget: string }
+      - {label: "Angebot", name: "angebot", widget: "boolean", default: false }
   ########################### LEGALPAGES ##################################
   - name: "legal"
     label: "Legal"
