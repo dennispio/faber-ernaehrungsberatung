@@ -16,6 +16,7 @@ const IndexPage = props => {
   const { edges: referenzen } = home.referenzen;
   const { edges: angebote } = home.angebote;
   const { edges: posts } = home.blogPosts;
+  const { title, description: text } = data.frontmatter.text_comp;
   const { countdown } = data.frontmatter.countdown_comp;
   const { season } = data.frontmatter.countdown_comp;
   const { facts } = data.frontmatter.facts_compt;
@@ -25,7 +26,7 @@ const IndexPage = props => {
       description={data.frontmatter.seo_comp.seo_desc}
     >
       <VideoPlayer />
-      <HomepageText />
+      <HomepageText heading={title} text={text} />
       <Countdown date={countdown} season={season} />
       <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
@@ -119,6 +120,10 @@ export const pageQuery = graphql`
             seo_comp {
               seo_desc
               seo_title
+            }
+            text_comp {
+              title
+              description
             }
             countdown_comp {
               countdown(formatString: "YYYY-MM-DDTHH:mm:ss")
