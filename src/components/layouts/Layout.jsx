@@ -34,14 +34,12 @@ const TemplateWrapper = ({
         style={{ background: "linear-gradient(to right,  #140A37, #E61E0A)" }}
         location="bottom"
         buttonText="Ich stimme zu."
-
       >
         <span style={{ fontSize: "15px" }}>
           Diese Website verwendet Cookies –
           nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer Datenschutzerklärung am Ende der Seite.
           Klicken Sie auf „Ich stimme zu“, um Cookies zu akzeptieren und direkt unsere Website besuchen zu können.
          </span>
-
       </CookieConsent>
       <Footer />
     </div >
