@@ -5,12 +5,14 @@ import './blogContent.scss';
 import ShareButton from '../shareButton/ShareButton';
 import Newsletter from '../newsletter/Newsletter';
 
-const BlogContent = ({ title, date, fluid, post, alt, cat }) => (
+const BlogContent = ({ title, date, fluid, post, alt, cat, share, blog }) => (
   <div className="container-full">
     <div className="container">
-      <div className="subpage-title-container">
-        <h2>{title}</h2>
-      </div>
+      {blog !== false ? (
+        <div className="subpage-title-container">
+          <h2>{title}</h2>
+        </div>
+      ) : null}
       <div className="subpage-content-container">
         {fluid ? (
           <div className="blog-page-image-container">
@@ -34,10 +36,12 @@ const BlogContent = ({ title, date, fluid, post, alt, cat }) => (
           className="blog-container"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <div className="row">
-          <ShareButton />
-          <Newsletter />
-        </div>
+        {share !== false ? (
+          <div className="row">
+            <ShareButton />
+            <Newsletter />
+          </div>
+        ) : null}
       </div>
     </div>
   </div>
@@ -50,6 +54,8 @@ BlogContent.propTypes = {
   cat: PropTypes.string,
   fluid: PropTypes.any,
   post: PropTypes.any,
+  share: PropTypes.bool,
+  blog: PropTypes.bool,
 };
 
 export default BlogContent;

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layouts/Layout';
 import BlogContent from '../components/blogContent/BlogContent';
+import ServiceForm from '../components/contactForm/ServiceForm';
 
 const Service = ({ data }) => {
   const { markdownRemark: service } = data;
@@ -12,12 +13,8 @@ const Service = ({ data }) => {
       description={service.frontmatter.seo_desc}
       type="article"
     >
-      <BlogContent
-        cat={service.frontmatter.category}
-        title="Blog"
-        date={service.frontmatter.date}
-        post={service}
-      />
+      <BlogContent title="Website" post={service} share={false} blog={false} />
+      <ServiceForm serviceName={service.frontmatter.title} />
     </Layout>
   );
 };
@@ -39,6 +36,7 @@ export const pageQuery = graphql`
         seo_title
         seo_desc
         title
+        price
         category
         description
       }

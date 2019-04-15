@@ -34,6 +34,7 @@ const Leistungen = props => {
                 price={angebot.frontmatter.price}
                 time={angebot.frontmatter.time}
                 bullets={angebot.frontmatter.bullets}
+                link={angebot.fields.slug}
               />
             ) : null;
           })}
@@ -52,6 +53,7 @@ const Leistungen = props => {
                 price={angebot.frontmatter.price}
                 time={angebot.frontmatter.time}
                 bullets={angebot.frontmatter.bullets}
+                link={angebot.fields.slug}
               />
             ) : null;
           })}
@@ -70,6 +72,7 @@ const Leistungen = props => {
                 price={angebot.frontmatter.price}
                 time={angebot.frontmatter.time}
                 bullets={angebot.frontmatter.bullets}
+                link={angebot.fields.slug}
               />
             ) : null;
           })}
@@ -88,6 +91,7 @@ const Leistungen = props => {
                 price={angebot.frontmatter.price}
                 time={angebot.frontmatter.time}
                 bullets={angebot.frontmatter.bullets}
+                link={angebot.fields.slug}
               />
             ) : null;
           })}
@@ -106,6 +110,7 @@ const Leistungen = props => {
                 price={angebot.frontmatter.price}
                 time={angebot.frontmatter.time}
                 bullets={angebot.frontmatter.bullets}
+                link={angebot.fields.slug}
               />
             ) : null;
           })}

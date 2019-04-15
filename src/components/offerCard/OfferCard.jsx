@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import './offerCard.scss';
 
-const OfferCard = ({ category, price, time, bullets }) => (
+const OfferCard = ({ category, price, time, bullets, link }) => (
   <div className="offerCard">
     <div className="offer-price-container">
       <p>
@@ -22,7 +22,7 @@ const OfferCard = ({ category, price, time, bullets }) => (
       </ul>
     </div>
     <div className="offer-link-container">
-      <Link to="anfrage">
+      <Link to={link}>
         mehr erfahren & <br /> unverbindlich anfragen{' '}
       </Link>
     </div>
@@ -35,5 +35,6 @@ OfferCard.propTypes = {
   price: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   bullets: PropTypes.array.isRequired,
 };

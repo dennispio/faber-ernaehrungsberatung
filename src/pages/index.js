@@ -62,6 +62,7 @@ const IndexPage = props => {
                   price={angebot.frontmatter.price}
                   time={angebot.frontmatter.time}
                   bullets={angebot.frontmatter.bullets}
+                  link={angebot.fields.slug}
                 />
               ) : null;
             })}
