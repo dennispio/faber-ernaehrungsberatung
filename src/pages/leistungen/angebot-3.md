@@ -1,8 +1,15 @@
 ---
+templateKey: service
 service: service
-title: Angebot 3
-angebot: false
+title: Individuelles Ernährungscoaching
+angebot: true
 category: Coaching
-price: 70
+price: 100
+time: monatlich
+bullets:
+  - title: abgestimmte Pläne
+  - title: 'Whatsapp'
+  - title: 'E-Mail'
+  - title: 'Telefon'
 ---
 
