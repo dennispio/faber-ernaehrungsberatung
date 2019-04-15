@@ -106,7 +106,6 @@ export default class Countdown extends Component {
   render() {
     const { seconds, minutes, hours, days } = this.state;
     const { season } = this.props;
-    console.log(this.props);
 
     return (
       <div className="container countdown-container">
