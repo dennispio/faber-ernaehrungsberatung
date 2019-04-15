@@ -2,11 +2,11 @@
 
 .homepageText-container {
   overflow: auto;
-  min-height: 70vh;
+  min-height: 120vh;
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
   background-size: auto 3500px;
-  background-position: 35% -2300px;
+  background-position: 35% -2000px;
   margin-bottom: $margin_xl * 2;
 
   @include media-query-phone {
