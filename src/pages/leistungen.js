@@ -32,6 +32,8 @@ const Leistungen = props => {
               <OfferCard
                 category={angebot.frontmatter.category}
                 price={angebot.frontmatter.price}
+                time={angebot.frontmatter.time}
+                bullets={angebot.frontmatter.bullets}
               />
             ) : null;
           })}
@@ -48,6 +50,8 @@ const Leistungen = props => {
               <OfferCard
                 category={angebot.frontmatter.category}
                 price={angebot.frontmatter.price}
+                time={angebot.frontmatter.time}
+                bullets={angebot.frontmatter.bullets}
               />
             ) : null;
           })}
@@ -64,6 +68,8 @@ const Leistungen = props => {
               <OfferCard
                 category={angebot.frontmatter.category}
                 price={angebot.frontmatter.price}
+                time={angebot.frontmatter.time}
+                bullets={angebot.frontmatter.bullets}
               />
             ) : null;
           })}
@@ -80,6 +86,8 @@ const Leistungen = props => {
               <OfferCard
                 category={angebot.frontmatter.category}
                 price={angebot.frontmatter.price}
+                time={angebot.frontmatter.time}
+                bullets={angebot.frontmatter.bullets}
               />
             ) : null;
           })}
@@ -96,6 +104,8 @@ const Leistungen = props => {
               <OfferCard
                 category={angebot.frontmatter.category}
                 price={angebot.frontmatter.price}
+                time={angebot.frontmatter.time}
+                bullets={angebot.frontmatter.bullets}
               />
             ) : null;
           })}
@@ -128,8 +138,12 @@ export const pageQuery = graphql`
           frontmatter {
             title
             price
+            time
             angebot
             category
+            bullets {
+              title
+            }
           }
         }
       }

@@ -20,6 +20,7 @@ const IndexPage = props => {
   const { countdown } = data.frontmatter.countdown_comp;
   const { season } = data.frontmatter.countdown_comp;
   const { facts } = data.frontmatter.facts_compt;
+
   return (
     <Layout
       title={data.frontmatter.seo_comp.seo_title}
@@ -53,10 +54,14 @@ const IndexPage = props => {
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
             {angebote.map(({ node: angebot }) => {
+              console.log(angebot.frontmatter.bullets);
+
               return angebot.frontmatter.angebot ? (
                 <OfferCard
                   category={angebot.frontmatter.category}
                   price={angebot.frontmatter.price}
+                  time={angebot.frontmatter.time}
+                  bullets={angebot.frontmatter.bullets}
                 />
               ) : null;
             })}
@@ -168,8 +173,12 @@ export const pageQuery = graphql`
           frontmatter {
             title
             price
+            time
             angebot
             category
+            bullets {
+              title
+            }
           }
         }
       }

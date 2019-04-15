@@ -146,6 +146,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {
+        label: "Template Key",
+        name: "templateKey",
+        widget: "hidden",
+        default: "service",
+      }
       - {label: "service", name: "service", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
@@ -159,6 +165,8 @@ collections:
         fields:
           - { label: Titel, name: title, widget: string }
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false }
+      - { label: "Infor Text der Seite zum Angebot", name: "body", widget: "markdown" }
+
   ########################### LEGALPAGES ##################################
   - name: "legal"
     label: "Legal"

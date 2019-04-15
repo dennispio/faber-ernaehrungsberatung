@@ -1,4 +1,5 @@
 ---
+templateKey: service
 service: service
 title: individuelle Ernährungsberatung
 angebot: true

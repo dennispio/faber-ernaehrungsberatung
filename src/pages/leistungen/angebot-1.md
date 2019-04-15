@@ -1,4 +1,5 @@
 ---
+templateKey: service
 service: service
 title: Erstberatung
 angebot: true
