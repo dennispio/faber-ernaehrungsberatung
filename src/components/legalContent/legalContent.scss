@@ -2,12 +2,16 @@
 
 
 .subpage-content-container {
+  margin: 0 auto;
   margin-top: 150px;
   max-width: 812px;
-  h1{
-    text-align: center;
-  }
-  p{
-    text-align: justify;
+
+  .blog-container{
+    h1{
+      text-align: center;
+    }
+    p{
+      text-align: justify;
+    }
   }
 }
