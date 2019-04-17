@@ -16,7 +16,7 @@ const ServiceForm = ({ serviceName }) => (
       <input
         type="hidden"
         id="form-type"
-        name="form-type"
+        name="FormService"
         value={serviceName}
       />
       <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
