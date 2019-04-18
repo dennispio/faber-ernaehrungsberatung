@@ -1,15 +1,20 @@
 import React from 'react';
-import TextComp from '../components/textComp/TextComp';
+import '../components/legalContent/legalContent.scss';
 import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 import Layout from '../components/layouts/Layout';
 
 const Danke = function() {
   return (
     <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
-        <SubpageHeader
-            title="Danke"
-        />
-        <TextComp position="center" title="Deine Anfrage ist erfolgreich bei uns eingegangen"  />
+        <div className="container">
+            <div className="subpage-content-container">
+                <div
+                    className="blog-container"
+                />
+                <h1>Danke für deine Anmeldung</h1>
+                <p>Vielen Dank das du dich für unsere Produkte interessierst!</p>
+            </div>
+        </div>
     </Layout>
   );
 };
