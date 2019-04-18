@@ -11,8 +11,10 @@ const Danke = function() {
                 <div
                     className="blog-container"
                 />
-                <h1>Danke für deine Anmeldung</h1>
-                <p>Vielen Dank das du dich für unsere Produkte interessierst!</p>
+                <h1>Danke für deine Anfrage</h1>
+                <p>Deine Anfrage ist erfolgreich bei uns eingegangen!</p> 
+                <p>Falls du dich für unseren Newsletter eingetragen hast, schaue bitte in dein Postfach nach einer Bestätitungsmail.</p>
+                <p>Bestätige diese und Verpasse keine Neuigkeiten von uns.</p>
             </div>
         </div>
     </Layout>
