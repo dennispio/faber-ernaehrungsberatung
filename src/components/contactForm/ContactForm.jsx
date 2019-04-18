@@ -50,7 +50,7 @@ const ContactForm = () => (
         <hr />
       </div>
       <div className="checkbox-column col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
-        <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" />
+        <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" required />
         <label htmlFor="datenschutz">
           Ich stimme den Datenschutzbestimmungen zu. <br /> Deine Daten werden
           nicht an Dritte weitergegeben.
