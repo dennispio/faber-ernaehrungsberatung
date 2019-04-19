@@ -1,15 +1,83 @@
 @import '../style/variables.scss';
 
-#ueberunsContainer{
-background-image: url(../../img/ueber-uns.gif);
-margin: 0 auto;
-  width: 100%;
-  height: 1375px;
-}
-
-#containerText{
-
-    height: 1000px;
+.ueberUnsContainer {
+    background-color: rgb(216, 216, 216);
+    @include media-query-tablet {
+        height: 200vh;
+        
+       
+    }
+    
+    @include media-query-phone{
+        height: 200vh;
+       
+    }
+   
+#ueberunsContainerImg{
+    background-repeat: no-repeat; 
+    background-size: contain ;
     width: 100%;
-    background-color: rgb(216,216,216);
+    height: 200vh;
+    background-image: url(../../img/ueber-uns.gif);
+    background-position-y: 90px;
+    @include media-query-tablet {
+        height: 85vh;
+        background-size: contain ;
+        background-repeat: no-repeat; 
+        
+    }
+    
+    @include media-query-phone{
+        height: 75vh;
+        background-repeat: no-repeat;
+        background-size: contain ;
+    }
+
 }
+        .ueberUnsContent {
+            margin-top: 90px;
+            @include media-query-tablet {
+                height: 100vh;
+                margin-top: -50px;
+            }
+            @include media-query-phone{
+                height: 190vh;
+                margin-top: -140px;
+            }
+        }
+        .texttitel{
+            font-size:80px; 
+            @include media-query-phone{
+                font-size:60px; 
+            }
+        }
+        .textUber{
+            font-size:12px; 
+            width:350px;
+        }
+        .titelzwei{
+            font-size:26px;
+            width:350px; 
+        }
+        .textNamen{
+            height: 150vh;
+            position:relative;
+            top: 500px;         
+            left: 10px;
+            @include media-query-tablet {
+                height: 70vh;
+                
+            }
+            
+            @include media-query-phone{
+                height: 200vh;
+                top: 100px; 
+            }
+
+        }
+        .titeldrei{
+            font-size:18px;
+        }
+}
+
+
