@@ -4,12 +4,8 @@ import './textComp.scss';
 
 const TextComp = ({ position, title, text }) => (
   <div className={`${position}-div text-comp-container`}>
-    <h2>
-      {title}
-    </h2>
-    <p>
-      {text}
-    </p>
+    <h2>{title}</h2>
+    <p>{text}</p>
   </div>
 );
 

@@ -5,11 +5,9 @@ import Layout from '../components/layouts/Layout';
 import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 import TextComp from '../components/textComp/TextComp';
 import OfferCard from '../components/offerCard/OfferCard';
-import bubbleOne from '../img/bubbles/bubble_1.svg';
-import bubbleTwo from '../img/bubbles/bubble_2.svg';
-import bubbleThree from '../img/bubbles/bubble_3.svg';
-import bubbleFour from '../img/bubbles/bubble_4.svg';
-import bubbleFive from '../img/bubbles/bubble_5.svg';
+import bubbleOne from '../img/bubbles/bubble_service_1.svg';
+import bubbleThree from '../img/bubbles/bubble_service_4.svg';
+import bubbleTwo from '../img/bubbles/bubble_service_2.svg';
 import '../constants/style/servicePage.scss';
 
 const Leistungen = props => {
@@ -23,8 +21,12 @@ const Leistungen = props => {
     >
       <SubpageHeader title="Unsere Leistungen" />
       <div id="ernaehrung" className="container margin-left">
-        <img src={bubbleTwo} alt="hintergrund bubble mit verlauf" />
-        <TextComp position="left" />
+        <img src={bubbleOne} alt="hintergrund bubble mit verlauf" />
+        <TextComp
+          title="Individuelle Ernährungsberatung"
+          text="Die individuelle Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns, was Du willst und wir sagen Dir nicht, was Du musst. In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das Dir auf dem Weg zu Deinem Ziel helfen wird. Deine Ziele könnten sein: Abnehmen, Zunehmen, Optimierung der Verdauung, gesünder Essen, Lernen bewusst zu Leben oder Steigerung der sportlichen Leistungsfähigkeit. "
+          position="left"
+        />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
         {angebote.map(({ node: angebot }) => {
@@ -42,8 +44,12 @@ const Leistungen = props => {
       </div>
       <div className="sperator" />
       <div id="coaching" className="container">
-        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
-        <TextComp position="left" />
+        <img src={bubbleTwo} alt="hintergrund bubble mit verlauf" />
+        <TextComp
+          position="left"
+          title="Individuelles Ernährungs-coaching"
+          text="Unser Ernährungscoaching ist die erweiterte Variante der individuellen Ernährungsberatung. Neben dem auf Dich angepassten individuellen Konzept erfolgt hierbei eine parallel intensive Betreuung auf dem Weg zu Deinem Ziel. Dies bedeutet, dass wir für Dich: Dein Konzept nach Deinen Wünschen (Änderung der Lebensmittel, die Du möchtest) und Deiner Situation (Geburtstage, Restaurantbesuche) anpassen, Dich beim Motivationstief unterstützen, und bei jeglichen Fragen und Tipps zur Seite zu stehen. Wir werden rund um die Uhr für Dich erreichbar sein. Wenn Du der Typ bist, der an die Hand genommen werden muss, wirst Du mit dem Coaching auf der sicheren Seite sein!"
+        />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
         {angebote.map(({ node: angebot }) => {
@@ -61,8 +67,12 @@ const Leistungen = props => {
       </div>
       <div className="sperator" />
       <div id="naehrwertanalyse" className="container margin-left">
-        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
-        <TextComp position="left" />
+        <img src={bubbleThree} alt="hintergrund bubble mit verlauf" />
+        <TextComp
+          position="left"
+          title="Nährwertanalyse"
+          text="In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz. Nach Abschluss der Nährwert- und Ernährungsanalyse beantworten wir Dir individuell unter anderem folgende Fragen: Esse ich genug Vitamine und Ballaststoffe? Esse ich zu wenig Kohlenhydrate, Proteine oder Fette? Welche Auswirkung hat ein Defizit? Wie viele Kalorien verbrauche ich? Was muss ich tun, um mein Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben?"
+        />
         <div className="offer-preview-container">
           {/* eslint-disable-next-line */}
         {angebote.map(({ node: angebot }) => {
@@ -78,45 +88,6 @@ const Leistungen = props => {
           })}
         </div>
       </div>
-      <div className="sperator" />
-      <div id="seminare" className="container">
-        <img src={bubbleFour} alt="hintergrund bubble mit verlauf" />
-        <TextComp position="left" />
-        <div className="offer-preview-container">
-          {/* eslint-disable-next-line */}
-        {angebote.map(({ node: angebot }) => {
-            return angebot.frontmatter.category === 'Beratung' ? (
-              <OfferCard
-                category={angebot.frontmatter.category}
-                price={angebot.frontmatter.price}
-                time={angebot.frontmatter.time}
-                bullets={angebot.frontmatter.bullets}
-                link={angebot.fields.slug}
-              />
-            ) : null;
-          })}
-        </div>
-      </div>
-      <div className="sperator" />
-      <div id="betrieblich" className="container margin-left">
-        <img src={bubbleFive} alt="hintergrund bubble mit verlauf" />
-        <TextComp position="left" />
-        <div className="offer-preview-container">
-          {/* eslint-disable-next-line */}
-        {angebote.map(({ node: angebot }) => {
-            return angebot.frontmatter.category === 'Beratung' ? (
-              <OfferCard
-                category={angebot.frontmatter.category}
-                price={angebot.frontmatter.price}
-                time={angebot.frontmatter.time}
-                bullets={angebot.frontmatter.bullets}
-                link={angebot.fields.slug}
-              />
-            ) : null;
-          })}
-        </div>
-      </div>
-      <div className="sperator" />
     </Layout>
   );
 };

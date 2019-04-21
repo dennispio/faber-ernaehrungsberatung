@@ -2,7 +2,7 @@
 
 .homepageText-container {
   overflow: auto;
-  min-height: 120vh;
+  min-height: 110vh;
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
   background-size: auto 3500px;
@@ -22,7 +22,11 @@
   .homepageText-content {
     width: 70%;
     margin: 0 auto;
-    margin-top: $margin_xl;
+
+    @include media-query-phone {
+      width: 95%;
+
+    }
 
     .hompageText-title {
       margin-top: $margin_s;
