@@ -94,7 +94,7 @@ const IndexPage = props => {
             })}
           </div>
           <span className="white newsletter-cta">
-            <Link to="kontakt">Newsletter abonnieren</Link>
+            <Link to="newsletter">Newsletter abonnieren</Link>
           </span>
         </div>
       </div>

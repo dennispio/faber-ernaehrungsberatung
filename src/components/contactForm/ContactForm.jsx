@@ -29,11 +29,11 @@ const ContactForm = () => (
       <div className="form-felder-container  col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <div className="e-mail-container col-md-6 col-xs-12">
           <input type="email" name="Email" required /> <br />
-          <label htmlFor="message">E-Mail</label> <br />
+          <label htmlFor="Email">E-Mail</label> <br />
         </div>
         <div className="telefon-container col-md-6 col-xs-12">
           <input type="text" name="Telefon" /> <br />
-          <label htmlFor="message">Telefon (optional)</label> <br />
+          <label htmlFor="Telefon">Telefon (optional)</label> <br />
         </div>
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
