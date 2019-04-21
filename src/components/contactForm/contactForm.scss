@@ -49,6 +49,12 @@
       margin-top: $margin_m;
     }
 
+    input[type=checkbox] {
+      &[required] + label:after {
+          content: "*";
+          color: red;
+      }
+  }
     input[type=checkbox] + label {
         display: block;
         margin-right:$margin_m;
