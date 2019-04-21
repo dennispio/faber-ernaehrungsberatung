@@ -62,6 +62,7 @@ const IndexPage = props => {
                   price={angebot.frontmatter.price}
                   time={angebot.frontmatter.time}
                   bullets={angebot.frontmatter.bullets}
+                  link={angebot.fields.slug}
                 />
               ) : null;
             })}
@@ -93,7 +94,7 @@ const IndexPage = props => {
             })}
           </div>
           <span className="white newsletter-cta">
-            <Link to="kontakt">Newsletter abonnieren</Link>
+            <Link to="newsletter">Newsletter abonnieren</Link>
           </span>
         </div>
       </div>

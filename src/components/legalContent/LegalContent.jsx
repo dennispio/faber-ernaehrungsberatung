@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 import './legalContent.scss';
 
 
-const LegalContent = ({ post, title }) => (
+const LegalContent = ({ post }) => (
     <div className="container-full">
         <div className="container">
             <div className="subpage-content-container">

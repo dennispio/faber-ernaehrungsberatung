@@ -2,12 +2,21 @@
 
 #background-video {
   margin-top: $margin_video;
-  height: 80vh;
   width: 100%;
   float: left;
   top: 0;
   padding: none;
   object-fit: cover;
   z-index: -1;
+
   /* optional depending on what you want to do in your app */
+  @include media-query-phone {
+    height: 80vh;
+
+  }
+
+  @include media-query-tablet {
+    height: 80vh;
+
+  }
 }

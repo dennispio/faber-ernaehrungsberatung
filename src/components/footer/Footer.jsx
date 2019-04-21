@@ -57,6 +57,9 @@ const Footer = () => (
           <Link to="#" title="zum Pressebereich">
             <li>Press</li>
           </Link>
+          <Link to="newsletter" title="zum Newsletter">
+            <li>Newsletter</li>
+          </Link>
         </ul>
       </div>
       <div className="col-xs-12 col-sm-6 col-lg-3">

@@ -3,34 +3,27 @@
 #ernaehrung {
   position: relative;
 
+
   @include media-query-phone {
     overflow: hidden;
-    height: 145vh;
   }
 
   @include media-query-tablet {
     overflow: hidden;
-    height: 110vh;
     width: 100%;
   }
 
   img {
     position: absolute;
     z-index: -10;
-    width: 2000px;
-    height: 2000px;
-    left: 00px;
-    top: -300px;
+    width: 100%;
+    height: auto;
+    right: -1.5em;
+    top: 40%;
 
     @include media-query-phone {
-      width: 1200px;
-      height: 1200px;
-      top: 00px;
-      left: -500px;
-    }
-
-    @include media-query-tablet {
-      top: -400px;
+      width: 200%;
+      top: 45%;
     }
   }
 }
@@ -40,13 +33,11 @@
 
   @include media-query-phone {
     overflow: hidden;
-    height: 177vh;
     margin-top: -100px;
   }
 
   @include media-query-tablet {
     overflow: hidden;
-    height: 122vh;
     margin-top: -100px;
     width: 100%;
   }
@@ -54,21 +45,16 @@
   img {
     position: absolute;
     z-index: -10;
-    width: 1500px;
-    height: 1500px;
-    left: -1000px;
-    top: 0px;
+    width: 100%;
+    height: auto;
+    left: -17.2em;
+    top: 30%;
 
     @include media-query-phone {
-      top: 30px;
-      left: -800px;
-      overflow-x: hidden;
-
+      width: 350%;
+      top: 30%;
     }
 
-    @include media-query-tablet {
-      left: -600px;
-    }
   }
 }
 
@@ -77,13 +63,11 @@
 
   @include media-query-phone {
     overflow: hidden;
-    height: 160vh;
     margin-top: -100px;
   }
 
   @include media-query-tablet {
     overflow: hidden;
-    height: 102vh;
     margin-top: -100px;
     width: 100%;
   }
@@ -91,23 +75,16 @@
   img {
     position: absolute;
     z-index: -10;
-    width: 1500px;
-    height: 1500px;
-    left: 600px;
-    top: -200px;
+    width: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
 
     @include media-query-phone {
-      width: 1200px;
-      height: 1200px;
-      top: 100px;
-      left: -600px;
-
-    }
-
-    @include media-query-tablet {
-      left: 50px;
+      width: 300%;
     }
   }
+
 }
 
 #seminare {
@@ -115,13 +92,11 @@
 
   @include media-query-phone {
     overflow: hidden;
-    height: 150vh;
     margin-top: -100px;
   }
 
   @include media-query-tablet {
     overflow: hidden;
-    height: 100vh;
     margin-top: -100px;
     width: 100%;
   }

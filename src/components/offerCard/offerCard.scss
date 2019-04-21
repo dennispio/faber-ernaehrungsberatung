@@ -15,6 +15,8 @@
 
   .offer-price-container {
     position: relative;
+    vertical-align: top;
+
 
     p {
       font-style: normal;
@@ -31,7 +33,7 @@
     }
 
     .time {
-      top: 70px;
+      top: 80%;
       left: 10px;
       position: absolute;
       font-size: 12px;

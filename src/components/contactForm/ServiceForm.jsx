@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './contactForm.scss';
 
-const ContactForm = () => (
+const ServiceForm = ({ serviceName }) => (
   <div className="form-felder row">
     <div className="form-contacthead col-md-8 col-md-offset-2  col-xs-6 col-xs-offset-1">
       <p>
@@ -15,29 +16,25 @@ const ContactForm = () => (
       <input
         type="hidden"
         id="form-type"
-        name="form-type"
-        value="Kontakt Formular"
+        name="FormService"
+        value={serviceName}
       />
       <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <input type="text" name="Name" required /> <br />
         <label htmlFor="Name">Vollständiger Name</label> <br />
       </div>
-      <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-        <input type="text" name="Straße" s /> <br />
-        <label htmlFor="Straße">Straße und Hausnummer (optional)</label> <br />
-      </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <div className="e-mail-container col-md-6 col-xs-12">
           <input type="email" name="Email" required /> <br />
-          <label htmlFor="Email">E-Mail</label> <br />
+          <label htmlFor="message">E-Mail</label> <br />
         </div>
         <div className="telefon-container col-md-6 col-xs-12">
           <input type="text" name="Telefon" /> <br />
-          <label htmlFor="Telefon">Telefon (optional)</label> <br />
+          <label htmlFor="message">Telefon (optional)</label> <br />
         </div>
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-        <textarea name="message" required /> <br />
+        <textarea name="message" /> <br />
         <label htmlFor="message">Möchtest Du uns noch etwas mitteilen?</label>
       </div>
       <div className="checkbox-flow col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
@@ -50,14 +47,10 @@ const ContactForm = () => (
         <hr />
       </div>
       <div className="checkbox-column col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
-        <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" required />
+        <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" />
         <label htmlFor="datenschutz">
           Ich stimme den Datenschutzbestimmungen zu. <br /> Deine Daten werden
           nicht an Dritte weitergegeben.
-        </label>
-        <input type="checkbox" id="newsletter" name="Newsletter" value="ja" />
-        <label htmlFor="newsletter">
-          Ich möchte den Newsletter erhalten. <br /> Jederzeit abstellbar.
         </label>
       </div>
       <div className="col-md-3 col-md-offset-2  col-xs-10 col-xs-offset-1">
@@ -70,4 +63,8 @@ const ContactForm = () => (
     </form>
   </div>
 );
-export default ContactForm;
+export default ServiceForm;
+
+ServiceForm.propTypes = {
+  serviceName: PropTypes.string.isRequired,
+};

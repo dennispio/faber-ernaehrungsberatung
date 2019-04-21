@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import leftBub from '../../img/bubbles/bubble_4.svg';
-import rightBub from '../../img/bubbles/bubble_3.svg';
+import leftBub from '../../img/bubbles/bubble_subpage_header_1.svg';
+import rightBub from '../../img/bubbles/bubble_subpage_header_2.svg';
 import './subpageHeader.scss';
 
 const SubpageHeader = ({ title, text }) => (
