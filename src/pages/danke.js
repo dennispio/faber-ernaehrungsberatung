@@ -13,7 +13,7 @@ const Danke = function() {
                 />
                 <h1>Danke für deine Anfrage</h1>
                 <p>Deine Anfrage ist erfolgreich bei uns eingegangen!</p> 
-                <p>Falls du dich für unseren Newsletter eingetragen hast, schaue bitte in dein Postfach nach einer Bestätitungsmail.</p>
+                <p>Falls du dich für unseren Newsletter eingetragen hast, schaue bitte in dein Postfach nach einer Bestätigungsmail.</p>
                 <p>Bestätige diese und Verpasse keine Neuigkeiten von uns.</p>
             </div>
         </div>

@@ -45,10 +45,10 @@ const Footer = () => (
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Unternehmen</h4>
         <ul>
-          <Link to="#" title="zu der über uns seite">
+          <Link to="ueberuns" title="zu der über uns seite">
             <li>Über uns</li>
           </Link>
-          <Link to="#" title="zu der kontakt seite">
+          <Link to="kontakt" title="zu der kontakt seite">
             <li>Kontakt</li>
           </Link>
           <Link to="legal/impressum" title="zum impressum">
@@ -65,13 +65,13 @@ const Footer = () => (
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Support</h4>
         <ul>
-          <Link to="#" title="zu den cookie informationen">
+          <Link to="cookies" title="zu den cookie informationen">
             <li>Cookies</li>
           </Link>
           <Link to="legal/datenschutz" title="zu der Datenschutzseite">
             <li>Datenschutz</li>
           </Link>
-          <Link to="#" title="zu den AGBS">
+          <Link to="agb" title="zu den AGBS">
             <li>AGB</li>
           </Link>
         </ul>
@@ -82,19 +82,19 @@ const Footer = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.tuev-sued.de/home_de"
+          href="http://lkh.agentur-strasser.de/"
           title="zu Partner Alex Strasser"
         >
-          <img src={p1} alt="Logo des Tüv süd als Auszeichnung" />
+          <img src={p1} alt="Logo der Alex Strasser Agentur" />
         </a>
         <br />
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.tuev-sued.de/home_de"
+          href="https://xn--akbulut-kchen-4ob.de/"
           title="zum Partner Akbulut Küchentechnik"
         >
-          <img src={p2} alt="Logo des Tüv süd als Auszeichnung" />
+          <img src={p2} alt="Logo der Akbulut Küchentechnik" />
         </a>
         <br />
         <a
