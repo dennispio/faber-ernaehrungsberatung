@@ -3,10 +3,13 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import '../../constants/style/application.scss';
 import CookieConsent, { Cookies } from 'react-cookie-consent';
+import { ClientError } from 'graphql-request';
+import { Link } from 'gatsby';
 import Footer from '../footer/Footer';
 import Navigation from '../navigation/Navigation';
 import logo from '../../img/FBR-logo-sw.svg';
-import { ClientError } from 'graphql-request';
+
+
 
 
 const TemplateWrapper = ({
@@ -37,7 +40,7 @@ const TemplateWrapper = ({
       >
         <span style={{ fontSize: "15px" }}>
           Diese Website verwendet Cookies –
-          nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer Datenschutzerklärung am Ende der Seite.
+          nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer <Link to="/legal/datenschutz">Datenschutzerklärung</Link> am Ende der Seite.
           Klicken Sie auf „Ich stimme zu“, um Cookies zu akzeptieren und direkt unsere Website besuchen zu können.
          </span>
       </CookieConsent>
