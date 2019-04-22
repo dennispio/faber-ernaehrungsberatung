@@ -53,7 +53,7 @@ class ShareButton extends Component {
             </a>
             <br />
             <br />
-            <a href="https://wa.me/whatsappphonenumber/">WhatsApp</a>
+            <a href={`whatsapp://send?text=${url}`}>WhatsApp</a>
             <br />
             <br />
             <a
