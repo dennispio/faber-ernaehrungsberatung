@@ -4,13 +4,41 @@ seo_title: Grundbausteine Impressum
 seo_desc: Grundbausteine einer Impressum
 category: impressum
 title: Grundbausteine einer Impressum
-date: 2018-12-07T15:04:10.000Z
 ---
 # Impressum
 
-Ernährungsberatung faber GbR <br />
-Walsroder Straße 123 B<br />
-30853 Langenhagen <br />
-Telefon: +49 157 85624045<br />
-Mail: kontakt@ernaehrungsberatung-faber.de <br />
-Auf Wunsch auch über Skype erreichbar <br />
+Angaben gemäß § 5 TMG:
+
+Ernährungsberatung faber GbR
+
+Ernährungsberatung
+
+Maxim Faber, Daniel Faber
+
+Postanschrift:
+
+Walsroder Straße 123 B
+
+30853 Langenhagen
+
+Kontakt:
+
+Telefon: 01578 562 4045
+
+E-Mail: kontakt@ernaehrungsberatung-faber.de
+
+Vertreten durch:
+
+Maxim Faber, Daniel Faber
+
+Berufsrechtliche Angaben
+
+Hinweise zur Website
+
+Information gemäß § 36 VSBG
+
+Gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz – Gesetz über die alternative Streitbeilegung in Verbrauchersachen) erklärt der Betreiber dieser Website:
+
+Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+Das Impressum wurde mit dem Impressums-Generator der activeMind AG erstellt.
