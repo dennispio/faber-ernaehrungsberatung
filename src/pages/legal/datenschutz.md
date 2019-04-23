@@ -33,67 +33,67 @@ title: Grundbausteine einer LEGALPAGE
 
 ## <ul style="list-style: none">
 
-## <li><h4>a)    personenbezogene Daten</h4>
+## <li>a)    personenbezogene Daten
 
 ## <p>Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.</p>
 
 ## </li>
 
-## <li><h4>b)    betroffene Person</h4>
+## <li>b)    betroffene Person
 
 ## <p>Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.</p>
 
 ## </li>
 
-## <li><h4>c)    Verarbeitung</h4>
+## <li>c)    Verarbeitung
 
 ## <p>Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.</p>
 
 ## </li>
 
-## <li><h4>d)    Einschränkung der Verarbeitung</h4>
+## <li>d)    Einschränkung der Verarbeitung
 
 ## <p>Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung einzuschränken.</p>
 
 ## </li>
 
-## <li><h4>e)    Profiling</h4>
+## <li>e)    Profiling
 
 ## <p>Profiling ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere, um Aspekte bezüglich Arbeitsleistung, wirtschaftlicher Lage, Gesundheit, persönlicher Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.</p>
 
 ## </li>
 
-## <li><h4>f)     Pseudonymisierung</h4>
+## <li>f)     Pseudonymisierung
 
 ## <p>Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.</p>
 
 ## </li>
 
-## <li><h4>g)    Verantwortlicher oder für die Verarbeitung Verantwortlicher</h4>
+## <li>g)    Verantwortlicher oder für die Verarbeitung Verantwortlicher
 
 ## <p>Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann der Verantwortliche beziehungsweise können die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.</p>
 
 ## </li>
 
-## <li><h4>h)    Auftragsverarbeiter</h4>
+## <li>h)    Auftragsverarbeiter
 
 ## <p>Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.</p>
 
 ## </li>
 
-## <li><h4>i)      Empfänger</h4>
+## <li>i)      Empfänger
 
 ## <p>Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger.</p>
 
 ## </li>
 
-## <li><h4>j)      Dritter</h4>
+## <li>j)      Dritter
 
 ## <p>Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.</p>
 
 ## </li>
 
-## <li><h4>k)    Einwilligung</h4>
+## <li>k)    Einwilligung
 
 ## <p>Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.</p>
 
@@ -113,7 +113,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## <p>Walsroder Straße 123 B</p>
 
-## <p>30853 Langen</p>
+## <p>30853 Langenhagen</p>
 
 ## <p>Deutschland</p>
 
@@ -215,13 +215,13 @@ title: Grundbausteine einer LEGALPAGE
 
 ## <ul style="list-style: none;">
 
-## <li><h4>a)    Recht auf Bestätigung</h4>
+## <li>a)    Recht auf Bestätigung
 
 ## <p>Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie betreffende personenbezogene Daten verarbeitet werden. Möchte eine betroffene Person dieses Bestätigungsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
 
 ## </li>
 
-## <li><h4>b)    Recht auf Auskunft</h4>
+## <li>b)    Recht auf Auskunft
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung Verantwortlichen unentgeltliche Auskunft über die zu seiner Person gespeicherten personenbezogenen Daten und eine Kopie dieser Auskunft zu erhalten. Ferner hat der Europäische Richtlinien- und Verordnungsgeber der betroffenen Person Auskunft über folgende Informationen zugestanden:</p>
 
@@ -257,7 +257,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## </li>
 
-## <li><h4>c)    Recht auf Berichtigung</h4>
+## <li>c)    Recht auf Berichtigung
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, die unverzügliche Berichtigung sie betreffender unrichtiger personenbezogener Daten zu verlangen. Ferner steht der betroffenen Person das Recht zu, unter Berücksichtigung der Zwecke der Verarbeitung, die Vervollständigung unvollständiger personenbezogener Daten — auch mittels einer ergänzenden Erklärung — zu verlangen.</p>
 
@@ -267,7 +267,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## <li>
 
-## <h4>d)    Recht auf Löschung (Recht auf Vergessen werden)</h4>
+## d)    Recht auf Löschung (Recht auf Vergessen werden)
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen zu verlangen, dass die sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der folgenden Gründe zutrifft und soweit die Verarbeitung nicht erforderlich ist:</p>
 
@@ -299,7 +299,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## </li>
 
-## <li><h4>e)    Recht auf Einschränkung der Verarbeitung</h4>
+## <li>e)    Recht auf Einschränkung der Verarbeitung
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen die Einschränkung der Verarbeitung zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:</p>
 
@@ -323,7 +323,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## </li>
 
-## <li><h4>f)     Recht auf Datenübertragbarkeit</h4>
+## <li>f)     Recht auf Datenübertragbarkeit
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, die sie betreffenden personenbezogenen Daten, welche durch die betroffene Person einem Verantwortlichen bereitgestellt wurden, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Sie hat außerdem das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern die Verarbeitung auf der Einwilligung gemäß Art. 6 Abs. 1 Buchstabe a DS-GVO oder Art. 9 Abs. 2 Buchstabe a DS-GVO oder auf einem Vertrag gemäß Art. 6 Abs. 1 Buchstabe b DS-GVO beruht und die Verarbeitung mithilfe automatisierter Verfahren erfolgt, sofern die Verarbeitung nicht für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, welche dem Verantwortlichen übertragen wurde.</p>
 
@@ -341,7 +341,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## <li>
 
-## <h4>g)    Recht auf Widerspruch</h4>
+## g)    Recht auf Widerspruch
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchstaben e oder f DS-GVO erfolgt, Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.</p>
 
@@ -363,7 +363,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## </li>
 
-## <li><h4>h)    Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h4>
+## <li>h)    Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu werden, die ihr gegenüber rechtliche Wirkung entfaltet oder sie in ähnlicher Weise erheblich beeinträchtigt, sofern die Entscheidung (1) nicht für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem Verantwortlichen erforderlich ist, oder (2) aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung der Rechte und Freiheiten sowie der berechtigten Interessen der betroffenen Person enthalten oder (3) mit ausdrücklicher Einwilligung der betroffenen Person erfolgt.</p>
 
@@ -379,7 +379,7 @@ title: Grundbausteine einer LEGALPAGE
 
 ## </li>
 
-## <li><h4>i)      Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h4>
+## <li>i)      Recht auf Widerruf einer datenschutzrechtlichen Einwilligung
 
 ## <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten jederzeit zu widerrufen.</p>
 
