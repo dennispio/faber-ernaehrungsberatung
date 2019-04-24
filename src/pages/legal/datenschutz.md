@@ -1,6 +1,6 @@
 ---
 templateKey: legal
-seo_title: Grundbausteine Legalpage
+seo_title: Grundbausteine Datenschutzseite
 seo_desc: Grundbausteine einer Datenschutzseite
 category: datenschutz
 title: Grundbausteine einer LEGALPAGE
