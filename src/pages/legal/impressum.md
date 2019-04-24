@@ -7,7 +7,7 @@ title: Grundbausteine einer Impressum
 ---
 # Impressum
 
-**Angaben gemäß § 5 TMG:**
+**<h5>Angaben gemäß § 5 TMG: <h5>**
 
 Ernährungsberatung faber GbR
 
@@ -15,7 +15,7 @@ Ernährungsberatung
 
 Maxim Faber, Daniel Faber
 
-**Postanschrift:**
+**<h5>Postanschrift: <h5>**
 
 Walsroder Straße 123 B
 
@@ -27,7 +27,7 @@ Telefon: 01578 562 4045
 
 E-Mail: kontakt@ernaehrungsberatung-faber.de
 
-**Vertreten durch:**
+**<5> Vertreten durch: <h5>**
 
 Maxim Faber, Daniel Faber
 
