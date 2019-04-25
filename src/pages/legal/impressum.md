@@ -15,7 +15,7 @@ Ernährungsberatung
 
 Maxim Faber, Daniel Faber
 
-**<h4>Postanschrift: </h4>**
+**<h5>Postanschrift: </h5>**
 
 Walsroder Straße 123 B
 
@@ -27,7 +27,7 @@ Telefon: 01578 562 4045
 
 E-Mail: kontakt@ernaehrungsberatung-faber.de
 
-**<h4> Vertreten durch: </h4>**
+**<h5> Vertreten durch: </h5>**
 
 Maxim Faber, Daniel Faber
 
