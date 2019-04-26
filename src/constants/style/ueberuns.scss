@@ -1,52 +1,59 @@
 @import '../style/variables.scss';
 
 .ueberUnsContainer {
+   // background-color: red;
     background-color: rgb(216, 216, 216);
     @include media-query-tablet {
-        height: 200vh;
+        height: 80vh;
         
        
     }
     
     @include media-query-phone{
-        height: 200vh;
        
+        height: 250vh;
     }
    
 #ueberunsContainerImg{
     background-repeat: no-repeat; 
-    background-size: contain ;
+    
     width: 100%;
-    height: 200vh;
+  height: 200vh;
     background-image: url(../../img/ueber-uns.gif);
     background-position-y: 90px;
     @include media-query-tablet {
-        height: 85vh;
+        height: 50vh;
         background-size: contain ;
         background-repeat: no-repeat; 
         
     }
     
     @include media-query-phone{
-        height: 75vh;
+        height: 70vh;
         background-repeat: no-repeat;
         background-size: contain ;
+        background-position-y: 80px;
     }
 
 }
         .ueberUnsContent {
-            margin-top: 90px;
+           // background-color:blue;
+            background-color: rgb(216, 216, 216);
+            margin-top: 0%;
+          
             @include media-query-tablet {
                 height: 100vh;
-                margin-top: -50px;
+               
+               
             }
             @include media-query-phone{
-                height: 190vh;
-                margin-top: -140px;
+                height: 100vh;
+             
             }
         }
         .texttitel{
             font-size:80px; 
+            margin:auto;
             @include media-query-phone{
                 font-size:60px; 
             }
@@ -60,6 +67,7 @@
             width:350px; 
         }
         .textNamen{
+           // background-color: green;
             height: 150vh;
             position:relative;
             top: 500px;         
@@ -70,10 +78,17 @@
             }
             
             @include media-query-phone{
-                height: 200vh;
-                top: 100px; 
+                height: 0;
+                top: 0px; 
+                left: 0%;
             }
 
+        }
+        
+        .farbverlauf{
+            background:  linear-gradient(to right, midnightblue, red);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
         }
         .titeldrei{
             font-size:18px;
