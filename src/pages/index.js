@@ -9,6 +9,8 @@ import OfferCard from '../components/offerCard/OfferCard';
 import Countdown from '../components/countdown/Countdown';
 import BlogPostCard from '../components/blogPostCard/BlogPostCard';
 import Carousel from '../components/carousel/Carousel';
+import Morph from '../components/morph/Morph';
+
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -43,6 +45,7 @@ const IndexPage = props => {
           />
         ) : null;
       })}
+      <Morph />
       <div className="sperator" />
       <div className="container-full bubble-bg">
         <div className="preview-section container">
