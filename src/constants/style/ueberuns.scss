@@ -1,98 +1,43 @@
 @import '../style/variables.scss';
 
 .ueberUnsContainer {
-   // background-color: red;
-   background-color: rgb(216, 216, 216);
-    @include media-query-tablet {
-        height: 180vh;
-        
-       
-    }
-    
-    @include media-query-phone{
-       
-        height: 250vh;
-    }
-   
-#ueberunsContainerImg{
-    background-repeat: no-repeat; 
-    
+  background-color: rgb(216, 216, 216);
+
+  #ueberunsContainerImg {
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-  height: 200vh;
+    height: 200vh;
     background-image: url(../../img/ueberuns.gif);
     background-position-y: 90px;
+    background-position-x: -150px;
+
     @include media-query-tablet {
-        height: 80vh;
-        background-size: contain ;
-        background-repeat: no-repeat; 
-        
-    }
-    
-    @include media-query-phone{
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: contain ;
-        background-position-y: 80px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 50vh;
+      background-position-y: 80px;
+      background-position-x: 0px;
     }
 
+    @include media-query-phone {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 50vh;
+      background-position-y: 80px;
+      background-position-x: 0px;
+    }
+  }
+
+  .ueberUnsContent {
+    background-color: rgb(216, 216, 216);
+  }
+
+  .textUber {
+    width: 350px;
+  }
+
+  .titelzwei {
+    width: 350px;
+  }
 }
-        .ueberUnsContent {
-           //  background-color:blue;
-            background-color: rgb(216, 216, 216);
-            margin-top: 0%;
-          
-            @include media-query-tablet {
-                height: 150vh;
-               
-               
-            }
-            @include media-query-phone{
-                height: 100vh;
-             
-            }
-        }
-        .texttitel{
-            font-size:80px; 
-            margin:auto;
-            @include media-query-phone{
-                font-size:60px; 
-            }
-        }
-        .textUber{
-            font-size:12px; 
-            width:350px;
-        }
-        .titelzwei{
-            font-size:26px;
-            width:350px; 
-        }
-        .textNamen{
-           // background-color: green;
-            height: 150vh;
-            position:relative;
-            top: 500px;         
-            left: 10px;
-            @include media-query-tablet {
-                height: 70vh;
-                
-            }
-            
-            @include media-query-phone{
-                height: 0;
-                top: 0px; 
-                left: 0%;
-            }
-
-        }
-        
-        .farbverlauf{
-            background:  linear-gradient(to right, midnightblue, red);
-           -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
-        }
-        .titeldrei{
-            font-size:18px;
-        }
-}
-
-
