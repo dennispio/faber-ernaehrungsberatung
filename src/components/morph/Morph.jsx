@@ -85,8 +85,8 @@ export default class Morph extends React.Component {
     return (
       <div className="container morph-component-container">
         <div className="morph-component">
-          <div className="morph-header">
-            <h3>Wir hinterfragen und schauen genauer hin: individuell auf Dich abgestimmt.</h3>
+          <div className="morph-header ">
+            <h3 className="farbverlauf">Wir hinterfragen und schauen genauer hin: individuell auf Dich abgestimmt.</h3>
           </div>
           <div className="morph-background">
             <img src={bgMorph} alt="Diagramm Morph" />

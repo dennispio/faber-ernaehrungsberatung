@@ -15,7 +15,7 @@
         }
     }
     .morph-info{
-        grid-column:7/9;
+        grid-column:6/9;
         grid-row:3;
         @include media-query-phone {
             grid-column:6/10;
@@ -39,7 +39,7 @@
         }
     }
     .morph-buttons{
-        grid-column:8;
+        grid-column:7/10;
         grid-row:2;
         align-self: center;
         @include media-query-phone {
