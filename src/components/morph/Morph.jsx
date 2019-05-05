@@ -99,7 +99,7 @@ export default class Morph extends React.Component {
                 null
               }
               {this.state.pathIndex == 3 ?
-                <Icon pose={pathIds[1]} opacity='0.75' fill='#DB7272' /> :
+                <Icon pose={pathIds[1]} opacity='0.7' fill='#DB7272' /> :
                 null
               }
             </svg>
