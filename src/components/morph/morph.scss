@@ -39,7 +39,7 @@
         }
     }
     .morph-buttons{
-        grid-column:7/10;
+        grid-column:7/8;
         grid-row:2;
         align-self: center;
         @include media-query-phone {
@@ -48,7 +48,7 @@
         }
     }
     .morph-buttons-alt {
-        grid-column:7/10;
+        grid-column:7/8;
         grid-row:2;
         align-self: center;
 
@@ -64,4 +64,9 @@
         50% { transform: scale(1.1)};
         100% { transform: scale(1); }
         }
+
+    .li-container{
+        margin-top:16px;
+
+    }
 }

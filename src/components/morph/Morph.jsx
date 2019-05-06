@@ -132,9 +132,9 @@ export default class Morph extends React.Component {
           >
             {/* <NextButton onClick={this.gotoNext}>Next icon!</NextButton> */}
             {console.log(this.state.pulsIndex)}
-            <li onClick={this.schokolade}>Schokolade</li>
-            <li onClick={this.peanuts}>Erdnüsse</li>
-            <li onClick={this.allMorph}>Vergleich</li>
+            <li className="li-container" onClick={this.schokolade}>Schokolade</li>
+            <li className="li-container" onClick={this.peanuts}>Erdnüsse</li>
+            <li className="li-container" onClick={this.allMorph}>Vergleich</li>
           </div>
           <div className="morph-info">
             <Link>zur Nährtwert- und Ernährungsanalyse</Link>
