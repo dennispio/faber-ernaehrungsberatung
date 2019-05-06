@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import './morph.scss';
 import posed from 'react-pose';
@@ -36,7 +35,6 @@ const Icon = posed.path(
       d: paths[id],
       transition: morphTransition,
     };
-
     return config;
   }, {})
 );
@@ -50,7 +48,10 @@ const Icon = posed.path(
 // });
 
 export default class Morph extends React.Component {
-  state = { pathIndex: 0 };
+  state = {
+    pathIndex: 0,
+    pulsIndex: 0,
+  };
 
   // gotoNext = () => {
   //   const { pathIndex } = this.state;
@@ -59,6 +60,10 @@ export default class Morph extends React.Component {
   //     pathIndex: nextIndex > pathIds.length - 1 ? 0 : nextIndex,
   //   });
   // };
+  // componentDidMount() {
+  //   const rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
+  //   console.log(rect);
+  // }
 
   schokolade = () => {
     const { pathIndex } = this.state;
@@ -81,34 +86,54 @@ export default class Morph extends React.Component {
     });
   };
 
+  pulsShake = () => {
+    const { pulsIndex } = this.state;
+    this.setState({
+      pulsIndex: 1,
+    });
+  };
+
   render() {
     return (
       <div className="container morph-component-container">
         <div className="morph-component">
           <div className="morph-header ">
-            <h3 className="farbverlauf">Wir hinterfragen und schauen genauer hin: individuell auf Dich abgestimmt.</h3>
+            <h3 className="farbverlauf">
+              Wir hinterfragen und schauen genauer hin: individuell auf Dich
+              abgestimmt.
+            </h3>
           </div>
           <div className="morph-background">
             <img src={bgMorph} alt="Diagramm Morph" />
           </div>
           <div className="morph-svg">
             <svg viewBox="0 0 750 650">
-              <Icon pose={pathIds[this.state.pathIndex]} opacity={this.state.pathIndex === 0 ? '1' : '1'} fill={this.state.pathIndex === 0 ? '#140A37' : '#DB7272'} />
-              {this.state.pathIndex == 3 ?
-                <Icon pose={pathIds[0]} fill='#140A37' /> :
-                null
-              }
-              {this.state.pathIndex == 3 ?
-                <Icon pose={pathIds[1]} opacity='0.7' fill='#DB7272' /> :
-                null
-              }
+              <Icon
+                pose={pathIds[this.state.pathIndex]}
+                opacity={this.state.pathIndex === 0 ? '1' : '1'}
+                fill={this.state.pathIndex === 0 ? '#140A37' : '#DB7272'}
+              />
+              {this.state.pathIndex == 3 ? (
+                <Icon pose={pathIds[0]} fill="#140A37" />
+              ) : null}
+              {this.state.pathIndex == 3 ? (
+                <Icon pose={pathIds[1]} opacity="0.7" fill="#DB7272" />
+              ) : null}
             </svg>
           </div>
-          <div className="morph-buttons">
+          <div
+            onClick={this.pulsShake}
+            onKeyPress={this.pulsShake}
+            role="button"
+            tabIndex={0}
+            className={
+              this.state.pulsIndex === 1 ? 'morph-buttons' : 'morph-buttons-alt'
+            }
+          >
             {/* <NextButton onClick={this.gotoNext}>Next icon!</NextButton> */}
+            {console.log(this.state.pulsIndex)}
             <li onClick={this.schokolade}>Schokolade</li>
             <li onClick={this.peanuts}>Erdnüsse</li>
-            <li>Fettsäuren</li>
             <li onClick={this.allMorph}>Vergleich</li>
           </div>
           <div className="morph-info">
