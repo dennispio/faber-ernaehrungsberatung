@@ -43,7 +43,7 @@
         grid-row:2;
         align-self: center;
         @include media-query-phone {
-            grid-column:2/10;
+            grid-column:2/9;
             grid-row:3;
         }
     }
@@ -51,9 +51,8 @@
         grid-column:7/8;
         grid-row:2;
         align-self: center;
-
         @include media-query-phone {
-            grid-column:2/10;
+            grid-column:2/9;
             grid-row:3;
         }
         animation: pulse 1s infinite;
@@ -65,8 +64,18 @@
         100% { transform: scale(1); }
         }
 
-    .li-container{
-        margin-top:16px;
+    .li-containerSchokolade{
+        margin-top:$margin_s;
+        color:#140A37;
+    }
+    .li-containerPeanut{
+        margin-top:$margin_s;
+        color:#DB7272;
+    }
+    .li-containerAll{
+        margin-top:$margin_s;
+        color:#696969      
+        ;
 
     }
 }
