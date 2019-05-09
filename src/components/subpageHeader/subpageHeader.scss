@@ -5,9 +5,9 @@
   overflow: hidden;
   height: 108vh;
 
-
   @include media-query-phone {
     height: auto;
+    overflow-x: hidden;
   }
 
   @include media-query-tablet {
@@ -36,6 +36,7 @@
     right: -10%;
 
     @include media-query-phone {
+      overflow-x: hidden;
       top: 0;
     }
   }
