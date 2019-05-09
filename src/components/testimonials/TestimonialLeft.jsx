@@ -26,7 +26,7 @@ const TestimonialLeft = ({ title, text, fluid, link, alt }) => (
       <div className="row">
         <div className="col-xs-12 col-sm-6 col-lg-5 testimonial-content testimonial-left">
           <div className="testimaonial-title">
-            <h2>{title}</h2>
+            <h2 className="farbverlauf">{title}</h2>
           </div>
           <div className="testimonial-text">
             <p>{text}</p>

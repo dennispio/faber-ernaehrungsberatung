@@ -39,31 +39,11 @@ const Icon = posed.path(
   }, {})
 );
 
-// const NextButton = posed.button({
-//   hoverable: true,
-//   pressable: true,
-//   init: { scale: 1 },
-//   hover: { scale: 1.1 },
-//   press: { scale: 0.8 },
-// });
-
 export default class Morph extends React.Component {
   state = {
     pathIndex: 0,
     pulsIndex: 0,
   };
-
-  // gotoNext = () => {
-  //   const { pathIndex } = this.state;
-  //   const nextIndex = pathIndex + 1;
-  //   this.setState({
-  //     pathIndex: nextIndex > pathIds.length - 1 ? 0 : nextIndex,
-  //   });
-  // };
-  // componentDidMount() {
-  //   const rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
-  //   console.log(rect);
-  // }
 
   schokolade = () => {
     const { pathIndex } = this.state;

@@ -49,7 +49,7 @@ const IndexPage = props => {
       <div className="sperator" />
       <div className="container-full bubble-bg">
         <div className="preview-section container">
-          <h3 className="black">
+          <h3 className="farbverlauf">
             Das bekommst du:
             <br />
             Unsere Top-Angebote

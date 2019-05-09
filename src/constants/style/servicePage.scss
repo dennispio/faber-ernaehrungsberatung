@@ -17,6 +17,7 @@
 
 .offer-1 {
   grid-column: 4 / 8;
+  justify-self: flex-start;
   grid-row: 1 / 2;
   z-index: 5;
   @include media-query-phone {
