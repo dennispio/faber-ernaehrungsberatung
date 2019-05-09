@@ -1,0 +1,43 @@
+@import '../style/variables.scss';
+
+.ueberUnsContainer {
+  background-color: rgb(216, 216, 216);
+
+  #ueberunsContainerImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+    background-image: url(../../img/ueberuns.gif);
+    background-position-y: 90px;
+    background-position-x: -150px;
+
+    @include media-query-tablet {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 50vh;
+      background-position-y: 80px;
+      background-position-x: 0px;
+    }
+
+    @include media-query-phone {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 50vh;
+      background-position-y: 80px;
+      background-position-x: 0px;
+    }
+  }
+
+  .ueberUnsContent {
+    background-color: rgb(216, 216, 216);
+  }
+
+  .textUber {
+    width: 350px;
+  }
+
+  .titelzwei {
+    width: 350px;
+  }
+}
