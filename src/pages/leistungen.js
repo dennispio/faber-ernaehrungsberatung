@@ -87,7 +87,7 @@ const Leistungen = props => {
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
             {angebote.map(({ node: angebot }) => {
-              return angebot.frontmatter.category === 'Beratung' ? (
+              return angebot.frontmatter.category === 'Nährwertanalyse' ? (
                 <OfferCard
                   category={angebot.frontmatter.category}
                   price={angebot.frontmatter.price}
@@ -99,6 +99,11 @@ const Leistungen = props => {
             })}
           </div>
         </div>
+        <img
+          className="bubble-three"
+          src={bubbleThree}
+          alt="hintergrund bubble mit verlauf"
+        />
         {/* </div> */}
       </div>
     </Layout>

@@ -11,6 +11,7 @@
 
   @include media-query-phone {
     min-width: 256px;
+    max-width: 256px;
   }
 
   .offer-price-container {
