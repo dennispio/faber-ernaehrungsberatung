@@ -54,9 +54,6 @@ const Footer = () => (
           <Link to="legal/impressum" title="zum impressum">
             <li>Impressum</li>
           </Link>
-          <Link to="#" title="zum Pressebereich">
-            <li>Press</li>
-          </Link>
           <Link to="newsletter" title="zum Newsletter">
             <li>Newsletter</li>
           </Link>
@@ -65,14 +62,8 @@ const Footer = () => (
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Support</h4>
         <ul>
-          <Link to="cookies" title="zu den cookie informationen">
-            <li>Cookies</li>
-          </Link>
           <Link to="legal/datenschutz" title="zu der Datenschutzseite">
             <li>Datenschutz</li>
-          </Link>
-          <Link to="agb" title="zu den AGBS">
-            <li>AGB</li>
           </Link>
         </ul>
       </div>

@@ -109,8 +109,8 @@ export default class Countdown extends Component {
 
     return (
       <div className="container countdown-container">
-        <h3 className="farbverlauf">Du kannst es auch schaffen!</h3>
-        <h3 className="farbverlauf">Der {season} kommt in ...</h3>
+        <h3 className="container farbverlauf">Du kannst es auch schaffen!</h3>
+        <h3 className="container farbverlauf">Der {season} kommt in ...</h3>
         <div className="row text-start">
           <div className="col-md-3 col-xs-6">
             {this.renderTime(days, 'Tage')}

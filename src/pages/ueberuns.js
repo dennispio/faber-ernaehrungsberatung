@@ -15,6 +15,7 @@ const Ueberuns = props => {
         <div id="ueberunsContainerImg" />
         <div className="container ueberUnsContent">
           <div className="row">
+            <div className="col-xs-12 col-sm-6 col-lg-5" />
             <div className="col-xs-12 col-sm-6 col-lg-5">
               <h1 className="texttitel ">Ueber Uns</h1>
               <h2 className="titelzwei farbverlauf">
@@ -43,7 +44,6 @@ const Ueberuns = props => {
             </div>
           </div>
           <div className="textNamen row">
-            <div className="col-xs-12 col-sm-6 col-lg-5" />
             <div className="col-xs-12 col-sm-6 col-lg-5">
               <h1 className="titelunten farbvelauf"> Das sind wir</h1>
               <h2 className="titeldrei"> Daniel Faber</h2>
