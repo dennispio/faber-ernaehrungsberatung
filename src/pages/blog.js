@@ -12,7 +12,7 @@ const Blog = props => {
     <Layout title="TEST TITLE" description=" TEST DESCIPTION">
       <SubpageHeader title="Blog" />
       <div className="container-full blog-overview-container">
-        <div className="blog-overview-margin">
+        {/* <div className="blog-overview-margin"> */}
           <div className="blog-overview-grid">
             {/* eslint-disable-next-line */}
             {posts.map(({ node: post }, index) => {
@@ -30,7 +30,7 @@ const Blog = props => {
             })}
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </Layout>
   );
 };
