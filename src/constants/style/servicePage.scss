@@ -1,7 +1,7 @@
 @import "../style/variables.scss";
 
 .grid-container {
-  // margin: auto;
+  margin-top:-10%;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(10, 10vw);
@@ -75,7 +75,7 @@
 
   @include media-query-phone {
     width: 190%;
-    transform: translateY(88%);
+    transform: translateY(100%);
   }
 
   @include media-query-tablet {
@@ -101,7 +101,7 @@
 
   @include media-query-tablet {
     width: 180%;
-    transform: translateY(42%);
+    transform: translateY(40%);
   }
 }
 
