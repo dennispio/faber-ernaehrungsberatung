@@ -10,6 +10,12 @@
   padding-left: 50px;
   padding-right: 50px;
 
+  @include media-query-phone {
+    margin-top: $margin_xxl;
+    margin-bottom: $margin_xxl;
+    height: 750px;
+  }
+
   .titelCarousel {
     width: 80%;
   }
@@ -21,13 +27,15 @@
   .slide {
     min-height: 310px;
 
-    @include media-query-phone {
-      min-height: 900px;
-    }
-
     .titelCarousel {
       h3 {
         margin: 0;
+
+        @include media-query-phone {
+          font-size: $font_size_h_mobile;
+          line-height: $font_size_h_mobile;
+          margin-bottom: $margin_s;
+        }
       }
     }
 
