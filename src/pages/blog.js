@@ -12,25 +12,23 @@ const Blog = props => {
     <Layout title="TEST TITLE" description=" TEST DESCIPTION">
       <SubpageHeader title="Blog" />
       <div className="container-full blog-overview-container">
-        {/* <div className="blog-overview-margin"> */}
-          <div className="blog-overview-grid">
-            {/* eslint-disable-next-line */}
+        <div className="blog-overview-grid">
+          {/* eslint-disable-next-line */}
             {posts.map(({ node: post }, index) => {
-              return (
-                <BlogPostPageCard
-                  link={post.fields.slug}
-                  date={post.frontmatter.date}
-                  category={post.frontmatter.category}
-                  title={post.frontmatter.title}
-                  text={post.frontmatter.description}
-                  html={post.html}
-                  index={index}
-                />
-              );
-            })}
-          </div>
+            return (
+              <BlogPostPageCard
+                link={post.fields.slug}
+                date={post.frontmatter.date}
+                category={post.frontmatter.category}
+                title={post.frontmatter.title}
+                text={post.frontmatter.description}
+                html={post.html}
+                index={index}
+              />
+            );
+          })}
         </div>
-      {/* </div> */}
+      </div>
     </Layout>
   );
 };
