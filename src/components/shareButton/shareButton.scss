@@ -29,6 +29,11 @@
 
     a {
       margin-top: $margin_s;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 22px;
+      font-size: $font_size_p;
+      color: $color_p;
     }
   }
 }

@@ -70,6 +70,12 @@ $font_size_h: 38px;
 $font_size_h_mobile: 26px;
 
 /* media querys */
+@mixin media-query-xxl {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
+
 @mixin media-query-desktop {
   @media (min-width: 1200px) {
     @content;

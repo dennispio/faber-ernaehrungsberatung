@@ -41,11 +41,7 @@ class Newsletter extends Component {
               action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/webtask_forms"
             >
               <input type="email" name="Email" required /> <br />
-              <input
-                type="hidden"
-                name="Newsletter"
-                value="ja"
-              />
+              <input type="hidden" name="Newsletter" value="ja" />
               <input
                 className="input-button"
                 type="submit"

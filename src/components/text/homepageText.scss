@@ -9,6 +9,10 @@
   background-position: 35% -2000px;
   margin-bottom: $margin_xl * 2;
 
+  @include media-query-xxl {
+    min-height: 85vh;
+  }
+
   @include media-query-phone {
     min-height: 135vh;
     background-position: -900px -1900px;
