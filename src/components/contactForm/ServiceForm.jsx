@@ -11,7 +11,7 @@ const ServiceForm = ({ serviceName }) => (
     </div>
     <form
       method="GET"
-      action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/webtask_forms"
+      action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/faber-webhook"
     >
       <input
         type="hidden"
@@ -19,6 +19,7 @@ const ServiceForm = ({ serviceName }) => (
         name="FormService"
         value={serviceName}
       />
+      <input type="hidden" id="form-type" name="emailanfrage" value="ja" />
       <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <input type="text" name="Name" required /> <br />
         <label htmlFor="Name">Vollständiger Name</label> <br />
@@ -47,7 +48,13 @@ const ServiceForm = ({ serviceName }) => (
         <hr />
       </div>
       <div className="checkbox-column col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
-        <input type="checkbox" id="datenschutz" name="Datenschutz" value="ja" />
+        <input
+          type="checkbox"
+          id="datenschutz"
+          name="Datenschutz"
+          value="ja"
+          required
+        />
         <label htmlFor="datenschutz">
           Ich stimme den Datenschutzbestimmungen zu. <br /> Deine Daten werden
           nicht an Dritte weitergegeben.

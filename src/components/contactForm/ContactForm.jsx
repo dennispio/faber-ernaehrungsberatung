@@ -10,14 +10,15 @@ const ContactForm = () => (
     </div>
     <form
       method="GET"
-      action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/webtask_forms"
+      action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/faber-webhook"
     >
       <input
         type="hidden"
         id="form-type"
-        name="form-type"
-        value="Kontakt Formular"
+        name="FormService"
+        value="KontaktFormular"
       />
+      <input type="hidden" id="form-type" name="emailanfrage" value="ja" />
       <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
         <input type="text" name="Name" required /> <br />
         <label htmlFor="Name">Vollständiger Name</label> <br />
