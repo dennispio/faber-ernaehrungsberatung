@@ -4,8 +4,10 @@
   max-width: 812px;
   margin: 0 auto;
 
-  .subpage-title-container{
-    margin-top: $margin_m;
+  .blog-container{
+    @include media-query-phone {
+      margin-top: $margin_xxl * 2;
+    }
   }
 
   .blog-info {
