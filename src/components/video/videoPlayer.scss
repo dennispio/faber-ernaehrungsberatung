@@ -1,5 +1,21 @@
 @import "../../constants/style/variables.scss";
 
+.header-container{
+  margin-top: 35%;
+  margin-left: 5%;
+  position: absolute;
+  max-width: 30%;
+  font-size: 3rem;
+  @include media-query-phone {
+    display:none;
+  }
+
+  @include media-query-tablet {
+    font-size: 2.5rem;
+  }
+
+}
+
 #background-video {
   margin-top: $margin_video;
   width: 100%;
