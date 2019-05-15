@@ -4,14 +4,8 @@
   max-width: 812px;
   margin: 0 auto;
 
-  .blog-container{
-    @include media-query-phone {
-      margin-top: $margin_xxl * 2;
-    }
-  }
-
   .blog-info {
-    margin-top: $margin_m;
+    margin-top: 10%;
     margin-bottom: $margin_m;
   }
 
