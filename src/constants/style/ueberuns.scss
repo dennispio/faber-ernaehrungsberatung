@@ -10,7 +10,6 @@
     height: 200vh;
     background-image: url(../../img/ueberuns.gif);
     background-position-y: 90px;
-    background-position-x: -150px;
 
     @include media-query-tablet {
       background-repeat: no-repeat;
