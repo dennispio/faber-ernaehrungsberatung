@@ -1,8 +1,11 @@
 @import '../../constants/style/variables.scss';
 
 .subPage-header-container {
+  display: -ms-grid; 
   display: grid; 
+  -ms-grid-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
   grid-template-columns: repeat(10,10vw);
+  -ms-grid-row: 0fr 0fr 0fr 0fr 0fr;
   grid-template-rows: repeat(5,0fr);
   // position: static;
   // overflow: hidden;
