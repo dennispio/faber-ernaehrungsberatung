@@ -49,6 +49,10 @@
 
   .subpage-title-container {
     grid-column: 2 / 10;
+
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    
     justify-self: flex-start;
     align-self: center;
     grid-row: 1/2;
