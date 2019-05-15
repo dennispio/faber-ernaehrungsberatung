@@ -94,7 +94,9 @@ const Navigation = ({ pageName }) => (
         width="100%"
       >
         <div className="burgerMenu-logo">
-          <img alt="LOGO" src={logoBurger} />
+          <Link to="/">
+            <img alt="LOGO" src={logoBurger} />
+          </Link>
         </div>
         <div className="burgerMenu-content">
           <Link to="leistungen" className="menu-item">
