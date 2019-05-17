@@ -55,6 +55,7 @@ li {
 }
 
 .farbverlauf {
+  background: -webkit-linear-gradient(to right, #01072e, #e5331c);
   background: linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
