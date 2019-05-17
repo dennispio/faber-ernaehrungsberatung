@@ -1,8 +1,9 @@
 ---
+pageKey: page_service
 seo_comp:
   seo_desc: SEO DESC SERVICE SEITE
   seo_title: SEO TITEL SERVICE SEITE
-title:
+page_title:
   title: Unsere Leistungen
 service_1:
   text: >-

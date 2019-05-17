@@ -48,14 +48,9 @@ li {
   font-family: "itc-avant-garde-gothic-pro";
 }
 
-.gradient {
-  background-image: linear-gradient(to right, #01072e, #e5331c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .farbverlauf {
-  background: linear-gradient(to right, #01072e, #e5331c);
+  background-image: linear-gradient(to right, #01072e, #e5331c);
+  background-image: -webkit-linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,8 +62,15 @@ li {
 $font_site_xs: 12px;
 $font_size_p: 16px;
 $font_size_h: 38px;
+$font_size_h_mobile: 26px;
 
 /* media querys */
+@mixin media-query-xxl {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
+
 @mixin media-query-desktop {
   @media (min-width: 1200px) {
     @content;

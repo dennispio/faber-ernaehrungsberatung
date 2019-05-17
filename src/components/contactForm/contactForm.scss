@@ -4,6 +4,9 @@
   margin-top: $margin_video;
 
   .form-contacthead {
+    h1{
+      margin-top:10%;
+    }
     p {
       margin-bottom: -$margin_xs;
       color: #140A37;
@@ -91,9 +94,6 @@
     transition: .2s;
   }
 
-  input[type=checkbox]+label:active:before {
-    transform: scale(0);
-  }
 
   input[type=checkbox]:checked+label:before {
     background-color: #D8D8D8;

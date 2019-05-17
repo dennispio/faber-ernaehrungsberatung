@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+*:focus {
+  outline: none;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -32,7 +36,7 @@ h4 {
   font-size: 40px;
 
   @include media-query-phone {
-    line-height: 45px;
+    line-height: 33px;
     font-size: 33px;
   }
 }

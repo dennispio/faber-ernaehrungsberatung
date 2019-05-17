@@ -7,47 +7,18 @@ import { Link } from 'gatsby';
 
 const TestimonialLeft = ({ title, text, fluid, link, alt }) => (
   <Link className="testo-link" to={link} title="Zu der Referenz Seite">
-    <div
-      style={{ position: `relative` }}
-      className="container-full testimonials-container"
-    >
-      <Img
-        alt={alt}
-        className="desktop-img testimonial-img-left"
-        fluid={fluid}
-        style={{
-          position: 'absolute',
-          left: 0,
-          top: 0,
-          width: '100%',
-          height: '100%',
-        }}
-      />
+    <div className="container-full testimonials-container">
       <div className="row">
-        <div className="col-xs-12 col-sm-6 col-lg-5 testimonial-content testimonial-left">
+        <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-image">
+          <Img alt={alt} fluid={fluid} />
+        </div>
+        <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-content testimonial-left">
           <div className="testimaonial-title">
             <h2 className="farbverlauf">{title}</h2>
           </div>
           <div className="testimonial-text">
             <p>{text}</p>
           </div>
-        </div>
-        <div className="col-xs-12 col-sm-6 col-lg-7" />
-        <div
-          style={{ position: `relative` }}
-          className="col-xs-12 col-sm-6 col-lg-7 mobile-testo"
-        >
-          <Img
-            alt={alt}
-            fluid={fluid}
-            style={{
-              position: 'absolute',
-              left: 0,
-              top: 0,
-              width: '220%',
-              height: '100%',
-            }}
-          />
         </div>
       </div>
     </div>

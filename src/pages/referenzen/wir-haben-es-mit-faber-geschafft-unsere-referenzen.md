@@ -3,7 +3,7 @@ templateKey: referenz
 pageKey: page_referenz
 seo_title: Referenz 1 Title
 seo_desc: Referenz 1 Desc
-show_homepage: true
+show_homepage: false
 text_left: false
 featuredImage: /img/fbr-maxim-137.jpg
 alt_text: Referenz alt text

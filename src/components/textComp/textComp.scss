@@ -13,9 +13,10 @@
 }
 
 .text-comp-container {
-  width: 370px;
+  width: 426px;
+  word-wrap: break-word;
 
   @include media-query-phone {
-    width: 100%;
+    width: 90%;
   }
 }
