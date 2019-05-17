@@ -38,7 +38,7 @@ const ContactForm = () => (
         </div>
       </div>
       <div className="form-felder-container  col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-        <textarea name="message" required /> <br />
+        <textarea name="message" /> <br />
         <label htmlFor="message">Möchtest Du uns noch etwas mitteilen?</label>
       </div>
       <div className="checkbox-flow col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
