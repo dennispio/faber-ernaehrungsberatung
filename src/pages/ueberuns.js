@@ -13,69 +13,61 @@ const Ueberuns = props => {
       title="uberuns title"
       description="ueberuns desc"
     >
-      <div className="container-full ueberUnsContainer">
-        <div className="texttitel">
-          <h1 className="texttitel farbverlauf">Über Uns</h1>
-        </div>
-        <div className="texttitel">
-          <h2 className="titelzwei farbverlauf">
-            Unsere Entstehung und Philosophie
-          </h2>
-        </div>
-        <div className="ueberunsContainerImg" />
-        <img
+      <div className="ueberUnsContainer">
+      <div className="ueberunsContainerImg" />
+      <img
           className="bubble-zwei"
           src={bubbleTwo}
           alt="hintergrund bubble mit verlauf"
-        />
-        <img
-          className="bubble-eins"
-          src={bubbleOne}
-          alt="header bubble mit verlauf"
-        />
-        <div className="container ueberUnsContent">
-          <p className="textUber">
-                text um zu sehen was hier stehen kanntext um zu sehen was hier
-                stehen kanntext um zu sehen was hier stehen kanntext um zu sehen
-                was hier stehen kann text um zu sehtext um zu sehen was hier
-            kannen was hier stehen kanntext um zu sehen was hier stehen kanntext
-            um zu sehen was hier stehen kanntext um zu sehen was hier stehen
-            kanntext um zu sehen was hier stehen kanntext um zu sehen was hier
-            stehen kanntext um zu sehen was hier stehen kann text um zu sehtext
-            um zu sehen was hier stehen kannen was hier stehen kanntext um zu
+      />
+      <img
+        className="bubble-eins"
+        src={bubbleOne}
+        alt="header bubble mit verlauf"
+      />
+        <div className="texttitel">
+        <h1 className="farbverlauf">Über uns</h1>
+          <h2>
+            Unsere Entstehung <br /> und Philosophie
+          </h2>
+          <p>
+            text um zu sehen was hier stehen kanntext um zu sehen was hier
+            stehen kanntext um zu sehen was hier stehen kanntext um zu sehen was
+            hier stehen kann text um zu sehtext um zu sehen was hier kannen was
+            hier stehen kanntext um zu sehen was hier stehen kanntext um zu
             sehen was hier stehen kanntext um zu sehen was hier stehen kanntext
-                sehen was hier stehen kanntext um zu sehen was hier stehen
-                kanntext um zu sehen was hier stehen kanntext um zu sehen was
-                hier stehen kanntext um zu sehen was hier stehen kann text um zu
-                sehtext um zu sehen was hier stehen kannen was hier stehen hier
-                stehen kannstehen kanntext um zu sehen was hier stehen kann text
-                um zu sehtext um zu sehen was hier stehen kannen was hier stehen
-                kanntext um zu sehen was hier stehen kanntext um zu sehen was
-                hier stehen kanntext um zu sehen was hier stehen kanntext um zu
-                sehen was hier stehen kanntext um zu sehen was hier stehen lol
-              </p>
-           
-          <div className="textNamen ">
-            
-              <h1 className="titelunten farbverlauf"> Das sind wir</h1>
-              <h3 className="titelMaxim"> Maxim Faber</h3>
-              <p className="textUberMaxim">
-                Max Faber hex ho das isz der text hex ho das isz der text hex ho
-                das isz der text hex ho das isz der text hex ho das isz der text
-                hex ho das isz der text hex ho das isz der text hex ho das isz
-                der text
-              </p>
-              <h3 className="titelDaniel">Daniel Faber</h3>
-              <p className="textUberDaniel">
-                KP Faber hex ho das isz der text hex ho das isz der text hex ho
-                das isz der text hex ho das isz der text hex ho das isz der text
-                hex ho das isz der text hex ho das isz der text hex ho das isz
-                der text
-              </p>
-          
-          </div>
-          </div>
-      </div>
+            kanntext um zu sehen was hier stehen kanntext um zu sehen was hier
+            kanntext um zu sehen was hier stehen kann text um zu sehtext um zu
+            sehen was hier stehen kannen was hier stehen kanntext um zu sehen
+            was hier stehen kanntext um zu sehen was hier stehen kanntext sehen
+            was hier stehen kanntext um zu sehen was hier stehen kanntext um zu
+            sehen was hier stehen kanntext um zu sehen was hier stehen kanntext
+            um zu sehen was hier stehen kann text um zu sehtext um zu sehen was
+            hier stehen kannen was hier stehen hier stehen kannstehen kanntext
+            um zu sehen was hier stehen kann text um zu sehtext um zu sehen was
+            hier stehen kannen was hier stehen kanntext um zu sehen was hier
+            stehen kanntext um zu sehen was hier stehen kanntext um zu sehen was
+            hier stehen kanntext um zu sehen was hier stehen kanntext um zu
+            sehen was hier stehen kanntext um zu sehen was hier stehen lol</p>
+        </div>
+        <div className="textNamen">       
+            <h2 className="farbverlauf"> Das sind wir</h2>
+            <p className="bruder-container">Maxim Faber</p>
+            <p>
+              Max Faber hex ho das isz der text hex ho das isz der text hex ho
+              das isz der text hex ho das isz der text hex ho das isz der text
+              hex ho das isz der text hex ho das isz der text hex ho das isz
+              der text
+            </p>
+            <p className="bruder-container">Daniel Faber</p>
+            <p>
+              KP Faber hex ho das isz der text hex ho das isz der text hex ho
+              das isz der text hex ho das isz der text hex ho das isz der text
+              hex ho das isz der text hex ho das isz der text hex ho das isz
+              der text
+            </p> 
+        </div>
+    </div>
     </Layout>
   );
 };
