@@ -5,67 +5,26 @@
   margin-top: $margin_m;
 }
 
+.testo-right {
+  padding-left: $margin_m;
+}
+
 .testimonials-container {
   background: #D3D3D8;
   overflow: hidden;
 
-  // background-image: url(../../img/backgroundimage.png);
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-position: center;
-  .desktop-img {
-    object-fit: cover;
-
-    @include media-query-phone {
-      display: none;
-    }
-
-  }
-
   .testimonial-content {
-    max-width: 480px;
     padding-top: $margin_xxl;
     padding-bottom: $margin_xxl;
-
-    @include media-query-phone {
-      width: 90%;
-      float: none;
-      margin: 0 auto;
-    }
   }
 
   .testimonial-left {
-    margin-left: $margin_xxl;
-
     @include media-query-phone {
       width: 90%;
-      float: none;
+      margin-left: 0;
       margin: 0 auto;
+      padding-top: $margin_s;
+      padding-bottom: $margin_s;
     }
-  }
-
-  .testimonial-img-left {
-    margin-left: 40%;
-  }
-
-  .mobile-testo {
-    display: none;
-
-    @include media-query-phone {
-      display: block;
-      // background-image: url(../../img/backgroundimage.png);
-      // background-size: cover;
-      // background-repeat: no-repeat;
-      // background-position-x: -230px;
-      height: 55vh;
-
-      img {
-        object-fit: cover;
-      }
-    }
-  }
-
-  @include media-query-phone {
-    background-image: none;
   }
 }

@@ -7,7 +7,7 @@ show_homepage: false
 text_left: true
 featuredImage: /img/fbr-maxim-111.jpg
 alt_text: Referenz von Frau X
-title: Wir haben es mit Faber geschafft . Einer unsere Referenze ist Frau XYZ BABA
+title: Wir haben es mit Faber geschafft
 date: 2019-03-04T16:00:43.010Z
 description: >-
   Erklärungstext wieso man bei euch dann essen kann, wenn immer man will. Die
