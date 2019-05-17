@@ -5,13 +5,11 @@
   margin: 0 auto;
 
   .blog-info {
-    margin-top: 25%;
-    margin-bottom: $margin_m;
+    margin-top: $margin_s;
+    margin-bottom: $margin_s;
   }
 
   .gatsby-image-wrapper {
-    width: 170%;
-
     @include media-query-phone {
       width: 100% !important;
     }
