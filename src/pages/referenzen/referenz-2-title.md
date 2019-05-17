@@ -5,7 +5,7 @@ seo_title: Referenz 2 Seo Titel
 seo_desc: Referenz 2 Seo titel
 show_homepage: false
 text_left: true
-featuredImage: /img/backgroundimage.png
+featuredImage: /img/fbr-maxim-111.jpg
 alt_text: Referenz von Frau X
 title: Wir haben es mit Faber geschafft . Einer unsere Referenze ist Frau XYZ BABA
 date: 2019-03-04T16:00:43.010Z
