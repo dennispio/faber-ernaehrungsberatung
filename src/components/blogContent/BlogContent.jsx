@@ -5,7 +5,17 @@ import './blogContent.scss';
 import ShareButton from '../shareButton/ShareButton';
 import Newsletter from '../newsletter/Newsletter';
 
-const BlogContent = ({ title, date, fluid, post, alt, cat, share, blog }) => (
+const BlogContent = ({
+  title,
+  date,
+  fluid,
+  post,
+  alt,
+  cat,
+  share,
+  blog,
+  service,
+}) => (
   <div className="container-full">
     <div className="container">
       {blog !== false ? (
@@ -33,7 +43,7 @@ const BlogContent = ({ title, date, fluid, post, alt, cat, share, blog }) => (
           <div className="col-xs-4 col-sm-2 col-lg-2">{date}</div>
         </div>
         <div
-          className="blog-container"
+          className={`blog-container ${service ? 'service-container' : null}`}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
         {share !== false ? (
@@ -56,6 +66,7 @@ BlogContent.propTypes = {
   post: PropTypes.any,
   share: PropTypes.bool,
   blog: PropTypes.bool,
+  service: PropTypes.bool,
 };
 
 export default BlogContent;

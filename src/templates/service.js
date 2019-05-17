@@ -13,7 +13,7 @@ const Service = ({ data }) => {
       description={service.frontmatter.seo_desc}
       type="article"
     >
-      <BlogContent title="Website" post={service} share={false} blog={false} />
+      <BlogContent service post={service} share={false} blog={false} />
       <ServiceForm serviceName={service.frontmatter.title} />
     </Layout>
   );
