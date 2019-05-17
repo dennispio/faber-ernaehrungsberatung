@@ -13,18 +13,19 @@ import '../constants/style/servicePage.scss';
 const Leistungen = props => {
   const { data: leistungen } = props;
   const { edges: angebote } = leistungen.angebote;
+  const { frontmatter: content } = leistungen.servicePageData.edges[0].node;
   return (
     <Layout
       pageName="leistungen"
-      title="Leistungen title"
-      description="Leistugen desc"
+      title={content.seo_comp.seo_title}
+      description={content.seo_comp.seo_desc}
     >
-      <SubpageHeader title="Unsere Leistungen" />
+      <SubpageHeader title={content.page_title.title} />
       <div className="grid-container">
         <div id="ernaehrung" className="offer-1 d-flex-column">
           <TextComp
-            title="Individuelle Ernährungsberatung"
-            text="Die individuelle Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns, was Du willst und wir sagen Dir nicht, was Du musst. In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das Dir auf dem Weg zu Deinem Ziel helfen wird. Deine Ziele könnten sein: Abnehmen, Zunehmen, Optimierung der Verdauung, gesünder Essen, Lernen bewusst zu Leben oder Steigerung der sportlichen Leistungsfähigkeit. "
+            title={content.service_1.title}
+            text={content.service_1.text}
             position=""
             gradient
           />
@@ -55,10 +56,10 @@ const Leistungen = props => {
         />
         <div id="coaching" className="offer-2">
           <TextComp
+            title={content.service_2.title}
+            text={content.service_2.text}
             position=""
             gradient
-            title="Individuelles Ernährungs-coaching"
-            text="Unser Ernährungscoaching ist die erweiterte Variante der individuellen Ernährungsberatung. Neben dem auf Dich angepassten individuellen Konzept erfolgt hierbei eine parallel intensive Betreuung auf dem Weg zu Deinem Ziel. Dies bedeutet, dass wir für Dich: Dein Konzept nach Deinen Wünschen (Änderung der Lebensmittel, die Du möchtest) und Deiner Situation (Geburtstage, Restaurantbesuche) anpassen, Dich beim Motivationstief unterstützen, und bei jeglichen Fragen und Tipps zur Seite zu stehen. Wir werden rund um die Uhr für Dich erreichbar sein. Wenn Du der Typ bist, der an die Hand genommen werden muss, wirst Du mit dem Coaching auf der sicheren Seite sein!"
           />
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
@@ -82,10 +83,10 @@ const Leistungen = props => {
         /> */}
         <div id="naehrwertanalyse" className="offer-3">
           <TextComp
+            title={content.service_3.title}
+            text={content.service_3.text}
             position=""
             gradient
-            title="Nährwertanalyse"
-            text="In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz. Nach Abschluss der Nährwert- und Ernährungsanalyse beantworten wir Dir individuell unter anderem folgende Fragen: Esse ich genug Vitamine und Ballaststoffe? Esse ich zu wenig Kohlenhydrate, Proteine oder Fette? Welche Auswirkung hat ein Defizit? Wie viele Kalorien verbrauche ich? Was muss ich tun, um mein Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben?"
           />
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
@@ -124,6 +125,35 @@ Leistungen.propTypes = {
 
 export const pageQuery = graphql`
   query ServiceContent {
+    servicePageData: allMarkdownRemark(
+      filter: { frontmatter: { pageKey: { eq: "page_service" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            seo_comp {
+              seo_desc
+              seo_title
+            }
+            page_title {
+              title
+            }
+            service_1 {
+              title
+              text
+            }
+            service_2 {
+              title
+              text
+            }
+            service_3 {
+              title
+              text
+            }
+          }
+        }
+      }
+    }
     angebote: allMarkdownRemark(
       filter: { frontmatter: { service: { eq: "service" } } }
     ) {

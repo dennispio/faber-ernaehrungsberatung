@@ -11,11 +11,16 @@
 
   .ueberunsContainerImg {
     //background-color: red;
+  
+   height:100em; 
+  
+   
     background-image: url(../../img/ueberuns.gif);
     background-size:contain;
     background-position-y: 70px;
     grid-column:1 / 11; 
     grid-row: 1 / 11; 
+
     background-repeat: no-repeat;
   }
   .texttitel{
@@ -46,6 +51,7 @@
       width: 100%; 
       grid-row:5; 
       z-index: 10;
+
       @include media-query-tablet {
         grid-row:4;
         grid-column:8/ 11; 
