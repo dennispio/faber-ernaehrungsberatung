@@ -2,41 +2,101 @@
 
 .ueberUnsContainer {
   background-color: rgb(216, 216, 216);
-
-  #ueberunsContainerImg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 200vh;
+  //background-color:blue;
+  display: grid; 
+  grid-template-columns: repeat(10, 10vw);
+  grid-template-rows: repeat(10, 1fr);
+  height:180em; 
+  overflow:hidden;
+  .ueberunsContainerImg {
+    //background-color: red;
     background-image: url(../../img/ueberuns.gif);
+    background-size:cover;
     background-position-y: 90px;
-
+    grid-column:1 / 11; 
+    grid-row: 1 / 11; 
+    background-repeat: no-repeat;
     @include media-query-tablet {
       background-repeat: no-repeat;
       background-size: 100%;
-      height: 50vh;
+      height: 80vh;
       background-position-y: 80px;
       background-position-x: 0px;
     }
-
     @include media-query-phone {
-      background-repeat: no-repeat;
-      background-size: 100%;
-      height: 50vh;
-      background-position-y: 80px;
-      background-position-x: 0px;
-    }
+    }  
   }
+
+  .texttitel{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 100px;
+    grid-column:3 / 8; 
+    grid-row: 9/11; 
+    z-index: 10;
+
+    @include media-query-tablet {
+      font-size: 60px;
+     
+    }
+    }
+    .titelzwei {
+      grid-column:3/ 8; 
+      grid-row:10/ 12; 
+      z-index: 10;
+    }
+    .bubble-zwei{
+      grid-column:7/ 11;
+      width: 100%; 
+      grid-row:8/ 10; 
+      z-index: 10;
+      @include media-query-tablet {
+        grid-column:7/ 11; 
+       
+      }
+    }
+    .bubble-eins{
+      transform:scaleX(-1);
+      z-index: 10;
+      grid-column:1/ 10; 
+      grid-row:1/ 2; 
+      @include media-query-tablet {
+        
+        
+        width: 70%; 
+       
+      }
+    }
+    
 
   .ueberUnsContent {
+    //background-color: green;
     background-color: rgb(216, 216, 216);
+    height: 80em;
+    
+    display: grid; 
+    grid-template-columns: repeat(10,10vw);
+    grid-template-rows: repeat(10,10vw);
+   
+    
+    
+    .textUber {
+      align-self: start;
+      grid-column:3 / 6; 
+      grid-row: 1 / 7; 
+  
+    }
+    .textNamen{
+      grid-column:7 / 10; 
+      grid-row: 4 / 7; 
+    }
+    
+    .titelMaxim{
+      font-size: 20px;
+    }
+    .titelDaniel{
+      font-size: 20px;
+    }
   }
-
-  .textUber {
-    width: 350px;
   }
-
-  .titelzwei {
-    width: 350px;
-  }
-}
