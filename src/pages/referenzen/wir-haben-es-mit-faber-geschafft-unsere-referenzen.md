@@ -5,7 +5,7 @@ seo_title: Referenz 1 Title
 seo_desc: Referenz 1 Desc
 show_homepage: true
 text_left: false
-featuredImage: /img/backgroundimage.png
+featuredImage: /img/fbr-maxim-137.jpg
 alt_text: Referenz alt text
 title: 'Wir haben es mit Faber geschafft: Unsere Referenzen.'
 date: 2019-03-04T15:05:34.266Z
