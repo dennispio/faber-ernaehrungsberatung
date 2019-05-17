@@ -22,7 +22,7 @@ const BlogContent = ({ title, date, fluid, post, alt, cat, share, blog }) => (
               style={{
                 left: 0,
                 top: 0,
-                width: '145%',
+                width: '100%',
                 height: '100%',
               }}
             />
