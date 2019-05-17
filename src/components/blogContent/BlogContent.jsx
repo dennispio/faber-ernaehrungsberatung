@@ -43,7 +43,7 @@ const BlogContent = ({
           <div className="col-xs-4 col-sm-2 col-lg-2">{date}</div>
         </div>
         <div
-          className={`blog-container ${service ? 'service-container' : null}`}
+          className={`blog-container ${service ? 'form-felder' : ''}`}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
         {share !== false ? (
