@@ -91,7 +91,7 @@ collections:
               - { label: "SEO Title", name: "seo_title", widget: "string" }
               - { label: "SEO Description", name: "seo_desc", widget: "string"}
           - label: "Title"
-            name: "title"
+            name: "page_title"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
