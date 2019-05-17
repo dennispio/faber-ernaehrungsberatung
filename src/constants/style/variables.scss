@@ -48,15 +48,9 @@ li {
   font-family: "itc-avant-garde-gothic-pro";
 }
 
-.gradient {
-  background-image: linear-gradient(to right, #01072e, #e5331c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .farbverlauf {
-  background: -webkit-linear-gradient(to right, #01072e, #e5331c);
-  background: linear-gradient(to right, #01072e, #e5331c);
+  background-image: linear-gradient(to right, #01072e, #e5331c);
+  background-image: -webkit-linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
