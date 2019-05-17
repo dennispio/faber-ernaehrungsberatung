@@ -14,14 +14,10 @@ const Ueberuns = props => {
       description="ueberuns desc"
     >
       <div className="container-full ueberUnsContainer">
-        <div className="texttitel">
-          <h1 className="texttitel farbverlauf">Über Uns</h1>
-        </div>
-        <div className="texttitel">
-          <h2 className="titelzwei farbverlauf">
-            Unsere Entstehung und Philosophie
-          </h2>
-        </div>
+      <h1 className="texttitel farbverlauf">Über Uns</h1>
+      <h2 className="titelzwei farbverlauf">
+                Unsere Entstehung und Philosophie
+              </h2>
         <div className="ueberunsContainerImg" />
         <img
           className="bubble-zwei"
@@ -34,16 +30,18 @@ const Ueberuns = props => {
           alt="header bubble mit verlauf"
         />
         <div className="container ueberUnsContent">
-          <p className="textUber">
+         
+              
+              <p className="textUber">
                 text um zu sehen was hier stehen kanntext um zu sehen was hier
                 stehen kanntext um zu sehen was hier stehen kanntext um zu sehen
                 was hier stehen kann text um zu sehtext um zu sehen was hier
-            kannen was hier stehen kanntext um zu sehen was hier stehen kanntext
-            um zu sehen was hier stehen kanntext um zu sehen was hier stehen
-            kanntext um zu sehen was hier stehen kanntext um zu sehen was hier
-            stehen kanntext um zu sehen was hier stehen kann text um zu sehtext
-            um zu sehen was hier stehen kannen was hier stehen kanntext um zu
-            sehen was hier stehen kanntext um zu sehen was hier stehen kanntext
+                stehen kannen was hier stehen kanntext um zu sehen was hier
+                stehen kanntext um zu sehen was hier stehen kanntext um zu sehen
+                was hier stehen kanntext um zu sehen was hier stehen kanntext um
+                zu sehen was hier stehen kanntext um zu sehen was hier stehen
+                kann text um zu sehtext um zu sehen was hier stehen kannen was
+                hier stehen kanntext um zu sehen was hier stehen kanntext um zu
                 sehen was hier stehen kanntext um zu sehen was hier stehen
                 kanntext um zu sehen was hier stehen kanntext um zu sehen was
                 hier stehen kanntext um zu sehen was hier stehen kann text um zu
