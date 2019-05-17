@@ -17,7 +17,7 @@ const SubpageHeader = ({ title, text }) => (
       alt="hintergrund bubble links"
     />
     <div className="subpage-title-container farbverlauf">
-      <h2 className="farbverlauf">{title}</h2>
+      <h2>{title}</h2>
     </div>
     <div className="subpage-text-container">
       <p>{text}</p>
