@@ -109,7 +109,7 @@ export default class Countdown extends Component {
 
     return (
       <div className="container countdown-container">
-        <h3 className="container">
+        <h3 className="container farbverlauf">
           Du kannst es auch schaffen! <br /> Der {season} kommt in ...
         </h3>
         <div className="row text-start">
