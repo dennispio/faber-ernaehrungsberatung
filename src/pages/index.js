@@ -11,7 +11,6 @@ import BlogPostCard from '../components/blogPostCard/BlogPostCard';
 import Carousel from '../components/carousel/Carousel';
 import Morph from '../components/morph/Morph';
 
-
 const IndexPage = props => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
@@ -30,6 +29,9 @@ const IndexPage = props => {
     >
       <VideoPlayer />
       <HomepageText heading={title} text={text} />
+      <h3 className="farbverlauf container">
+        Du kannst es auch schaffen! <br /> Der {season} kommt in ...
+      </h3>
       <Countdown date={countdown} season={season} />
       <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
