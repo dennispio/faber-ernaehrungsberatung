@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+*:focus {
+  outline: none;
+}
+
 html {
   overflow-x: hidden;
 }
