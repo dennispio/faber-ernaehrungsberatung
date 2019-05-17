@@ -96,31 +96,31 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
           - label: "Individuelle Ernährungsberatung"
-            name: "serive_1"
+            name: "service_1"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text"}
           - label: "Individuelles Ernährungscoaching"
-            name: "serive_2"
+            name: "service_2"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text"}
           - label: "Nährweranalyse"
-            name: "serive_3"
+            name: "service_3"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text"}
           - label: "Seminare und Vorträge"
-            name: "serive_4"
+            name: "service_4"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text"}
           - label: "Betriebliche Gesundheitsförderung"
-            name: "serive_5"
+            name: "service_5"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
