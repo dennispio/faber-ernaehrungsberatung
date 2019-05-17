@@ -3,7 +3,7 @@ templateKey: referenz
 pageKey: page_referenz
 seo_title: Referenz 2 Seo Titel
 seo_desc: Referenz 2 Seo titel
-show_homepage: false
+show_homepage: true
 text_left: true
 featuredImage: /img/fbr-maxim-111.jpg
 alt_text: Referenz von Frau X
