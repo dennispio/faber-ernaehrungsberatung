@@ -11,17 +11,20 @@
 
   .ueberunsContainerImg {
     //background-color: red;
-  
-   height:100em; 
-  
-   
+    height:100em;
     background-image: url(../../img/ueberuns.gif);
-    background-size:contain;
+    background-size:cover;
     background-position-y: 70px;
     grid-column:1 / 11; 
     grid-row: 1 / 11; 
-
     background-repeat: no-repeat;
+    @include media-query-tablet {
+      background-size:contain;   
+    }
+    @include media-query-phone {
+      background-size:contain;  
+    }
+
   }
   .texttitel{
     h1{
@@ -47,7 +50,7 @@
     }
     }
     .bubble-zwei{
-      grid-column:8/ 11;
+      grid-column:9/ 11;
       width: 100%; 
       grid-row:5; 
       z-index: 10;
