@@ -99,9 +99,9 @@ collections:
             name: "text_comp"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }    
-              - { label: "Title", name: "title", widget: "string" }          
-      
+              - { label: "Entstehung", name: "entstehung", widget: "string" }    
+              - { label: "Bruder Max", name: "bruder_max", widget: "string" }
+              - { label: "Bruder Daniel", name: "bruder_daniel", widget: "string" }                    
       - label: "Unsere Leistungen"
         name: "service"
         file: "src/pages/service/index.md"

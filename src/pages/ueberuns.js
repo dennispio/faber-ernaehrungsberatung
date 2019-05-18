@@ -1,4 +1,6 @@
 import React from 'react';
+import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import '../constants/style/ueberuns.scss';
 import bubbleOne from '../img/bubbles/bubble_subpage_header_2.svg';
@@ -72,3 +74,37 @@ const Ueberuns = props => {
   );
 };
 export default Ueberuns;
+
+Ueberuns.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+};
+export const pageQuery = graphql`
+  query UeberunsContent {
+    ueberunsPageData: allMarkdownRemark(
+      filter: { frontmatter: { pageKey: { eq: "page_ueberuns" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            seo_comp {
+              seo_desc
+              seo_title
+            }
+            page_title {
+              title
+            }
+            text_comp {
+              entstehung
+              bruder_max
+              bruder_daniel
+            }
+          }
+        }
+      }
+    }
+  }
+`;
