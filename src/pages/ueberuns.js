@@ -82,29 +82,29 @@ Ueberuns.propTypes = {
     }),
   }),
 };
-export const pageQuery = graphql`
-  query UeberunsContent {
-    ueberunsPageData: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_ueberuns" } } }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            seo_comp {
-              seo_desc
-              seo_title
-            }
-            page_title {
-              title
-            }
-            text_comp {
-              entstehung
-              bruder_max
-              bruder_daniel
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query UeberunsContent {
+//     ueberunsPageData: allMarkdownRemark(
+//       filter: { frontmatter: { pageKey: { eq: "page_ueberuns" } } }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             seo_comp {
+//               seo_desc
+//               seo_title
+//             }
+//             page_title {
+//               title
+//             }
+//             text_comp {
+//               entstehung
+//               bruder_max
+//               bruder_daniel
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
