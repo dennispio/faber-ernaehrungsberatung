@@ -8,7 +8,10 @@
   height: 140em;
   overflow: hidden;
   @include media-query-xxl {
-    height: 190em;
+    height: 180em;
+  }
+  @include media-query-phone {
+    height: 110em;
   }
 
   .ueberunsContainerImg {
@@ -37,12 +40,9 @@
         font-size: 67px;
       }
     }
-    @include media-query-xxl {
-      grid-row:8;
-    }
 
     grid-column:6 / 10;
-    grid-row:8;
+    grid-row:7;
     z-index: 10;
 
     @include media-query-tablet {
@@ -52,7 +52,6 @@
 
     @include media-query-phone {
       grid-column: 2 / 10;
-      grid-row: 5;
     }
   }
 
