@@ -1,69 +1,44 @@
 @import '../../constants/style/variables.scss';
 
 .subPage-header-container {
-  display: -ms-grid; 
-  display: grid; 
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
-  grid-template-columns: repeat(10,10vw);
+  grid-template-columns: repeat(10, 10vw);
   -ms-grid-row: 0fr 0fr 0fr 0fr 0fr;
-  grid-template-rows: repeat(5,0fr);
-  // position: static;
-  // overflow: hidden;
-  // height: 108vh;
-
-  @include media-query-phone {
-    // height: auto;
-  }
-
-  @include media-query-tablet {
-    // height: auto;
-  }
+  grid-template-rows: repeat(5, 0fr);
 
   .left-bubbble {
     width: 80%;
     align-self: center;
-    grid-column:1/11;
-    grid-row:1/2;
-    @include media-query-tablet {
-
-      
-    }
-    @include media-query-phone {
-      // display: none;
-    }
+    grid-column: 1/11;
+    grid-row: 1/2;
   }
 
   .right-bubbble {
     justify-self: flex-end;
-    margin-top:5%;
+    margin-top: 5%;
     width: 140%;
-    grid-column:6/11;
-    grid-row:1;
-    @include media-query-tablet {
-      
-    }
-    @include media-query-phone {
-      // top: 0;
-    }
+    grid-column: 6/11;
+    grid-row: 1;
   }
 
   .subpage-title-container {
     grid-column: 2 / 10;
-
     -ms-grid-column: 2;
     -ms-grid-row: 2;
-    
     justify-self: flex-start;
     align-self: center;
     grid-row: 1/2;
+
     @include media-query-phone {
-      margin-top:-140px;
+      margin-top: -140px;
       justify-self: center;
       align-self: flex-start;
       grid-row: 2;
     }
-    // margin-top: 18.96%;
-    h2 {
+
+    h1 {
       font-style: normal;
       font-weight: normal;
       line-height: normal;
@@ -73,28 +48,30 @@
       @include media-query-tablet {
         font-size: 70px;
       }
+
       @include media-query-phone {
         font-size: 70px;
+      }
     }
   }
-}
+
   .subpage-text-container {
     grid-column: 4/ 8;
     justify-self: center;
     align-self: flex-end;
     grid-row: 1/2;
+
     @include media-query-tablet {
       justify-self: flex-start;
       align-self: flex-start;
       grid-row: 2;
     }
+
     @include media-query-phone {
       grid-column: 2/ 10;
       justify-self: center;
       align-self: flex-start;
       grid-row: 2;
     }
-    // max-width: 390px;
-    // margin: 0 auto;
   }
 }

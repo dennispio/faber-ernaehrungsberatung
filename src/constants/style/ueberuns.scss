@@ -2,12 +2,11 @@
 
 .ueberUnsContainer {
   background-color: rgb(216, 216, 216);
-  //background-color:blue;
-  display: grid; 
+  display: grid;
   grid-template-columns: repeat(10, 10vw);
   grid-template-rows: repeat(10, 1fr);
-  height:180em; 
-  overflow:hidden;
+  height: 180em;
+  overflow: hidden;
 
   .ueberunsContainerImg {
     //background-color: red;
@@ -26,30 +25,36 @@
     }
 
   }
-  .texttitel{
-    h1{
+
+  .texttitel {
+    h1 {
       font-style: normal;
       font-weight: normal;
-      line-height: normal;
+      line-height: 150px;
       font-size: 100px;
+
       @include media-query-phone {
-        font-size: 67px;    
+        font-size: 67px;
       }
     }
+
     align-self: flex-start;
-    grid-column:6 / 10; 
-    grid-row:6; 
+    grid-column:6 / 10;
+    grid-row:6;
     z-index: 10;
+
     @include media-query-tablet {
-      grid-column:4 / 10; 
-      grid-row:5;    
+      grid-column: 4 / 10;
+      grid-row: 5;
     }
+
     @include media-query-phone {
-      grid-column:2 / 10; 
-      grid-row:4;    
+      grid-column: 2 / 10;
+      grid-row: 4;
     }
-    }
-    .bubble-zwei{
+  }
+
+  .bubble-zwei{
       grid-column:9/ 11;
       width: 100%; 
       grid-row:5; 
@@ -63,30 +68,34 @@
         display:none;
       }
     }
-    .bubble-eins{
-      transform:scaleX(-1);
-      z-index: 10;
-      grid-column:1/ 10; 
-      grid-row:1; 
-      @include media-query-phone {
-        display:none;
-      }
-      @include media-query-tablet {
-        width: 70%; 
-      }
+
+  .bubble-eins {
+    transform: scaleX(-1);
+    z-index: 10;
+    grid-column: 1/ 10;
+    grid-row: 1;
+
+    @include media-query-phone {
+      display: none;
     }
-    
+
+    @include media-query-tablet {
+      width: 70%;
+    }
+  }
+
   .textNamen {
-    //background-color: green;
     grid-column: 3/7;
     grid-row: 7;
-    @include media-query-phone {  
-      grid-row: 6;
+
+    @include media-query-phone {
+      grid-row: 5;
       grid-column: 2/10;
 
     }
   }
-  .bruder-container{
-      font-size:1.5em;
+
+  .bruder-container {
+    font-size: 1.5em;
   }
-} 
+}
