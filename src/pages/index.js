@@ -29,7 +29,7 @@ const IndexPage = props => {
     >
       <VideoPlayer />
       <HomepageText heading={title} text={text} />
-      <h3 className="farbverlauf container">
+      <h3 className="container">
         Du kannst es auch schaffen! <br /> Der {season} kommt in ...
       </h3>
       <Countdown date={countdown} season={season} />
