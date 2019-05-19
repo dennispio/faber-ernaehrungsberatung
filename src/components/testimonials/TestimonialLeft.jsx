@@ -12,12 +12,14 @@ const TestimonialLeft = ({ title, text, fluid, link, alt }) => (
         <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-image">
           <Img alt={alt} fluid={fluid} />
         </div>
-        <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-content testimonial-left">
-          <div className="testimaonial-title">
-            <h2 className="farbverlauf">{title}</h2>
-          </div>
-          <div className="testimonial-text">
-            <p>{text}</p>
+        <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-left">
+          <div className="testimonial-content">
+            <div className="testimaonial-title">
+              <h2 className="farbverlauf">{title}</h2>
+            </div>
+            <div className="testimonial-text">
+              <p>{text}</p>
+            </div>
           </div>
         </div>
       </div>
