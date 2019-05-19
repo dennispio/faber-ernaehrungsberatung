@@ -50,7 +50,8 @@ const Ueberuns = props => {
             hier stehen kanntext um zu sehen was hier stehen kanntext um zu
             sehen was hier stehen kanntext um zu sehen was hier stehen lol</p>
         </div>
-        <div className="textNamen">       
+        <div className="background-container" />
+        {/* <div className="textNamen">       
             <h2 className="farbverlauf"> Das sind wir</h2>
             <p className="bruder-container">Maxim Faber</p>
             <p>
@@ -66,7 +67,7 @@ const Ueberuns = props => {
               hex ho das isz der text hex ho das isz der text hex ho das isz
               der text
             </p> 
-        </div>
+        </div> */}
     </div>
     </Layout>
   );

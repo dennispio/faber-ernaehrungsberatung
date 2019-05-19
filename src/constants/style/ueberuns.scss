@@ -5,23 +5,23 @@
   display: grid;
   grid-template-columns: repeat(10, 10vw);
   grid-template-rows: repeat(10, 1fr);
-  height: 180em;
+  height: 140em;
   overflow: hidden;
+  @include media-query-xxl {
+    height: 190em;
+  }
 
   .ueberunsContainerImg {
     //background-color: red;
-    height:100em;
     background-image: url(../../img/ueberuns.gif);
-    background-size:cover;
+    background-size:contain;
     background-position-y: 70px;
     grid-column:1 / 11; 
     grid-row: 1 / 11; 
     background-repeat: no-repeat;
-    @include media-query-tablet {
-      background-size:contain;   
-    }
-    @include media-query-phone {
-      background-size:contain;  
+
+    @include media-query-xxl {
+      background-size:contain;
     }
 
   }
@@ -37,10 +37,12 @@
         font-size: 67px;
       }
     }
+    @include media-query-xxl {
+      grid-row:8;
+    }
 
-    align-self: flex-start;
     grid-column:6 / 10;
-    grid-row:6;
+    grid-row:8;
     z-index: 10;
 
     @include media-query-tablet {
@@ -50,15 +52,20 @@
 
     @include media-query-phone {
       grid-column: 2 / 10;
-      grid-row: 4;
+      grid-row: 5;
     }
   }
 
   .bubble-zwei{
       grid-column:9/ 11;
       width: 100%; 
-      grid-row:5; 
+      grid-row:7; 
       z-index: 10;
+
+      @include media-query-xxl {
+        grid-column:8/ 11;
+        grid-row:7;
+      }
 
       @include media-query-tablet {
         grid-row:4;
@@ -74,6 +81,12 @@
     z-index: 10;
     grid-column: 1/ 10;
     grid-row: 1;
+
+    @include media-query-xxl {
+      width: 45%;
+      grid-column:1/ 11;
+      grid-row:1;
+    }
 
     @include media-query-phone {
       display: none;
