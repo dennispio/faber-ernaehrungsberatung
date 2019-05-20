@@ -74,6 +74,34 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "Ueber uns"
+        name: "ueberuns"
+        file: "src/pages/ueberuns/index.md"
+        fields:
+          - {
+              label: "Page Key",
+              name: "pageKey",
+              widget: "hidden",
+              default: "page_ueberuns",
+            }
+          - label: "SEO"
+            name: "seo_comp"
+            widget: "object"
+            fields:
+              - { label: "SEO Title", name: "seo_title", widget: "string" }
+              - { label: "SEO Description", name: "seo_desc", widget: "string"}
+          - label: "Title"
+            name: "page_title"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+          - label: "Texte"
+            name: "text_comp"
+            widget: "object"
+            fields:
+              - { label: "Entstehung", name: "entstehung", widget: "string" }    
+              - { label: "Bruder Max", name: "bruder_max", widget: "string" }
+              - { label: "Bruder Daniel", name: "bruder_daniel", widget: "string" }                    
       - label: "Unsere Leistungen"
         name: "service"
         file: "src/pages/service/index.md"
