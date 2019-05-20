@@ -1,12 +1,13 @@
 @import '../../constants/style/variables.scss';
 
 .form-felder {
-  margin-top: $margin_video;
+  margin-top: 90px;
 
   .form-contacthead {
-    h1{
-      margin-top:10%;
+    h1 {
+      margin-top: 10%;
     }
+
     p {
       margin-bottom: -$margin_xs;
       color: #140A37;

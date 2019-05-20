@@ -48,6 +48,16 @@ li {
   font-family: "itc-avant-garde-gothic-pro";
 }
 
+h3,h2{
+  line-height: 50px;
+  @mixin media-query-phone {
+    @media (max-width: 575px) {
+      line-height: 45px;
+      ;
+    }
+  }
+}
+
 .farbverlauf {
   background-image: linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;

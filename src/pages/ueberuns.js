@@ -36,7 +36,8 @@ const Ueberuns = props => {
             {content.text_comp.entstehung}
           </p>
         </div>
-        <div className="textNamen">       
+        <div className="background-container" />
+        {/* <div className="textNamen">       
             <h2 className="farbverlauf"> Das sind wir</h2>
             <p className="bruder-container">Maxim Faber</p>
             <p>
@@ -46,7 +47,7 @@ const Ueberuns = props => {
             <p>
               {content.text_comp.bruder_daniel}
             </p> 
-        </div>
+        </div> */}
     </div>
     </Layout>
   );
