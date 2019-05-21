@@ -12,7 +12,7 @@ bullets:
   - title: E-Mail
   - title: Telefon
 ---
-# Individuelles Ernährungscoaching
+# Coaching
 
 Unser Ernährungscoaching ist die erweiterte Variante der individuellen Ernährungsberatung. Neben dem auf Dich angepassten individuellen Konzept erfolgt hierbei eine parallel intensive Betreuung auf dem Weg zu Deinem Ziel.
 
