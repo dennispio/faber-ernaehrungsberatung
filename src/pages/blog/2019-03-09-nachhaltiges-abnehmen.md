@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Nachhaltiges abnehmen
-seo_desc: Nachhaltiges abnehmen
+seo_title: Ernährungsberatung Faber | Nachhaltiges abnehmen
+seo_desc: Der Jo-Jo-Effekt beschreibt das Phänomen der raschen Gewichtszunahmenach vorherigem Gewichtsverlust bzw. nach einer vorherigen Diät.
 category: abnehmen
 title: Nachhaltiges abnehmen
 date: 2019-03-16T17:55:24.583Z

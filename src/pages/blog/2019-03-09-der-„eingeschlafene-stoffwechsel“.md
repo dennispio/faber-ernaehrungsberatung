@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Der „eingeschlafene Stoffwechsel“
+seo_title: Ernährungsberatung Faber | Der „eingeschlafene Stoffwechsel“
 seo_desc: Der „eingeschlafene Stoffwechsel“
 category: Stoffwechsel
 title: Der „eingeschlafene Stoffwechsel“
