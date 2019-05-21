@@ -5,26 +5,40 @@
   margin-top: $margin_m;
 }
 
-.testo-right {
-  padding-left: $margin_m;
-}
-
 .testimonials-container {
-  background: #D3D3D8;
+  background: #DADADA;
   overflow: hidden;
 
   .testimonial-content {
-    padding-top: $margin_xxl;
-    padding-bottom: $margin_xxl;
+    width: 80%;
+    margin: 0 auto;
+
+    @include media-query-xxl {
+      padding-top: $margin_xxl;
+    }
   }
 
-  .testimonial-left {
+  .testimonial-image {
+    height: 350px;
+
+    img {
+      height: 350px !important;
+    }
+
+    @include media-query-xxl {
+      height: 400px;
+
+      img {
+        height: 400px !important;
+      }
+    }
+
     @include media-query-phone {
-      width: 90%;
-      margin-left: 0;
-      margin: 0 auto;
-      padding-top: $margin_s;
-      padding-bottom: $margin_s;
+      height: 100%;
+
+      img {
+        height: 100% !important;
+      }
     }
   }
 }

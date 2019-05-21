@@ -1,7 +1,7 @@
 ---
 templateKey: service
 service: service
-title: individuelle Ernährungsberatung
+title: Nährwertanalyse
 angebot: true
 category: Nährwertanalyse
 price: 80
@@ -9,17 +9,14 @@ time: einmalig
 bullets:
   - title: ' 3 auf Dich abgestimmte Pläne'
 ---
-# Individuelle Ernährungsberatung
+# Nährwertanalyse
 
+**Deine individuelle Nährwertanalyse :**
 
+In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz. 
 
-**Deine individuelle Ernährungsberatung :**
+Nach Abschluss der Nährwert- und Ernährungsanalyse beantworten wir Dir individuell unter anderem folgende Fragen: Esse ich genug Vitamine und Ballaststoffe? Esse ich zu wenig Kohlenhydrate, Proteine oder Fette? Welche Auswirkung hat ein Defizit? Wie viele Kalorien verbrauche ich? Was muss ich tun, um mein Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben?
 
-In deiner individuelle Ernährungsberatung ... Für Designer, Schriftsetzer, Layouter, Grafikenthusiasten und alle anderen. Ein Projekt startet und doch es gibt noch keinen Text, allerdings sollte das Layout schon bald präsentiert werden ... was tun?
+* 3 auf Dich abgestimmte Pläne
 
-Damit das Projekt gleich starten kann benutze einfach etwas Lorem ipsum - Blind-, Füll-, Dummy-, Nachahmungs-, Platzhaltertext.Generiere einfach soviel Lorem Ipsum Text wie du brauchst, kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein. Somit sieht das Projekt ein Stückchen vollständiger aus als zuvor. Viel Spaß dabei.
-
-> Hier könnte ein Zitat stehen
-
-* Liste geht auch
-* Liste yau
+>

@@ -12,12 +12,15 @@ bullets:
   - title: E-Mail
   - title: Telefon
 ---
-# Individuelles Ernährungscoaching
+# Coaching
 
+Unser Ernährungscoaching ist die erweiterte Variante der individuellen Ernährungsberatung. Neben dem auf Dich angepassten individuellen Konzept erfolgt hierbei eine parallel intensive Betreuung auf dem Weg zu Deinem Ziel.
 
+ Dies bedeutet, dass wir für Dich: Dein Konzept nach Deinen Wünschen (Änderung der Lebensmittel, die Du möchtest) und Deiner Situation (Geburtstage, Restaurantbesuche) anpassen, Dich beim Motivationstief unterstützen, und bei jeglichen Fragen und Tipps zur Seite zu stehen.
 
-In deinem individuellem Coaching helfen wir Dir dabei deine Ziele.....
+Wir werden rund um die Uhr für Dich erreichbar sein. Wenn Du der Typ bist, der an die Hand genommen werden muss, wirst Du mit dem Coaching auf der sicheren Seite sein!
 
-Für Designer, Schriftsetzer, Layouter, Grafikenthusiasten und alle anderen.Ein Projekt startet und doch es gibt noch keinen Text, allerdings sollte das Layout schon bald präsentiert werden ... was tun?
-
-Damit das Projekt gleich starten kann benutze einfach etwas Lorem ipsum - Blind-, Füll-, Dummy-, Nachahmungs-, Platzhaltertext.Generiere einfach soviel Lorem Ipsum Text wie du brauchst, kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein. Somit sieht das Projekt ein Stückchen vollständiger aus als zuvor. Viel Spaß dabei.
+* abgestimmte Pläne
+* Whatsapp
+* E-Mail
+* Telefon
