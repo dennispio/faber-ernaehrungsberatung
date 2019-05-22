@@ -2,18 +2,21 @@
 templateKey: blog-post
 pageKey: page_blogpost
 seo_title: Ernährungsberatung Faber | Nachhaltiges abnehmen
-seo_desc: Der Jo-Jo-Effekt beschreibt das Phänomen der raschen Gewichtszunahmenach vorherigem Gewichtsverlust bzw. nach einer vorherigen Diät.
+seo_desc: >-
+  Der Jo-Jo-Effekt beschreibt das Phänomen der raschen Gewichtszunahmenach
+  vorherigem Gewichtsverlust bzw. nach einer vorherigen Diät.
 category: abnehmen
 title: Nachhaltiges abnehmen
 date: 2019-03-16T17:55:24.583Z
 description: >-
   Der Jojo- Effekt ist ein typisches Phänomen, welches verhäuft vorkommt.Deshalb
   ist Prävention das „A und O“. Diese beginnt nämlich schonwährend der Diät. Und
-  zwar ist der entscheidende Punkt.
-  Der Jojo- Effekt ist ein typisches Phänomen, welches verhäuft vorkommt.Deshalb
-  ist Prävention das „A und O“. Diese beginnt nämlich schonwährend der Diät. Und
-  zwar ist der entscheidende Punkt.
+  zwar ist der entscheidende Punkt. Der Jojo- Effekt ist ein typisches Phänomen,
+  welches verhäuft vorkommt.Deshalb ist Prävention das „A und O“. Diese beginnt
+  nämlich schonwährend der Diät. Und zwar ist der entscheidende Punkt.
 ---
+# Nachhaltiges abnehmen ?
+
 Der Jojo- Effekt ist ein typisches Phänomen, welches verhäuft vorkommt.
 Deshalb ist Prävention das „A und O“. Diese beginnt nämlich schon
 während der Diät. Und zwar ist der entscheidende Punkt, wie schnell ich
