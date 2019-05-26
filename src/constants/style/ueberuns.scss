@@ -30,28 +30,39 @@
   }
 
   .texttitel {
-    h1 {
-      font-style: normal;
-      font-weight: normal;
-      line-height: 150px;
-      font-size: 100px;
-
+    .paragraph-container{
+      width:386px;
       @include media-query-phone {
-        font-size: 67px;
+        width: 90%;
       }
     }
 
-    grid-column:6 / 10;
+    h1 {
+      line-height: 175px;
+      font-size: 130px;
+      @include media-query-tablet {
+        font-size: 67px;
+      }
+       @include media-query-phone {
+        font-size: 67px;
+      }
+    h2{
+      margin-top:-80px;
+    }
+  }
+    align-self: end;
+    grid-column:5 / 10;
     grid-row:7;
     z-index: 10;
 
     @include media-query-tablet {
       grid-column: 4 / 10;
-      grid-row: 5;
+      grid-row: 4;
     }
 
     @include media-query-phone {
-      grid-column: 2 / 10;
+      grid-column: 2 / 11;
+      grid-row: 5;
     }
   }
 

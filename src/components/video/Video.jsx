@@ -5,7 +5,7 @@ import video from '../../img/video.mp4';
 const VideoPlayer = () => (
   <div className="container-full">
     <div className="header-container farbverlauf">
-      Lebensqualität <br /> steigern - ohne <br /> zu verzichten
+      <h2>Lebensqualität <br /> steigern - ohne <br /> zu verzichten</h2>
     </div>
     <video id="background-video" playsInline muted autoPlay>
       <source src={video} type="video/mp4" />

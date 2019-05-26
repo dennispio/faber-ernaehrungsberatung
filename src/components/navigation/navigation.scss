@@ -32,7 +32,7 @@
     position: relative;
 
     img {
-      height: $margin_xxl;
+      height: $margin_xl;
       width: auto;
 
       @include media-query-phone {
@@ -98,7 +98,7 @@
 
 
     .bm-burger-bars {
-      background: black;
+      background:$black;
     }
 
     .bm-menu {
@@ -168,7 +168,7 @@
     z-index: 200;
     margin-top: $margin_s;
     left: 0;
-    background: linear-gradient(to right, #140A37, #E61E0A);
+    background: #2D3232;;
     width: 100%;
   }
 
@@ -178,7 +178,7 @@
     margin-left: $margin_xl;
     border-left: $margin_s solid transparent;
     border-right: $margin_s solid transparent;
-    border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+    border-bottom: $margin_s solid #2D3232; //linear-gradient(to right, #090909 , #A32626);
   }
 
   .triangle-other {

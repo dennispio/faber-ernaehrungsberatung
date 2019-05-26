@@ -16,25 +16,25 @@ const Ueberuns = props => {
       description={content.seo_comp.seo_desc}
     >
       <div className="ueberUnsContainer">
-      <div className="ueberunsContainerImg" />
-      <img
+        <div className="ueberunsContainerImg" />
+        <img
           className="bubble-zwei"
           src={bubbleTwo}
           alt="hintergrund bubble mit verlauf"
-      />
-      <img
-        className="bubble-eins"
-        src={bubbleOne}
-        alt="header bubble mit verlauf"
-      />
+        />
+        <img
+          className="bubble-eins"
+          src={bubbleOne}
+          alt="header bubble mit verlauf"
+        />
         <div className="texttitel">
-        <h1 className="farbverlauf">{content.page_title.title}</h1>
-          <h2>
+          <h1 className="farbverlauf">{content.page_title.title}</h1>
+          <h2 className="farbverlauf">
             Unsere Entstehung <br /> und Philosophie
           </h2>
-          <p>
-            {content.text_comp.entstehung}
-          </p>
+          <div className="paragraph-container">
+            <p>{content.text_comp.entstehung}</p>
+          </div>
         </div>
         <div className="background-container" />
         {/* <div className="textNamen">       
@@ -48,7 +48,7 @@ const Ueberuns = props => {
               {content.text_comp.bruder_daniel}
             </p> 
         </div> */}
-    </div>
+      </div>
     </Layout>
   );
 };

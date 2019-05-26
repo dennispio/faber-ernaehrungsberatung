@@ -4,7 +4,7 @@ import './morph.scss';
 import posed from 'react-pose';
 import { tween } from 'popmotion';
 import { interpolate } from 'flubber';
-import bgMorph from '../../img/morph/morph_bg.svg';
+import bgMorph from '../../img/morph/FBR-Diagramm-desktop.svg';
 
 const paths = {
   schokolade:
@@ -78,10 +78,10 @@ export default class Morph extends React.Component {
       <div className="container morph-component-container">
         <div className="morph-component">
           <div className="morph-header ">
-            <h3 className="farbverlauf">
-              Wir hinterfragen und schauen genauer hin: individuell auf Dich
+            <h2 className="farbverlauf">
+              Wir hinterfragen und schauen genauer hin: Individuell auf Dich
               abgestimmt.
-            </h3>
+            </h2>
           </div>
           <div className="morph-background">
             <img src={bgMorph} alt="Diagramm Morph" />
@@ -119,7 +119,7 @@ export default class Morph extends React.Component {
               Erdnüsse
             </p>
             <p className="li-containerAll" onClick={this.allMorph}>
-              Schokolade & Erdnus
+              Schokolade und Erdnuss
             </p>
           </div>
           <div className="morph-info">

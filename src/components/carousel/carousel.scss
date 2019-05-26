@@ -10,6 +10,10 @@
   padding-left: 50px;
   padding-right: 50px;
 
+  p{
+    color: $black;
+  }
+
   @include media-query-phone {
     margin-top: $margin_xxl;
     margin-bottom: $margin_xxl;

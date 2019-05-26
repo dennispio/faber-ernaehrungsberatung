@@ -11,6 +11,7 @@ const Leistungen = props => {
     <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
       <SubpageHeader
         title="Kontakt"
+        sitename="kontakt"
         text={[
           'Ernährungsberatung faber GbR',
           <br />,

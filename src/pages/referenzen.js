@@ -12,6 +12,7 @@ const Referenzen = props => {
     <Layout title="TEST TITLE" description=" TEST DESCIPTION">
       <SubpageHeader
         title="Referenzen"
+        sitename="referenzen"
         text="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu
           dürfen. Hier berichten einige von ihren Erfahrungen und
           Erfolgserlebnissen. Möchtest du auch auf unserer Referenzseite
