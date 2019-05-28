@@ -98,7 +98,7 @@ const Navigation = ({ pageName }) => (
             <img alt="LOGO" src={logoBurger} />
           </Link>
         </div>
-        <div className="burgerMenu-content">
+        <div className="burgerMenu-content burger-items">
           <Link to="leistungen" className="menu-item">
             Unsere <br className="burgerMenu-br" /> Leistungen
           </Link>
