@@ -51,6 +51,11 @@
   }
 
   .navigation-menu {
+
+    a{
+      font-family:"itc-avant-garde-gothic-pro-medium";
+    }
+
     margin-right: $margin_xs;
 
     @include media-query-tablet {
@@ -68,7 +73,7 @@
 
     li {
       text-align: center;
-      padding: $margin_s $margin_s;
+      padding: 22px $margin_s;
       text-decoration: none;
     }
   }
@@ -156,20 +161,20 @@
     position: fixed;
     transition: 1.5s; /* delay of 1 seconds on hover off */
     z-index: 200;
-    margin-top: $margin_s;
     left: 0;
     background: linear-gradient(to right, #140A37, #E61E0A);
     width: 100%;
+    margin-top: 10px;
   }
 
   .subnav-content-container {
     display: block;
     position: fixed;
     z-index: 200;
-    margin-top: $margin_s;
     left: 0;
     background: #2D3232;;
     width: 100%;
+    margin-top: 10px;
   }
 
   .triangle {
@@ -179,6 +184,7 @@
     border-left: $margin_s solid transparent;
     border-right: $margin_s solid transparent;
     border-bottom: $margin_s solid #2D3232; //linear-gradient(to right, #090909 , #A32626);
+    margin-top: -5px;
   }
 
   .triangle-other {
@@ -189,6 +195,7 @@
     border-left: $margin_s solid transparent;
     border-right: $margin_s solid transparent;
     border-bottom: $margin_s solid #A32626; //linear-gradient(to right, #090909 , #A32626);
+    margin-top: -5px;
   }
 
   /* Style the subnav links */

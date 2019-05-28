@@ -66,7 +66,7 @@ const Navigation = ({ pageName }) => (
                 <Link to="/leistungen#ernaehrung">Ernährungsbearatung</Link>
                 <Link to="/leistungen#coaching">Coaching</Link>
                 <Link to="/leistungen#naehrwertanalyse">Nährwertanalyse</Link>
-                <Link to="/leistungen#seminare">Seminare und Vorträge</Link>
+                {/* <Link to="/leistungen#seminare">Seminare und Vorträge</Link> */}
               </div>
             </div>
           </div>

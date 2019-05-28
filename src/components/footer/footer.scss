@@ -21,6 +21,7 @@ footer {
     padding-bottom: $margin_xxl;
 
     h4 {
+      font-family: "itc-avant-garde-gothic-pro-medium";
       font-size: 22px;
       color: white;
       margin-bottom: $margin_s * -1;
@@ -37,8 +38,9 @@ footer {
 
       li {
         color: white;
-        font-size: $font_size_p;
-        margin-bottom: $margin_s;
+        font-family: 'Hind', sans-serif;
+        font-size: 16px;
+        line-height: 30px;
       }
     }
 

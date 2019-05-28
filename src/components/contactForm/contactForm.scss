@@ -11,7 +11,8 @@
     p {
       margin-bottom: -$margin_xs;
       color: #140A37;
-      font-size: $font_size_p;
+      font-size: 25px;
+      font-family: "itc-avant-garde-gothic-pro-bold";
 
       @include media-query-phone {
         font-size: 25px;
@@ -43,11 +44,22 @@
 
   }
 
+  label{
+    font-family: "itc-avant-garde-gothic-pro-medium";
+    font-size:12px;
+  }
+  span{
+    font-family: "itc-avant-garde-gothic-pro-medium";
+  }
+
   .input-button {
     width: 100%;
     height: $margin_xl;
     background: #140A37;
+    border-radius: 3px;
+
     color: $white;
+    font-family: "itc-avant-garde-gothic-pro-medium";
   }
 
   .checkbox-column {
