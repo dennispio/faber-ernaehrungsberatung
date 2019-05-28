@@ -55,6 +55,10 @@
       font-family:"itc-avant-garde-gothic-pro-medium";
     }
 
+    a:hover, a:active, a:focus{
+      font-weight: normal;
+    }
+
     margin-right: $margin_xs;
 
     @include media-query-tablet {
@@ -138,7 +142,7 @@
         font-family: "itc-avant-garde-gothic-pro-medium";
         font-size:38px;
         line-height: 50px;
-        margin-top:10%
+        margin-top:5%;
       }
     }
     
