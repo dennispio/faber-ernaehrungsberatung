@@ -1,13 +1,14 @@
 @import "../../constants/style/variables.scss";
 
-.header-container{
+.header-container {
   margin-top: 35%;
   margin-left: 5%;
   position: absolute;
   max-width: 30%;
   font-size: 3rem;
+
   @include media-query-phone {
-    display:none;
+    display: none;
   }
 
   @include media-query-tablet {
@@ -27,12 +28,12 @@
 
   /* optional depending on what you want to do in your app */
   @include media-query-phone {
-    height: 80vh;
+    height: 100vh;
 
   }
 
   @include media-query-tablet {
-    height: 80vh;
+    height: 100vh;
 
   }
 }

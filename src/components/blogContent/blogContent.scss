@@ -7,6 +7,14 @@
   .blog-info {
     margin-top: $margin_s;
     margin-bottom: $margin_s;
+
+    .cat {
+      text-transform: uppercase;
+    }
+
+    .date {
+      text-align: right;
+    }
   }
 
   .gatsby-image-wrapper {

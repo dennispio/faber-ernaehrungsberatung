@@ -91,7 +91,7 @@ const Footer = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.tuev-sued.de/home_de"
+          href="https://alexstrasser.de/"
           title="Zum Partner Agentur Strasser"
         >
           <br />
