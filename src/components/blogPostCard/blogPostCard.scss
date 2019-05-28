@@ -112,8 +112,8 @@
 
   .blogPost-title-container {
     min-height: 100px;
-
     h5 {
+      font-family: "itc-avant-garde-gothic-pro-bold";
       overflow: hidden;
       font-size: $font_size_h - 8;
       margin-bottom: 0;
@@ -129,6 +129,7 @@
     }
 
     span {
+      font-family: 'Hind', sans-serif;
       color: $black2;
     }
 

@@ -112,17 +112,17 @@ export default class Morph extends React.Component {
           >
             {/* <NextButton onClick={this.gotoNext}>Next icon!</NextButton> */}
             {console.log(this.state.pulsIndex)}
-            <p className="li-containerSchokolade" onClick={this.schokolade}>
+            <p className="li-containerSchokolade hover-effect" onClick={this.schokolade}>
               Schokolade
             </p>
-            <p className="li-containerPeanut" onClick={this.peanuts}>
+            <p className="li-containerPeanut hover-effect" onClick={this.peanuts}>
               Erdnüsse
             </p>
-            <p className="li-containerAll" onClick={this.allMorph}>
+            <p className="li-containerAll hover-effect" onClick={this.allMorph}>
               Schokolade und Erdnuss
             </p>
           </div>
-          <div className="morph-info">
+          <div className="morph-info hover-effect">
             <Link to="leistungen#naehrwertanalyse">
               zur Nährtwert- und Ernährungsanalyse
             </Link>

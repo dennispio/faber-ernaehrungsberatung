@@ -58,8 +58,8 @@ const Navigation = ({ pageName }) => (
             <div
               className={
                 pageName === 'leistungen'
-                  ? 'subnav-content-container'
-                  : 'subnav-content-container-other'
+                  ? 'subnav-content-container hover-effect'
+                  : 'subnav-content-container-other hover-effect'
               }
             >
               <div className="subnav-content">

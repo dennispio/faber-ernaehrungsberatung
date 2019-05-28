@@ -33,9 +33,16 @@ $margin_video: 70px;
 
 /* typo fonts */
 
-@import url("https://p.typekit.net/p.css?s=1&k=xbt0sak&ht=tk&f=39347.39349&a=1641095&app=typekit&e=css");
 
+$black:#2D3232;
+$black2:#140A37;
+$white:#FFFFFF;
+$grey:#D8D8D8;
 
+$font_site_xs: 12px;
+$font_size_p: 16px;
+$font_size_h: 38px;
+$font_size_h_mobile: 26px;
 @font-face {
   font-family:"itc-avant-garde-gothic-pro-bold";
   src:url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
@@ -45,7 +52,8 @@ $margin_video: 70px;
 @font-face {
   font-family:"itc-avant-garde-gothic-pro-medium";
   src:url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-  font-style:normal;font-weight:500;
+  font-style:normal;
+  font-weight:500;
   }
 
 @font-face {
@@ -70,7 +78,8 @@ p{
   font-family: 'Hind', sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color:#2D3232;
+  color:$brand_grey;
+
 }
 
 li,a{
@@ -78,10 +87,34 @@ li,a{
   line-height: 22px;
 }
 
+a:hover, a:active, a:focus{
+  text-decoration:none;
+  color: $black;
+  font-weight: bold;
+}
+
+.hover-effect{
+  text-decoration:none;
+  a:hover, a:active, a:focus{
+    font-weight: bold;
+    font-weight: 800px;
+    font-family: "itc-avant-garde-gothic-pro-bold";
+  }
+  p:hover, p:active, p:focus{
+    font-weight: bold;
+    font-weight: 800px;
+    font-family: "itc-avant-garde-gothic-pro-bold";
+  }
+  li:hover, li:active, li:focus{
+    font-weight: bold;
+    font-weight: 800px;
+    font-family: "itc-avant-garde-gothic-pro-bold";
+  }
+}
+
 h2{
-  // line-height: 50px;
   font-family: "itc-avant-garde-gothic-pro-medium";
-  line-height: 40px;
+  line-height: 50px;
   font-size: 38px;
   @media (max-width: 575px) {
     font-size: 32px;
@@ -93,23 +126,16 @@ h2{
   }
 }
 
-span{
-  font-family: "itc-avant-garde-gothic-pro-medium";
-  font-size: 16px;
-  line-height: 22px;
-}
-
-button{
+span,button{
   font-family: "itc-avant-garde-gothic-pro-medium";
   font-size: 16px;
   line-height: 22px;
 }
 
 h3{
-  // line-height: 50px;
+  line-height: 32px;
   font-family: "itc-avant-garde-gothic-pro-bold";
   font-size: 25px;
-  line-height: 22px; 
   
   @mixin media-query-phone {
     @media (max-width: 575px) {
@@ -123,16 +149,6 @@ h3{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-$black:#2D3232;
-$black2:#140A37;
-$white:#FFFFFF;
-$grey:#D8D8D8;
-
-$font_site_xs: 12px;
-$font_size_p: 16px;
-$font_size_h: 38px;
-$font_size_h_mobile: 26px;
 
 /* media querys */
 @mixin media-query-xxl {
