@@ -17,7 +17,7 @@ const Footer = () => (
         href="https://www.tuev-sued.de/home_de"
         title="facebook"
       >
-        <img src={facebook} alt="facebook logo" />
+        <img className="hover-svg" src={facebook} alt="facebook logo" />
       </a>
       <a
         target="_blank"
@@ -25,7 +25,7 @@ const Footer = () => (
         href="https://www.tuev-sued.de/home_de"
         title="instagram"
       >
-        <img src={instagram} alt="instagram logo" />
+        <img className="hover-svg" src={instagram} alt="instagram logo" />
       </a>
     </div>
     <div className="container footer-navigation">
