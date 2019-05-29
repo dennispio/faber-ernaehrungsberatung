@@ -10,7 +10,7 @@ const Blog = props => {
   const { edges: posts } = data.referenzen;
   return (
     <Layout title="TEST TITLE" description=" TEST DESCIPTION">
-      <SubpageHeader title="Blog" sitename="blog" />
+      <SubpageHeader blog title="Blog" sitename="blog" />
       <div className="container-full blog-overview-container">
         <div className="blog-overview-grid">
           {/* eslint-disable-next-line */}
