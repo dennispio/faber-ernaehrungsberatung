@@ -10,6 +10,14 @@
   width: 100%;
 }
 
+.blog-template-header-container {
+  margin-bottom: -15rem;
+
+  @media (max-width: 1000px) {
+    margin-bottom: -2rem;
+  }
+}
+
 .sperator {
   margin-bottom: 160px;
 
@@ -43,18 +51,20 @@ $font_site_xs: 12px;
 $font_size_p: 16px;
 $font_size_h: 38px;
 $font_size_h_mobile: 26px;
+
 @font-face {
-  font-family:"itc-avant-garde-gothic-pro-bold";
-  src:url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-  font-style:normal;font-weight:700;
-  }
-  
+  font-family: "itc-avant-garde-gothic-pro-bold";
+  src: url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
 @font-face {
-  font-family:"itc-avant-garde-gothic-pro-medium";
-  src:url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-  font-style:normal;
-  font-weight:500;
-  }
+  font-family: "itc-avant-garde-gothic-pro-medium";
+  src: url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
 
 @font-face {
   font-family: 'Hind', sans-serif;
@@ -64,77 +74,93 @@ $font_size_h_mobile: 26px;
   src: url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 }
 
-h1{
+h1 {
   font-family: "itc-avant-garde-gothic-pro-medium";
   line-height: 1em;
+
   @media (max-width: 575px) {
     line-height: 1em;
   }
-  @media (max-width: 1199px) {
-  }
+
+  @media (max-width: 1199px) {}
 }
 
-p{
+p {
   font-family: 'Hind', sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color:$brand_grey;
+  color: $brand_grey;
 
 }
 
-li,a{
+li,
+a {
   font-size: 16px;
   line-height: 22px;
 }
 
-a:hover, a:active, a:focus{
+a:hover,
+a:active,
+a:focus {
   color: $black2;
   font-weight: bold;
 }
 
-.hover-effect{
-  a:hover, a:active, a:focus{
+.hover-effect {
+
+  a:hover,
+  a:active,
+  a:focus {
     font-weight: bold;
     font-weight: 800px;
     font-family: "itc-avant-garde-gothic-pro-bold";
   }
-  p:hover, p:active, p:focus{
+
+  p:hover,
+  p:active,
+  p:focus {
     font-weight: bold;
     font-weight: 800px;
     font-family: "itc-avant-garde-gothic-pro-bold";
   }
-  li:hover, li:active, li:focus{
+
+  li:hover,
+  li:active,
+  li:focus {
     font-weight: bold;
     font-weight: 800px;
     font-family: "itc-avant-garde-gothic-pro-bold";
   }
 }
 
-h2{
+h2 {
   font-family: "itc-avant-garde-gothic-pro-medium";
   line-height: 50px;
   font-size: 38px;
+
   @media (max-width: 575px) {
     font-size: 32px;
     line-height: 1em;
   }
+
   @media (max-width: 1199px) {
     font-size: 32px;
     line-height: 1em;
   }
 }
 
-span,button{
+span,
+button {
   font-family: "itc-avant-garde-gothic-pro-medium";
   font-size: 16px;
   line-height: 22px;
 }
 
-h3{
+h3 {
   line-height: 32px;
   font-family: "itc-avant-garde-gothic-pro-bold";
   font-size: 25px;
-  
+
   @mixin media-query-phone {
     @media (max-width: 575px) {
       line-height: 45px;

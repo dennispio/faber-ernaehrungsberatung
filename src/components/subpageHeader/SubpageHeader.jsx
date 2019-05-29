@@ -4,8 +4,12 @@ import leftBub from '../../img/bubbles/bubble_subpage_header_1.svg';
 import rightBub from '../../img/bubbles/bubble_subpage_header_2.svg';
 import './subpageHeader.scss';
 
-const SubpageHeader = ({ title, text, sitename }) => (
-  <div className="container-full subPage-header-container">
+const SubpageHeader = ({ title, text, sitename, blog }) => (
+  <div
+    className={`container-full subPage-header-container ${
+      blog ? 'blog-template-header-container' : null
+    }`}
+  >
     <img
       className="right-bubbble"
       src={rightBub}
@@ -17,18 +21,7 @@ const SubpageHeader = ({ title, text, sitename }) => (
       alt="hintergrund bubble links"
     />
     <div className="subpage-title-container farbverlauf">
-      {sitename === 'leistungen' ? (
-        <h1 className="farbverlauf leistungen">{title}</h1>
-      ) : null}
-      {sitename === 'blog' ? (
-        <h1 className="farbverlauf blog">{title}</h1>
-      ) : null}
-      {sitename === 'referenzen' ? (
-        <h1 className="farbverlauf referenzen">{title}</h1>
-      ) : null}
-      {sitename === 'kontakt' ? (
-        <h1 className="farbverlauf kontakt">{title}</h1>
-      ) : null}
+      {sitename ? <h1 className={`farbverlauf ${sitename}`}>{title}</h1> : null}
     </div>
     <div className="subpage-text-container">
       <p>{text}</p>
@@ -40,6 +33,7 @@ SubpageHeader.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string,
   sitename: PropTypes.string,
+  blog: PropTypes.bool,
 };
 
 export default SubpageHeader;
