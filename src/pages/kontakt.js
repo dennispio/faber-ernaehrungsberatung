@@ -27,7 +27,7 @@ const Leistungen = props => {
           'Auf Wunsch auch über Skype erreichbar',
         ]}
       />
-      <div className="button-container">
+      <div className="button-container sperator">
         <div className="button">
           <a href="mailto:Kontakt@ernaehrungsberatung-faber.de?subject=Ernährungsberatung">
             <button>E-Mail</button>

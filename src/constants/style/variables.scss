@@ -19,10 +19,10 @@
 }
 
 .sperator {
-  margin-bottom: 160px;
+  margin-bottom: 192px;
 
   @media (max-width: 575px) {
-    margin-bottom: 152px;
+    margin-bottom: 72px;
   }
 }
 
@@ -99,17 +99,14 @@ a {
   line-height: 22px;
 }
 
-a:hover, a:active, a:focus{
+a:hover{
   text-decoration: underline;
   color: $black2;
   font-weight: bold;
 }
 
 .hover-effect {
-
-  a:hover,
-  a:active,
-  a:focus {
+  a:hover{
     font-weight: bold;
     font-weight: 800px;
     font-family: "itc-avant-garde-gothic-pro-bold";

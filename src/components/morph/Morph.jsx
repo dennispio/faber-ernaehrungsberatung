@@ -75,7 +75,7 @@ export default class Morph extends React.Component {
 
   render() {
     return (
-      <div className="container morph-component-container">
+      <div className="container sperator morph-component-container">
         <div className="morph-component">
           <div className="morph-header ">
             <h2 className="farbverlauf">

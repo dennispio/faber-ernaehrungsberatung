@@ -5,8 +5,8 @@
 .fact-carousel-container {
   overflow: hidden;
   min-height: 320px;
-  margin-top: $margin_xxl * 2;
-  margin-bottom: $margin_xxl * 2;
+  // margin-top: $margin_xxl * 2;
+  // margin-bottom: $margin_xxl * 2;
   padding-left: 50px;
   padding-right: 50px;
 
@@ -15,8 +15,8 @@
   }
 
   @include media-query-phone {
-    margin-top: $margin_xxl;
-    margin-bottom: $margin_xxl;
+    // margin-top: $margin_xxl;
+    // margin-bottom: $margin_xxl;
     height: 750px;
   }
 

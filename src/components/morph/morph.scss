@@ -1,9 +1,11 @@
 @import '../../constants/style/variables.scss';
 
 .morph-component-container {
+    margin-top:196px;
 
-    margin-top: $margin_xxl;
-
+    @include media-query-phone{
+        margin-top: 72px;
+    }
     .morph-component {
         display: grid;
         grid-template-columns: repeat(10, 10vw);

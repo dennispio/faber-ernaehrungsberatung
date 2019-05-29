@@ -48,9 +48,8 @@ const IndexPage = props => {
         ) : null;
       })}
       <Morph />
-      <div className="sperator" />
       <div className="container-full bubble-bg">
-        <div className="preview-section container">
+        <div className="preview-section sperator container">
           <h2 className="farbverlauf">
             Das bekommst du:
             <br />

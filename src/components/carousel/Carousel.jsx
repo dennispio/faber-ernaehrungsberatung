@@ -58,7 +58,7 @@ export default class Carousel extends Component {
       prevArrow: <PrevArrow className="nextArrow" />,
     };
     return (
-      <div className="container fact-carousel-container">
+      <div className="container sperator fact-carousel-container">
         <Slider {...settings}>
           {facts.map(fact => (
             <div className="slide container">
