@@ -7,12 +7,11 @@ const OfferCard = ({ category, price, time, bullets, link }) => (
   <div className="offerCard">
     <div className="offer-price-container">
       <p>
-        {price} <span className="euro">€</span>
+        {price} <span className="euro">€ {time}</span>
       </p>
-      <p className="time">{time}</p>
     </div>
     <div className="offer-title-container">
-      <h5>{category}</h5>
+      <h3>{category}</h3>
     </div>
     <div className="offer-content-container">
       <ul>
@@ -22,9 +21,7 @@ const OfferCard = ({ category, price, time, bullets, link }) => (
       </ul>
     </div>
     <div className="offer-link-container">
-      <Link to={link}>
-        mehr erfahren & <br /> unverbindlich anfragen{' '}
-      </Link>
+      <Link to={link}>unverbindlich anfragen </Link>
     </div>
   </div>
 );
