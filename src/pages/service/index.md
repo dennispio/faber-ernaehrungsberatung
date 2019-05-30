@@ -1,8 +1,8 @@
 ---
 pageKey: page_service
 seo_comp:
-  seo_desc: SEO DESC SERVICE SEITE
-  seo_title: SEO TITEL SERVICE SEITE
+  seo_desc: Unsere Leistungen
+  seo_title: Faber Ernährungsberatung | Unsere Leistungen
 page_title:
   title: Unsere Leistungen
 service_1:

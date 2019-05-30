@@ -1,5 +1,10 @@
 ---
 templateKey: service
+seo_comp:
+  seo_desc: >-
+    Die individuelle Ernährungsberatung ist eine auf Dich abgestimmte Beratung.
+    Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns.
+  seo_title: Faber Ernährungsberatung | Erstberatung
 service: service
 title: Erstberatung
 angebot: true
@@ -7,21 +12,17 @@ category: Beratung
 price: 60
 time: einmalig
 bullets:
-  - title: Telefonisch
-  - title: per Skype
-  - title: vor Ort
+  - title: 'persöhnliches Treffen, telefonisch oder per Skype'
+  - title: Individuelle Anamnese
+  - title: Besprechung von individuellen Lösungsergebnissen
+  - title: Beantwortung von ernährungsspezifischen Fragen
 ---
 # Erstberatung
 
+Die individuelle Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns, was Du willst und wir sagen Dir nicht, was Du musst. In Zusammenarbeit erstellen wir ein auf Dich abgestimmtes Konzept, das Dir auf dem Weg zu Deinem Ziel helfen wird. 
 
+Deine Ziele könnten sein: Abnehmen, Zunehmen, Optimierung der Verdauung, gesünder Essen, Lernen bewusst zu Leben oder Steigerung der sportlichen Leistungsfähigkeit.
 
-**Der erste Termin:**
-
-Wir gehen Schritt für Schritt vor ... Für Designer, Schriftsetzer, Layouter, Grafikenthusiasten und alle anderen. Ein Projekt startet und doch es gibt noch keinen Text, allerdings sollte das Layout schon bald präsentiert werden ... was tun?
-
-Damit das Projekt gleich starten kann benutze einfach etwas Lorem ipsum - Blind-, Füll-, Dummy-, Nachahmungs-, Platzhaltertext.Generiere einfach soviel Lorem Ipsum Text wie du brauchst, kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein. Somit sieht das Projekt ein Stückchen vollständiger aus als zuvor. Viel Spaß dabei.
-
-> Hier könnte ein Zitat stehen
-
-* Liste geht auch
-* Liste yau
+> * Telefonisch
+> * per Skype
+> * vor Ort

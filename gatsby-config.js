@@ -1,6 +1,7 @@
 /* eslint-disable */
 module.exports = {
 	siteMetadata: {
+		siteUrl: `https://www.ernaehrungsberatung-faber.de/`,
 		title: "Gatsby + Netlify CMS Starter Clean",
 		description: "This repo contains an example website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
 	},
@@ -59,6 +60,36 @@ module.exports = {
 				],
 			},
 		},
+		{
+			resolve: `gatsby-plugin-sitemap`,
+			options: {
+				exclude: ["/danke/", `/newsletter/`],
+				query: `
+					{
+						site {
+							siteMetadata {
+								siteUrl
+							}
+						}
+	
+						allSitePage {
+							edges {
+								node {
+									path
+								}
+							}
+						}
+				}`
+			}
+		},
+		{
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.ernaehrungsberatung-faber.de/',
+        sitemap: 'https://www.ernaehrungsberatung-faber.de/',
+        policy: [{ userAgent: '*', allow: '/', disallow: ['/danke', '/newsletter'] }]
+      }
+    },
 		{
 			resolve: "gatsby-plugin-netlify-cms",
 			options: {

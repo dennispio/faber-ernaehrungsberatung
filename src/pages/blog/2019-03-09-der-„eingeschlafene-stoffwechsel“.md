@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Der „eingeschlafene Stoffwechsel“
+seo_title: Ernährungsberatung Faber | Der „eingeschlafene Stoffwechsel“
 seo_desc: Der „eingeschlafene Stoffwechsel“
 category: Stoffwechsel
 title: Der „eingeschlafene Stoffwechsel“
@@ -16,6 +16,8 @@ description: >-
   Erklärung: Mit diesem Spruch gehtman davon aus, dass nach längerer
   Gewichtsreduktion das Gewichtplötzlich stagniert und man nicht mehr abnimmt.
 ---
+# Der „eingeschlafene Stoffwechsel“
+
 Ein sehr weit verbreiteter Mythos: der Stoffwechsel ist nach
 fortgeschrittener in der Diät „eingeschlafen“.
 Für die, die es nicht kennen, eine kurze Erklärung: Mit diesem Spruch geht

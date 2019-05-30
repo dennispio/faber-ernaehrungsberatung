@@ -14,7 +14,7 @@ const Footer = () => (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.tuev-sued.de/home_de"
+        href="https://www.facebook.com/Ernaehrungsberatung-faber-1031981213858998/?modal=admin_todo_tour"
         title="facebook"
       >
         <img className="hover-svg" src={facebook} alt="facebook logo" />
@@ -22,7 +22,7 @@ const Footer = () => (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.tuev-sued.de/home_de"
+        href="https://www.instagram.com/ernaehrungsberatungfaber/"
         title="instagram"
       >
         <img className="hover-svg" src={instagram} alt="instagram logo" />

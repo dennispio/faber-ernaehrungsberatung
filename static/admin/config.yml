@@ -231,6 +231,12 @@ collections:
         widget: "hidden",
         default: "service",
       }
+      - label: "SEO"
+        name: "seo_comp"
+        widget: "object"
+        fields:
+          - { label: "SEO Title", name: "seo_title", widget: "string" }
+          - { label: "SEO Description", name: "seo_desc", widget: "string"}
       - {label: "service", name: "service", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Angebot", name: "angebot", widget: "boolean", default: false}
