@@ -9,7 +9,8 @@ const TestimonialRight = ({ title, text, fluid, link, alt }) => (
   <Link className="testo-link" to={link} title="Zu der Referenz Seite">
     <div className="container-full testimonials-container">
       <div className="row">
-        <div className="col-xs-12 col-sm-6 col-lg-6 testo-right">
+        <div className="col-xs-12 col-sm-1 col-lg-1" />
+        <div className="col-xs-12 col-sm-5 col-lg-5 testo-right">
           <div className="testimonial-content">
             <div className="testimaonial-title">
               <h2 className="farbverlauf">{title}</h2>

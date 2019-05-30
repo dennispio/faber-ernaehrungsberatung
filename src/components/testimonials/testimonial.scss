@@ -1,5 +1,13 @@
 @import '../../constants/style/variables.scss';
 
+.testo-left-container {
+  @include media-query-phone {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
+
 .testo-con {
   overflow: hidden;
   margin-top: $margin_m;
@@ -14,6 +22,25 @@
 .testimonials-container {
   background: #DADADA;
   overflow: hidden;
+
+  .testo-right {
+    margin-left: -90px;
+
+    @include media-query-tablet {
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    @include media-query-phone {
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    @include media-query-xxl {
+      padding-left: $margin_m;
+      margin-left: 0;
+    }
+  }
 
   .testimonial-content {
     width: 80%;

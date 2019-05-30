@@ -8,11 +8,11 @@ import { Link } from 'gatsby';
 const TestimonialLeft = ({ title, text, fluid, link, alt }) => (
   <Link className="testo-link" to={link} title="Zu der Referenz Seite">
     <div className="container-full testimonials-container">
-      <div className="row">
+      <div className="row testo-left-container">
         <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-image">
           <Img alt={alt} fluid={fluid} />
         </div>
-        <div className="col-xs-12 col-sm-6 col-lg-6 testimonial-left">
+        <div className="col-xs-12 col-sm-5 col-lg-5 testo-left">
           <div className="testimonial-content">
             <div className="testimaonial-title">
               <h2 className="farbverlauf">{title}</h2>
