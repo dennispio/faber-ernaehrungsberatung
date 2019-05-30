@@ -18,6 +18,7 @@ const Referenzen = props => {
           Erfolgserlebnissen. Möchtest du auch auf unserer Referenzseite
           berichten? Dann schreib uns eine Mail an ...."
       />{' '}
+      <div className="testo-content-container">
       {referenzen.map(({ node: referenz }) => (
         <div className="testo-con">
           <Testimonial
@@ -30,6 +31,7 @@ const Referenzen = props => {
           />
         </div>
       ))}
+      </div>
     </Layout>
   );
 };

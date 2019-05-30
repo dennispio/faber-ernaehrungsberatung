@@ -9,7 +9,7 @@ import p3 from '../../img/partner/partner_alex_strasser.svg';
 import tuv from '../../img/partner/tuv.png';
 
 const Footer = () => (
-  <footer className="container-full">
+  <footer className="container-full footer-container">
     <div className="row social-media-container">
       <a
         target="_blank"

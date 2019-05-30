@@ -26,6 +26,15 @@
   background-repeat: no-repeat;
   background-position: -1100px -500px;
   background-size: auto 4000px;
+  padding-bottom: 192px;
+
+  @include media-query-phone {
+    padding-bottom: 72px;
+  }
+
+  @include media-query-tablet {
+    padding-bottom: 72px;
+  }
 }
 
 /*****************************/
@@ -112,6 +121,7 @@
 
   .blogPost-title-container {
     min-height: 100px;
+
     h5 {
       font-family: "itc-avant-garde-gothic-pro-bold";
       overflow: hidden;

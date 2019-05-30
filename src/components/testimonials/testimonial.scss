@@ -1,5 +1,17 @@
 @import '../../constants/style/variables.scss';
 
+.testo-content-container {
+  padding-bottom: 192px;
+
+  @include media-query-phone {
+    padding-bottom: 72px;
+  }
+
+  @include media-query-tablet {
+    padding-bottom: 72px;
+  }
+}
+
 .testo-left-container {
   @include media-query-phone {
     display: flex;

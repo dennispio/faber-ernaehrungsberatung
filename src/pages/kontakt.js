@@ -40,6 +40,7 @@ const Leistungen = props => {
         </div>
       </div>
       <Kontakt />
+      <div className="sperator" />
     </Layout>
   );
 };
