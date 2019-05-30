@@ -13,7 +13,7 @@
   position: fixed;
   z-index: 200;
   width: 100vw;
-  height: 90px;
+  height: 95px;
   background: #FFFFFF;
   box-shadow: 0px -10px 35px rgba(0, 0, 0, 0.5);
 
@@ -51,11 +51,13 @@
   }
 
   .navigation-menu {
-    a{
-      font-family:"itc-avant-garde-gothic-pro-medium";
+    a {
+      font-family: "itc-avant-garde-gothic-pro-medium";
     }
 
-    a:hover, a:active, a:focus{
+    a:hover,
+    a:active,
+    a:focus {
       font-weight: normal;
     }
 
@@ -106,12 +108,12 @@
 
 
     .bm-burger-bars {
-      background:$black;
+      background: $black;
     }
 
     .bm-menu {
       z-index: 1000;
-      background: linear-gradient(to top,  #140A37, #E61E0A);
+      background: linear-gradient(to top, #140A37, #E61E0A);
     }
 
     .bm-morph-shape {
@@ -138,14 +140,14 @@
     }
 
     .burger-items {
-      a{
+      a {
         font-family: "itc-avant-garde-gothic-pro-medium";
-        font-size:38px;
+        font-size: 38px;
         line-height: 50px;
-        margin-top:5%;
+        margin-top: 5%;
       }
     }
-    
+
     .bm-overlay {
       z-index: 1000;
       background: rgba(0, 0, 0, 0.3);
@@ -169,7 +171,8 @@
   .subnav-content-container-other {
     visibility: hidden;
     position: fixed;
-    transition: 1.5s; /* delay of 1 seconds on hover off */
+    transition: 1.5s;
+    /* delay of 1 seconds on hover off */
     z-index: 200;
     left: 0;
     background: linear-gradient(to right, #140A37, #E61E0A);
@@ -182,7 +185,8 @@
     position: fixed;
     z-index: 200;
     left: 0;
-    background: #2D3232;;
+    background: #2D3232;
+    ;
     width: 100%;
     margin-top: 10px;
   }
@@ -200,7 +204,8 @@
   .triangle-other {
     visibility: hidden;
     position: fixed;
-    transition: 1.5s; /* delay of 1 seconds on hover off */
+    transition: 1.5s;
+    /* delay of 1 seconds on hover off */
     margin-left: $margin_xl;
     border-left: $margin_s solid transparent;
     border-right: $margin_s solid transparent;
@@ -212,9 +217,10 @@
   .subnav-content {
     height: $margin_xxl;
     margin-left: 18%;
+
     @media (min-width: 1920px) {
       margin-left: 32%;
-      
+
     }
 
     a {
@@ -232,5 +238,5 @@
 
   .subnav:hover .triangle-other {
     visibility: visible;
-    }
+  }
 }
