@@ -12,10 +12,9 @@ category: Beratung
 price: 60
 time: einmalig
 bullets:
-  - title: 'persöhnliches Treffen, telefonisch oder per Skype'
-  - title: Individuelle Anamnese
-  - title: Besprechung von individuellen Lösungsergebnissen
-  - title: Beantwortung von ernährungsspezifischen Fragen
+  - title: telefonisch
+  - title: Skype
+  - title: vor Ort
 ---
 # Erstberatung
 
