@@ -7,7 +7,10 @@ const OfferCard = ({ category, price, time, bullets, link }) => (
   <div className="offerCard">
     <div className="offer-price-container">
       <p>
-        {price} <span className="euro">€ {time}</span>
+        {price}{' '}
+        <span className="euro">
+          € {time === 'monatlich' ? 'mtl.' : 'einmalig'}
+        </span>
       </p>
     </div>
     <div className="offer-title-container">
