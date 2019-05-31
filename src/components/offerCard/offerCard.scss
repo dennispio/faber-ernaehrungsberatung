@@ -7,7 +7,10 @@
   margin: $margin_s $margin_s $margin_s 0;
   padding: $margin_m;
   background: white;
+
+  p,li,a,h3{
   color: $color-p;
+  }
 
   @include media-query-phone {
     min-width: 256px;
@@ -20,6 +23,7 @@
 
 
     p {
+      font-family: "itc-avant-garde-gothic-pro-medium";
       font-style: normal;
       font-weight: normal;
       line-height: normal;
@@ -27,31 +31,30 @@
       margin-top: 0;
       margin-bottom: $margin_s;
     }
+    span {
+      font-size: 25px;
+      font-family: "itc-avant-garde-gothic-pro-bold";
+    }
 
     .euro {
+      top: 20%;
       position: absolute;
       font-size: 25px;
     }
-
-    .time {
-      top: 80%;
-      left: 10px;
-      position: absolute;
-      font-size: 12px;
-    }
   }
 
-  .offer-title-container {
-    h5 {
-      font-size: 25px;
-      margin-bottom: 0;
-      margin-top: 0;
-    }
-  }
+
+
+  // .offer-title-container {
+  //   // h3 {
+  //   //   font-size: 25px;
+  //   //   margin-bottom: 0;
+  //   //   margin-top: 0;
+  //   // }
+  // }
 
   .offer-content-container {
     min-height: 100px;
-
     p {
       font-size: 25px;
     }
@@ -63,11 +66,17 @@
       li {
         line-height: 22px;
         font-size: 16px;
+        font-family: 'Hind', sans-serif;
       }
     }
   }
 
   .offer-link-container {
+    a {
+      line-height: 1px;
+      font-size: 16px;
+      font-family: 'Hind', sans-serif;
+    }
     margin-top: $margin_m;
     text-align: right;
   }

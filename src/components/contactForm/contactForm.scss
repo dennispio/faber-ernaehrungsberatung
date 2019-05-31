@@ -1,8 +1,6 @@
 @import '../../constants/style/variables.scss';
 
 .form-felder {
-  margin-top: 90px;
-
   .form-contacthead {
     h1 {
       margin-top: 10%;
@@ -11,7 +9,8 @@
     p {
       margin-bottom: -$margin_xs;
       color: #140A37;
-      font-size: $font_size_p;
+      font-size: 25px;
+      font-family: "itc-avant-garde-gothic-pro-bold";
 
       @include media-query-phone {
         font-size: 25px;
@@ -43,11 +42,23 @@
 
   }
 
+  label {
+    font-family: "itc-avant-garde-gothic-pro-medium";
+    font-size: 12px;
+  }
+
+  span {
+    font-family: "itc-avant-garde-gothic-pro-medium";
+  }
+
   .input-button {
     width: 100%;
     height: $margin_xl;
     background: #140A37;
-    color: white;
+    border-radius: 3px;
+
+    color: $white;
+    font-family: "itc-avant-garde-gothic-pro-medium";
   }
 
   .checkbox-column {
@@ -147,4 +158,5 @@
 
 .newsletter-container {
   margin-bottom: 65px;
+  padding-top: 100px;
 }

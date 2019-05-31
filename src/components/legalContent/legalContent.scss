@@ -1,12 +1,35 @@
 @import '../../constants/style/variables.scss';
 
+.subpage-service-container {
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+
+  @include media-query-xxl {
+    width: 50%;
+  }
+
+  @include media-query-tablet {
+    width: 80%;
+  }
+
+  @include media-query-phone {
+    width: 90%;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
 
 .subpage-content-container {
   margin: 0 auto;
   max-width: 812px;
+  padding-top: 80px;
 
   .blog-container {
     margin-top: 100px;
+
     p {
       text-align: justify;
     }

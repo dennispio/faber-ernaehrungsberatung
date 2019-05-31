@@ -20,7 +20,7 @@ const Leistungen = props => {
       title={content.seo_comp.seo_title}
       description={content.seo_comp.seo_desc}
     >
-      <SubpageHeader title={content.page_title.title} />
+      <SubpageHeader title={content.page_title.title} sitename="leistungen" />
       <div className="grid-container">
         <div id="ernaehrung" className="offer-1 d-flex-column">
           <TextComp

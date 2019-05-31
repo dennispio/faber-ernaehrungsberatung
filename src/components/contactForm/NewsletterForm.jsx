@@ -18,7 +18,7 @@ const NewsletterForm = () => (
       >
         <input type="hidden" id="form-type" name="FormService" />
         <div className="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-          <input type="text" name="Email" required /> <br />
+          <input type="email" name="Email" required /> <br />
           <label htmlFor="Email">E-Mail</label> <br />
         </div>
         <div className="hr-container col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">

@@ -19,9 +19,13 @@
   }
 }
 
+p{
+  color:$black;
+}
+
 .offer-1 {
   grid-column: 4 / 8;
-  justify-self: flex-start;
+  justify-self: center;
   grid-row: 1 / 2;
   z-index: 5;
 
@@ -34,6 +38,7 @@
   grid-column: 3 / 9;
   grid-row: 3 / 4;
   justify-self: flex-start;
+  align-self: center;
   z-index: 5;
 
   @include media-query-phone {
@@ -44,6 +49,7 @@
 
 .offer-3 {
   grid-column: 4 / 8;
+  justify-self: center;
   grid-row: 5 / 6;
   z-index: 5;
 

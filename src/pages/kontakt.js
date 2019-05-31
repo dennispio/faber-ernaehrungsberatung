@@ -11,6 +11,7 @@ const Leistungen = props => {
     <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
       <SubpageHeader
         title="Kontakt"
+        sitename="kontakt"
         text={[
           'Ernährungsberatung faber GbR',
           <br />,
@@ -26,7 +27,7 @@ const Leistungen = props => {
           'Auf Wunsch auch über Skype erreichbar',
         ]}
       />
-      <div className="button-container">
+      <div className="button-container sperator">
         <div className="button">
           <a href="mailto:Kontakt@ernaehrungsberatung-faber.de?subject=Ernährungsberatung">
             <button>E-Mail</button>
@@ -39,6 +40,7 @@ const Leistungen = props => {
         </div>
       </div>
       <Kontakt />
+      <div className="sperator" />
     </Layout>
   );
 };

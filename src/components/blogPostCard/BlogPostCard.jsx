@@ -11,7 +11,7 @@ const BlogPostCard = ({ category, date, title, text, link }) => (
       <span className="date">{date}</span>
     </div>
     <div className="blogPost-title-container">
-      <h5>{title}</h5>
+      <h3>{title}</h3>
     </div>
     <div className="blogPost-content-container">
       <Truncate

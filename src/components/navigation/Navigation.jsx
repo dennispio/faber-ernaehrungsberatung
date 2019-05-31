@@ -10,8 +10,8 @@ import './navigation.scss';
 const styles = {
   bmBurgerButton: {
     position: 'fixed',
-    width: '40px',
-    height: '30px',
+    width: '45px',
+    height: '25px',
     right: '32px',
     top: '32px',
   },
@@ -66,7 +66,7 @@ const Navigation = ({ pageName }) => (
                 <Link to="/leistungen#ernaehrung">Ernährungsbearatung</Link>
                 <Link to="/leistungen#coaching">Coaching</Link>
                 <Link to="/leistungen#naehrwertanalyse">Nährwertanalyse</Link>
-                <Link to="/leistungen#seminare">Seminare und Vorträge</Link>
+                {/* <Link to="/leistungen#seminare">Seminare und Vorträge</Link> */}
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Navigation = ({ pageName }) => (
             <img alt="LOGO" src={logoBurger} />
           </Link>
         </div>
-        <div className="burgerMenu-content">
+        <div className="burgerMenu-content burger-items">
           <Link to="leistungen" className="menu-item">
             Unsere <br className="burgerMenu-br" /> Leistungen
           </Link>

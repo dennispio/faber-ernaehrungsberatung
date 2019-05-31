@@ -1,5 +1,6 @@
 @import '../../constants/style/variables.scss';
 
+
 .subPage-header-container {
   display: -ms-grid;
   display: grid;
@@ -38,21 +39,71 @@
       grid-row: 2;
     }
 
-    h1 {
-      font-style: normal;
-      font-weight: normal;
-      line-height: normal;
-      font-size: 160px;
-      letter-spacing: -2.99435px;
-
-      @include media-query-tablet {
-        font-size: 70px;
-      }
+    .leistungen {
+      font-size: 120px;
+      line-height: 1em;
 
       @include media-query-phone {
-        font-size: 70px;
+        font-size: 52px;
+      }
+
+      @include media-query-tablet {
+        font-size: 52px;
       }
     }
+
+    .blog {
+      font-size: 200px;
+
+      @include media-query-phone {
+        font-size: 118px;
+      }
+
+      @include media-query-tablet {
+        font-size: 118px;
+      }
+    }
+
+    .referenzen {
+      font-size: 150px;
+
+      @include media-query-phone {
+        font-size: 52px;
+      }
+
+      @include media-query-tablet {
+        font-size: 52;
+      }
+    }
+
+    .kontakt {
+      font-size: 200px;
+
+      @include media-query-phone {
+        font-size: 80px;
+      }
+
+      @include media-query-tablet {
+        font-size: 80px;
+      }
+    }
+
+
+    // h1 {
+    //   font-style: normal;
+    //   font-weight: normal;
+    //   line-height: normal;
+    //   font-size: 160px;
+    //   letter-spacing: -2.99435px;
+
+    //   @include media-query-tablet {
+    //     font-size: 70px;
+    //   }
+
+    //   @include media-query-phone {
+    //     font-size: 70px;
+    //   }
+    // }
   }
 
   .subpage-text-container {

@@ -1,6 +1,7 @@
 @import '../../constants/style/variables.scss';
 
 .share-button-container {
+  font-family: 'Hind', sans-serif;
   padding-top: $margin_xl;
   padding-bottom: $margin_xl;
 
@@ -10,8 +11,15 @@
   }
 
   .social-media-share {
-    padding: 15px;
-    width: 248px;
+    padding: {
+      left: 0;
+      right: 0;
+      top: 5px;
+      bottom: 5px;
+    }
+
+    ;
+    width: 100%;
     text-align: center;
     box-shadow: 10px 3px 8px rgba(0, 0, 0, 0.2);
 
