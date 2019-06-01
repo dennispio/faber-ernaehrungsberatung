@@ -9,7 +9,7 @@ const Referenzen = props => {
   const { data } = props;
   const { edges: referenzen } = data.referenzen;
   return (
-    <Layout title="TEST TITLE" description=" TEST DESCIPTION">
+    <Layout title="Faber Ernährungsberatung | Referenzen" description="das ist die Referenz-Seite der Faber Ernährungsberatung">
       <SubpageHeader
         title="Referenzen"
         text="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu

@@ -8,7 +8,7 @@ import Layout from '../components/layouts/Layout';
 const Leistungen = props => {
   const { data } = props;
   return (
-    <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
+    <Layout pageName="kontakt" title="Faber Ernährungsberatung | Kontakt" description="Das ist die Kontaktseite der Ernährungsberatung Faber">
       <SubpageHeader
         title="Kontakt"
         text={[

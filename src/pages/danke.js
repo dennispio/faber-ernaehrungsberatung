@@ -5,7 +5,7 @@ import Layout from '../components/layouts/Layout';
 
 const Danke = function() {
   return (
-    <Layout pageName="kontakt" title="kontakt title" description="kontakt desc">
+    <Layout pageName="kontakt" title="Faber Ernährungsberatung | Danke" description="Das ist die Danke-Seite der Ernährungsberatung Faber">
         <div className="container">
             <div className="subpage-content-container">
                 <div

@@ -9,7 +9,7 @@ const Blog = props => {
   const { data } = props;
   const { edges: posts } = data.referenzen;
   return (
-    <Layout title="TEST TITLE" description=" TEST DESCIPTION">
+    <Layout title="Faber Ernährungsberatung | Blog" description="Das ist die Blogübersicht der Faber Ernährungsberatung">
       <SubpageHeader title="Blog" />
       <div className="container-full blog-overview-container">
         <div className="blog-overview-grid">
