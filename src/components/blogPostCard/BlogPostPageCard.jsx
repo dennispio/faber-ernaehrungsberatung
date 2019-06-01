@@ -10,6 +10,7 @@ import './blogPostCard.scss';
 //   }
 // };
 
+
 const calcTruncate = title => {
   const count = title.split('').length;
   if (count >= 0 && count <= 11) {
