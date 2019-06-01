@@ -27,3 +27,25 @@
     }
   }
 }
+
+.subpage-service-container {
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+
+  @include media-query-xxl {
+    width: 50%;
+  }
+
+  @include media-query-tablet {
+    width: 80%;
+  }
+
+  @include media-query-phone {
+    width: 90%;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
