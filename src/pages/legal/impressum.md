@@ -1,9 +1,9 @@
 ---
 templateKey: legal
-seo_title: Grundbausteine Impressum
-seo_desc: Grundbausteine einer Impressum
+seo_title: Ernährungsberatung Faber | Impressum
+seo_desc: Das ist das Impressum der Ernährungsberatung Faber.
 category: impressum
-title: Grundbausteine einer Impressum
+title: Impressum
 ---
 # Impressum
 
