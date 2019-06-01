@@ -1,5 +1,7 @@
 @import '../../constants/style/variables.scss';
 
+
+
 footer {
   background: $brand_grey;
   bottom: 0;
@@ -9,6 +11,10 @@ footer {
     margin: $margin_s;
     margin-top: $margin_s;
     margin-bottom: $margin_s;
+
+    .hover-svg:hover {
+      filter: opacity(50%);
+    }
 
     img {
       width: 32px;
@@ -21,6 +27,7 @@ footer {
     padding-bottom: $margin_xxl;
 
     h4 {
+      font-family: "itc-avant-garde-gothic-pro-medium";
       font-size: 22px;
       color: white;
       margin-bottom: $margin_s * -1;
@@ -37,8 +44,15 @@ footer {
 
       li {
         color: white;
-        font-size: $font_size_p;
-        margin-bottom: $margin_s;
+        font-family: 'Hind', sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      a:hover,
+      a:active,
+      a:focus {
+        color: #ffff;
       }
     }
 

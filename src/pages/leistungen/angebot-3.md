@@ -1,5 +1,12 @@
 ---
 templateKey: service
+seo_comp:
+  seo_desc: >-
+    Unser Ernährungscoaching ist die erweiterte Variante der individuellen
+    Ernährungsberatung. Neben dem auf Dich angepassten individuellen Konzept
+    erfolgt hierbei eine parallel intensive Betreuung auf dem Weg zu Deinem
+    Ziel.
+  seo_title: Ernährungsberatung Faber | Individuelles Ernährungscoaching
 service: service
 title: Individuelles Ernährungscoaching
 angebot: true

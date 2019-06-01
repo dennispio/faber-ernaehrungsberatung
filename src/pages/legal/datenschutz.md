@@ -1,9 +1,9 @@
 ---
 templateKey: legal
-seo_title: Grundbausteine Datenschutzseite
+seo_title: Ernährungsberatung Faber | Datenschutz
 seo_desc: Grundbausteine einer Datenschutzseite
 category: datenschutz
-title: Grundbausteine einer Datenschutz
+title: Datenschutz
 ---
 <h4>Datenschutzerklärung</h4>
 

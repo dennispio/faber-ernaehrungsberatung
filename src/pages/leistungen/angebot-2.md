@@ -1,5 +1,11 @@
 ---
 templateKey: service
+seo_comp:
+  seo_desc: >-
+    In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines
+    dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der
+    Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz.
+  seo_title: Faber Ernährungsberatung | Nährwertanalyse
 service: service
 title: Nährwertanalyse
 angebot: true

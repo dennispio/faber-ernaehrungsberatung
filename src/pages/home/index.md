@@ -1,8 +1,8 @@
 ---
 pageKey: page_home
 seo_comp:
-  seo_desc: SEO Description Homepage
-  seo_title: SEO Title Homepage
+  seo_desc: 'Homeseite der Ernährungsberatung Faber '
+  seo_title: Ernährungsberatung Faber | Home
 video_comp:
   video: /img/big_buck_bunny.mp4
   video_text: Lebensqualität steigern - ohne zu verzichten
@@ -39,7 +39,7 @@ facts_compt:
         von „over- eating“. Der Mythos wird also sinngemäß benutzt, um das Essen
         am Abend zu mindern, wodurch ich weniger Kalorien insgesamt zu mir nehme
         und es somit unwahrscheinlicher ist, zuzunehmen.
-      title: Nach 18h Keine Kohlenhydrate mehr
+      title: Nach 18h Keine Kohlenhydrate mehr ?
     - text_left: >-
         Viele Frauen haben Angst Kraftsport zu betreiben oder gar ins
         Fitnessstudio zu gehen. Oftmals wird Kraftsport mit Muskelaufbau
@@ -52,7 +52,7 @@ facts_compt:
         Cardiotraining (Crosstrainer, Joggen) zu einer Senkung des
         Körperfettanteils führen, was insgesamt zu einem „straffen“ und nicht
         muskulösem Körperbild führt.
-      title: Wenn Frauen Kraftsport betreiben kriegen sie Muskeln wie Männer
+      title: Wenn Frauen Kraftsport betreiben kriegen sie Muskeln wie Männer ?
     - text_left: >-
         Oftmals wiegen sich Kunden jeden Tag, um den Überblick und den Erfolg in
         Zahlen zu sehen. Jedoch raten wir streng davon ab, da tägliche
@@ -65,7 +65,7 @@ facts_compt:
         nicht komplett verdaut, weshalb die Masse noch in meinem Körper besteht.
         Wöchentliches Wiegen reicht vollkommen aus und gibt einen viel genaueren
         Einblick in den Erfolg des Ab- oder Zunehmens.
-      title: Tägliches Wiegen als Kontrolle beim Abnehmen
+      title: Tägliches Wiegen als Kontrolle beim Abnehmen ?
 referenzen:
   featuredImage: /img/backgroundimage.png
   text: >-

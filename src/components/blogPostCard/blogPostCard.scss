@@ -1,8 +1,8 @@
 @import '../../constants/style/variables.scss';
 
 .homeCard {
-  width: 356px;
-  min-height: 352px;
+  width: 288px;
+  height: 352px;
   margin: $margin_s $margin_s $margin_s 0;
   padding: $margin_m;
 
@@ -17,8 +17,15 @@
 
 .overviewCard {
   margin: 10px;
-  padding: 10px;
-  width: 31.3333%;
+  padding: $margin_m;
+  // width: 31.3333%;
+
+  // .test {
+  //   h5 {
+  //     font-size: 25px !important;
+  //     line-height: 30px !important;
+  //   }
+  // }
 }
 
 .blog-overview-container {
@@ -26,6 +33,15 @@
   background-repeat: no-repeat;
   background-position: -1100px -500px;
   background-size: auto 4000px;
+  padding-bottom: 192px;
+
+  @include media-query-phone {
+    padding-bottom: 72px;
+  }
+
+  @include media-query-tablet {
+    padding-bottom: 72px;
+  }
 }
 
 /*****************************/
@@ -47,7 +63,7 @@
 
   .grid-item {
     width: 288px;
-    height: 350px;
+    height: 352px;
 
     @include media-query-tablet {
       width: 47%;
@@ -58,6 +74,8 @@
       width: 100%;
       margin-top: 0;
     }
+
+
   }
 
   .grid-item--0 {
@@ -88,7 +106,7 @@
 /*****************************/
 /*****************************/
 .blogPostCard {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 7px 12px rgba(0, 0, 0, 0.7);
   background: white;
   color: $color-p;
 
@@ -101,6 +119,7 @@
     }
 
     .cat {
+      text-transform: uppercase;
       float: left;
     }
 
@@ -110,9 +129,9 @@
   }
 
   .blogPost-title-container {
-    min-height: 100px;
 
     h5 {
+      font-family: "itc-avant-garde-gothic-pro-bold";
       overflow: hidden;
       font-size: $font_size_h - 8;
       margin-bottom: 0;
@@ -124,6 +143,12 @@
 
     p {
       font-size: $font_size_p;
+      color: $black2;
+    }
+
+    span {
+      font-family: 'Hind', sans-serif;
+      color: $black2;
     }
 
     a {

@@ -11,7 +11,6 @@ const Service = ({ data }) => {
     <Layout
       title={service.frontmatter.seo_title}
       description={service.frontmatter.seo_desc}
-      type="article"
     >
       <BlogContent service post={service} share={false} blog={false} />
       <ServiceForm serviceName={service.frontmatter.title} />

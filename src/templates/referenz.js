@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import BlogContent from '../components/blogContent/BlogContent';
+import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 
 const Referenz = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -13,8 +14,12 @@ const Referenz = ({ data }) => {
       description={post.frontmatter.seo_desc}
       type="article"
     >
+      <SubpageHeader
+        blog
+        sitename="leistungen"
+        title={post.frontmatter.title}
+      />
       <BlogContent
-        title="Referenz"
         date={post.frontmatter.date}
         post={post}
         fluid={post.frontmatter.featuredImage.childImageSharp.fluid}

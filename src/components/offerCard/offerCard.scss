@@ -1,25 +1,45 @@
 @import '../../constants/style/variables.scss';
 
 .offerCard {
-  min-width: 356px;
-  min-height: 352px;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 256px;
+  height: 352px;
+  box-shadow: 2px 7px 12px rgba(0, 0, 0, 0.7);
   margin: $margin_s $margin_s $margin_s 0;
-  padding: $margin_m;
+
+  padding: {
+    top: $margin_m;
+    left: $margin_m;
+    right: $margin_m;
+    bottom: $margin_m;
+  }
+
   background: white;
-  color: $color-p;
+
+  p,
+  li,
+  a,
+  h3 {
+    color: $color-p;
+  }
 
   @include media-query-phone {
     min-width: 256px;
     max-width: 256px;
   }
 
+
+  h3 {
+    overflow: hidden;
+    word-break: break-all;
+  }
+
   .offer-price-container {
     position: relative;
     vertical-align: top;
 
-
     p {
+      font-family: "itc-avant-garde-gothic-pro-medium";
       font-style: normal;
       font-weight: normal;
       line-height: normal;
@@ -28,26 +48,27 @@
       margin-bottom: $margin_s;
     }
 
+    span {
+      font-size: 25px;
+      font-family: "itc-avant-garde-gothic-pro-bold";
+    }
+
     .euro {
+      top: 0%;
       position: absolute;
-      font-size: 25px;
-    }
-
-    .time {
-      top: 80%;
-      left: 10px;
-      position: absolute;
-      font-size: 12px;
+      font-size: 20px;
     }
   }
 
-  .offer-title-container {
-    h5 {
-      font-size: 25px;
-      margin-bottom: 0;
-      margin-top: 0;
-    }
-  }
+
+
+  // .offer-title-container {
+  //   // h3 {
+  //   //   font-size: 25px;
+  //   //   margin-bottom: 0;
+  //   //   margin-top: 0;
+  //   // }
+  // }
 
   .offer-content-container {
     min-height: 100px;
@@ -63,12 +84,20 @@
       li {
         line-height: 22px;
         font-size: 16px;
+        font-family: 'Hind', sans-serif;
       }
     }
   }
 
   .offer-link-container {
-    margin-top: $margin_m;
-    text-align: right;
+    position: absolute;
+    bottom: $margin_s;
+    right: $margin_m;
+
+    a {
+      line-height: 1px;
+      font-size: 16px;
+      font-family: 'Hind', sans-serif;
+    }
   }
 }

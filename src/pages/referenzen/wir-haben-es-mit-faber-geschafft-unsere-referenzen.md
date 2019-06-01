@@ -1,12 +1,12 @@
 ---
 templateKey: referenz
 pageKey: page_referenz
-seo_title: Referenz 1 Title
-seo_desc: Referenz 1 Desc
+seo_title: Ernährungsberatung Faber | Theodor Strasser
+seo_desc: Theodor Strasser
 show_homepage: false
 text_left: false
 featuredImage: /img/fbr-maxim-137.jpg
-alt_text: Referenz alt text
+alt_text: Referenz von Herrn  Strasser
 title: 'Wir haben es mit Faber geschafft: Unsere Referenzen.'
 date: 2019-03-04T15:05:34.266Z
 description: >-

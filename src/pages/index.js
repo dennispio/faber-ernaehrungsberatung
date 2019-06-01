@@ -29,9 +29,9 @@ const IndexPage = props => {
     >
       <VideoPlayer />
       <HomepageText heading={title} text={text} />
-      <h3 className="container">
+      <h2 className="container">
         Du kannst es auch schaffen! <br /> Der {season} kommt in ...
-      </h3>
+      </h2>
       <Countdown date={countdown} season={season} />
       <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
@@ -48,14 +48,13 @@ const IndexPage = props => {
         ) : null;
       })}
       <Morph />
-      <div className="sperator" />
       <div className="container-full bubble-bg">
-        <div className="preview-section container">
-          <h3 className="farbverlauf">
+        <div className="preview-section sperator container">
+          <h2 className="farbverlauf">
             Das bekommst du:
             <br />
             Unsere Top-Angebote
-          </h3>
+          </h2>
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
             {angebote.map(({ node: angebot }) => {
@@ -77,13 +76,13 @@ const IndexPage = props => {
           </span>
         </div>
         <div className="preview-section blog-p container">
-          <h3 className="white">
+          <h2 className="white">
             Bleib auf dem laufenden und
             <br />
             abboniere den Newletter zu
             <br />
             unserem Blog.
-          </h3>
+          </h2>
           <div className="offer-preview-container post-preview-container">
             {/* eslint-disable-next-line */}
             {posts.map(({ node: post }, key) => {

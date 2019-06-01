@@ -9,7 +9,7 @@ import p3 from '../../img/partner/partner_alex_strasser.svg';
 import tuv from '../../img/partner/tuv.png';
 
 const Footer = () => (
-  <footer className="container-full">
+  <footer className="container-full footer-container">
     <div className="row social-media-container">
       <a
         target="_blank"
@@ -17,7 +17,7 @@ const Footer = () => (
         href="https://www.facebook.com/Ernaehrungsberatung-faber-1031981213858998/?modal=admin_todo_tour"
         title="facebook"
       >
-        <img src={facebook} alt="facebook logo" />
+        <img className="hover-svg" src={facebook} alt="facebook logo" />
       </a>
       <a
         target="_blank"
@@ -25,7 +25,7 @@ const Footer = () => (
         href="https://www.instagram.com/ernaehrungsberatungfaber/"
         title="instagram"
       >
-        <img src={instagram} alt="instagram logo" />
+        <img className="hover-svg" src={instagram} alt="instagram logo" />
       </a>
     </div>
     <div className="container footer-navigation">
@@ -91,7 +91,7 @@ const Footer = () => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.tuev-sued.de/home_de"
+          href="https://alexstrasser.de/"
           title="Zum Partner Agentur Strasser"
         >
           <br />

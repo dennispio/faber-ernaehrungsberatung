@@ -6,8 +6,7 @@
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
   background-size: auto 3500px;
-  background-position: 35% -2080px;
-  margin-bottom: $margin_xl * 2;
+  background-position: 40% -2080px;
 
   @include media-query-xxl {
     min-height: 85vh;
@@ -25,7 +24,6 @@
 
   .homepageText-content {
     width: 70%;
-    margin: 0 auto;
 
     @include media-query-phone {
       width: 95%;

@@ -4,7 +4,7 @@ import './morph.scss';
 import posed from 'react-pose';
 import { tween } from 'popmotion';
 import { interpolate } from 'flubber';
-import bgMorph from '../../img/morph/morph_bg.svg';
+import bgMorph from '../../img/morph/FBR-Diagramm-desktop.svg';
 
 const paths = {
   schokolade:
@@ -75,13 +75,13 @@ export default class Morph extends React.Component {
 
   render() {
     return (
-      <div className="container morph-component-container">
+      <div className="container sperator morph-component-container">
         <div className="morph-component">
           <div className="morph-header ">
-            <h3 className="farbverlauf">
-              Wir hinterfragen und schauen genauer hin: individuell auf Dich
+            <h2 className="farbverlauf">
+              Wir hinterfragen und schauen genauer hin: Individuell auf Dich
               abgestimmt.
-            </h3>
+            </h2>
           </div>
           <div className="morph-background">
             <img src={bgMorph} alt="Diagramm Morph" />
@@ -112,17 +112,17 @@ export default class Morph extends React.Component {
           >
             {/* <NextButton onClick={this.gotoNext}>Next icon!</NextButton> */}
             {console.log(this.state.pulsIndex)}
-            <p className="li-containerSchokolade" onClick={this.schokolade}>
+            <p className="li-containerSchokolade hover-effect" onClick={this.schokolade}>
               Schokolade
             </p>
-            <p className="li-containerPeanut" onClick={this.peanuts}>
+            <p className="li-containerPeanut hover-effect" onClick={this.peanuts}>
               Erdnüsse
             </p>
-            <p className="li-containerAll" onClick={this.allMorph}>
-              Schokolade & Erdnus
+            <p className="li-containerAll hover-effect" onClick={this.allMorph}>
+              Schokolade und Erdnuss
             </p>
           </div>
-          <div className="morph-info">
+          <div className="morph-info hover-effect">
             <Link to="leistungen#naehrwertanalyse">
               zur Nährtwert- und Ernährungsanalyse
             </Link>

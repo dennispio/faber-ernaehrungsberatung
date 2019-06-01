@@ -5,7 +5,7 @@ import NewsletterForm from '../components/contactForm/NewsletterForm';
 
 const Newsletterpage = function() {
   return (
-    <Layout pageName="newsletter" title="newsletter title" description="newsletter desc">
+    <Layout pageName="newsletter" title="Faber Ernährungsberatung | Newsletter" description="Das ist die Newsletter-Seite der Faber Ernährungsberatung">
       <NewsletterForm />
     </Layout>
   );

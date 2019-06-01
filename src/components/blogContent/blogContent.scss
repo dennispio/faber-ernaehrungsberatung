@@ -1,12 +1,24 @@
 @import '../../constants/style/variables.scss';
 
 .subpage-content-container {
-  max-width: 812px;
+  width: 512px;
   margin: 0 auto;
+
+  @include media-query-xxl {
+    width: 812px;
+  }
+
+  @include media-query-phone {
+    width: 90%;
+  }
 
   .blog-info {
     margin-top: $margin_s;
     margin-bottom: $margin_s;
+
+    .date {
+      text-align: right;
+    }
   }
 
   .gatsby-image-wrapper {

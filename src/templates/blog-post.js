@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layouts/Layout';
 import BlogContent from '../components/blogContent/BlogContent';
+import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -12,9 +13,9 @@ const BlogPost = ({ data }) => {
       description={post.frontmatter.seo_desc}
       type="article"
     >
+      <SubpageHeader blog sitename="kontakt" title="Blog" />
       <BlogContent
         cat={post.frontmatter.category}
-        title="Blog"
         date={post.frontmatter.date}
         post={post}
       />

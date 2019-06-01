@@ -4,6 +4,20 @@ import Truncate from 'react-truncate';
 import { Link } from 'gatsby';
 import './blogPostCard.scss';
 
+const calcTruncate = title => {
+  const count = title.split('').length;
+  if (count >= 0 && count <= 11) {
+    return 10;
+  }
+  if (count > 10 && count <= 21) {
+    return 8;
+  }
+  if (count > 20 && count <= 33) {
+    return 7;
+  }
+  return 6;
+};
+
 const BlogPostCard = ({ category, date, title, text, link }) => (
   <div className="blogPostCard homeCard">
     <div className="blogPost-head-container">
@@ -11,11 +25,11 @@ const BlogPostCard = ({ category, date, title, text, link }) => (
       <span className="date">{date}</span>
     </div>
     <div className="blogPost-title-container">
-      <h5>{title}</h5>
+      <h3>{title}</h3>
     </div>
     <div className="blogPost-content-container">
       <Truncate
-        lines={7}
+        lines={calcTruncate(title)}
         ellipsis={
           <span>
             ... <br /> <Link to={link}> mehr lesen</Link>

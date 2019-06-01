@@ -1,5 +1,10 @@
 ---
 templateKey: service
+seo_comp:
+  seo_desc: >-
+    Die individuelle Ernährungsberatung ist eine auf Dich abgestimmte Beratung.
+    Das heißt konkret: Wir passen uns auf Dich an und nicht Du auf uns.
+  seo_title: Faber Ernährungsberatung | Erstberatung
 service: service
 title: Erstberatung
 angebot: true
@@ -7,8 +12,8 @@ category: Beratung
 price: 60
 time: einmalig
 bullets:
-  - title: Telefonisch
-  - title: per Skype
+  - title: telefonisch
+  - title: Skype
   - title: vor Ort
 ---
 # Erstberatung
