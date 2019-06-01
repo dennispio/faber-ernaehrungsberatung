@@ -1,12 +1,12 @@
 ---
 templateKey: referenz
 pageKey: page_referenz
-seo_title: Referenz 2 Seo Titel
-seo_desc: Referenz 2 Seo titel
+seo_title: Ernährungsberatung Faber | Alexandra Strasser
+seo_desc: Alexandra Strasser
 show_homepage: true
 text_left: true
 featuredImage: /img/fbr-maxim-111.jpg
-alt_text: Referenz von Frau X
+alt_text: Referenz von Frau Strasser
 title: Wir haben es mit Faber geschafft
 date: 2019-03-04T16:00:43.010Z
 description: >-
@@ -15,7 +15,7 @@ description: >-
   Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns was Du willst
   und wir sagen Dir nicht was Du musst.
 ---
-# Refetenz 2 
+# Alexandra Strasser
 
 Test **Text**
 
