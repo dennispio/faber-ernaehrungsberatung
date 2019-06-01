@@ -32,7 +32,7 @@ const BlogPostCard = ({ category, date, title, text, link }) => (
         lines={calcTruncate(title)}
         ellipsis={
           <span>
-            ... <br /> <Link to={link}> mehr lesen</Link>
+            <Link to={link}>... mehr lesen</Link>
           </span>
         }
       >

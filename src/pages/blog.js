@@ -9,8 +9,11 @@ const Blog = props => {
   const { data } = props;
   const { edges: posts } = data.referenzen;
   return (
-    <Layout title="Faber Ernährungsberatung | Blog" description="Das ist die Blogübersicht der Faber Ernährungsberatung">
-      <SubpageHeader title="Blog" />
+    <Layout
+      title="Faber Ernährungsberatung | Blog"
+      description="Das ist die Blogübersicht der Faber Ernährungsberatung"
+    >
+      <SubpageHeader blog sitename="blog" title="Blog" />
       <div className="container-full blog-overview-container">
         <div className="blog-overview-grid">
           {/* eslint-disable-next-line */}
