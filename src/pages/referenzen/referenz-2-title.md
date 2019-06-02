@@ -1,24 +1,24 @@
 ---
 templateKey: referenz
 pageKey: page_referenz
-seo_title: Ernährungsberatung Faber | Alexandra Strasser
+seo_title: Ernährungsberatung Faber | Referenz Alexandra Strasser
 seo_desc: Alexandra Strasser
 show_homepage: true
 text_left: true
 featuredImage: /img/fbr-maxim-111.jpg
 alt_text: Referenz von Frau Strasser
-title: Wir haben es mit Faber geschafft
+title: Alex Strasser und Ihre Erfahrungen mit uns
 date: 2019-03-04T16:00:43.010Z
 description: >-
-  Erklärungstext wieso man bei euch dann essen kann, wenn immer man will. Die
-  Ernährungsberatung ist eine auf Dich abgestimmte Beratung. Das heißt konkret:
-  Wir passen uns auf Dich an und nicht Du auf uns. Du sagst uns was Du willst
-  und wir sagen Dir nicht was Du musst.
+  Ich bin Personaltrainerin und sah es schon immer sehr kritisch mit nun fast 50
+  Jahren meine alte Figur von damals wiederzuerlangen. Einige Versuche beim
+  Abnehmen und diverse Diätprogramme haben mich zum Verzweifeln und nicht zu
+  meinem Ziel gebracht
 ---
-# Alexandra Strasser
+## Alex Strasser und Ihre Erfahrungen mit unserer Ernährungsberatung.
 
-Test **Text**
+Ich bin Personaltrainerin und sah es schon immer sehr kritisch mit nun fast 50 Jahren meine alte Figur von damals wiederzuerlangen. 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Einige Versuche beim Abnehmen und diverse Diätprogramme haben mich zum Verzweifeln und nicht zu meinem Ziel gebracht. Durch meinen sehr intensiven Arbeitsalltag kann und will ich nicht auf Süßigkeiten verzichten, weswegen ich jeden Tag Süßigkeiten essen durfte. Obwohl Maxim und Daniel Faber manchmal kompromisslos, unerbittlich und sehr ehrlich sein können, sind sie gleichzeitig überaus sympathisch und haben immer ein offenes Ohr. 
 
-**Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.**
+Trotz all den externen Faktoren habe ich mein Ziel ohne auf die für mich wichtigsten Dinge im Leben zu verzichten erreicht und fühle mich viel fitter und wohler.
