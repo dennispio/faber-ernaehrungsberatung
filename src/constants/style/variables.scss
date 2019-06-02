@@ -11,7 +11,7 @@
 }
 
 .blog-template-header-container {
-  margin-bottom: -15rem;
+  margin-bottom: -5rem;
 
   @media (max-width: 1000px) {
     margin-bottom: -2rem;
@@ -99,14 +99,14 @@ a {
   line-height: 22px;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: $black2;
   font-weight: bold;
 }
 
 .hover-effect {
-  a:hover{
+  a:hover {
     font-weight: bold;
     font-weight: 800px;
     font-family: "itc-avant-garde-gothic-pro-bold";
