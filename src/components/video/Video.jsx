@@ -7,7 +7,7 @@ import videoMobile from '../../img/FBR-countdown_animation-mobil-K0-D.mp4';
 const VideoPlayer = () => (
   <div className="container-full">
     <div className="header-container farbverlauf">
-      <h2>Lebensqualität <br /> steigern - ohne <br /> zu verzichten</h2>
+      <h2 className="farbverlauf">Lebensqualität <br /> steigern - ohne <br /> zu verzichten</h2>
     </div>
     <video id="background-video" playsInline muted autoPlay>
       <source
