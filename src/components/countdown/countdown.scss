@@ -9,11 +9,12 @@
 
 .countdown-container {
   .row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
-    @include media-query-phone {}
+
+    @include media-query-xxl {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
 
