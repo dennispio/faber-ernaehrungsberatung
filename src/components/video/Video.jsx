@@ -10,13 +10,17 @@ const VideoPlayer = () => (
       <h2>Lebensqualität <br /> steigern - ohne <br /> zu verzichten</h2>
     </div>
     <video id="background-video" playsInline muted autoPlay>
-      <source src={video} media="all and (min-width: 1200px)" type="video/mp4" />
-      <source src={video} media="all and (min-width: 1200px)" type="video/ogg" />
+      <source src={video} media="all and (min-width: 1024)" type="video/mp4" />
+      <source src={video} media="all and (min-width: 1024)" type="video/ogg" />
       Your browser does not support the video tag.
-      <source src={videoMobile} media="all and (max-width: 1199px)" type="video/mp4" />
       <source
         src={videoMobile}
-        media="all and (max-width: 576px)"
+        media="all and (max-width: 1023)"
+        type="video/mp4"
+      />
+      <source
+        src={videoMobile}
+        media="all and (max-width: 1023)"
         type="video/ogg"
       />
     </video>
