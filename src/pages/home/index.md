@@ -2,7 +2,7 @@
 pageKey: page_home
 seo_comp:
   seo_desc: 'Homeseite der Ernährungsberatung Faber '
-  seo_title: Ernährungsberatung Faber | Home
+  seo_title: Faber Ernährungsberatung | Home
 video_comp:
   video: /img/big_buck_bunny.mp4
   video_text: Lebensqualität steigern - ohne zu verzichten
