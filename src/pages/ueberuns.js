@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Layout from '../components/layouts/Layout';
 import '../constants/style/ueberuns.scss';
 import bubbleOne from '../img/bubbles/bubble_subpage_header_2.svg';
-import bubbleTwo from '../img/bubbles/bubble_service_1.svg';
+import bubbleTwo from '../img/bubbles/bubble_service_3.svg';
 
 const Ueberuns = props => {
   const { data: ueberuns } = props;

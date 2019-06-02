@@ -55,11 +55,14 @@
       font-family: "itc-avant-garde-gothic-pro-medium";
     }
 
-    a:hover,
+    a:hover{
+      font-weight: normal;
+
+    }
     a:active,
     a:focus {
-      font-weight: normal;
-    }
+      text-decoration: none;
+        }
 
     margin-right: $margin_xs;
 
@@ -146,6 +149,10 @@
         line-height: 50px;
         margin-top: 5%;
       }
+
+      a:hover,:active,:focus{
+        color: #ffff
+      }
     }
 
     .bm-overlay {
@@ -191,15 +198,15 @@
     margin-top: 10px;
   }
 
-  .triangle {
-    display: block;
-    position: fixed;
-    margin-left: $margin_xl;
-    border-left: $margin_s solid transparent;
-    border-right: $margin_s solid transparent;
-    border-bottom: $margin_s solid #2D3232; //linear-gradient(to right, #090909 , #A32626);
-    margin-top: -5px;
-  }
+  // .triangle {
+  //   display: block;
+  //   position: fixed;
+  //   margin-left: $margin_xl;
+  //   border-left: $margin_s solid transparent;
+  //   border-right: $margin_s solid transparent;
+  //   border-bottom: $margin_s solid #2D3232; //linear-gradient(to right, #090909 , #A32626);
+  //   margin-top: -5px;
+  // }
 
   .triangle-other {
     visibility: hidden;
