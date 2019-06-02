@@ -11,10 +11,10 @@
 }
 
 .blog-template-header-container {
-  margin-bottom: -5rem;
+  margin-bottom: -10rem;
 
-  @media (max-width: 1000px) {
-    margin-bottom: -2rem;
+  @media (min-width: 1400px) {
+    margin-bottom: -25rem;
   }
 }
 
