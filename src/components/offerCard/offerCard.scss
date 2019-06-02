@@ -3,11 +3,12 @@
 .offerCard {
   position: relative;
   width: 256px;
-  left: 15px;
   height: 352px;
   border-radius: 3px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
   margin: $margin_s $margin_s $margin_s 0;
+  margin-left: 10px;
+  margin-right: 10px;
 
   padding: {
     top: $margin_m;
