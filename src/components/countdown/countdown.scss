@@ -8,6 +8,11 @@
 }
 
 .countdown-container {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
   h3 {
     margin: 0;
   }
@@ -17,7 +22,8 @@
   }
 
   .fs-super {
-    font-size: 15rem;
+    font-size: 22rem;
+    text-align: left;
 
     @include media-query-phone {
       font-size: 8rem;
@@ -25,7 +31,8 @@
   }
 
   .fs-xxl {
-    font-size: 3rem;
+    text-align: left;
+    font-size: 5rem;
 
     @include media-query-phone {
       font-size: 2rem;
@@ -33,11 +40,11 @@
   }
 
   .text-center {
-    text-align: center;
+    text-align: left;
   }
 
   .text-start {
-    text-align: start;
+    // text-align: start;
 
     @include media-query-phone {
       margin-left: 20px;
