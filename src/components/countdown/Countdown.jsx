@@ -98,7 +98,7 @@ export default class Countdown extends Component {
         <div className="font-mono fs-super">
           {time < 10 || time > 100 ? `0${time}` : time}
         </div>
-        <div className="font-mono fs-xxl">{subheader}</div>
+        <div className="fs-xxl">{subheader}</div>
       </>
     );
   }
@@ -109,7 +109,7 @@ export default class Countdown extends Component {
 
     return (
       <div className="container sperator countdown-container">
-        <div className="row  text-start ">
+        <div className="row text-start ">
           <div className="col-md-3 col-xs-6">
             {this.renderTime(days, 'Tage')}
           </div>
