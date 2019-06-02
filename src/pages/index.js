@@ -58,8 +58,6 @@ const IndexPage = props => {
           <div className="offer-preview-container">
             {/* eslint-disable-next-line */}
             {angebote.map(({ node: angebot }) => {
-              console.log(angebot.frontmatter.bullets);
-
               return angebot.frontmatter.angebot ? (
                 <OfferCard
                   category={angebot.frontmatter.category}
