@@ -6,15 +6,15 @@
   background-image: url(../../img/bubbles/bubble_1.svg);
   background-repeat: no-repeat;
   background-size: auto 3500px;
-  background-position: 40% -2080px;
+  background-position: 40% -2150px;
 
   @include media-query-xxl {
     min-height: 85vh;
   }
 
   @include media-query-phone {
-    min-height: 135vh;
-    background-position: -900px -1900px;
+    min-height: 120vh;
+    background-position: -900px -2000px;
   }
 
   @include media-query-tablet {
