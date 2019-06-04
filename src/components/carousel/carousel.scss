@@ -61,12 +61,8 @@
     .carousel-text-right-container {
       @include media-query-phone {
         margin: 0 !important;
-        visibility: hidden;
-          opacity: 0.0;
-          display: none;
-          position: absolute;
-          left:-9999999px;
 
+          display: none;
         p {
           margin: 0 !important;
         }
@@ -85,25 +81,15 @@
       .only{
      
         @include media-query-desktop{
-          visibility: hidden;
-          opacity: 0.0;
           display: none;
-          position: absolute;
-          left:-9999999px;
+  
   
           
           
           
         }
         @include media-query-tablet{
-          visibility: hidden;
-          opacity: 0.0;
           display: none;
-          position: absolute;
-          left:-9999999px;
-          
-         
-          
         }
       }
     }
