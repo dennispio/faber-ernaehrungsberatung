@@ -62,8 +62,8 @@ export default class Carousel extends Component {
         <Slider {...settings}>
           {facts.map(fact => (
             <div className="slide container">
-              <div className=" titelCarousel">
-                <h2 className="row  col-lg-offset-1 farbverlauf">{fact.title}</h2>
+              <div className=" titelCarousel row">
+                <h2 className="  col-lg-offset-1 farbverlauf">{fact.title}</h2>
               </div>
               <div className="row ">
                 <div className="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1 carousel-text-left-container">
