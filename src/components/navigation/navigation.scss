@@ -36,6 +36,7 @@
       width: auto;
 
       @include media-query-phone {
+        margin-top: $margin_s;
         left: 10px;
         top: 10px;
       }
