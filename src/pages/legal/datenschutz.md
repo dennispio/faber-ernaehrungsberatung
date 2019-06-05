@@ -1,7 +1,7 @@
 ---
 templateKey: legal
-seo_title: Ernährungsberatung Faber | Datenschutz
-seo_desc: Grundbausteine einer Datenschutzseite
+seo_title: Faber Ernährungsberatung - Datenschutzerklärung
+seo_desc: Datenschutz hat einen besonders hohen Stellenwert für die                      Geschäftsleitung der Ernährungsberatung faber GbR.
 category: datenschutz
 title: Datenschutz
 ---

@@ -1,10 +1,9 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Ernährungsberatung Faber | JoJo-Effekt
+seo_title: Faber Ernährungsberatung - Der JoJo-Effekt
 seo_desc: >-
-  Der Jo-Jo-Effekt beschreibt das Phänomen der raschen Gewichtszunahmenach
-  vorherigem Gewichtsverlust bzw. nach einer vorherigen Diät.
+  Der Jo-Jo-Effekt beschreibt das Phänomen der raschen Gewichtszunahme nach vorherigem Gewichtsverlust bzw. nach einer vorherigen Diät.
 category: diät
 title: JoJo-Effekt
 date: 2019-03-27T17:56:00.203Z
