@@ -32,6 +32,9 @@
 
     p {
       text-align: justify;
+      @include media-query-phone {
+        text-align: left;
+       }
     }
   }
 
