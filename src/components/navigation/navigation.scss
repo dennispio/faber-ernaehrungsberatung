@@ -31,12 +31,15 @@
     margin-left: $margin_s;
     position: relative;
 
+    @include media-query-phone {
+      margin-top: $margin_s;
+    }
+
     img {
       height: $margin_xl;
       width: auto;
 
       @include media-query-phone {
-        margin-top: $margin_s;
         left: 10px;
         top: 10px;
       }
