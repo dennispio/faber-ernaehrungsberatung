@@ -9,7 +9,10 @@ const Referenzen = props => {
   const { data } = props;
   const { edges: referenzen } = data.referenzen;
   return (
-    <Layout title="Faber Ernährungsberatung | Referenzen" description="das ist die Referenz-Seite der Faber Ernährungsberatung">
+    <Layout
+      title="Faber Ernährungsberatung - Referenzen"
+      description="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu dürfen. Hier berichten einige von ihren Erfahrungen und Erfolgserlebnissen."
+    >
       <SubpageHeader
         title="Referenzen"
         sitename="referenzen"
@@ -19,18 +22,18 @@ const Referenzen = props => {
           berichten? Dann schreib uns eine Mail an ...."
       />{' '}
       <div className="testo-content-container">
-      {referenzen.map(({ node: referenz }) => (
-        <div className="testo-con">
-          <Testimonial
-            title={referenz.frontmatter.title}
-            text={referenz.frontmatter.description}
-            left={referenz.frontmatter.text_left}
-            link={referenz.fields.slug}
-            fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
-            alt={referenz.frontmatter.alt_text}
-          />
-        </div>
-      ))}
+        {referenzen.map(({ node: referenz }) => (
+          <div className="testo-con">
+            <Testimonial
+              title={referenz.frontmatter.title}
+              text={referenz.frontmatter.description}
+              left={referenz.frontmatter.text_left}
+              link={referenz.fields.slug}
+              fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
+              alt={referenz.frontmatter.alt_text}
+            />
+          </div>
+        ))}
       </div>
     </Layout>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import SubpageHeader from '../components/subpageHeader/SubpageHeader';
 import Kontakt from '../components/contact/contact';
@@ -8,7 +7,12 @@ import Layout from '../components/layouts/Layout';
 const Leistungen = props => {
   const { data } = props;
   return (
-    <Layout pageName="kontakt" title="Faber Ernährungsberatung | Kontakt" description="Das ist die Kontaktseite der Ernährungsberatung Faber">
+    <Layout
+      pageName="kontakt"
+      title="Faber Ernährungsberatung - Kontakt"
+      description="Gerne stehen wir Ihnen für weitere Rückfragen zur Verfügung -
+    kontakt@ernaehrungsberatung-faber.de - Auf Wunsch auch über Skype erreichbar."
+    >
       <SubpageHeader
         title="Kontakt"
         sitename="kontakt"

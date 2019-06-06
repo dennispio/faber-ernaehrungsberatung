@@ -27,9 +27,13 @@
   }
 
   .image-container {
-    margin-top: $margin_s;
+    margin-top: 24px;
     margin-left: $margin_s;
     position: relative;
+
+    @include media-query-phone {
+      margin-top: $margin_s;
+    }
 
     img {
       height: $margin_xl;

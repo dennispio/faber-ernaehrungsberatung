@@ -1,7 +1,7 @@
 ---
 templateKey: legal
-seo_title: Ernährungsberatung Faber | Impressum
-seo_desc: Das ist das Impressum der Ernährungsberatung Faber.
+seo_title: Faber Ernährungsberatung - Impressum
+seo_desc: Ernährungsberatung Maxim Faber, Daniel Faber. Walsroder Straße 123 B,          30853 Langenhagen. Telefon 01578 562 4045. E-Mail                              kontakt@ernaehrungsberatung-faber.de
 category: impressum
 title: Impressum
 ---

@@ -102,30 +102,26 @@ a {
 a:hover {
   text-decoration: underline;
   color: $black2;
-  font-weight: bold;
 }
 
 .hover-effect {
   a:hover {
-    font-weight: bold;
-    font-weight: 800px;
-    font-family: "itc-avant-garde-gothic-pro-bold";
+    text-decoration: underline;
+   
   }
 
   p:hover,
   p:active,
   p:focus {
-    font-weight: bold;
-    font-weight: 800px;
-    font-family: "itc-avant-garde-gothic-pro-bold";
+    text-decoration: underline;
+
   }
 
   li:hover,
   li:active,
   li:focus {
-    font-weight: bold;
-    font-weight: 800px;
-    font-family: "itc-avant-garde-gothic-pro-bold";
+    text-decoration: underline;
+
   }
 }
 

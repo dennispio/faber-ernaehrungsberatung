@@ -2,12 +2,8 @@
 pageKey: page_ueberuns
 seo_comp:
   seo_desc: >-
-    Faber Ernährungsberatung | Wir sind Maxim und Daniel. Gemeinsam betreiben
-    wir Leistungssport seit unserer Kindheit. Vor etwa 8 Jahren begann Maxim
-    sich mit dem Kraftsport intensiv auseinanderzusetzen. Ein sehr wichtiger
-    Aspekt des Sports ist das Thema Ernährung, weshalb sich Maxim aus Interesse
-    alles autodidaktisch angeeignet hat. 
-  seo_title: Faber Ernährungsberatung | Über uns
+    Die Zufriedenheit der Kunden und die damit steigernde Lebensqualität bildet das Fundament unserer Arbeit.
+  seo_title: Faber Ernährungsberatung - Über uns
 page_title:
   title: Über uns
 text_comp:

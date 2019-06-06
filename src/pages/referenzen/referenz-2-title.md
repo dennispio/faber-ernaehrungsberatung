@@ -1,8 +1,8 @@
 ---
 templateKey: referenz
 pageKey: page_referenz
-seo_title: Ernährungsberatung Faber | Referenz Alexandra Strasser
-seo_desc: Alexandra Strasser
+seo_title: Faber Ernährungsberatung - Referenz Frau Strasser
+seo_desc: Trotz all den externen Faktoren habe ich mein Ziel ohne auf die                wichtigsten Dinge im Leben zu verzichten erreicht und fühle mich               viel fitter und wohler.
 show_homepage: true
 text_left: true
 featuredImage: /img/fbr-maxim-111.jpg

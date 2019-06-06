@@ -80,6 +80,10 @@
         grid-row: 2;
         align-self: center;
 
+        p:hover{
+            text-decoration: underline;
+        }
+
         // @include media-query-xxl {
         //     grid-column: 11/13;
         // }
