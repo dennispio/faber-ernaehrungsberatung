@@ -1,7 +1,7 @@
 import React from 'react';
 import './videoPlayer.scss';
 import video from '../../img/FBR-countdown_animation-desktop-K0-C.mp4';
-import videoMobile from '../../img/FBR-countdown_animation-mobil-K0-D.mp4';
+//import videoMobile from '../../img/FBR-countdown_animation-mobil-K0-D.mp4';
 
 /* ToDo: Mit CMS Verknüpfen and Play button on mobile */
 const VideoPlayer = () => (
