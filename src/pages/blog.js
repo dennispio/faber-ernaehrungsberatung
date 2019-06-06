@@ -10,8 +10,8 @@ const Blog = props => {
   const { edges: posts } = data.referenzen;
   return (
     <Layout
-      title="Faber Ernährungsberatung | Blog"
-      description="Das ist die Blogübersicht der Faber Ernährungsberatung"
+      title="Faber Ernährungsberatung - Blog"
+      description="Alles Rund um Ernährung, Lebensmittel und Lebensqualität. Erfahre mehr zu Mythen und Fakten in unserem Blog. Faber Ernährungsberatung in Hannover und Region"
     >
       <SubpageHeader blog sitename="blog" title="Blog" />
       <div className="container-full blog-overview-container">

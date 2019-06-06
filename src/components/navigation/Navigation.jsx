@@ -63,9 +63,9 @@ const Navigation = ({ pageName }) => (
               }
             >
               <div className="subnav-content">
-                <Link to="/leistungen#ernaehrung">Ernährungsbearatung</Link>
-                <Link to="/leistungen#coaching">Coaching</Link>
-                <Link to="/leistungen#naehrwertanalyse">Nährwertanalyse</Link>
+                <Link title="zu dem Angebot für Ernährungsbearatung " to="/leistungen#ernaehrung">Ernährungsbearatung</Link>
+                <Link title="zu dem Angebot für Coaching" to="/leistungen#coaching">Coaching</Link>
+                <Link title="zu dem Angebot für Nährwertanalyse" to="/leistungen#naehrwertanalyse">Nährwertanalyse</Link>
                 {/* <Link to="/leistungen#seminare">Seminare und Vorträge</Link> */}
               </div>
             </div>

@@ -1,8 +1,8 @@
 ---
 templateKey: referenz
 pageKey: page_referenz
-seo_title: Ernährungsberatung Faber | Theodor Strasser
-seo_desc: Theodor Strasser
+seo_title:  Faber Ernährungsberatung - Referenz Theodor Strasser
+seo_desc: Das Wesentliche an dem Coaching war und ist für mich, dass ich das             Bewusstsein erlangt habe, wie ich meine Lebensqualität durch die               Ernährung verbessern konnte.
 show_homepage: false
 text_left: false
 featuredImage: /img/fbr-maxim-137.jpg

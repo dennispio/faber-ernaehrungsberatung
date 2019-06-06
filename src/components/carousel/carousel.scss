@@ -40,8 +40,11 @@
     .titelCarousel {
       width: 80%;
       padding-left: 15px;
+      @include media-query-phone{
+        width: 97%;
+       }
       .centerTitel{
-     
+      
         @include media-query-desktop{
         padding-left: 20px;
        // padding-left: 3%;
@@ -79,7 +82,10 @@
     }
 
     .carousel-text-left-container {
-    
+      @include media-query-xxl{
+        margin-left: 110px;
+      }
+  
       @include media-query-phone {
         margin: 0 !important;
 

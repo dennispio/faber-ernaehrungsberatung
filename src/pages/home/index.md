@@ -1,8 +1,8 @@
 ---
 pageKey: page_home
 seo_comp:
-  seo_desc: 'Homeseite der Ernährungsberatung Faber '
-  seo_title: Faber Ernährungsberatung | Home
+  seo_desc: Iss was Du willst, wann Du willst und werde so wie Du es willst ist der Leitsatz unserer                    Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem Ziel.
+  seo_title: Faber Ernährungsberatung - Ernährungsberatung in Hannover
 video_comp:
   video: /img/big_buck_bunny.mp4
   video_text: Lebensqualität steigern - ohne zu verzichten
