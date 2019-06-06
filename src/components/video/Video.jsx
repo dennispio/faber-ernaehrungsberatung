@@ -1,7 +1,7 @@
 import React from 'react';
 import './videoPlayer.scss';
 import video from '../../img/FBR-countdown_animation-desktop-K0-C.mp4';
-import videoMobile from '../../img/FBR-countdown_animation-mobil-K0-D.mp4';
+//import videoMobile from '../../img/FBR-countdown_animation-mobil-K0-D.mp4';
 
 /* ToDo: Mit CMS Verknüpfen and Play button on mobile */
 const VideoPlayer = () => (
@@ -21,7 +21,7 @@ const VideoPlayer = () => (
         type="video/ogg"
       />
       Your browser does not support the video tag.
-      <source
+      {/* <source
         src={videoMobile}
         media="all and (max-width: 1023px)"
         type="video/mp4"
@@ -30,7 +30,7 @@ const VideoPlayer = () => (
         src={videoMobile}
         media="all and (max-width: 1023px)"
         type="video/ogg"
-      />
+      /> */}
     </video>
   </div>
 );
