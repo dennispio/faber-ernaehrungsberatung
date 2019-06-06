@@ -21,7 +21,7 @@ const VideoPlayer = () => (
         type="video/ogg"
       />
       Your browser does not support the video tag.
-      <source
+      {/* <source
         src={videoMobile}
         media="all and (max-width: 1023px)"
         type="video/mp4"
@@ -30,7 +30,7 @@ const VideoPlayer = () => (
         src={videoMobile}
         media="all and (max-width: 1023px)"
         type="video/ogg"
-      />
+      /> */}
     </video>
   </div>
 );
