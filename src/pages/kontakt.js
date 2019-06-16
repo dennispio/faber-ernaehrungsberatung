@@ -19,6 +19,8 @@ const Leistungen = props => {
         text={[
           'Ernährungsberatung faber GbR',
           <br />,
+          'Maxim Faber, Daniel Faber',
+          <br />,
           ' Walsroder Straße 123 B',
           <br />,
           '30853 Langenhagen ',

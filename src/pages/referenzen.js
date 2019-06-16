@@ -18,8 +18,8 @@ const Referenzen = props => {
         sitename="referenzen"
         text="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu
           dürfen. Hier berichten einige von ihren Erfahrungen und
-          Erfolgserlebnissen. Möchtest du auch auf unserer Referenzseite
-          berichten? Dann schreib uns eine Mail an ...."
+          Erfolgserlebnissen. Möchtest Du auch auf unserer Referenzseite
+          berichten? Dann schreib uns eine Mail an kontakt@ernaehrungsberatung-faber.de"
       />{' '}
       <div className="testo-content-container">
         {referenzen.map(({ node: referenz }) => (

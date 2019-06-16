@@ -51,7 +51,7 @@ const IndexPage = props => {
       <div className="container-full bubble-bg">
         <div className="preview-section sperator container">
           <h2 className="farbverlauf">
-            Das bekommst du:
+            Das bekommst Du:
             <br />
             Unsere Top-Angebote
           </h2>
@@ -75,9 +75,9 @@ const IndexPage = props => {
         </div>
         <div className="preview-section blog-p container">
           <h2 className="white">
-            Bleib auf dem laufenden und
+            Bleib auf dem Laufenden und
             <br />
-            abboniere den Newletter zu
+            abboniere den Newsletter zu
             <br />
             unserem Blog.
           </h2>

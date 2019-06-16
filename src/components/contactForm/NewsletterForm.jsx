@@ -7,9 +7,7 @@ const NewsletterForm = () => (
       <div className="form-contacthead col-md-8 col-md-offset-2  col-xs-10 col-xs-offset-1">
         <h1>Newsletter</h1>
         <p>
-          Trage dich jetzt in den Newsletter ein um spannende Tipps und Tricks
-          zu erhalten, wie du deine Lebensqualität durch eine gesunde Ernährung
-          weiter steigern kannst.
+          Abonniere jetzt den Newsletter und bleib auf dem Laufenden.
         </p>
       </div>
       <form
