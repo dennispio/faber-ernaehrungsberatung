@@ -1,7 +1,10 @@
 ---
 pageKey: page_home
 seo_comp:
-  seo_desc: Iss was Du willst, wann Du willst und werde so wie Du es willst ist der Leitsatz unserer                    Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem Ziel.
+  seo_desc: >-
+    Iss was Du willst, wann Du willst und werde so wie Du es willst ist der
+    Leitsatz unserer                    Ernährungsberatung. Wir helfen Dir auf
+    dem Weg zu deinem Ziel.
   seo_title: Faber Ernährungsberatung - Ernährungsberatung in Hannover
 video_comp:
   video: /img/big_buck_bunny.mp4
@@ -16,8 +19,8 @@ text_comp:
     gesünderen und bewussteren Lebens. Auf dem Weg zu Deinem Ziel stehen wir Dir
     als persönlicher Coach zur Seite und entwickeln ein auf Dich abgestimmtes
     Ernährungskonzept, mit dem Du Dein Ziel ohne Einbüße Deiner Lebensqualität
-    erreichst.Hierfür betreuen wir Dich mit voller Leidenschaft, die wir beim
-    Erreichen Deiner Ziele mit dir teilen. Uns ist wichtig, dass das Erreichen
+    erreichst. Hierfür betreuen wir Dich mit voller Leidenschaft, die wir beim
+    Erreichen Deiner Ziele mit Dir teilen. Uns ist wichtig, dass das Erreichen
     deines Ziels keine Qual für Dich wird. Willst Du sehen was möglich ist, ohne
     zu verzichten? Dann tritt mit uns in Kontakt und wir sagen Dir, was wir mit
     Deinen Vorstellungen erreichen können!
