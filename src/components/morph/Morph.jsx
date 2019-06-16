@@ -129,7 +129,7 @@ export default class Morph extends React.Component {
           </div>
           <div className="morph-info hover-effect">
             <Link to="leistungen#naehrwertanalyse">
-              zur Nährtwert- und Ernährungsanalyse
+              zur Nährwert- und Ernährungsanalyse
             </Link>
           </div>
         </div>
