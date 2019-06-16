@@ -2,19 +2,21 @@
 templateKey: blog-post
 pageKey: page_blogpost
 seo_title: Faber Ernährungsberatung - Der „eingeschlafene Stoffwechsel"
-seo_desc: Tatsächlich ist es kein seltenes Phänomen, dass nach längerer Zeit             der kalorienreduzierten Ernährung das Gewicht stagniert.
+seo_desc: >-
+  Tatsächlich ist es kein seltenes Phänomen, dass nach längerer Zeit            
+  der kalorienreduzierten Ernährung das Gewicht stagniert.
 category: Stoffwechsel
 title: Der „eingeschlafene Stoffwechsel“
 date: 2019-03-25T17:57:12.675Z
 description: >-
   Ein sehr weit verbreiteter Mythos: der Stoffwechsel ist nachfortgeschrittener
-  in der Diät „eingeschlafen“.Für die, die es nicht kennen, eine kurze
-  Erklärung: Mit diesem Spruch gehtman davon aus, dass nach längerer
-  Gewichtsreduktion das Gewichtplötzlich stagniert und man nicht mehr abnimmt.
+  in der Diät „eingeschlafen“. Für die, die es nicht kennen, eine kurze
+  Erklärung: Mit diesem Spruch geht man davon aus, dass nach längerer
+  Gewichtsreduktion das Gewicht plötzlich stagniert und man nicht mehr abnimmt.
   Ein sehr weit verbreiteter Mythos: der Stoffwechsel ist nachfortgeschrittener
   in der Diät „eingeschlafen“.Für die, die es nicht kennen, eine kurze
-  Erklärung: Mit diesem Spruch gehtman davon aus, dass nach längerer
-  Gewichtsreduktion das Gewichtplötzlich stagniert und man nicht mehr abnimmt.
+  Erklärung: Mit diesem Spruch geht man davon aus, dass nach längerer
+  Gewichtsreduktion das Gewicht plötzlich stagniert und man nicht mehr abnimmt.
 ---
 # Der „eingeschlafene Stoffwechsel“
 
