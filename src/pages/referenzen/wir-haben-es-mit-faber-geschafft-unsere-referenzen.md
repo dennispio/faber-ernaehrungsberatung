@@ -9,7 +9,7 @@ seo_desc: >-
 show_homepage: false
 text_left: false
 featuredImage: /img/fbr-maxim-137.jpg
-alt_text: Referenz von Herrn  Strasser
+alt_text: Referenz von Herrn Strasser
 title: Herr Strasser und seine Erfahrungen mit uns
 date: 2019-03-04T15:05:34.266Z
 description: >-
@@ -19,7 +19,7 @@ description: >-
   faszinierend gelernt zu haben, dass ich essen kann was ich will und wann ich
   will und hierbei nicht eingeschränkt werde, wenn ich das nicht möchte.
 ---
-## Herr Strasser und Seine Erfahrungen mit unserer Ernährungsberatung
+## Herr Strasser und seine Erfahrungen mit unserer Ernährungsberatung
 
 Das Wesentliche an dem Ernährungscoaching war und ist für mich, dass ich das Bewusstsein erlangt habe, wie ich meine Lebensqualität selber mit der Ernährung und der Bewegung beeinflussen kann. Außerdem finde ich es sehr faszinierend gelernt zu haben, dass ich essen kann was ich will und wann ich will und hierbei nicht eingeschränkt werde, wenn ich das nicht möchte. 
 
