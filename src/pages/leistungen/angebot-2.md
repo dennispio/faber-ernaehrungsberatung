@@ -2,7 +2,8 @@
 templateKey: service
 seo_comp:
   seo_desc: >-
-    In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung.
+    In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines
+    dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung.
   seo_title: Faber Ernährungsberatung - individuelle Nährwertanalyse
 service: service
 title: Nährwertanalyse
@@ -11,7 +12,7 @@ category: Nährwertanalyse
 price: 80
 time: einmalig
 bullets:
-  - title: ' 3 auf Dich abgestimmte Pläne'
+  - title: Analyse deiner Ernährung
 ---
 # Nährwertanalyse
 
