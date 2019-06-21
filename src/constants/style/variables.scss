@@ -16,6 +16,10 @@
   @media (min-width: 1400px) {
     margin-bottom: -25rem;
   }
+
+  @media (max-width: 575px) {
+    margin-bottom: -5rem;
+  }
 }
 
 .sperator {
@@ -107,7 +111,7 @@ a:hover {
 .hover-effect {
   a:hover {
     text-decoration: underline;
-   
+
   }
 
   p:hover,
