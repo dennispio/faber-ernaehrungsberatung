@@ -26,7 +26,7 @@ text_comp:
     Deinen Vorstellungen erreichen können!
   title: 'Iss was Du willst, wann Du willst und werde so wie Du es willst'
 countdown_comp:
-  countdown: '2019-06-28T00:00:00'
+  countdown: '2020-06-20T00:00:00'
   season: Sommer
 facts_compt:
   facts:
