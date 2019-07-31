@@ -96,7 +96,7 @@ export default class Countdown extends Component {
     return (
       <>
         <div className="font-mono fs-super">
-          {time < 10 || time > 100 ? `0${time}` : time}
+          {time < 10 ? `0${time}` : time}
         </div>
         <div className="fs-xxl">{subheader}</div>
       </>
