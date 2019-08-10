@@ -2,8 +2,9 @@
 pageKey: page_ueberuns
 seo_comp:
   seo_desc: >-
-    Die Zufriedenheit der Kunden und die damit steigernde Lebensqualität bildet das Fundament unserer Arbeit.
-  seo_title: Faber Ernährungsberatung - Über uns
+    Die Zufriedenheit der Kunden und die damit steigernde Lebensqualität bildet
+    das Fundament unserer Arbeit.
+  seo_title: Ernährungsberatung Faber - Über uns
 page_title:
   title: Über uns
 text_comp:
