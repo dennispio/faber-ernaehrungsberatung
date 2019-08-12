@@ -21,7 +21,7 @@ const SubpageHeader = ({ title, text, sitename, blog }) => (
       alt="hintergrund bubble links"
     />
     <div className="subpage-title-container farbverlauf">
-      {sitename && sitename !== 'blog' ? (
+      {sitename && title !== 'Blog' ? (
         <h1 className={`farbverlauf ${sitename}`}>{title}</h1>
       ) : (
         <h2 className={`farbverlauf ${sitename}`}>{title}</h2>
