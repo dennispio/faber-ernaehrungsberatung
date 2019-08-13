@@ -1,11 +1,13 @@
 ---
 templateKey: legal
 seo_title: Faber Ernährungsberatung - Datenschutzerklärung
-seo_desc: Datenschutz hat einen besonders hohen Stellenwert für die                      Geschäftsleitung der Ernährungsberatung faber GbR.
+seo_desc: >-
+  Datenschutz hat einen besonders hohen Stellenwert für die                     
+  Geschäftsleitung der Ernährungsberatung faber GbR.
 category: datenschutz
 title: Datenschutz
 ---
-<h4>Datenschutzerklärung</h4>
+<h1>Datenschutzerklärung</h1>
 
 <p>Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen Stellenwert für die Geschäftsleitung der Ernährungsberatung faber GbR. Eine Nutzung der Internetseiten der Ernährungsberatung faber GbR ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der betroffenen Person ein.</p>
 
@@ -336,7 +338,5 @@ Vor einer Bereitstellung personenbezogener Daten durch den Betroffenen muss sich
 <p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als <a href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/" rel="nofollow">Externer Datenschutzbeauftragter Berlin</a> tätig ist, in Kooperation mit dem <a href="https://www.wbs-law.de/it-recht/datenschutzrecht" rel="nofollow">Kölner IT- und Datenschutz Anwalt Christian Solmecke</a> erstellt.
 
 </p>
-
-
 
 ##
