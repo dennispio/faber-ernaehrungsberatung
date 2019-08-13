@@ -1,6 +1,6 @@
 ---
 templateKey: legal
-seo_title: Faber Ernährungsberatung - Datenschutzerklärung
+seo_title: Ernährungsberatung Faber - Datenschutzerklärung
 seo_desc: Datenschutz - Geschäftsleitung der Ernährungsberatung faber GbR.
 category: datenschutz
 title: Datenschutz
