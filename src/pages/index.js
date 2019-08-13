@@ -44,6 +44,7 @@ const IndexPage = props => {
             link="/referenzen"
             left={false}
             fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
+            alt={referenz.frontmatter.alt_text}
           />
         ) : null;
       })}
@@ -202,6 +203,7 @@ export const pageQuery = graphql`
             show_homepage
             description
             pageKey
+            alt_text
             featuredImage {
               childImageSharp {
                 fluid(maxWidth: 1400, quality: 100) {
