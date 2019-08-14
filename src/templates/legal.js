@@ -7,7 +7,7 @@ import LegalContent from '../components/legalContent/LegalContent';
 const Legal = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Layout title="SEO TITLE" description="SEO DESC">
+    <Layout title={post.frontmatter.seo_title} description={post.frontmatter.seo_desc}>
       <LegalContent title={post.frontmatter.title} post={post} />
     </Layout>
   );
@@ -28,7 +28,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        description
+        seo_desc
+        seo_title
       }
     }
   }
