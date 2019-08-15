@@ -9,8 +9,8 @@ const Service = ({ data }) => {
   const { markdownRemark: service } = data;
   return (
     <Layout
-      title={service.frontmatter.seo_title}
-      description={service.frontmatter.seo_desc}
+      title={service.frontmatter.seo_comp.seo_title}
+      description={service.frontmatter.seo_comp.seo_desc}
     >
       <BlogContent service post={service} share={false} blog={false} />
       <ServiceForm serviceName={service.frontmatter.title} />
@@ -32,8 +32,10 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        seo_title
-        seo_desc
+        seo_comp{
+          seo_title
+        	seo_desc
+        } 
         title
         price
         category
