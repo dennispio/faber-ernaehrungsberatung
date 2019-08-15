@@ -39,7 +39,6 @@ export const pageQuery = graphql`
         title
         price
         category
-        description
       }
     }
   }
