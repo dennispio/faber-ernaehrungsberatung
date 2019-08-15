@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Faber Ernährungsberatung - Nachhaltiges abnehmen ?
+seo_title: Nachhaltiges abnehmen ?
 seo_desc: >-
   Einen festen Wert des Gewichtsverlust pro Zeit gibt es nicht, jedoch ist nachhaltiges Abnehmen mit moderatem Gewichtsverlust verbunden.
 category: abnehmen

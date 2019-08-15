@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Faber Ernährungsberatung - Grundbausteine einer Diät
+seo_title: Grundbausteine einer Diät
 seo_desc: >-
   Die Diät soll keine Phase sein, die ich schnell überwinden will, um wieder qualitative Lebenszeit zu erlangen.
 category: Diät

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Faber Ernährungsberatung - Der „eingeschlafene Stoffwechsel"
+seo_title: Der eingeschlafene Stoffwechsel
 seo_desc: >-
   Tatsächlich ist es kein seltenes Phänomen, dass nach längerer Zeit            
   der kalorienreduzierten Ernährung das Gewicht stagniert.
