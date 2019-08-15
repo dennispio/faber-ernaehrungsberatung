@@ -28,6 +28,7 @@ const TemplateWrapper = ({
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={image || logo} />
+        <meta name="google-site-verification" content="emO0oDOZUDOCG4DnmF-EI5mjJQpbo_cWBUALeJBLXog" />
       </Helmet>
       <Navigation pageName={pageName} />
       <div>{children}</div>
