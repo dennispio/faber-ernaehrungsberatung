@@ -37,7 +37,7 @@ const TemplateWrapper = ({
         style={{ background: 'linear-gradient(to right,  #140A37, #E61E0A)' }}
         location="bottom"
         buttonText="Ich stimme zu."
-        buttonStyle={{ color: "#ffffff" }}
+        buttonStyle={{ background: "#ffffff" }}
       >
         <span style={{ fontSize: '15px' }}>
           Diese Website verwendet Cookies – nähere Informationen dazu und zu Ihren
