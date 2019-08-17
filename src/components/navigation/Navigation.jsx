@@ -44,11 +44,11 @@ const Navigation = ({ pageName }) => (
       <div id="menu" className="navigation-menu">
         <ul>
           <li>
-            <Link to="/"> Start</Link>
+            <Link className="color" to="/"> Start</Link>
           </li>
           <div className="subnav">
             <li>
-              <Link to="/leistungen"> Unsere Leistungen</Link>
+              <Link className="color" to="/leistungen"> Unsere Leistungen</Link>
             </li>
             <div
               className={
@@ -71,16 +71,16 @@ const Navigation = ({ pageName }) => (
             </div>
           </div>
           <li>
-            <Link to="/referenzen">Referenzen</Link>
+            <Link className="color" to="/referenzen">Referenzen</Link>
           </li>
           <li>
-            <Link to="/ueberuns">Über uns</Link>
+            <Link className="color" to="/ueberuns">Über uns</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link className="color" to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to="/kontakt">Kontakt</Link>
+            <Link className="color" to="/kontakt">Kontakt</Link>
           </li>
         </ul>
       </div>
