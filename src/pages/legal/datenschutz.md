@@ -1,7 +1,7 @@
 ---
 templateKey: legal
 seo_title: Ernährungsberatung Faber - Datenschutzerklärung
-seo_desc: Datenschutz - Geschäftsleitung der Ernährungsberatung faber GbR.
+seo_desc: Datenschutz - Geschäftsleitung der Ernährungsberatung faber GbR. Ernährungsberatung für Hannover und die Umgebung.
 category: datenschutz
 title: Datenschutz
 ---
