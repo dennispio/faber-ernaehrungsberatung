@@ -52,7 +52,7 @@
       }
     }
 
-    .blog {
+    .blog, .blog-uebersicht {
       font-size: 200px;
 
       @include media-query-phone {
@@ -63,7 +63,6 @@
         font-size: 118px;
       }
     }
-
     .referenzen {
       font-size: 150px;
 
