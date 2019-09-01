@@ -14,7 +14,7 @@ const Referenz = ({ data }) => {
       description={post.frontmatter.seo_desc}
       type="article"
     >
-      <SubpageHeader blog sitename="leistungen" title="Referenz" />
+      <SubpageHeader blog checkheader="h2" sitename="referenzen" title="Referenz" />
       <BlogContent
         date={post.frontmatter.date}
         post={post}

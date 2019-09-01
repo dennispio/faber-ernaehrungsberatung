@@ -52,7 +52,7 @@
       }
     }
 
-    .blog, .blog-uebersicht {
+    .blog {
       font-size: 200px;
 
       @include media-query-phone {

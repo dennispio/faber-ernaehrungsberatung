@@ -4,7 +4,7 @@ import leftBub from '../../img/bubbles/bubble_subpage_header_1.svg';
 import rightBub from '../../img/bubbles/bubble_subpage_header_2.svg';
 import './subpageHeader.scss';
 
-const SubpageHeader = ({ title, text, sitename, blog }) => (
+const SubpageHeader = ({ title, text, sitename, blog, checkheader }) => (
   <div
     className={`container-full subPage-header-container ${
       blog ? 'blog-template-header-container' : null
@@ -21,7 +21,7 @@ const SubpageHeader = ({ title, text, sitename, blog }) => (
       alt="hintergrund bubble links"
     />
     <div className="subpage-title-container farbverlauf">
-      {sitename !== 'blog' ? (
+      {checkheader !== 'h2' ? (
         <h1 className={`farbverlauf ${sitename}`}>{title}</h1>
       ) : (
         <h2 className={`farbverlauf ${sitename}`}>{title}</h2>

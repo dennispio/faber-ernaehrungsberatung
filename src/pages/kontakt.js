@@ -14,6 +14,7 @@ const Leistungen = props => {
     kontakt@ernaehrungsberatung-faber.de - Auf Wunsch auch über Skype erreichbar."
     >
       <SubpageHeader
+        checkheader="h1"
         title="Kontakt"
         sitename="kontakt"
         text={[

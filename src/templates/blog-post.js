@@ -13,7 +13,7 @@ const BlogPost = ({ data }) => {
       description={post.frontmatter.seo_desc}
       type="article"
     >
-      <SubpageHeader blog sitename="blog" title="Blog" />
+      <SubpageHeader blog checkheader="h2" sitename="blog" title="Blog" />
       <BlogContent
         cat={post.frontmatter.category}
         date={post.frontmatter.date}

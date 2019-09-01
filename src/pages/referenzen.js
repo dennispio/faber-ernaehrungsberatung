@@ -14,6 +14,7 @@ const Referenzen = props => {
       description="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu dürfen. Hier berichten einige von ihren Erfahrungen und Erfolgserlebnissen."
     >
       <SubpageHeader
+        checkheader="h1"
         title="Referenzen"
         sitename="referenzen"
         text="Wir freuen uns immer darüber mit unseren Kunden in Kontakt bleiben zu
