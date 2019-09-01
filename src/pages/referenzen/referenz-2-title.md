@@ -18,7 +18,7 @@ description: >-
   Abnehmen und diverse Diätprogramme haben mich zum Verzweifeln und nicht zu
   meinem Ziel gebracht
 ---
-## Alex Strasser und ihre Erfahrungen mit unserer Ernährungsberatung.
+# Alex Strasser und ihre Erfahrungen mit unserer Ernährungsberatung.
 
 Ich bin Personaltrainerin und sah es schon immer sehr kritisch mit nun fast 50 Jahren meine alte Figur von damals wiederzuerlangen. 
 
