@@ -3,7 +3,8 @@ pageKey: page_home
 seo_comp:
   seo_desc: >-
     Iss was Du willst, wann Du willst und werde so wie Du es willst ist der
-    Leitsatz unserer Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem Ziel.
+    Leitsatz unserer Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem
+    Ziel.
   seo_title: Ernährungsberatung Faber aus Hannover
 video_comp:
   video: /img/big_buck_bunny.mp4
@@ -25,8 +26,8 @@ text_comp:
     Deinen Vorstellungen erreichen können!
   title: 'Iss was Du willst, wann Du willst und werde so wie Du es willst'
 countdown_comp:
-  countdown: '2019-09-23T00:00:00'
-  season: Herbst
+  countdown: '2019-12-22T00:00:00'
+  season: Winter
 facts_compt:
   facts:
     - text_left: >-
