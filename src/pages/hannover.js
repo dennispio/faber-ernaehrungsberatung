@@ -3,13 +3,10 @@ import { graphql, Link } from "gatsby";
 import PropTypes from "prop-types";
 import Layout from "../components/layouts/Layout";
 import Testimonial from "../components/testimonials/Testimonial";
-import VideoPlayer from "../components/video/Video";
-import HomepageText from "../components/text/HomepageText";
 import OfferCard from "../components/offerCard/OfferCard";
-import Countdown from "../components/countdown/Countdown";
-import BlogPostCard from "../components/blogPostCard/BlogPostCard";
-import Carousel from "../components/carousel/Carousel";
-import Morph from "../components/morph/Morph";
+import Kontakt from "../components/contact/contact";
+import Header from "../components/hannover/header/Header";
+import Certified from "../components/hannover/state-certified/Certified";
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -27,29 +24,9 @@ const IndexPage = props => {
       title={data.frontmatter.seo_comp.seo_title}
       description={data.frontmatter.seo_comp.seo_desc}
     >
-      <VideoPlayer />
-      <HomepageText heading={title} text={text} />
-      <h2 className="container">
-        Du kannst es auch schaffen! <br /> Der {season} kommt in ...
-      </h2>
-      <Countdown date={countdown} season={season} />
-      <Carousel facts={facts} />
-      {/* eslint-disable-next-line */}
-      {referenzen.map(({ node: referenz }, index) => {
-        return referenz.frontmatter.show_homepage ? (
-          <Testimonial
-            key={index}
-            title={referenz.frontmatter.title}
-            text={referenz.frontmatter.description}
-            link="/referenzen"
-            left={false}
-            fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
-            alt={referenz.frontmatter.alt_text}
-          />
-        ) : null;
-      })}
-      <Morph />
-      <div className="container-full bubble-bg">
+      <Header />
+      <div className="sperator" />
+      <div className="container">
         <div className="preview-section sperator container">
           <h2 className="farbverlauf">
             Das bekommst Du:
@@ -74,33 +51,27 @@ const IndexPage = props => {
             <Link to="leistungen">zu den Leistungen</Link>
           </span>
         </div>
-        <div className="preview-section blog-p container">
-          <h2 className="white">
-            Bleib auf dem Laufenden und
-            <br />
-            abboniere den Newsletter zu
-            <br />
-            unserem Blog.
-          </h2>
-          <div className="offer-preview-container post-preview-container">
-            {/* eslint-disable-next-line */}
-            {posts.map(({ node: post }, key) => {
-              return key < 3 ? (
-                <BlogPostCard
-                  link={post.fields.slug}
-                  date={post.frontmatter.date}
-                  category={post.frontmatter.category}
-                  title={post.frontmatter.title}
-                  text={post.frontmatter.description}
-                />
-              ) : null;
-            })}
-          </div>
-          <span className="white newsletter-cta">
-            <Link to="newsletter">Newsletter abonnieren</Link>
-          </span>
-        </div>
       </div>
+      <div className="sperator" />
+      <Kontakt />
+      <div className="sperator" />
+      {/* eslint-disable-next-line */}
+      {referenzen.map(({ node: referenz }, index) => {
+        return referenz.frontmatter.show_homepage ? (
+          <Testimonial
+            key={index}
+            title={referenz.frontmatter.title}
+            text={referenz.frontmatter.description}
+            link="/referenzen"
+            left
+            fluid={referenz.frontmatter.featuredImage.childImageSharp.fluid}
+            alt={referenz.frontmatter.alt_text}
+          />
+        ) : null;
+      })}
+      <div className="sperator" />
+      <Certified />
+      <div className="sperator" />
     </Layout>
   );
 };
@@ -115,7 +86,7 @@ IndexPage.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query HomeContent {
+  query HannoverContent {
     homePageData: allMarkdownRemark(
       filter: { frontmatter: { pageKey: { eq: "page_home" } } }
     ) {

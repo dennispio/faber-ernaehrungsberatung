@@ -1,4 +1,4 @@
-@import '../../constants/style/variables.scss';
+@import "../../constants/style/variables.scss";
 
 .testo-content-container {
   padding-bottom: 192px;
@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: column-reverse;
   }
-
 }
 
 .testo-con {
@@ -32,7 +31,7 @@
 }
 
 .testimonials-container {
-  background: #DADADA;
+  background: #dadada;
   overflow: hidden;
 
   .testo-right {

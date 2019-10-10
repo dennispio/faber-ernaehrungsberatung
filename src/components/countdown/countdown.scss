@@ -4,19 +4,17 @@
   font-family: "Digital Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("../../constants/style/fonts/digital-7\ \(mono\).ttf") format("truetype");
+  src: url("../../constants/style/fonts/digital-7\ \(mono\).ttf")
+    format("truetype");
 }
 
 .countdown-container {
   .row {
-
-
     @include media-query-xxl {
       display: flex;
       justify-content: space-between;
     }
   }
-
 
   h3 {
     margin: 0;

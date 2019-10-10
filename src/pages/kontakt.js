@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import SubpageHeader from '../components/subpageHeader/SubpageHeader';
-import Kontakt from '../components/contact/contact';
-import Layout from '../components/layouts/Layout';
+import React from "react";
+import PropTypes from "prop-types";
+import SubpageHeader from "../components/subpageHeader/SubpageHeader";
+import Kontakt from "../components/contact/contact";
+import Layout from "../components/layouts/Layout";
 
 const Leistungen = props => {
   const { data } = props;
@@ -18,20 +18,20 @@ const Leistungen = props => {
         title="Kontakt"
         sitename="kontakt"
         text={[
-          'Ernährungsberatung faber GbR',
+          "Ernährungsberatung faber GbR",
           <br />,
-          'Maxim Faber, Daniel Faber',
+          "Maxim Faber, Daniel Faber",
           <br />,
-          ' Walsroder Straße 123 B',
+          " Walsroder Straße 123 B",
           <br />,
-          '30853 Langenhagen ',
+          "30853 Langenhagen ",
           <br />,
           <br />,
-          'Telefon: +49 157 85624045',
+          "Telefon: +49 157 85624045",
           <br />,
-          'Mail: kontakt@ernaehrungsberatung-faber.de',
+          "Mail: kontakt@ernaehrungsberatung-faber.de",
           <br />,
-          'Auf Wunsch auch über Skype erreichbar',
+          "Auf Wunsch auch über Skype erreichbar"
         ]}
       />
       <div className="button-container sperator">
@@ -56,7 +56,7 @@ export default Leistungen;
 Leistungen.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+      edges: PropTypes.array
+    })
+  })
 };
