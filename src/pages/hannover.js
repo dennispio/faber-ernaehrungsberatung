@@ -1,13 +1,13 @@
-import React from 'react';
-import { graphql, Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import Layout from '../components/layouts/Layout';
-import Testimonial from '../components/testimonials/Testimonial';
-import OfferCard from '../components/offerCard/OfferCard';
-import Kontakt from '../components/contact/contact';
-import Header from '../components/hannover/header/Header';
-import Details from '../components/hannover/details/Details';
-import Certified from '../components/hannover/state-certified/Certified';
+import React from "react";
+import { graphql, Link } from "gatsby";
+import PropTypes from "prop-types";
+import Layout from "../components/layouts/Layout";
+import Testimonial from "../components/testimonials/Testimonial";
+import OfferCard from "../components/offerCard/OfferCard";
+import Kontakt from "../components/contact/contact";
+import Header from "../components/hannover/header/Header";
+import Details from "../components/hannover/details/Details";
+import Certified from "../components/hannover/state-certified/Certified";
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -29,26 +29,28 @@ const IndexPage = props => {
       <div className="sperator" />
       <Details />
       <div className="container">
-        <div className="preview-section sperator container">
+        <div className="preview-section container">
           <h2 className="farbverlauf">
             Das bekommst Du:
             <br />
             Unsere Top-Angebote
           </h2>
           <div className="offer-preview-container">
-            <div className="center-bubble">
-              {/* eslint-disable-next-line */}
-              {angebote.map(({ node: angebot }) => {
-                return angebot.frontmatter.angebot ? (
-                  <OfferCard
-                    category={angebot.frontmatter.category}
-                    price={angebot.frontmatter.price}
-                    time={angebot.frontmatter.time}
-                    bullets={angebot.frontmatter.bullets}
-                    link={angebot.fields.slug}
-                  />
-                ) : null;
-              })}
+            <div className="offer-preview-hannover">
+              <div className="center-bubble">
+                {/* eslint-disable-next-line */}
+                {angebote.map(({ node: angebot }) => {
+                  return angebot.frontmatter.angebot ? (
+                    <OfferCard
+                      category={angebot.frontmatter.category}
+                      price={angebot.frontmatter.price}
+                      time={angebot.frontmatter.time}
+                      bullets={angebot.frontmatter.bullets}
+                      link={angebot.fields.slug}
+                    />
+                  ) : null;
+                })}
+              </div>
             </div>
           </div>
           <span className="white newsletter-cta">
@@ -84,9 +86,9 @@ export default IndexPage;
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+      edges: PropTypes.array
+    })
+  })
 };
 
 export const pageQuery = graphql`

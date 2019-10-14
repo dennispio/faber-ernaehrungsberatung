@@ -1,5 +1,5 @@
 import React from "react";
-
+import certi from "../../../img/certi.png";
 import "./certified.scss";
 
 const Certified = () => {
@@ -22,7 +22,7 @@ const Certified = () => {
       </div>
       <div className="col-md-1" />
       <div className="col-md-5 col-xs-12">
-        <p>BILD</p>
+        <img src={certi} alt="bild des zertifikat" title="zertifikat" />
       </div>
     </div>
   );

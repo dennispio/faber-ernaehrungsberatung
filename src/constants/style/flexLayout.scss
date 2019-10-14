@@ -15,7 +15,22 @@
     width: 105%;
     justify-content: flex-start;
   }
+}
+
+.offer-preview-hannover {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(../../img/bubbles/test.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  @include media-query-phone {
+    background-image: none;
+  }
+  @include media-query-tablet {
+    width: 105%;
+  }
   .center-bubble {
+    padding: 25px;
     width: 80%;
     height: 60vh;
     margin: 0 auto;
@@ -23,17 +38,16 @@
     overflow: scroll;
     overflow: auto;
 
-    background-image: url(../../img/bubbles/bubble_2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 60%;
-
     @include media-query-tablet {
+      height: auto;
+      padding: 0;
       width: 105%;
       justify-content: flex-start;
     }
 
     @include media-query-phone {
+      height: auto;
+      padding: 0;
       width: 105%;
       justify-content: flex-start;
     }
