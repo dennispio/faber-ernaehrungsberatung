@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 .offer-preview-container {
   width: 100%;
@@ -14,6 +14,29 @@
   @include media-query-phone {
     width: 105%;
     justify-content: flex-start;
+  }
+  .center-bubble {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    overflow: scroll;
+    overflow: auto;
+
+    background-image: url(../../img/bubbles/bubble_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+
+    @include media-query-tablet {
+      width: 105%;
+      justify-content: flex-start;
+    }
+
+    @include media-query-phone {
+      width: 105%;
+      justify-content: flex-start;
+    }
   }
 }
 

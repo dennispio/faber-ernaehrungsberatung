@@ -34,18 +34,20 @@ const IndexPage = props => {
             Unsere Top-Angebote
           </h2>
           <div className="offer-preview-container">
-            {/* eslint-disable-next-line */}
-            {angebote.map(({ node: angebot }) => {
-              return angebot.frontmatter.angebot ? (
-                <OfferCard
-                  category={angebot.frontmatter.category}
-                  price={angebot.frontmatter.price}
-                  time={angebot.frontmatter.time}
-                  bullets={angebot.frontmatter.bullets}
-                  link={angebot.fields.slug}
-                />
-              ) : null;
-            })}
+            <div className="center-bubble">
+              {/* eslint-disable-next-line */}
+              {angebote.map(({ node: angebot }) => {
+                return angebot.frontmatter.angebot ? (
+                  <OfferCard
+                    category={angebot.frontmatter.category}
+                    price={angebot.frontmatter.price}
+                    time={angebot.frontmatter.time}
+                    bullets={angebot.frontmatter.bullets}
+                    link={angebot.fields.slug}
+                  />
+                ) : null;
+              })}
+            </div>
           </div>
           <span className="white newsletter-cta">
             <Link to="leistungen">zu den Leistungen</Link>
