@@ -14,11 +14,6 @@ const IndexPage = props => {
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
   const { edges: angebote } = home.angebote;
-  const { edges: posts } = home.blogPosts;
-  const { title, description: text } = data.frontmatter.text_comp;
-  const { countdown } = data.frontmatter.countdown_comp;
-  const { season } = data.frontmatter.countdown_comp;
-  const { facts } = data.frontmatter.facts_compt;
 
   return (
     <Layout
