@@ -7,11 +7,12 @@ const Header = () => (
     <div className="container">
       <div className="header-han-container">
         <div className="header-han-grid">
-          <h1 className="header-han-text-h1">
-            Faber Ernährungsberatung in Hannover - Langenhagen und Umgebung
-          </h1>
+          <h2 className="header-han-text-h1">
+            Ganzheitliche Ernährungsberatung und Ernährungstherapie aus Hannover
+          </h2>
           <h2 className="header-han-text-h2">
-            Iss was du willst, wann du willst, und werde so, wie du es willst.
+            Mit uns abnehmen, wohlfühlen und die Lebensqualität steigern ohne
+            beim Essen auf etwas verzichten zu müssen.
           </h2>
         </div>
       </div>

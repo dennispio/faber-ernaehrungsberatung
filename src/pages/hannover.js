@@ -23,6 +23,7 @@ const IndexPage = props => {
       <Header />
       <div className="sperator" />
       <Details />
+      <div className="sperator" />
       <div className="container">
         <div className="preview-section container">
           <h2 className="farbverlauf">
