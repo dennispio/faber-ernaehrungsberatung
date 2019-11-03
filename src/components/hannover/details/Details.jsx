@@ -85,28 +85,28 @@ const Details = () => (
       <div className="farbverlauf gruende-header">
         <h2>Drei gute Gründe die für uns sprechen:</h2>
       </div>
-      <div className="flex container-right">
-        <span className="big-number-right blau">2</span>
-        <p className="p-container-right">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean //
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes.
-        </p>
-      </div>
       <div className="flex container-left">
         <span className="big-number-left blau">1</span>
         <p className="p-container-left">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean //
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes.
+          Du bist eine Naschaktze? Kein Problem das ist auch bei uns erlaubt !
+          Du verzichtest mit uns nicht komplett auf Lebensmittel die du liebst
+          in deiner Ernährungsumstellung.
+        </p>
+      </div>
+      <div className="flex container-right">
+        <span className="big-number-right blau">2</span>
+        <p className="p-container-right">
+          Bei uns gibt es für dich keine vorgefertigten Ernährungspläne, sondern
+          Individuell auf dich angepasste Ernährungspläne, die auf Wunsch
+          jederzeit verändert werden.
         </p>
       </div>
       <div className="flex container-bottom ">
         <span className="big-number-bottom blau">3</span>
         <p className="p-container-bottom">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean //
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes.
+          Egal an welchen Tagen du fragen hast, wir sind für dich da ! Ruf uns
+          einfach an, schreib uns per E-Mail oder Whattsapp oder triff uns
+          direkt in Hannover.
         </p>
       </div>
     </div>

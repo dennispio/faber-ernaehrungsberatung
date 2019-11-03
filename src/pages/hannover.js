@@ -21,7 +21,6 @@ const IndexPage = props => {
       description={data.frontmatter.seo_comp.seo_desc}
     >
       <Header />
-      <div className="sperator" />
       <Details />
       <div className="sperator" />
       <div className="container">
