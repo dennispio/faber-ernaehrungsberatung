@@ -1,5 +1,5 @@
 import React from 'react';
-import detailsimage from '../../../img/hannover_details.jpg';
+import detailsimage from '../../../img/hannover/Details_Hannover.jpg';
 
 import './details.scss';
 
@@ -63,7 +63,7 @@ import './details.scss';
 const Details = () => (
   <div className="container">
     <div className="design-header">
-      <h2 className="farbverlauf">
+      <h2 className="">
         Ihre erfahrene Ernährungsberatung aus Langenhagen bei Hannover
       </h2>
       <p>
@@ -80,7 +80,7 @@ const Details = () => (
         per Telefon oder Skype ohne Einschränkungen stattfinden.
       </p>
     </div>
-    <img src={detailsimage} className="design-img" />
+    <div className="background" />
     <div className="gruende-container">
       <div className="farbverlauf gruende-header">
         <h2>Drei gute Gründe die für uns sprechen:</h2>

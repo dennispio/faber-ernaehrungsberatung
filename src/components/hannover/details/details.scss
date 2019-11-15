@@ -226,15 +226,30 @@
 }
 
 .design-img {
+  margin-top: -30vh;
   height: 100vh;
-  transform: translate(-25vw, -20vh);
   width: 100%;
-  z-index: -1;
+  z-index: -10000;
   @include media-query-phone {
     display: none;
   }
   @include media-query-tablet {
     display: none;
+  }
+}
+.background {
+  z-index: -1000;
+  margin-top: -40vh;
+  background-image: url("../../../img/hannover/Details_Hannover.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  @include media-query-tablet {
+    display: none;
+  }
+  @include media-query-phone {
+    margin-top: 0vh;
+    height: 40vh;
   }
 }
 
@@ -256,7 +271,7 @@
   @include media-query-tablet {
     max-width: 100vw;
   }
-  z-index: 110;
+  z-index: 10000;
 }
 
 .flex {

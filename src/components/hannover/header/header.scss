@@ -15,7 +15,7 @@
 .header-han-container-img {
   width: 100%;
   height: 100vh;
-  background-image: url("../../../img/hannover_header.jpg");
+  background-image: url("../../../img/hannover/Header_Hannover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -44,7 +44,7 @@
     max-width: 100vw;
   }
   @include media-query-tablet {
-    padding-top: 32vh;
+    padding-top: 40vh;
     max-width: 100vw;
   }
 }
