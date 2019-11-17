@@ -238,12 +238,15 @@
   }
 }
 .background {
-  z-index: -1000;
   margin-top: -40vh;
   background-image: url("../../../img/hannover/Details_Hannover.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
+  @include media-query-desktop {
+    margin-top: -320px;
+  }
+
   @include media-query-tablet {
     display: none;
   }

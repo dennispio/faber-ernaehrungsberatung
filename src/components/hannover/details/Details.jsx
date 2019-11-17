@@ -63,7 +63,7 @@ import './details.scss';
 const Details = () => (
   <div className="container">
     <div className="design-header">
-      <h2 className="">
+      <h2 className="farbverlauf">
         Ihre erfahrene Ernährungsberatung aus Langenhagen bei Hannover
       </h2>
       <p>
