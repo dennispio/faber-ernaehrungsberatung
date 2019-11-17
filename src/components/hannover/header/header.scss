@@ -37,7 +37,7 @@
 // }
 
 .header-han-grid {
-  padding-top: 48vh;
+  padding-top: 400px;
   max-width: 40vw;
   @include media-query-phone {
     padding-top: 40vh;
@@ -46,6 +46,10 @@
   @include media-query-tablet {
     padding-top: 40vh;
     max-width: 100vw;
+  }
+  @include media-query-xxl {
+    padding-top: 640px;
+    max-width: 32vw;
   }
 }
 
