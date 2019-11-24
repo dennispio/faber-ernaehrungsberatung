@@ -11,8 +11,7 @@ const Header = () => (
             Ganzheitliche Ernährungsberatung und Ernährungstherapie aus Hannover
           </h2>
           <h2 className="header-han-text-h2">
-            Mit uns abnehmen, wohlfühlen und die Lebensqualität steigern ohne
-            beim Essen auf etwas verzichten zu müssen.
+            Mit uns, verzichtet keiner mehr in Hannover auf sein Lieblingsessen!
           </h2>
         </div>
       </div>

@@ -88,25 +88,25 @@ const Details = () => (
       <div className="flex container-left">
         <span className="big-number-left blau">1</span>
         <p className="p-container-left">
-          Du bist eine Naschaktze? Kein Problem das ist auch bei uns erlaubt !
-          Du verzichtest mit uns nicht komplett auf Lebensmittel die du liebst
-          in deiner Ernährungsumstellung.
+          Der Döner zwischendurch ist zu verlockend? Kein Problem, das ist bei
+          uns erlaubt! In deiner Ernährungsumstellung verzichtest mit uns nicht
+          komplett auf Lebensmittel die du liebst.
         </p>
       </div>
       <div className="flex container-right">
         <span className="big-number-right blau">2</span>
         <p className="p-container-right">
-          Bei uns gibt es für dich keine vorgefertigten Ernährungspläne, sondern
-          Individuell auf dich angepasste Ernährungspläne, die auf Wunsch
-          jederzeit verändert werden.
+          Bei uns gibt es keinen Einheitsbrei denn vorgefertigte Ernährungspläne
+          sind uns ein Fremdwort! Es gibt für dich nur individuell auf dich
+          angepasste Ernährungspläne, die auf Wunsch jederzeit verändert werden.
         </p>
       </div>
       <div className="flex container-bottom ">
         <span className="big-number-bottom blau">3</span>
         <p className="p-container-bottom">
-          Egal an welchen Tagen du fragen hast, wir sind für dich da ! Ruf uns
-          einfach an, schreib uns per E-Mail oder Whattsapp oder triff uns
-          direkt in Hannover.
+          Egal an welchen Tagen du fragen hast, wir sind für dich da ! Ob per
+          Telefon, per E-Mail, Whatsapp oder einfach direkt in Hannover zu einem
+          Stück Schokoladenkuchen. Wir haben für dich immer Zeit.
         </p>
       </div>
     </div>
