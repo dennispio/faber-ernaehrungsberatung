@@ -3,7 +3,9 @@ import React from 'react';
 import './header.scss';
 
 const Header = () => (
-  <div className="container-full header-han-container-img">
+  <div className="container-full" >
+  <div className="seperator-navigation" /> 
+  <div className="header-han-container-img">
     <div className="container">
       <div className="header-han-container">
         <div className="header-han-grid">
@@ -16,6 +18,7 @@ const Header = () => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 );
 
