@@ -1,7 +1,7 @@
-import React from 'react';
-import detailsimage from '../../../img/hannover/Details_Hannover.jpg';
+import React from "react";
+import detailsimage from "../../../img/hannover/Details_Hannover.jpg";
 
-import './details.scss';
+import "./details.scss";
 
 // const Details = () => (
 //   <div className="container details-container">
@@ -82,8 +82,8 @@ const Details = () => (
     </div>
     <div className="background" />
     <div className="gruende-container">
-      <div className="farbverlauf gruende-header">
-        <h2>Drei gute Gründe die für uns sprechen:</h2>
+      <div className="gruende-header">
+        <h2 className="farbverlauf">Drei gute Gründe die für uns sprechen:</h2>
       </div>
       <div className="flex container-left">
         <span className="big-number-left blau">1</span>

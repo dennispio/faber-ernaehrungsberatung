@@ -172,9 +172,10 @@ h3 {
 }
 
 .farbverlauf {
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* media querys */
