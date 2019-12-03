@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Nachhaltiges abnehmen ?
+seo_title: Faber Ernährungsberatung Hannover | Nachhaltiges abnehmen ?
 seo_desc: >-
   Einen festen Wert des Gewichtsverlust pro Zeit gibt es nicht, jedoch ist nachhaltiges Abnehmen mit moderatem Gewichtsverlust verbunden.
 category: abnehmen
@@ -14,6 +14,7 @@ description: >-
   welches verhäuft vorkommt.Deshalb ist Prävention das „A und O“. Diese beginnt
   nämlich schonwährend der Diät. Und zwar ist der entscheidende Punkt.
 ---
+
 # Nachhaltiges abnehmen ?
 
 Der Jojo- Effekt ist ein typisches Phänomen, welches verhäuft vorkommt.

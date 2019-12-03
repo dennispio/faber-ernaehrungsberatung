@@ -1,13 +1,13 @@
-import React from 'react';
-import { graphql, Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import Layout from '../components/layouts/Layout';
-import Testimonial from '../components/testimonials/Testimonial';
-import OfferCard from '../components/offerCard/OfferCard';
-import Kontakt from '../components/contact/contact';
-import Header from '../components/hannover/header/Header';
-import Details from '../components/hannover/details/Details';
-import Certified from '../components/hannover/state-certified/Certified';
+import React from "react";
+import { graphql, Link } from "gatsby";
+import PropTypes from "prop-types";
+import Layout from "../components/layouts/Layout";
+import Testimonial from "../components/testimonials/Testimonial";
+import OfferCard from "../components/offerCard/OfferCard";
+import Kontakt from "../components/contact/contact";
+import Header from "../components/hannover/header/Header";
+import Details from "../components/hannover/details/Details";
+import Certified from "../components/hannover/state-certified/Certified";
 
 const IndexPage = props => {
   const { data: home } = props;
@@ -81,9 +81,9 @@ export default IndexPage;
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+      edges: PropTypes.array
+    })
+  })
 };
 
 export const pageQuery = graphql`
