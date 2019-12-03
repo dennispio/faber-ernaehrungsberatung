@@ -17,8 +17,8 @@ const IndexPage = props => {
 
   return (
     <Layout
-      title={data.frontmatter.seo_comp.seo_title}
-      description={data.frontmatter.seo_comp.seo_desc}
+      title="Deine Ernährungsberatung in Hannover und Langenhagen"
+      description="Wir helfen deine Ernährung so umzustellen, dass du deine Ziele erreichst, ohne auf etwas zu verzichten. Triff uns in Hannover, Langenhagen oder Umgebung."
     >
       <Header />
       <Details />
