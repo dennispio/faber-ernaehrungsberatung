@@ -155,7 +155,7 @@
   margin-top: -340px;
   margin-left: 48vw;
   @include media-query-phone {
-    margin-top: 0px;
+    margin-top: 24px;
     margin-left: 0px;
   }
   @include media-query-tablet {
@@ -180,7 +180,7 @@
   margin-top: 240px;
   margin-left: 32vw;
   @include media-query-phone {
-    margin-top: 0px;
+    margin-top: 24px;
     margin-left: 0px;
   }
   @include media-query-tablet {

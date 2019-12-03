@@ -1,7 +1,7 @@
-import React from "react";
-import detailsimage from "../../../img/hannover/Details_Hannover.jpg";
+import React from 'react';
+import detailsimage from '../../../img/hannover/Details_Hannover.jpg';
 
-import "./details.scss";
+import './details.scss';
 
 // const Details = () => (
 //   <div className="container details-container">
@@ -67,13 +67,12 @@ const Details = () => (
         Ihre erfahrene Ernährungsberatung aus Langenhagen bei Hannover
       </h2>
       <p>
-        Du möchtest konsequent abnehmen, deine Ziele erreichen ohne dabei auf
-        ein bestimmtes Essen oder deinen Lieblingssnack verzichten zu müssen? Ob
-        Abnehmen, das Zunehmen, die Verdauung Optimieren, oder die Führung eines
-        gesünderen und bewussteren Lebens, egal welches Ziel du hast, bei uns
-        bist du genau richtig. Unsere Ernährungsberatung unterstützt dich dabei,
-        dass du deine liebsten Mahlzeiten essen kannst, nicht auf den Griff zur
-        Chipstüte verzichten musst und trotzdem langfristig deine Erfolge
+        Du möchtest dein Idealgewicht erreichen, ohne dabei auf ein bestimmtes
+        Essen oder deinen Lieblingssnack verzichten zu müssen? Ob Abnehmen, das
+        Zunehmen, die Verdauung Optimieren, oder die Führung eines gesünderen
+        und bewussteren Lebens, egal welches Ziel du hast, bei uns bist du
+        richtig. Unsere Ernährungsberatung unterstützt dich dabei, dass du deine
+        liebsten Mahlzeiten essen kannst und trotzdem langfristig deine Erfolge
         erreichst. Ob in Hannover oder Umgebung, wir sind für dich da um
         Gemeinsam deine Ernährung zu optimieren. Sollte deine Zeit für ein
         persönliches Treffen zu kurz sein, kann deine Ernährungsberatung auch
@@ -89,8 +88,8 @@ const Details = () => (
         <span className="big-number-left blau">1</span>
         <p className="p-container-left">
           Der Döner zwischendurch ist zu verlockend? Kein Problem, das ist bei
-          uns erlaubt! In deiner Ernährungsumstellung verzichtest mit uns nicht
-          komplett auf Lebensmittel die du liebst.
+          uns erlaubt! In deiner Ernährungsumstellung verzichtest du mit uns
+          nicht auf Lebensmittel die du liebst.
         </p>
       </div>
       <div className="flex container-right">
