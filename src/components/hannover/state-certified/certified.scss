@@ -1,0 +1,16 @@
+@import "../../../constants/style/variables.scss";
+
+.certi-container {
+  img {
+    margin-top: 50px;
+
+    @include media-query-phone {
+      display: block;
+      margin: 0 auto;
+    }
+    @include media-query-tablet {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

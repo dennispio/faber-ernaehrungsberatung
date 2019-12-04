@@ -15,7 +15,7 @@ service_1:
     erstellen wir ein auf Dich abgestimmtes Konzept, das Dir auf dem Weg zu
     Deinem Ziel helfen wird. Deine Ziele könnten sein: Abnehmen, Zunehmen,
     Optimierung der Verdauung, gesünder Essen, Lernen bewusst zu Leben oder
-    Steigerung der sportlichen Leistungsfähigkeit. 
+    Steigerung der sportlichen Leistungsfähigkeit.
   title: Individuelle Ernährungsberatung
 service_2:
   text: >-
@@ -64,4 +64,3 @@ service_5:
     Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben?
   title: Nährwertanalyse
 ---
-

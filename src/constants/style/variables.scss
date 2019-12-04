@@ -45,11 +45,10 @@ $margin_video: 70px;
 
 /* typo fonts */
 
-
-$black:#2D3232;
-$black2:#140A37;
-$white:#FFFFFF;
-$grey:#D8D8D8;
+$black: #2d3232;
+$black2: #140a37;
+$white: #ffffff;
+$grey: #d8d8d8;
 
 $font_site_xs: 12px;
 $font_size_p: 16px;
@@ -58,20 +57,30 @@ $font_size_h_mobile: 26px;
 
 @font-face {
   font-family: "itc-avant-garde-gothic-pro-bold";
-  src: url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  src: url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: "itc-avant-garde-gothic-pro-medium";
-  src: url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+  src: url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("opentype");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -86,15 +95,15 @@ h1 {
     line-height: 1em;
   }
 
-  @media (max-width: 1199px) {}
+  @media (max-width: 1199px) {
+  }
 }
 
 p {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: $brand_grey;
-
 }
 
 li,
@@ -111,21 +120,18 @@ a:hover {
 .hover-effect {
   a:hover {
     text-decoration: underline;
-
   }
 
   p:hover,
   p:active,
   p:focus {
     text-decoration: underline;
-
   }
 
   li:hover,
   li:active,
   li:focus {
     text-decoration: underline;
-
   }
 }
 
@@ -166,9 +172,10 @@ h3 {
 }
 
 .farbverlauf {
+  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, #01072e, #e5331c);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* media querys */

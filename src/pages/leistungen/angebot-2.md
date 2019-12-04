@@ -14,14 +14,15 @@ time: einmalig
 bullets:
   - title: Analyse deiner Ernährung
 ---
+
 # Nährwertanalyse
 
 **Deine individuelle Nährwertanalyse :**
 
-In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz. 
+In der Nährwert- und Ernährungsanalyse untersuchen wir auf Basis eines dreiwöchigen Ernährungsprotokolls Deine gesamte Ernährung hinsichtlich der Vitaminaufnahme, Makronährstoffaufnahme und Gesamtbilanz.
 
-Nach Abschluss der Nährwert- und Ernährungsanalyse beantworten wir Dir individuell unter anderem folgende Fragen: Esse ich genug Vitamine und Ballaststoffe? Esse ich zu wenig Kohlenhydrate, Proteine oder Fette? Welche Auswirkung hat ein Defizit? Wie viele Kalorien verbrauche ich? Was muss ich tun, um mein Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben?
+Nach Abschluss der Nährwert- und Ernährungsanalyse beantworten wir Dir individuell unter anderem folgende Fragen: Esse ich genug Vitamine und Ballaststoffe? Esse ich zu wenig Kohlenhydrate, Proteine oder Fette? Welche Auswirkung hat ein Defizit? Wie viele Kalorien verbrauche ich? Was muss ich tun, um mein Gewicht zu reduzieren, mein Gewicht zu erhöhen oder bewusster zu Leben? Wir helfen dir auf dem Weg zu deinem Idealgewicht.
 
-* 3 auf Dich abgestimmte Pläne
+- 3 auf Dich abgestimmte Pläne
 
 >

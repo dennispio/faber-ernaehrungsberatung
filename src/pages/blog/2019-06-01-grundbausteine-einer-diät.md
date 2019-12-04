@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 pageKey: page_blogpost
-seo_title: Grundbausteine einer Diät
+seo_title: Faber Ernährungsberatung Hannover | Grundbausteine einer Diät
 seo_desc: >-
   Die Diät soll keine Phase sein, die ich schnell überwinden will, um wieder qualitative Lebenszeit zu erlangen.
 category: Diät
@@ -13,6 +13,7 @@ description: >-
   Phase sein, die ich schnell überwinden will, um wieder qualitative Lebenszeit
   zu erlangen.
 ---
+
 # Grundbausteine einer Diät
 
 Es gibt etliche Diäten - und jede ist anders. Jedoch sollte jede Ernährungsform sich in einigen Aspekten überschneiden. Die Diät soll keine Phase sein, die ich schnell überwinden will, um wieder qualitative Lebenszeit zu erlangen. Optimalerweise sollte eine Diät keine Lebensverschwendung sein, sondern eine Überbrückungsphase zur Steigerung der Lebensqualität. Denn: Am Ziel hab ich mein Wunschgewicht erreicht und ist zufriedener mit sich selbst!
