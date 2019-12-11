@@ -9,7 +9,7 @@ const Leistungen = props => {
   return (
     <Layout
       pageName="kontakt"
-      title="Faber Ernährungsberatung - Kontakt"
+      title="Faber Ernährungsberatung Hannover | Kontakt"
       description="Gerne stehen wir Ihnen für weitere Rückfragen zur Verfügung -
     kontakt@ernaehrungsberatung-faber.de - Auf Wunsch auch über Skype erreichbar."
     >

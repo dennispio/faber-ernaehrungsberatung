@@ -4,7 +4,7 @@ seo_comp:
   seo_desc: >-
     Die Zufriedenheit der Kunden und die damit steigernde Lebensqualität bildet
     das Fundament unserer Arbeit.
-  seo_title: Ernährungsberatung Faber - Über uns
+  seo_title: Ernährungsberatung Faber Hannover | Über uns
 page_title:
   title: Über uns
 text_comp:
@@ -26,4 +26,3 @@ text_comp:
     Menschen zu helfen. Die Zufriedenheit der Kunden und die damit steigernde
     Lebensqualität bildet das Fundament unserer Arbeit.
 ---
-

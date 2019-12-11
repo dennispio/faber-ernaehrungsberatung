@@ -4,7 +4,7 @@ seo_comp:
   seo_desc: >-
     Unsere Leistungen - Individuelle  Ernährungsberatung, Nährwertanalyse,
     Ernährungscoaching in Hannover & Umgebung
-  seo_title: Ernährungsberatung Faber - Unsere Leistungen
+  seo_title: Ernährungsberatung Faber Hannover | Unsere Leistungen
 page_title:
   title: Unsere Leistungen
 service_1:
