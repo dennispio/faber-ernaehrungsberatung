@@ -32,6 +32,15 @@ const Footer = () => (
       <div className="col-xs-12 col-sm-6 col-lg-3">
         <h4>Auszeichnungen</h4>
         <p>Staatlich geprüft</p>
+        <h4>Anschrift</h4>
+        <p>
+          Ernährungsberatung faber GbR <br />
+          Maxim Faber, Daniel Faber <br />
+          Walsroder Straße 123 B <br />
+          30853 Langenhagen
+          <br />
+        </p>
+
         {/* <p>TÜV-Süd</p>
         <a
           target="_blank" 
