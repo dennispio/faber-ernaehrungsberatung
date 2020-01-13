@@ -15,6 +15,8 @@ const ServiceForm = ({ serviceName }) => (
         data-netlify-honeypot="bot-field"
         name="ServiceFormular"
       >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="ServiceFormular" />
         <input
           type="hidden"
           id="form-type"

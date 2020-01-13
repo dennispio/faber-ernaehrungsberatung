@@ -60,7 +60,7 @@ function ContactForm() {
           name="KontaktFormular"
         >
           <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="KontaktFormular" />
           <input
             type="hidden"
             id="form-type"
