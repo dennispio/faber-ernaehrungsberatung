@@ -9,8 +9,11 @@ const ServiceForm = ({ serviceName }) => (
         <p>Unverbindlich anfragen</p>
       </div>
       <form
-        method="GET"
-        action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/faber-webhook"
+        method="POST"
+        action="/danke"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        name="ServiceFormular"
       >
         <input
           type="hidden"
@@ -57,7 +60,7 @@ const ServiceForm = ({ serviceName }) => (
           <label htmlFor="datenschutz">
             Ich stimme den Datenschutzbestimmungen zu. <br /> Deine Daten werden
             nicht an Dritte weitergegeben.
-        </label>
+          </label>
         </div>
         <div className="col-md-3 col-md-offset-2  col-xs-10 col-xs-offset-1">
           <input

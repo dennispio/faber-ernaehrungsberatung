@@ -54,11 +54,10 @@ function ContactForm() {
         </div>
         <form
           method="POST"
+          action="/danke"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          name="contact"
-          // action="https://wt-0f5b4f9b29f9e05de6df10e225e5a3bd-0.sandbox.auth0-extend.com/faber-webhook"
-          // onSubmit={formchecker}
+          name="KontaktFormular"
         >
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
@@ -117,7 +116,7 @@ function ContactForm() {
               Ich stimme den Datenschutzbestimmungen zu. <br /> Deine Daten
               werden nicht an Dritte weitergegeben.
             </label>
-            <input
+            {/* <input
               type="checkbox"
               id="newsletter"
               name="Newsletter"
@@ -125,7 +124,7 @@ function ContactForm() {
             />
             <label htmlFor="newsletter">
               Ich möchte den Newsletter erhalten. <br /> Jederzeit abstellbar.
-            </label>
+            </label> */}
           </div>
           <div className="col-md-3 col-md-offset-2  col-xs-10 col-xs-offset-1">
             <input
