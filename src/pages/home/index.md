@@ -24,10 +24,10 @@ text_comp:
     deines Ziels keine Qual für Dich wird. Willst Du sehen was möglich ist, ohne
     zu verzichten? Dann tritt mit uns in Kontakt und wir sagen Dir, was wir mit
     Deinen Vorstellungen erreichen können!
-  title: 'Iss was Du willst, wann Du willst und werde so wie Du es willst'
+  title: "Iss was Du willst, wann Du willst und werde so wie Du es willst"
 countdown_comp:
-  countdown: '2021-07-21T00:00:00'
-  season: Sommer
+  countdown: "2020-12-24T00:00:00"
+  season: Winter
 facts_compt:
   facts:
     - text_left: >-
@@ -36,7 +36,7 @@ facts_compt:
         dies nur ein Mythos ist und nicht der Wahrheit entspricht. Ob man ab-
         oder zunimmt hängt nur von der zugeführten Kalorienmenge ab. Der Körper
         verfügt zwar über eine biologische Uhr, jedoch kann er nicht wissen,
-        wann 18 Uhr ist. 
+        wann 18 Uhr ist.
       text_right: >-
         Was versucht wird der Menschenmenge zu vermitteln ist die Verhinderung
         von „over- eating“. Der Mythos wird also sinngemäß benutzt, um das Essen
@@ -75,6 +75,5 @@ referenzen:
     Unsere Kunden haben es geschafft, ohne zu verzichten! Gerne stellen wir Dir
     unsere Kunden vor, welche ihre Ziele, ohne Verzicht auf beispielsweise
     Schokolade oder ein Gläschen Rotwein, erzielt haben.
-  title: 'Wir haben es mit Faber geschafft: Unsere Referenzen.'
+  title: "Wir haben es mit Faber geschafft: Unsere Referenzen."
 ---
-
