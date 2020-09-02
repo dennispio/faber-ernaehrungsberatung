@@ -11,7 +11,7 @@ import BlogPostCard from "../components/blogPostCard/BlogPostCard";
 import Carousel from "../components/carousel/Carousel";
 import Morph from "../components/morph/Morph";
 
-const IndexPage = props => {
+const IndexPage = (props) => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
@@ -23,15 +23,13 @@ const IndexPage = props => {
   const { facts } = data.frontmatter.facts_compt;
 
   return (
-    <Layout
-      title={data.frontmatter.seo_comp.seo_title}
-      description={data.frontmatter.seo_comp.seo_desc}
-    >
+    <Layout title={data.frontmatter.seo_comp.seo_title} description={data.frontmatter.seo_comp.seo_desc}>
       <VideoPlayer />
       <HomepageText heading={title} text={text} />
-      <h2 className="container">
+      <h2 className="container">Auch zum {season} fit und vital sein!</h2>
+      {/* <h2 className="container">
         Du kannst es auch schaffen! <br /> Der {season} kommt in ...
-      </h2>
+      </h2> */}
       <Countdown date={countdown} season={season} />
       <Carousel facts={facts} />
       {/* eslint-disable-next-line */}
@@ -60,13 +58,7 @@ const IndexPage = props => {
             {/* eslint-disable-next-line */}
             {angebote.map(({ node: angebot }) => {
               return angebot.frontmatter.angebot ? (
-                <OfferCard
-                  category={angebot.frontmatter.category}
-                  price={angebot.frontmatter.price}
-                  time={angebot.frontmatter.time}
-                  bullets={angebot.frontmatter.bullets}
-                  link={angebot.fields.slug}
-                />
+                <OfferCard category={angebot.frontmatter.category} price={angebot.frontmatter.price} time={angebot.frontmatter.time} bullets={angebot.frontmatter.bullets} link={angebot.fields.slug} />
               ) : null;
             })}
           </div>
@@ -86,13 +78,7 @@ const IndexPage = props => {
             {/* eslint-disable-next-line */}
             {posts.map(({ node: post }, key) => {
               return key < 3 ? (
-                <BlogPostCard
-                  link={post.fields.slug}
-                  date={post.frontmatter.date}
-                  category={post.frontmatter.category}
-                  title={post.frontmatter.title}
-                  text={post.frontmatter.description}
-                />
+                <BlogPostCard link={post.fields.slug} date={post.frontmatter.date} category={post.frontmatter.category} title={post.frontmatter.title} text={post.frontmatter.description} />
               ) : null;
             })}
           </div>
@@ -109,16 +95,14 @@ export default IndexPage;
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export const pageQuery = graphql`
   query HomeContent {
-    homePageData: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_home" } } }
-    ) {
+    homePageData: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_home" } } }) {
       edges {
         node {
           fields {
@@ -149,9 +133,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    blogPosts: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_blogpost" } } }
-    ) {
+    blogPosts: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_blogpost" } } }) {
       edges {
         node {
           fields {
@@ -166,9 +148,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    angebote: allMarkdownRemark(
-      filter: { frontmatter: { service: { eq: "service" } } }
-    ) {
+    angebote: allMarkdownRemark(filter: { frontmatter: { service: { eq: "service" } } }) {
       edges {
         node {
           fields {
@@ -187,9 +167,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    referenzen: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_referenz" } } }
-    ) {
+    referenzen: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_referenz" } } }) {
       edges {
         node {
           fields {
