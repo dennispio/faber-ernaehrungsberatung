@@ -3,8 +3,8 @@ pageKey: page_home
 seo_comp:
   seo_desc: >-
     Iss was Du willst, wann Du willst und werde so wie Du es willst ist der
-    Leitsatz unserer Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem
-    Ziel.
+    Leitsatz unserer Ernährungsberatung. Triff uns in Hannover, Langenhagen oder
+    Umgebung.
   seo_title: Deine Ernährungsberatung Faber aus Hannover und Langenhagen
 video_comp:
   video: /img/big_buck_bunny.mp4
