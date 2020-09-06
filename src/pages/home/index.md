@@ -5,7 +5,7 @@ seo_comp:
     Iss was Du willst, wann Du willst und werde so wie Du es willst ist der
     Leitsatz unserer Ernährungsberatung. Wir helfen Dir auf dem Weg zu deinem
     Ziel.
-  seo_title: Ernährungsberatung Faber aus Hannover
+  seo_title: Deine Ernährungsberatung Faber aus Hannover und Langenhagen
 video_comp:
   video: /img/big_buck_bunny.mp4
   video_text: Lebensqualität steigern - ohne zu verzichten
@@ -24,9 +24,9 @@ text_comp:
     deines Ziels keine Qual für Dich wird. Willst Du sehen was möglich ist, ohne
     zu verzichten? Dann tritt mit uns in Kontakt und wir sagen Dir, was wir mit
     Deinen Vorstellungen erreichen können!
-  title: "Iss was Du willst, wann Du willst und werde so wie Du es willst"
+  title: 'Iss was Du willst, wann Du willst und werde so wie Du es willst'
 countdown_comp:
-  countdown: "2020-12-24T00:00:00"
+  countdown: '2020-12-24T00:00:00'
   season: Winter
 facts_compt:
   facts:
@@ -75,5 +75,6 @@ referenzen:
     Unsere Kunden haben es geschafft, ohne zu verzichten! Gerne stellen wir Dir
     unsere Kunden vor, welche ihre Ziele, ohne Verzicht auf beispielsweise
     Schokolade oder ein Gläschen Rotwein, erzielt haben.
-  title: "Wir haben es mit Faber geschafft: Unsere Referenzen."
+  title: 'Wir haben es mit Faber geschafft: Unsere Referenzen.'
 ---
+
