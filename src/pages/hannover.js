@@ -9,7 +9,7 @@ import Header from "../components/hannover/header/Header";
 import Details from "../components/hannover/details/Details";
 import Certified from "../components/hannover/state-certified/Certified";
 
-const IndexPage = props => {
+const IndexPage = (props) => {
   const { data: home } = props;
   const { node: data } = home.homePageData.edges[0];
   const { edges: referenzen } = home.referenzen;
@@ -18,8 +18,8 @@ const IndexPage = props => {
   return (
     <Layout
       title="Deine Ernährungsberatung in Hannover und Langenhagen"
-      description="Wir helfen deine Ernährung so umzustellen, dass du deine Ziele erreichst, ohne auf etwas zu verzichten. Triff uns in Hannover, Langenhagen oder Umgebung."
-    >
+      description="Ernährungsberatung Faber hilft dir deine Ernährung so umzustellen, dass du deine Ziele erreichst, ohne auf etwas zu
+      verzichten. Triff uns in Hannover, Langenhagen oder Umgebung.">
       <Header />
       <Details />
       <div className="sperator" />
@@ -81,16 +81,14 @@ export default IndexPage;
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export const pageQuery = graphql`
   query HannoverContent {
-    homePageData: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_home" } } }
-    ) {
+    homePageData: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_home" } } }) {
       edges {
         node {
           fields {
@@ -121,9 +119,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    blogPosts: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_blogpost" } } }
-    ) {
+    blogPosts: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_blogpost" } } }) {
       edges {
         node {
           fields {
@@ -138,9 +134,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    angebote: allMarkdownRemark(
-      filter: { frontmatter: { service: { eq: "service" } } }
-    ) {
+    angebote: allMarkdownRemark(filter: { frontmatter: { service: { eq: "service" } } }) {
       edges {
         node {
           fields {
@@ -159,9 +153,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    referenzen: allMarkdownRemark(
-      filter: { frontmatter: { pageKey: { eq: "page_referenz" } } }
-    ) {
+    referenzen: allMarkdownRemark(filter: { frontmatter: { pageKey: { eq: "page_referenz" } } }) {
       edges {
         node {
           fields {
