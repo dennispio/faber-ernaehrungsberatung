@@ -1,33 +1,33 @@
 /* custom bootstrap*/
 .container {
-  @media (min-width: 1500px) {
-    width: 1440px !important;
-  }
+    @media (min-width: 1500px) {
+        width: 1440px !important;
+    }
 }
 
 .container-full {
-  margin: 0 auto;
-  width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .blog-template-header-container {
-  margin-bottom: -10rem;
+    margin-bottom: -10rem;
 
-  @media (min-width: 1400px) {
-    margin-bottom: -25rem;
-  }
+    @media (min-width: 1400px) {
+        margin-bottom: -25rem;
+    }
 
-  @media (max-width: 575px) {
-    margin-bottom: -5rem;
-  }
+    @media (max-width: 575px) {
+        margin-bottom: -5rem;
+    }
 }
 
 .sperator {
-  margin-bottom: 192px;
+    margin-bottom: 192px;
 
-  @media (max-width: 575px) {
-    margin-bottom: 72px;
-  }
+    @media (max-width: 575px) {
+        margin-bottom: 72px;
+    }
 }
 
 $grid-gutter: 15px;
@@ -39,6 +39,7 @@ $color-p: #140a37;
 $margin_xs: 8px;
 $margin_s: 16px;
 $margin_m: 32px;
+$margin_l: 40px;
 $margin_xl: 48px;
 $margin_xxl: 54px;
 $margin_video: 70px;
@@ -56,149 +57,149 @@ $font_size_h: 38px;
 $font_size_h_mobile: 26px;
 
 @font-face {
-  font-family: "itc-avant-garde-gothic-pro-bold";
-  src: url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("opentype");
-  font-style: normal;
-  font-weight: 700;
+    font-family: 'itc-avant-garde-gothic-pro-bold';
+    src: url('https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+            format('woff2'),
+        url('https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+            format('woff'),
+        url('https://use.typekit.net/af/ad070d/00000000000000003b9b1fb3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+            format('opentype');
+    font-style: normal;
+    font-weight: 700;
 }
 
 @font-face {
-  font-family: "itc-avant-garde-gothic-pro-medium";
-  src: url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("opentype");
-  font-style: normal;
-  font-weight: 500;
+    font-family: 'itc-avant-garde-gothic-pro-medium';
+    src: url('https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+            format('woff2'),
+        url('https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+            format('woff'),
+        url('https://use.typekit.net/af/f1d156/00000000000000003b9b1fb5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+            format('opentype');
+    font-style: normal;
+    font-weight: 500;
 }
 
 @font-face {
-  font-family: "Hind", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
 }
 
 h1 {
-  font-family: "itc-avant-garde-gothic-pro-medium";
-  line-height: 1em;
-
-  @media (max-width: 575px) {
+    font-family: 'itc-avant-garde-gothic-pro-medium';
     line-height: 1em;
-  }
 
-  @media (max-width: 1199px) {
-  }
+    @media (max-width: 575px) {
+        line-height: 1em;
+    }
+
+    @media (max-width: 1199px) {
+    }
 }
 
 p {
-  font-family: "Hind", sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  color: $brand_grey;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: $brand_grey;
 }
 
 li,
 a {
-  font-size: 16px;
-  line-height: 22px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: $black2;
+    text-decoration: underline;
+    color: $black2;
 }
 
 .hover-effect {
-  a:hover {
-    text-decoration: underline;
-  }
+    a:hover {
+        text-decoration: underline;
+    }
 
-  p:hover,
-  p:active,
-  p:focus {
-    text-decoration: underline;
-  }
+    p:hover,
+    p:active,
+    p:focus {
+        text-decoration: underline;
+    }
 
-  li:hover,
-  li:active,
-  li:focus {
-    text-decoration: underline;
-  }
+    li:hover,
+    li:active,
+    li:focus {
+        text-decoration: underline;
+    }
 }
 
 h2 {
-  font-family: "itc-avant-garde-gothic-pro-medium";
-  line-height: 50px;
-  font-size: 38px;
+    font-family: 'itc-avant-garde-gothic-pro-medium';
+    line-height: 50px;
+    font-size: 38px;
 
-  @media (max-width: 575px) {
-    font-size: 32px;
-    // line-height: 1em;
-  }
+    @media (max-width: 575px) {
+        font-size: 32px;
+        // line-height: 1em;
+    }
 
-  @media (max-width: 1199px) {
-    font-size: 32px;
-    line-height: 1.3em;
-    // line-height: 1em;
-  }
+    @media (max-width: 1199px) {
+        font-size: 32px;
+        line-height: 1.3em;
+        // line-height: 1em;
+    }
 }
 
 span,
 button {
-  font-family: "itc-avant-garde-gothic-pro-medium";
-  font-size: 16px;
-  line-height: 22px;
+    font-family: 'itc-avant-garde-gothic-pro-medium';
+    font-size: 16px;
+    line-height: 22px;
 }
 
 h3 {
-  line-height: 32px;
-  font-family: "itc-avant-garde-gothic-pro-bold";
-  font-size: 25px;
+    line-height: 32px;
+    font-family: 'itc-avant-garde-gothic-pro-bold';
+    font-size: 25px;
 
-  @mixin media-query-phone {
-    @media (max-width: 575px) {
-      line-height: 45px;
+    @mixin media-query-phone {
+        @media (max-width: 575px) {
+            line-height: 45px;
+        }
     }
-  }
 }
 
 .farbverlauf {
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #01072e, #e5331c);
-  -webkit-background-clip: text;
-  background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #01072e, #e5331c);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 /* media querys */
 @mixin media-query-xxl {
-  @media (min-width: 1400px) {
-    @content;
-  }
+    @media (min-width: 1400px) {
+        @content;
+    }
 }
 
 @mixin media-query-desktop {
-  @media (min-width: 1200px) {
-    @content;
-  }
+    @media (min-width: 1200px) {
+        @content;
+    }
 }
 
 @mixin media-query-tablet {
-  @media (min-width: 576px) and (max-width: 1199px) {
-    @content;
-  }
+    @media (min-width: 576px) and (max-width: 1199px) {
+        @content;
+    }
 }
 
 @mixin media-query-phone {
-  @media (max-width: 575px) {
-    @content;
-  }
+    @media (max-width: 575px) {
+        @content;
+    }
 }

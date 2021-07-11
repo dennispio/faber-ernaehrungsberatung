@@ -1,15 +1,15 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import PropTypes from "prop-types";
-import Layout from "../components/layouts/Layout";
-import Testimonial from "../components/testimonials/Testimonial";
-import VideoPlayer from "../components/video/Video";
-import HomepageText from "../components/text/HomepageText";
-import OfferCard from "../components/offerCard/OfferCard";
-import Countdown from "../components/countdown/Countdown";
-import BlogPostCard from "../components/blogPostCard/BlogPostCard";
-import Carousel from "../components/carousel/Carousel";
-import Morph from "../components/morph/Morph";
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import Layout from '../components/layouts/Layout';
+import Testimonial from '../components/testimonials/Testimonial';
+import VideoPlayer from '../components/video/Video';
+import HomepageText from '../components/text/HomepageText';
+import OfferCard from '../components/offerCard/OfferCard';
+import Countdown from '../components/countdown/Countdown';
+import BlogPostCard from '../components/blogPostCard/BlogPostCard';
+import Carousel from '../components/carousel/Carousel';
+import Morph from '../components/morph/Morph';
 
 const IndexPage = (props) => {
   const { data: home } = props;

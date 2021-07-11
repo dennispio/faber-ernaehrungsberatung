@@ -36,13 +36,6 @@ module.exports = {
       "LabeledStatement",
       "WithStatement"
     ],
-    "no-unused-vars": [
-      1,
-      {
-        "ignoreSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
-      }
-    ],
     "prefer-const": [
       "error",
       {
@@ -113,14 +106,6 @@ module.exports = {
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
-      }
-    ],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "singleQuote": true,
-        "printWidth": 80,
       }
     ],
     "jsx-a11y/href-no-hash": "off",
