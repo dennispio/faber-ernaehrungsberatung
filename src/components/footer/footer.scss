@@ -1,66 +1,65 @@
 @import '../../constants/style/variables.scss';
 
-
-
 footer {
-  background: $brand_grey;
-  bottom: 0;
-  overflow: hidden;
+    background: $brand_grey;
+    bottom: 0;
+    overflow: hidden;
 
-  .social-media-container {
-    margin: $margin_s;
-    margin-top: $margin_s;
-    margin-bottom: $margin_s;
+    .social-media-container {
+        margin: $margin_s;
+        margin-top: $margin_s;
+        margin-bottom: $margin_s;
 
-    .hover-svg:hover {
-      filter: opacity(50%);
+        .hover-svg:hover {
+            filter: opacity(50%);
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+            margin: $margin_xs;
+        }
     }
 
-    img {
-      width: 32px;
-      height: 32px;
-      margin: $margin_xs;
+    .footer-navigation {
+        padding-bottom: $margin_xxl;
+
+        h4 {
+            font-family: 'itc-avant-garde-gothic-pro-medium';
+            font-size: 22px;
+            color: white;
+            margin-bottom: $margin_s;
+        }
+
+        p {
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0px;
+            padding-left: 0px;
+
+            li {
+                color: white;
+                font-family: 'Hind', sans-serif;
+                font-size: 16px;
+                line-height: 30px;
+                margin: $margin_s 0;
+            }
+
+            a:hover,
+            a:active,
+            a:focus {
+                text-decoration: underline;
+                color: #ffff;
+            }
+        }
+
+        .partner-container {
+            img {
+                margin-top: $margin_m;
+            }
+        }
     }
-  }
-
-  .footer-navigation {
-    padding-bottom: $margin_xxl;
-
-    h4 {
-      font-family: "itc-avant-garde-gothic-pro-medium";
-      font-size: 22px;
-      color: white;
-      margin-bottom: $margin_s * -1;
-    }
-
-    p {
-      color: white;
-    }
-
-    ul {
-      list-style-type: none;
-      margin-left: 0px;
-      padding-left: 0px;
-
-      li {
-        color: white;
-        font-family: 'Hind', sans-serif;
-        font-size: 16px;
-        line-height: 30px;
-      }
-
-      a:hover,
-      a:active,
-      a:focus {
-        text-decoration: underline;
-        color: #ffff;
-      }
-    }
-
-    .partner-container {
-      img {
-        margin-top: $margin_m;
-      }
-    }
-  }
 }
