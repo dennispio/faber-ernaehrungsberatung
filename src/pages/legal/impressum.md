@@ -1,7 +1,7 @@
 ---
 templateKey: legal
 seo_title: Ernährungsberatung Faber - Impressum
-seo_desc: Ernährungsberatung Maxim Faber, Daniel Faber. Walsroder Straße 123 B. Ernährungsberatung für Hannover und die Umgebung
+seo_desc: Ernährungsberatung Maxim Faber, Daniel Faber. Stadtparkallee 2B. Ernährungsberatung für Hannover und die Umgebung
 category: impressum
 title: Impressum
 ---
@@ -17,7 +17,7 @@ Maxim Faber, Daniel Faber
 
 **<h4>Postanschrift: </h4>**
 
-Walsroder Straße 123 B
+Stadtparkallee 2B
 
 30853 Langenhagen
 

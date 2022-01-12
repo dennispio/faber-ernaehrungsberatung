@@ -69,7 +69,7 @@ k)    Einwilligung
 
 <p>Ernährungsberatung faber GbR</p>
 
-<p>Walsroder Straße 123 B</p>
+<p>Stadtparkallee 2B</p>
 
 <p>30853 Langenhagen</p>
 

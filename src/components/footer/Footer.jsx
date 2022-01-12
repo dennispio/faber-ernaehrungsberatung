@@ -46,7 +46,7 @@ const Footer = () => (
                 <p>
                     Ernährungsberatung faber GbR <br />
                     Maxim Faber, Daniel Faber <br />
-                    Walsroder Straße 123 B <br />
+                    Stadtparkallee 2B <br />
                     30853 Langenhagen
                     <br />
                 </p>
