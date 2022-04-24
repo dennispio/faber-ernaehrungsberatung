@@ -37,7 +37,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-pose": "^4.0.8",
-    "react-slick": "^0.24.0",
+    "react-slick": "^0.29.0",
     "react-truncate": "^2.4.0",
     "slick-carousel": "^1.8.1",
     "uuid": "^3.3.2"
