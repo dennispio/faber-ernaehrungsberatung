@@ -2,13 +2,15 @@
 templateKey: service
 seo_comp:
   seo_desc: >-
-    Neben dem auf Dich angepassten individuellen Konzept erfolgt bei dem individuellen Coaching eine parallel intensive Betreuung auf dem Weg zu Deinem Ziel.
+    Neben dem auf Dich angepassten individuellen Konzept erfolgt bei dem
+    individuellen Coaching eine parallel intensive Betreuung auf dem Weg zu
+    Deinem Ziel.
   seo_title: Faber Ernährungsberatung - individuelles Ernährungscoaching
 service: service
 title: Individuelles Ernährungscoaching
 angebot: true
 category: Coaching
-price: 100
+price: 150
 time: monatlich
 bullets:
   - title: abgestimmte Pläne
