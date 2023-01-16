@@ -27,7 +27,7 @@ text_comp:
   title: 'Iss was Du willst, wann Du willst und werde so wie Du es willst'
 countdown_comp:
   countdown: '2023-06-21T00:00:00'
-  season: Winter
+  season: Sommer
 facts_compt:
   facts:
     - text_left: >-
